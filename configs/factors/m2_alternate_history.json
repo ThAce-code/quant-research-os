@@ -22,6 +22,7 @@
   },
   "zero_denominator": "missing, never infinite",
   "missing_source_period": "Record source absence explicitly; no invented announcement date or zero value",
+  "invalid_dates": "Retain and quarantine invalid source dates. Invalid rows outside planned report periods and required opening-equity dependencies cannot enter panels; any required invalid row blocks the build.",
   "max_publication_age_days": 400,
   "max_period_age_days": 550,
   "network": {"endpoint": "https://datacenter.eastmoney.com/securities/api/data/get", "batch_symbols": 10, "page_size": 200, "minimum_interval_seconds": 1.0, "timeout_seconds": [10, 30], "automatic_retries": 0},

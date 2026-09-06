@@ -58,7 +58,7 @@ def run(output=None):
     state = {'status': 'RUNNING', 'run_id': output.name, 'network_calls': 0, 'cached_pages': 0}
     write(output/'status.json',state)
     print('ALTERNATE_RUN '+str(output), flush=True)
-    manifest = []
+    manifest = []; quarantine = []
     cache = ROOT/'data/raw/eastmoney_m2'; cache.mkdir(parents=True,exist_ok=True)
     last_request = 0
     try:
@@ -98,7 +98,10 @@ def run(output=None):
                         for row in rows:
                             assert row['SECUCODE'] in codes
                             assert c['source_period'][0] <= row['REPORT_DATE'][:10] <= c['source_period'][1]
-                            assert row['REPORT_DATE'][:10] <= row['NOTICE_DATE'][:10] <= c['data_period'][1]
+                            assert row['NOTICE_DATE'][:10] <= c['data_period'][1]
+                            if row['REPORT_DATE'][:10] > row['NOTICE_DATE'][:10]:
+                                quarantine.append({'table':table,'symbol':row['SECUCODE'], 'period':row['REPORT_DATE'],
+                                                   'notice':row['NOTICE_DATE'],'cache_path':str(path.relative_to(ROOT))})
                         accumulated.extend(rows)
                         manifest.append({'path':str(path.relative_to(ROOT)), 'sha256':digest(path), 'table':table,
                                          'symbols':group, 'page':page, 'pages':pages, 'rows':len(rows), 'total':total})
@@ -109,6 +112,7 @@ def run(output=None):
                 write(output/'requests.json',manifest);write(output/'status.json',state)
                 print(f"COLLECT {state['symbols_completed']}/{len(symbols)} symbols; {len(manifest)} pages",flush=True)
         write(output/'requests.json',manifest)
+        write(output/'date_quarantine.json',quarantine)
         state.update(status='COLLECTED',source_rows=sum(x['rows'] for x in manifest))
         write(output/'status.json',state)
         print('COLLECTED '+str(output),flush=True)
