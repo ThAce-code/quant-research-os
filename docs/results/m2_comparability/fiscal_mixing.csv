@@ -1,0 +1,5 @@
+method,year,days,days_multiple_periods,mean_off_modal_share
+query_profit_data,2015,244,96,0.06906921066578943
+query_profit_data,2016,244,98,0.06426503646033226
+query_growth_data,2015,244,96,0.06906921066578943
+query_growth_data,2016,244,98,0.06426503646033226

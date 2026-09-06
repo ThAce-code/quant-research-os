@@ -1,0 +1,20 @@
+{
+  "status": "PLANNED_NOT_COLLECTED",
+  "scope": [
+    "2008-01-01",
+    "2020-07-31"
+  ],
+  "unique_historical_members": 726,
+  "cashflow_requests": 20260,
+  "cached_requests": 35,
+  "new_requests_required": 20225,
+  "fields": [
+    "CFOToOR"
+  ],
+  "hypothesis_count": 2,
+  "supplementary_scores_computed": false,
+  "supplementary_return_evaluation": "NOT_RUN",
+  "industry_and_size_extension": "NOT_RUN",
+  "qualification_or_lockbox_access": false,
+  "protocol_sha256": "5570c504c52b8f53229bd5cec394135d8055003ef2df49d148a846e2e4ccfae5"
+}

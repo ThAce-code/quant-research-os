@@ -116,9 +116,15 @@ ROE、净利润增长、低资产增长中性化后的RankIC分别为0.0069、-0
 [四族结果](docs/results/m2_family_screen/report.md)。BP条件诊断精确复现，仍为FORWARD。
 
 筛选入口：`python scripts/run_family_screen.py <quarterly_run_directory>`。
-当前141项测试通过。下一批先明确更长已观察历史、财报可比性检查与有限补充假设的预注册，
-再集中做含成本增量与滚动模型；BP优先但不独占路线。M2整体未完成，2021+资格/锁箱未访问。
+当前141项测试通过。可比性诊断和两项补充假设预注册现已完成；下一批执行历史现金流清单、
+行业/规模扩展和补充实验，再做增量与滚动模型。M2整体未完成，2021+资格/锁箱未访问。
 
 本轮季度独立验收：956,480个日度面板值、10,192个原始响应哈希和1,581个产物哈希通过核验。[验收记录](docs/results/m2_quarterly/independent_verification.json)，[141项回归测试](docs/results/m2_quarterly/regression_tests.txt)。
 
 当前状态统一入口：[CONTEXT.md](CONTEXT.md) → [项目研究上下文](docs/PROJECT_CONTEXT.md)。本文件历史批次标题沿用当时编号，当前M2.0–M2.7状态以该上下文表为准。
+
+## M2.3：可比性诊断与冻结补充批次
+
+[实际诊断结果](docs/results/m2_comparability/report.md)已完成：金融行业与同报告期敏感性未改变原三项REJECT；145项测试通过。2008–2020的99项接口探针均有响应，但不是全历史覆盖。
+
+[补充协议](docs/M2_SUPPLEMENTARY_PROTOCOL.md)只含现金流质量和20日非流动性两个公式。[取数计划](docs/results/m2_supplementary_plan/status.json)涉及726只历史成分、20,260个现金流请求，完整采集与新候选收益检验尚未执行。入口分别为 `python scripts/run_comparability.py` 和 `python scripts/prepare_supplementary.py`；后者只生成计划，不下载数据。

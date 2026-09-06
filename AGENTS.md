@@ -7,9 +7,10 @@
 - Alpha158 mapping and the first four-family historical screen are complete.
   The three new quarterly formulas failed their frozen screen; do not flip signs
   or retune this batch. Three formulas on two years do not close the economic
-  families. Define longer-history data/comparability checks and a bounded
-  preregistered supplementary batch before model-increment work. BP has priority,
-  but is not the only permissible research direction.
+  families. Comparability diagnostics are complete; the next two-formula batch
+  is frozen in configs/factors/m2_supplementary.json. Execute its historical
+  collection plan, exposure extension and evaluation next; do not replan or add
+  formulas. BP has priority but is not the only research direction.
   Full-history data and M2 completion gates remain open. Do not start M3 agents,
   dashboards or trading automation as part of this work.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.

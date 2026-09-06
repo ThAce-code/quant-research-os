@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "original_decisions": {
+    "ROE": "IC_SCREEN_REJECT",
+    "EARNINGS_GROWTH": "IC_SCREEN_REJECT",
+    "LOW_ASSET_GROWTH": "IC_SCREEN_REJECT"
+  },
+  "diagnostic_only": true,
+  "max_orthogonality_error": 3.2682851134441516e-14,
+  "input_hashes_checked": true,
+  "baseline_unchanged": true,
+  "financial_code_rule": [
+    "J66",
+    "J67",
+    "J68",
+    "J69"
+  ],
+  "probe_requests": 99,
+  "nonempty_probes": 99,
+  "full_history_collected": false,
+  "qualification_or_lockbox_requested": false
+}

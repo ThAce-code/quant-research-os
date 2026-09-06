@@ -1,0 +1,10 @@
+{
+  "configs/factors/m2_comparability.json": "542ebaa9f2172ec90e641543903442022bbe1fb76706309b5e18e76be848e19f",
+  "src/quant_research/m2/comparability.py": "b648c3626d953b0d9cdd27be804e22c2e8796ee778171913d5167bc077133c52",
+  "src/quant_research/m2/core.py": "d892703a75c19359d1425bcd2dc8673b9a2f7b97ecaa1c5be8323ba9b041a995",
+  "src/quant_research/m2/family_screen.py": "3631b82978ff8d7280a8f3d3fa8fb71df239bc84e2dd9b1e0e4925688a462edd",
+  "src/quant_research/factors/data.py": "e70189f0b3c8ff03f295c838fa104191ad55c6479addc848fe19b4825e8e672c",
+  "src/quant_research/factors/analytics.py": "5bf7f0c0147fd4493fa2b315195a18bd7c69cdfe39a8a83a37b1a90d599b7fd1",
+  "src/quant_research/baostock_data.py": "9c79acbaa5763ddae89d69b475188e3d797a55112402e4ffd24a90e7ac32a248",
+  "scripts/run_comparability.py": "08e839670f3f4a5786d71e39605fae8dc81137322b9300283b30673a8d0d23aa"
+}

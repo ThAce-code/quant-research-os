@@ -410,5 +410,69 @@
   "docs/results/m2_quarterly/regression_tests.txt": {
     "source_run": "20260906T061523076221Z",
     "sha256": "0470883316e2fba30eeab909119cbd0ec9056d13610ba4926c4bb0a05b140b0a"
+  },
+  "docs/results/m2_comparability/report.md": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "e16264cca2f672d7fc0e09476ddf39106d009783068b57796994ecabbe185a48"
+  },
+  "docs/results/m2_comparability/config.json": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "8d88938fbf5211b6c8447869d32bc9637adc171b16d22e4544f4473800cf3957"
+  },
+  "docs/results/m2_comparability/status.json": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "b33efadb155d686436af8c1aee75d8a8b96d5861c1c591ae1c17921871124a17"
+  },
+  "docs/results/m2_comparability/verification.json": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "b9d79902bdda381c39bf9043258f129dad544e91b1907afcec43657d0bca1266"
+  },
+  "docs/results/m2_comparability/fiscal_mixing.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "6da69eea4e04185a3015d8fb4dfcdbf6f582815f12a9ac6fd1b893acea16ff4e"
+  },
+  "docs/results/m2_comparability/coverage_waterfall.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "6a47045f0951574c24451d2302edb368594fe6576eccac58955ec3162982e650"
+  },
+  "docs/results/m2_comparability/sensitivity.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "4b03f88befb425d7bacdeb7521c666347f10235fb38db77822ad40fe54d0effd"
+  },
+  "docs/results/m2_comparability/availability_probes.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "e53b244a1066f488fbab8b2294b2496a49f4f43a86aa8006bed7b510a064e3fd"
+  },
+  "docs/results/m2_comparability/reporting_period_example.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "2458d82476d471f5a2425ae94dbdbcd6bb4b065bf4f4f84d9a40f882b9e12621"
+  },
+  "docs/results/m2_comparability/issuer_crosscheck.json": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "4fe258329ad9a8f38d266223e11f75cb78995e7c69f60824e847056661fa3791"
+  },
+  "docs/results/m2_comparability/historical_scope.csv": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "48e0ec391feb725f128a663aeed855d5b5c2f54d10de326b39bdd540bbac69dc"
+  },
+  "docs/results/m2_comparability/source_hashes.json": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "2f6c84573c384338dc58047c3140a64fcbca43453c8743b055c0151c4b8155dd"
+  },
+  "docs/results/m2_comparability/regression_tests.txt": {
+    "source_run": "20260906T071359762370Z",
+    "sha256": "fc30692d682f084c308f2cba14b603cb22512339dd4a239af102ab1c9a827742"
+  },
+  "docs/results/m2_supplementary_plan/config.json": {
+    "source_run": "20260906T071914958860Z",
+    "sha256": "1063bbf245b7e77071a05707221d4667bda5168cee0081c59671269a11a2947b"
+  },
+  "docs/results/m2_supplementary_plan/status.json": {
+    "source_run": "20260906T071914958860Z",
+    "sha256": "5766d7c5e35b99d7d8c0ffd566c29597eb135c89586c03acd1205262fec8d092"
+  },
+  "docs/results/m2_supplementary_plan/requests_by_year.csv": {
+    "source_run": "20260906T071914958860Z",
+    "sha256": "6f9c9901dc577e551329c87ffd15571e6d5f7b996d1d22db09c32eb33b45df89"
   }
 }
