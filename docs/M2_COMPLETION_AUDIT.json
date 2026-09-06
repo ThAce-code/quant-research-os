@@ -1,34 +1,81 @@
 {
-  "status": "INCOMPLETE_ALTERNATE_SOURCE_VALIDATION",
-  "objective": "Complete all M2 research tasks",
-  "remaining": [
-    "Validate alternate-source mapping, availability dates and full historical coverage",
-    "Complete original stock/period/field scope with separate source provenance",
-    "Independently verify all five full panels",
-    "Perform final overall completion audit"
-  ],
-  "provider_error": "10001011",
-  "cached_requests": 32166,
-  "missing_requests": 8354,
+  "status": "COMPLETE_NO_GO",
+  "goal_achieved": true,
+  "audit_time": "2026-09-06T14:05:57.426662+00:00",
+  "scope": "Frozen finite M2 research over historical CSI300, 2008 through July 2020. Original symbol/quarter/field data delivery completed using authorized alternate source; not full A-share market or historical-version PIT.",
   "M2.0": "COMPLETE",
   "M2.1": "COMPLETE",
   "M2.2": "COMPLETE",
-  "M2.3": "INCOMPLETE",
-  "M2.4": "COMPLETED_DIAGNOSTICS_NO_CONFIRMED_INCREMENT",
-  "M2.5": "COMPLETED_NO_GO",
-  "M2.6": "NOT_OPENED_NO_ELIGIBLE_CANDIDATE",
-  "M2.7": "NOT_OPENED_NO_ELIGIBLE_CANDIDATE",
-  "goal_achieved": false,
-  "valid_model_run": "20260906T092732142566Z",
-  "source_failure_run": "20260906T090008112664Z",
-  "offline_audit_run": "20260906T095714683879Z",
-  "no_2021_plus_access": true,
-  "alternative_source": {
-    "provider": "AKShare/Eastmoney",
-    "status": "SMALL_SAMPLE_FEASIBILITY_PASSED",
-    "compared_values": 17,
-    "within_1e_6": 17,
-    "full_coverage_verified": false,
-    "report": "docs/AKSHARE_FEASIBILITY.md"
-  }
+  "M2.3": "COMPLETE_FINITE_FAMILY_STUDY_AND_SOURCE_LABELLED_DATA_DELIVERY",
+  "M2.4": "COMPLETE_DIAGNOSTICS_NO_CONFIRMED_INCREMENT",
+  "M2.5": "COMPLETE_NO_GO",
+  "M2.6": "CLOSED_NO_ENTRY_NOT_EXECUTED",
+  "M2.7": "CLOSED_NO_ENTRY_NOT_EXECUTED",
+  "independent_alpha_found": false,
+  "keep_pool_size": 0,
+  "registry_trials": 33,
+  "baseline_source_and_artifacts_unchanged": true,
+  "baseline_data_identity": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325",
+  "history_run": "20260906T134337933185Z",
+  "history_independent_verification": {
+    "status": "PASS",
+    "raw_derived_events_checked": 112405,
+    "panel_cells_checked": 11111430,
+    "eastmoney_pages_checked": 213,
+    "accounted_symbol_method_quarters": 40520,
+    "source_assignment_verified": true,
+    "membership_rebuilt_from_canonical": true,
+    "protected_periods_opened": false,
+    "revision_history_verified": false,
+    "scope": "Independent raw-value/dependency-date derivation plus fiscal-priority cell replay. Does not certify vendor historical revision accuracy or exact cross-provider equality."
+  },
+  "history_verification_sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676",
+  "research_evidence": {
+    "M2.0": {
+      "path": "docs/results/m2/verification.json",
+      "sha256": "09ffd2a28f220f3d92cc323071f64d857bd222cdedbe43a4287bddc1b9248e11"
+    },
+    "M2.1": {
+      "path": "docs/results/m2/verification.json",
+      "sha256": "09ffd2a28f220f3d92cc323071f64d857bd222cdedbe43a4287bddc1b9248e11"
+    },
+    "M2.2": {
+      "path": "docs/results/m2_alpha_map/verification.json",
+      "sha256": "7541fd395acfcef0dab623c3b2444862d7932510bd224045ed989333cb82e20e"
+    },
+    "families": {
+      "path": "docs/results/m2_family_screen/verification.json",
+      "sha256": "8f5db5b9e0064e8698f1d7b427532d8be1033262ec869551e271b5d7331f5028"
+    },
+    "supplementary": {
+      "path": "docs/results/m2_supplementary_screen/verification.json",
+      "sha256": "9a6f65920206085d8357ba067dcdb475ad930f9fcf13f770fea908d63cb7d7ba"
+    },
+    "cashflow": {
+      "path": "docs/results/m2_supplementary_data/independent_verification.json",
+      "sha256": "2b4e03454fee661101d50de49b7a5ae6054891cbde78e496e7cc222db7c9d142"
+    },
+    "M2.4": {
+      "path": "docs/results/m2_conditional_completion/verification.json",
+      "sha256": "a556dd4136952672e87b68106b92089c76c1af5a79e414d99064d2cf62bfc813"
+    },
+    "M2.5": {
+      "path": "docs/results/m2_rolling/independent_verification.json",
+      "sha256": "2ae3d43894b98d4c353ca9cb56db755aa23bff6acae3a7852238583ea79d918b"
+    },
+    "registry": {
+      "path": "docs/results/m2_registry_closure/verification.json",
+      "sha256": "beefe318269722d6c39c7eedd2c77ce54cea90eddff9e98a4c3abc26f5a36e7a"
+    }
+  },
+  "regression": "158 passed, 5 warnings in 80.68s",
+  "public_source_hashes_checked": 196,
+  "remaining_required_tasks": [],
+  "limitations": [
+    "Conservative alternate-source update-time guard reduces usable coverage; missing values retained",
+    "Original historical financial versions not reconstructed; BaoStock source retains legacy revision uncertainty",
+    "8,354 original BaoStock responses remain unavailable; alternate data is not labelled as BaoStock",
+    "Qualification and lockbox not executed because upstream joint admission failed",
+    "No full-market, independent alpha, capacity or live-trading claim"
+  ]
 }

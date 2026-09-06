@@ -1,0 +1,86 @@
+[
+  {
+    "table": "SBALANCE",
+    "symbol": "002500.SZ",
+    "period": "2007-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\4d5cd658eb39f289f5df4a033e214fbcbcb378f6f5b167be28fa9e386c56faca.json"
+  },
+  {
+    "table": "SBALANCE",
+    "symbol": "002500.SZ",
+    "period": "2006-09-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\4d5cd658eb39f289f5df4a033e214fbcbcb378f6f5b167be28fa9e386c56faca.json"
+  },
+  {
+    "table": "SBALANCE",
+    "symbol": "002500.SZ",
+    "period": "2006-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\4d5cd658eb39f289f5df4a033e214fbcbcb378f6f5b167be28fa9e386c56faca.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002500.SZ",
+    "period": "2007-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\1312269f9d0379ac6cb37c7216891f765de2aa9391b32fb33c42f8e94cb5aeed.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002500.SZ",
+    "period": "2006-09-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\1312269f9d0379ac6cb37c7216891f765de2aa9391b32fb33c42f8e94cb5aeed.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002500.SZ",
+    "period": "2006-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\1312269f9d0379ac6cb37c7216891f765de2aa9391b32fb33c42f8e94cb5aeed.json"
+  },
+  {
+    "table": "SBALANCE",
+    "symbol": "002673.SZ",
+    "period": "2007-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\9f8da0a1c2f9df3440aa853d094bcfe918881a394b0fc85834a6e5e052417db4.json"
+  },
+  {
+    "table": "SBALANCE",
+    "symbol": "002673.SZ",
+    "period": "2006-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\9f8da0a1c2f9df3440aa853d094bcfe918881a394b0fc85834a6e5e052417db4.json"
+  },
+  {
+    "table": "SBALANCE",
+    "symbol": "002673.SZ",
+    "period": "2006-03-31 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\9f8da0a1c2f9df3440aa853d094bcfe918881a394b0fc85834a6e5e052417db4.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002673.SZ",
+    "period": "2007-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\bce18b2ca5cce424d8d006e5dda94e663dc83aedd1c996317e446f9105ea56b1.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002673.SZ",
+    "period": "2006-06-30 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\bce18b2ca5cce424d8d006e5dda94e663dc83aedd1c996317e446f9105ea56b1.json"
+  },
+  {
+    "table": "GINCOME",
+    "symbol": "002673.SZ",
+    "period": "2006-03-31 00:00:00",
+    "notice": "1900-01-01 00:05:43",
+    "cache_path": "data\\raw\\eastmoney_m2\\bce18b2ca5cce424d8d006e5dda94e663dc83aedd1c996317e446f9105ea56b1.json"
+  }
+]

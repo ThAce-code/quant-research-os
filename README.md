@@ -68,20 +68,19 @@ print(report.status, report.artifact_directory)
 
 复用测试命令 `python -m pytest tests -q`。设计和口径详见 `docs/superpowers/specs/2026-09-03-factor-engine-design.md`。Alpha158解剖、基本面、中性化、聚类和边际贡献属于M2。
 
-## M2：模型研究已完成，完整数据任务仍受阻
+## M2：本轮研究已收束，结论NO_GO
 
-M2整体尚未完成。完整Alpha158地图、五个经济机制的有限筛选、条件诊断及滚动base/add/drop已执行；修正后的24个模型和6组连续含成本配对回测均未产生GO候选。
+完整Alpha158地图、有限因子族研究、条件诊断和滚动模型增量研究已完成；没有候选通过联合准入，没有确认独立Alpha。24次滚动拟合和6组连续含成本组合的结论为NO_GO。
 
-盈利/成长全历史采集遭BaoStock明确拒绝（10001011黑名单用户），已停止网络请求并离线保全缓存，原清单尚未补齐。不能把部分数据或NO_GO当作整体完成。2021–2023资格和2024–2025锁箱按事前准入规则保持未打开，未执行、未通过。
+原726只历史CSI300股票的财务范围已通过来源明确的BaoStock完整历史与东方财富补充交付，五字段面板完成原始源独立重放。替代源存在财务修订，采用保守可用时间并保留缺失；这不是完整历史版本PIT或全市场研究。
 
-- [唯一当前状态与剩余任务](docs/PROJECT_CONTEXT.md)
-- [有效滚动结果](docs/results/m2_rolling/report.md)
-- [模型独立验收](docs/results/m2_rolling/independent_verification.json)
-- [历史财务缓存保全](docs/results/m2_history_blocked/report.md)
-- [服务恢复说明](docs/BAOSTOCK_ACCESS_RESTRICTION.md)
-- [AKShare替代源小样本成功，整批尚待验证](docs/AKSHARE_FEASIBILITY.md)
-- [研究路线](docs/M2_ROADMAP.md)
+2021–2023资格和2024–2025锁箱按事前条件保持未打开：没有执行、没有通过。原BaoStock限制未确认解除，缺失响应没有被伪造为成功。
 
-旧Value pilot、Alpha158地图、四族筛选与补充结果保留在docs/results；历史FORWARD不能充当当前准入。原始数据、面板、模型和SQLite留在本地。研究范围是历史CSI300，不是全市场；公告时间对齐且修订未知，不是完整历史版本PIT。
+- [唯一当前状态](docs/PROJECT_CONTEXT.md)
+- [逐项完成审计](docs/M2_COMPLETION_AUDIT.json)
+- [模型结果](docs/results/m2_rolling/report.md)
+- [完整范围数据与覆盖](docs/results/m2_alternate_history/report.md)
+- [替代源口径修正](docs/M2_ALTERNATE_SOURCE_AUDIT.md)
+- [研究收束路线](docs/M2_ROADMAP.md)
 
-服务恢复或缺失缓存到位后，使用既有`python scripts/complete_history.py`补齐，再以`python scripts/verify_history_completion.py <run_directory>`做完整验收。当前停止保护会在网络连接前拒绝自动续采，不应绕过它。M3与实盘均未启动。
+旧结果全部保留，历史FORWARD不代表当前准入。原始数据、完整面板、模型和SQLite留在本地。

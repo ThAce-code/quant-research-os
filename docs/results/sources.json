@@ -730,5 +730,57 @@
   "docs/results/m2_akshare_probe/source_and_raw_hashes.json": {
     "source_run": "20260906T105421549133Z",
     "sha256": "e2e1bfdc01667a40cc51a09ab442d96e537c54be275d9cecf74c7fa8096ab192"
+  },
+  "docs/results/m2_alternate_history/status.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "f2fab7c2518d93dba6d86136785734bf62a1dc85ea63cc5a0ea8e2a60f70ceff"
+  },
+  "docs/results/m2_alternate_history/config.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "41c2bf91ec5105e4af67c8e34f88476066b3f3c63e87555240f26d8296444bb7"
+  },
+  "docs/results/m2_alternate_history/build_verification.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "5e37fc8de0e21329148dcb9db211409f1f193e81204c0f66d6116cd71f471f06"
+  },
+  "docs/results/m2_alternate_history/independent_verification.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+  },
+  "docs/results/m2_alternate_history/coverage.csv": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "ea79688fa7fc72ccc5afa27d1593a766019c11e824894f6609c7b197766c5c50"
+  },
+  "docs/results/m2_alternate_history/source_assignment.csv": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+  },
+  "docs/results/m2_alternate_history/accounting_summary.csv": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "1c840260e6804bac0f8f840626ef50eef6450ef9818ffcb2d8b492a71e2bed81"
+  },
+  "docs/results/m2_alternate_history/cross_source_summary.csv": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "9192e182636c3de569a72de52a70a075d51b2c59e2991d53ad386ad9172c3ab1"
+  },
+  "docs/results/m2_alternate_history/cross_source_readout.csv": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "59e86cbe8487aa238e4f221265cb9f7066b556f3339d1d657de6bf374639238e"
+  },
+  "docs/results/m2_alternate_history/date_quarantine.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "a9929124dc6c9d5173e46684c49daf82f975f6918667198db4740bf90dad4a2c"
+  },
+  "docs/results/m2_alternate_history/report.md": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "0abd9821f604a8b39ce71dbfdcdf26750ae76680d9d966a6b67d0e42719f417c"
+  },
+  "docs/results/m2_alternate_history/regression_tests.txt": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "a6053273a1e25009a04d3ce2e704a41c6f2ce487aa39977b154c19d3983d4874"
+  },
+  "docs/results/m2_alternate_history/final_source_hashes.json": {
+    "source_run": "20260906T134337933185Z",
+    "sha256": "b896e97e3783c6bb8bbbf1e6fb28677f9ab72efd45c4b64128d7e8e1894ea195"
   }
 }

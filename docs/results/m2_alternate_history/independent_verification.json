@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "raw_derived_events_checked": 112405,
+  "panel_cells_checked": 11111430,
+  "eastmoney_pages_checked": 213,
+  "accounted_symbol_method_quarters": 40520,
+  "source_assignment_verified": true,
+  "membership_rebuilt_from_canonical": true,
+  "protected_periods_opened": false,
+  "revision_history_verified": false,
+  "scope": "Independent raw-value/dependency-date derivation plus fiscal-priority cell replay. Does not certify vendor historical revision accuracy or exact cross-provider equality."
+}

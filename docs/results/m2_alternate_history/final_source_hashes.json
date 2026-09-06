@@ -1,0 +1,8 @@
+{
+  "scripts/collect_alternate_history.py": "ce9c7eb2c5010a67848463b054923cd9376716b8913a58639e3ac719765023e7",
+  "scripts/build_alternate_history.py": "20de441738ab601549b2d8a300ae2336f887f58ad6bbe28cb5e70796519357d5",
+  "scripts/verify_alternate_history.py": "b85815bd8713378204f3cca5ab3b68ab56c4e650044f2d2c6421fb81e6752dcd",
+  "scripts/audit_m2_completion.py": "9485b91fa61d193c6412c960b1189a0b4ceef5616887777ed0f4e8ea0fd545a0",
+  "src/quant_research/m2/alternate.py": "cf25c8620d0853ff40463d54556e4867b14f812b7fa78d34b4a43fe8e5b5fccd",
+  "configs/factors/m2_alternate_history.json": "62381634a96dfdcb71432031740e93e4219d43d4e684d286965c28cd178cebde"
+}

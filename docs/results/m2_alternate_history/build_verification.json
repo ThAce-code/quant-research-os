@@ -1,0 +1,17 @@
+{
+  "status": "BUILT_PENDING_INDEPENDENT_VERIFICATION",
+  "symbols": 726,
+  "symbol_methods": 1452,
+  "planned_quarters": 20260,
+  "accounted_symbol_method_quarters": 40520,
+  "events": 112405,
+  "baostock_requests_verified": 32166,
+  "eastmoney_pages_verified": 213,
+  "source_assignment": {
+    "baostock": 987,
+    "eastmoney_reconstructed": 465
+  },
+  "revision_history_verified": false,
+  "protected_periods_opened": false,
+  "factor_results_changed": false
+}

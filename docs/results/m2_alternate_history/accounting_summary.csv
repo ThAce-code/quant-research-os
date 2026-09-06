@@ -1,0 +1,5 @@
+source,method,planned_quarters,source_records_present
+baostock,query_growth_data,14700,14296
+baostock,query_profit_data,14753,14349
+eastmoney_reconstructed,query_growth_data,5560,5469
+eastmoney_reconstructed,query_profit_data,5507,5416
