@@ -1,0 +1,159 @@
+feature,expression,family
+KMID,($close-$open)/$open,candlestick
+KLEN,($high-$low)/$open,candlestick
+KMID2,($close-$open)/($high-$low+1e-12),candlestick
+KUP,"($high-Greater($open, $close))/$open",candlestick
+KUP2,"($high-Greater($open, $close))/($high-$low+1e-12)",candlestick
+KLOW,"(Less($open, $close)-$low)/$open",candlestick
+KLOW2,"(Less($open, $close)-$low)/($high-$low+1e-12)",candlestick
+KSFT,(2*$close-$high-$low)/$open,candlestick
+KSFT2,(2*$close-$high-$low)/($high-$low+1e-12),candlestick
+OPEN0,$open/$close,intraday_price_ratio
+HIGH0,$high/$close,intraday_price_ratio
+LOW0,$low/$close,intraday_price_ratio
+VWAP0,$vwap/$close,intraday_price_ratio
+ROC5,"Ref($close, 5)/$close",trend_reversal
+ROC10,"Ref($close, 10)/$close",trend_reversal
+ROC20,"Ref($close, 20)/$close",trend_reversal
+ROC30,"Ref($close, 30)/$close",trend_reversal
+ROC60,"Ref($close, 60)/$close",trend_reversal
+MA5,"Mean($close, 5)/$close",trend_reversal
+MA10,"Mean($close, 10)/$close",trend_reversal
+MA20,"Mean($close, 20)/$close",trend_reversal
+MA30,"Mean($close, 30)/$close",trend_reversal
+MA60,"Mean($close, 60)/$close",trend_reversal
+STD5,"Std($close, 5)/$close",volatility
+STD10,"Std($close, 10)/$close",volatility
+STD20,"Std($close, 20)/$close",volatility
+STD30,"Std($close, 30)/$close",volatility
+STD60,"Std($close, 60)/$close",volatility
+BETA5,"Slope($close, 5)/$close",trend_reversal
+BETA10,"Slope($close, 10)/$close",trend_reversal
+BETA20,"Slope($close, 20)/$close",trend_reversal
+BETA30,"Slope($close, 30)/$close",trend_reversal
+BETA60,"Slope($close, 60)/$close",trend_reversal
+RSQR5,"Rsquare($close, 5)",trend_reversal
+RSQR10,"Rsquare($close, 10)",trend_reversal
+RSQR20,"Rsquare($close, 20)",trend_reversal
+RSQR30,"Rsquare($close, 30)",trend_reversal
+RSQR60,"Rsquare($close, 60)",trend_reversal
+RESI5,"Resi($close, 5)/$close",trend_reversal
+RESI10,"Resi($close, 10)/$close",trend_reversal
+RESI20,"Resi($close, 20)/$close",trend_reversal
+RESI30,"Resi($close, 30)/$close",trend_reversal
+RESI60,"Resi($close, 60)/$close",trend_reversal
+MAX5,"Max($high, 5)/$close",price_position
+MAX10,"Max($high, 10)/$close",price_position
+MAX20,"Max($high, 20)/$close",price_position
+MAX30,"Max($high, 30)/$close",price_position
+MAX60,"Max($high, 60)/$close",price_position
+MIN5,"Min($low, 5)/$close",price_position
+MIN10,"Min($low, 10)/$close",price_position
+MIN20,"Min($low, 20)/$close",price_position
+MIN30,"Min($low, 30)/$close",price_position
+MIN60,"Min($low, 60)/$close",price_position
+QTLU5,"Quantile($close, 5, 0.8)/$close",price_position
+QTLU10,"Quantile($close, 10, 0.8)/$close",price_position
+QTLU20,"Quantile($close, 20, 0.8)/$close",price_position
+QTLU30,"Quantile($close, 30, 0.8)/$close",price_position
+QTLU60,"Quantile($close, 60, 0.8)/$close",price_position
+QTLD5,"Quantile($close, 5, 0.2)/$close",price_position
+QTLD10,"Quantile($close, 10, 0.2)/$close",price_position
+QTLD20,"Quantile($close, 20, 0.2)/$close",price_position
+QTLD30,"Quantile($close, 30, 0.2)/$close",price_position
+QTLD60,"Quantile($close, 60, 0.2)/$close",price_position
+RANK5,"Rank($close, 5)",price_position
+RANK10,"Rank($close, 10)",price_position
+RANK20,"Rank($close, 20)",price_position
+RANK30,"Rank($close, 30)",price_position
+RANK60,"Rank($close, 60)",price_position
+RSV5,"($close-Min($low, 5))/(Max($high, 5)-Min($low, 5)+1e-12)",price_position
+RSV10,"($close-Min($low, 10))/(Max($high, 10)-Min($low, 10)+1e-12)",price_position
+RSV20,"($close-Min($low, 20))/(Max($high, 20)-Min($low, 20)+1e-12)",price_position
+RSV30,"($close-Min($low, 30))/(Max($high, 30)-Min($low, 30)+1e-12)",price_position
+RSV60,"($close-Min($low, 60))/(Max($high, 60)-Min($low, 60)+1e-12)",price_position
+IMAX5,"IdxMax($high, 5)/5",price_position
+IMAX10,"IdxMax($high, 10)/10",price_position
+IMAX20,"IdxMax($high, 20)/20",price_position
+IMAX30,"IdxMax($high, 30)/30",price_position
+IMAX60,"IdxMax($high, 60)/60",price_position
+IMIN5,"IdxMin($low, 5)/5",price_position
+IMIN10,"IdxMin($low, 10)/10",price_position
+IMIN20,"IdxMin($low, 20)/20",price_position
+IMIN30,"IdxMin($low, 30)/30",price_position
+IMIN60,"IdxMin($low, 60)/60",price_position
+IMXD5,"(IdxMax($high, 5)-IdxMin($low, 5))/5",price_position
+IMXD10,"(IdxMax($high, 10)-IdxMin($low, 10))/10",price_position
+IMXD20,"(IdxMax($high, 20)-IdxMin($low, 20))/20",price_position
+IMXD30,"(IdxMax($high, 30)-IdxMin($low, 30))/30",price_position
+IMXD60,"(IdxMax($high, 60)-IdxMin($low, 60))/60",price_position
+CORR5,"Corr($close, Log($volume+1), 5)",price_volume
+CORR10,"Corr($close, Log($volume+1), 10)",price_volume
+CORR20,"Corr($close, Log($volume+1), 20)",price_volume
+CORR30,"Corr($close, Log($volume+1), 30)",price_volume
+CORR60,"Corr($close, Log($volume+1), 60)",price_volume
+CORD5,"Corr($close/Ref($close,1), Log($volume/Ref($volume, 1)+1), 5)",price_volume
+CORD10,"Corr($close/Ref($close,1), Log($volume/Ref($volume, 1)+1), 10)",price_volume
+CORD20,"Corr($close/Ref($close,1), Log($volume/Ref($volume, 1)+1), 20)",price_volume
+CORD30,"Corr($close/Ref($close,1), Log($volume/Ref($volume, 1)+1), 30)",price_volume
+CORD60,"Corr($close/Ref($close,1), Log($volume/Ref($volume, 1)+1), 60)",price_volume
+CNTP5,"Mean($close>Ref($close, 1), 5)",trend_reversal
+CNTP10,"Mean($close>Ref($close, 1), 10)",trend_reversal
+CNTP20,"Mean($close>Ref($close, 1), 20)",trend_reversal
+CNTP30,"Mean($close>Ref($close, 1), 30)",trend_reversal
+CNTP60,"Mean($close>Ref($close, 1), 60)",trend_reversal
+CNTN5,"Mean($close<Ref($close, 1), 5)",trend_reversal
+CNTN10,"Mean($close<Ref($close, 1), 10)",trend_reversal
+CNTN20,"Mean($close<Ref($close, 1), 20)",trend_reversal
+CNTN30,"Mean($close<Ref($close, 1), 30)",trend_reversal
+CNTN60,"Mean($close<Ref($close, 1), 60)",trend_reversal
+CNTD5,"Mean($close>Ref($close, 1), 5)-Mean($close<Ref($close, 1), 5)",trend_reversal
+CNTD10,"Mean($close>Ref($close, 1), 10)-Mean($close<Ref($close, 1), 10)",trend_reversal
+CNTD20,"Mean($close>Ref($close, 1), 20)-Mean($close<Ref($close, 1), 20)",trend_reversal
+CNTD30,"Mean($close>Ref($close, 1), 30)-Mean($close<Ref($close, 1), 30)",trend_reversal
+CNTD60,"Mean($close>Ref($close, 1), 60)-Mean($close<Ref($close, 1), 60)",trend_reversal
+SUMP5,"Sum(Greater($close-Ref($close, 1), 0), 5)/(Sum(Abs($close-Ref($close, 1)), 5)+1e-12)",trend_reversal
+SUMP10,"Sum(Greater($close-Ref($close, 1), 0), 10)/(Sum(Abs($close-Ref($close, 1)), 10)+1e-12)",trend_reversal
+SUMP20,"Sum(Greater($close-Ref($close, 1), 0), 20)/(Sum(Abs($close-Ref($close, 1)), 20)+1e-12)",trend_reversal
+SUMP30,"Sum(Greater($close-Ref($close, 1), 0), 30)/(Sum(Abs($close-Ref($close, 1)), 30)+1e-12)",trend_reversal
+SUMP60,"Sum(Greater($close-Ref($close, 1), 0), 60)/(Sum(Abs($close-Ref($close, 1)), 60)+1e-12)",trend_reversal
+SUMN5,"Sum(Greater(Ref($close, 1)-$close, 0), 5)/(Sum(Abs($close-Ref($close, 1)), 5)+1e-12)",trend_reversal
+SUMN10,"Sum(Greater(Ref($close, 1)-$close, 0), 10)/(Sum(Abs($close-Ref($close, 1)), 10)+1e-12)",trend_reversal
+SUMN20,"Sum(Greater(Ref($close, 1)-$close, 0), 20)/(Sum(Abs($close-Ref($close, 1)), 20)+1e-12)",trend_reversal
+SUMN30,"Sum(Greater(Ref($close, 1)-$close, 0), 30)/(Sum(Abs($close-Ref($close, 1)), 30)+1e-12)",trend_reversal
+SUMN60,"Sum(Greater(Ref($close, 1)-$close, 0), 60)/(Sum(Abs($close-Ref($close, 1)), 60)+1e-12)",trend_reversal
+SUMD5,"(Sum(Greater($close-Ref($close, 1), 0), 5)-Sum(Greater(Ref($close, 1)-$close, 0), 5))/(Sum(Abs($close-Ref($close, 1)), 5)+1e-12)",trend_reversal
+SUMD10,"(Sum(Greater($close-Ref($close, 1), 0), 10)-Sum(Greater(Ref($close, 1)-$close, 0), 10))/(Sum(Abs($close-Ref($close, 1)), 10)+1e-12)",trend_reversal
+SUMD20,"(Sum(Greater($close-Ref($close, 1), 0), 20)-Sum(Greater(Ref($close, 1)-$close, 0), 20))/(Sum(Abs($close-Ref($close, 1)), 20)+1e-12)",trend_reversal
+SUMD30,"(Sum(Greater($close-Ref($close, 1), 0), 30)-Sum(Greater(Ref($close, 1)-$close, 0), 30))/(Sum(Abs($close-Ref($close, 1)), 30)+1e-12)",trend_reversal
+SUMD60,"(Sum(Greater($close-Ref($close, 1), 0), 60)-Sum(Greater(Ref($close, 1)-$close, 0), 60))/(Sum(Abs($close-Ref($close, 1)), 60)+1e-12)",trend_reversal
+VMA5,"Mean($volume, 5)/($volume+1e-12)",volume_dynamics
+VMA10,"Mean($volume, 10)/($volume+1e-12)",volume_dynamics
+VMA20,"Mean($volume, 20)/($volume+1e-12)",volume_dynamics
+VMA30,"Mean($volume, 30)/($volume+1e-12)",volume_dynamics
+VMA60,"Mean($volume, 60)/($volume+1e-12)",volume_dynamics
+VSTD5,"Std($volume, 5)/($volume+1e-12)",volume_dynamics
+VSTD10,"Std($volume, 10)/($volume+1e-12)",volume_dynamics
+VSTD20,"Std($volume, 20)/($volume+1e-12)",volume_dynamics
+VSTD30,"Std($volume, 30)/($volume+1e-12)",volume_dynamics
+VSTD60,"Std($volume, 60)/($volume+1e-12)",volume_dynamics
+WVMA5,"Std(Abs($close/Ref($close, 1)-1)*$volume, 5)/(Mean(Abs($close/Ref($close, 1)-1)*$volume, 5)+1e-12)",price_volume
+WVMA10,"Std(Abs($close/Ref($close, 1)-1)*$volume, 10)/(Mean(Abs($close/Ref($close, 1)-1)*$volume, 10)+1e-12)",price_volume
+WVMA20,"Std(Abs($close/Ref($close, 1)-1)*$volume, 20)/(Mean(Abs($close/Ref($close, 1)-1)*$volume, 20)+1e-12)",price_volume
+WVMA30,"Std(Abs($close/Ref($close, 1)-1)*$volume, 30)/(Mean(Abs($close/Ref($close, 1)-1)*$volume, 30)+1e-12)",price_volume
+WVMA60,"Std(Abs($close/Ref($close, 1)-1)*$volume, 60)/(Mean(Abs($close/Ref($close, 1)-1)*$volume, 60)+1e-12)",price_volume
+VSUMP5,"Sum(Greater($volume-Ref($volume, 1), 0), 5)/(Sum(Abs($volume-Ref($volume, 1)), 5)+1e-12)",volume_dynamics
+VSUMP10,"Sum(Greater($volume-Ref($volume, 1), 0), 10)/(Sum(Abs($volume-Ref($volume, 1)), 10)+1e-12)",volume_dynamics
+VSUMP20,"Sum(Greater($volume-Ref($volume, 1), 0), 20)/(Sum(Abs($volume-Ref($volume, 1)), 20)+1e-12)",volume_dynamics
+VSUMP30,"Sum(Greater($volume-Ref($volume, 1), 0), 30)/(Sum(Abs($volume-Ref($volume, 1)), 30)+1e-12)",volume_dynamics
+VSUMP60,"Sum(Greater($volume-Ref($volume, 1), 0), 60)/(Sum(Abs($volume-Ref($volume, 1)), 60)+1e-12)",volume_dynamics
+VSUMN5,"Sum(Greater(Ref($volume, 1)-$volume, 0), 5)/(Sum(Abs($volume-Ref($volume, 1)), 5)+1e-12)",volume_dynamics
+VSUMN10,"Sum(Greater(Ref($volume, 1)-$volume, 0), 10)/(Sum(Abs($volume-Ref($volume, 1)), 10)+1e-12)",volume_dynamics
+VSUMN20,"Sum(Greater(Ref($volume, 1)-$volume, 0), 20)/(Sum(Abs($volume-Ref($volume, 1)), 20)+1e-12)",volume_dynamics
+VSUMN30,"Sum(Greater(Ref($volume, 1)-$volume, 0), 30)/(Sum(Abs($volume-Ref($volume, 1)), 30)+1e-12)",volume_dynamics
+VSUMN60,"Sum(Greater(Ref($volume, 1)-$volume, 0), 60)/(Sum(Abs($volume-Ref($volume, 1)), 60)+1e-12)",volume_dynamics
+VSUMD5,"(Sum(Greater($volume-Ref($volume, 1), 0), 5)-Sum(Greater(Ref($volume, 1)-$volume, 0), 5))/(Sum(Abs($volume-Ref($volume, 1)), 5)+1e-12)",volume_dynamics
+VSUMD10,"(Sum(Greater($volume-Ref($volume, 1), 0), 10)-Sum(Greater(Ref($volume, 1)-$volume, 0), 10))/(Sum(Abs($volume-Ref($volume, 1)), 10)+1e-12)",volume_dynamics
+VSUMD20,"(Sum(Greater($volume-Ref($volume, 1), 0), 20)-Sum(Greater(Ref($volume, 1)-$volume, 0), 20))/(Sum(Abs($volume-Ref($volume, 1)), 20)+1e-12)",volume_dynamics
+VSUMD30,"(Sum(Greater($volume-Ref($volume, 1), 0), 30)-Sum(Greater(Ref($volume, 1)-$volume, 0), 30))/(Sum(Abs($volume-Ref($volume, 1)), 30)+1e-12)",volume_dynamics
+VSUMD60,"(Sum(Greater($volume-Ref($volume, 1), 0), 60)-Sum(Greater(Ref($volume, 1)-$volume, 0), 60))/(Sum(Abs($volume-Ref($volume, 1)), 60)+1e-12)",volume_dynamics

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "features": 158,
+  "eligible_features": 156,
+  "representatives": 123,
+  "extracted_rows": 138233,
+  "prefix_probe_rows": 14,
+  "baseline_unchanged": true,
+  "protected_period_accessed": false,
+  "source_hashes": {
+    "configs\\factors\\m2_alpha_map.json": "2e184e344b8d0e06f5f1d3c43ce48c9b8dfe6c92817d528d8a8d2078ad9d6021",
+    "scripts\\run_alpha_map.py": "9276f8319eb4c23d413527d60673ad2a2145f936c57363f5808d56727fad535e",
+    "run-alpha-map.ps1": "6c703e1bae7b09cadab3cd32b674d5d43f86fc8eb10076b872a36d43f9ae1111",
+    "src\\quant_research\\m2\\alpha_map.py": "6c65c670c1d4029b5c1e3b8a4c24f0c7a6c8ee1b226d9d1796b80b1213b9260c",
+    "src\\quant_research\\m2\\alpha_map_run.py": "3a39c6756d4f3d8faa21a1afdc396a2149a71186964ef404efe8a1a781ea0ab0"
+  }
+}

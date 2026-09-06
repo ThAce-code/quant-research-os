@@ -266,5 +266,77 @@
   "docs/results/m2/SP_raw/report.json": {
     "source_run": "20260905T055210630475Z",
     "sha256": "b6ab8011b79c28b0537095c3e6edc0dc471f18e34e89b29ba6627b75c1a664c8"
+  },
+  "docs/results/m2_alpha_map_v1/report.md": {
+    "source_run": "20260906T055420836352Z",
+    "sha256": "f1a96c470c8ad1d823d77f6bacd8e7ce914671a63d55bba854b747af6c9bc749"
+  },
+  "docs/results/m2_alpha_map_v1/status.json": {
+    "source_run": "20260906T055420836352Z",
+    "sha256": "45e87ec5b575ec6f8b15a83294a8425d4d89bc2ca66f460f6d97dc230ca5a8a2"
+  },
+  "docs/results/m2_alpha_map_v1/bp_conditional.json": {
+    "source_run": "20260906T055420836352Z",
+    "sha256": "4066b47cf6a1f0d3fa1f8a102b33944e265e7dd106ed5ee4ec4bd88e390eff65"
+  },
+  "docs/results/m2_alpha_map/report.md": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "439a0f557bf8eb0699bdac9f18efb494046b1a1aff0c5ed126a7338b2ca2b5f7"
+  },
+  "docs/results/m2_alpha_map/status.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "45e87ec5b575ec6f8b15a83294a8425d4d89bc2ca66f460f6d97dc230ca5a8a2"
+  },
+  "docs/results/m2_alpha_map/verification.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "7541fd395acfcef0dab623c3b2444862d7932510bd224045ed989333cb82e20e"
+  },
+  "docs/results/m2_alpha_map/config.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "2ffc6f534b6a6fe5a40f608aebacefc6ff6b4c404e24565d737c391a147c3f2c"
+  },
+  "docs/results/m2_alpha_map/catalog.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "3860c54f198d5b3586e0a49ffd6f868f589860ec0b0f0fb911b4bc4086a2ca63"
+  },
+  "docs/results/m2_alpha_map/feature_metrics.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "3c9fd0f1674fd40022f9f009f8b7842c4d87d184c5db17f1064e8df32d133bf7"
+  },
+  "docs/results/m2_alpha_map/correlation.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "1211eb0a31c349f373a0696cef084dd0f3d421e834bd0854955401beec1efd77"
+  },
+  "docs/results/m2_alpha_map/correlation_days.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "2d7ec39ce9836902263eee56028980bfc9a1ad30e662ace9bb29a571af27e6f7"
+  },
+  "docs/results/m2_alpha_map/clusters.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "b5778d520bd149b332d27216da807f5281d43be52fa603f9e54f1258ac409d0a"
+  },
+  "docs/results/m2_alpha_map/basis.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "a5171c55e8d54aa7780cf9038465c2e9766c0965f20b13670e31c0ef814e5a6e"
+  },
+  "docs/results/m2_alpha_map/pca.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "d02e29c9f6fc9bacb62d8551f7594ebbf8a630c8a744df317ce9f1f7029d4367"
+  },
+  "docs/results/m2_alpha_map/pca_loadings.csv": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "082d1b5497c0377a3a3296ce7f3de4e0749b0b6fe8632239d24987790d2a67fd"
+  },
+  "docs/results/m2_alpha_map/bp_conditional.json": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "8e04527f902215f81b4fc574b51e85785b6e1f7d7a612ec113a84f7fd4605145"
+  },
+  "docs/results/m2_alpha_map/alpha_map.png": {
+    "source_run": "20260906T055955632527Z",
+    "sha256": "fe677b090d3dbe5097ec072e6bd30dfd89325b8623078d8ee74cc543d2db9970"
+  },
+  "docs/results/m2_alpha_map_v1/alpha_map.png": {
+    "source_run": "20260906T055420836352Z",
+    "sha256": "fe677b090d3dbe5097ec072e6bd30dfd89325b8623078d8ee74cc543d2db9970"
   }
 }

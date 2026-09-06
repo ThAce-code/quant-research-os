@@ -1,0 +1,31 @@
+{
+  "matched": {
+    "days": 0,
+    "pairs": 0,
+    "ic": null,
+    "ic_std": null,
+    "icir": null,
+    "positive_ic_ratio": null,
+    "rank_ic": null,
+    "rank_ic_std": null,
+    "rank_icir": null,
+    "positive_rank_ic_ratio": null,
+    "coverage": 0.0
+  },
+  "residual": {
+    "days": 0,
+    "pairs": 0,
+    "ic": null,
+    "ic_std": null,
+    "icir": null,
+    "positive_ic_ratio": null,
+    "rank_ic": null,
+    "rank_ic_std": null,
+    "rank_icir": null,
+    "positive_rank_ic_ratio": null,
+    "coverage": 0.0
+  },
+  "status": "INSUFFICIENT_COMMON_SAMPLE",
+  "mean_explained_fraction": null,
+  "conclusion": "Linear residual signal does not establish incremental model returns; rolling add/drop still required."
+}

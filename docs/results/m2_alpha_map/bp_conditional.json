@@ -1,0 +1,31 @@
+{
+  "matched": {
+    "days": 238,
+    "pairs": 52267,
+    "ic": 0.025135607104982263,
+    "ic_std": 0.09704926223251426,
+    "icir": 0.25899843570950015,
+    "positive_ic_ratio": 0.5756302521008403,
+    "rank_ic": 0.035482477367675534,
+    "rank_ic_std": 0.10567273560762878,
+    "rank_icir": 0.3357770305050564,
+    "positive_rank_ic_ratio": 0.6218487394957983,
+    "coverage": 0.7551366120218579
+  },
+  "residual": {
+    "days": 238,
+    "pairs": 52267,
+    "ic": 0.014368476911321898,
+    "ic_std": 0.0824183864604116,
+    "icir": 0.17433581908599455,
+    "positive_ic_ratio": 0.5378151260504201,
+    "rank_ic": 0.016669925516507297,
+    "rank_ic_std": 0.0869099628527191,
+    "rank_icir": 0.19180684203900514,
+    "positive_rank_ic_ratio": 0.5714285714285714,
+    "coverage": 0.7551366120218579
+  },
+  "status": "DIAGNOSTIC_ONLY",
+  "mean_explained_fraction": 0.25054314656941407,
+  "conclusion": "Linear residual signal does not establish incremental model returns; rolling add/drop still required."
+}
