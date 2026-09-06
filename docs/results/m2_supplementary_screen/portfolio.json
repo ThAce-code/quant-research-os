@@ -1,0 +1,136 @@
+{
+  "CASHFLOW_MARGIN_YTD": {
+    "status": "PASS",
+    "candidate": {
+      "top10": {
+        "gross_return": 0.3976604551864047,
+        "net_return": 0.32091620930613085,
+        "net_cagr": 0.049950288980157076,
+        "net_mdd": -0.5920380558950116,
+        "net_excess_annual": 0.005639730481457054,
+        "net_excess_ir": 0.05116513844930313,
+        "net_excess_mdd": -0.37966855918241854,
+        "gross_excess_annual": 0.015536589508455788,
+        "mean_turnover": 0.04193540699558949,
+        "annual_cost_drag": 0.009896859026998715,
+        "test_days": 1359
+      },
+      "top20": {
+        "gross_return": 0.4557950773144517,
+        "net_return": 0.3887067690991477,
+        "net_cagr": 0.05919326550409898,
+        "net_mdd": -0.5664668259597994,
+        "net_excess_annual": 0.011094095189910742,
+        "net_excess_ir": 0.11674374015607981,
+        "net_excess_mdd": -0.2739945876590833,
+        "gross_excess_annual": 0.019366179140867218,
+        "mean_turnover": 0.035108054133645136,
+        "annual_cost_drag": 0.008272083950956483,
+        "test_days": 1359
+      }
+    },
+    "BP_matched": {
+      "top10": {
+        "gross_return": 0.4692976614155435,
+        "net_return": 0.3414344129745248,
+        "net_cagr": 0.05278837282404791,
+        "net_mdd": -0.4525766841948481,
+        "net_excess_annual": 0.009489365868790869,
+        "net_excess_ir": 0.09341267359289906,
+        "net_excess_mdd": -0.35682428889623563,
+        "gross_excess_annual": 0.025442040126855,
+        "mean_turnover": 0.06736490647421878,
+        "annual_cost_drag": 0.015952674258064146,
+        "test_days": 1359
+      },
+      "top20": {
+        "gross_return": 0.4979165683869773,
+        "net_return": 0.4113132101997503,
+        "net_cagr": 0.06219282466174736,
+        "net_mdd": -0.47664612814114815,
+        "net_excess_annual": 0.017712755360451065,
+        "net_excess_ir": 0.189396875642416,
+        "net_excess_mdd": -0.24123605935160125,
+        "gross_excess_annual": 0.028153521110494913,
+        "mean_turnover": 0.04421793836567883,
+        "annual_cost_drag": 0.010440765750043837,
+        "test_days": 1359
+      }
+    },
+    "replacement_difference": {
+      "mean": -2.780949651487343e-05,
+      "low": -0.00029602008387804646,
+      "high": 0.00022840243637278716,
+      "p": 0.5812093953023488,
+      "annual_difference": -0.006618660170539877
+    },
+    "interpretation": "Candidate replaces BP; this is not the incremental effect of adding a candidate to Alpha158 or a blended portfolio"
+  },
+  "ILLIQUIDITY_20": {
+    "status": "PASS",
+    "candidate": {
+      "top10": {
+        "gross_return": 0.6884892738429194,
+        "net_return": 0.4776501160580795,
+        "net_cagr": 0.07077165958762066,
+        "net_mdd": -0.41905181716126993,
+        "net_excess_annual": 0.01683314804287369,
+        "net_excess_ir": 0.17291511095062634,
+        "net_excess_mdd": -0.2983868080712403,
+        "gross_excess_annual": 0.0402087815270591,
+        "mean_turnover": 0.09853543444333315,
+        "annual_cost_drag": 0.023375633484185417,
+        "test_days": 1359
+      },
+      "top20": {
+        "gross_return": 0.6233216819963363,
+        "net_return": 0.45770381654770165,
+        "net_cagr": 0.06822614154339379,
+        "net_mdd": -0.4342963648921472,
+        "net_excess_annual": 0.015540900054707736,
+        "net_excess_ir": 0.1923686500706244,
+        "net_excess_mdd": -0.2051538678574655,
+        "gross_excess_annual": 0.03440589215668759,
+        "mean_turnover": 0.07959522586665348,
+        "annual_cost_drag": 0.01886499210197985,
+        "test_days": 1359
+      }
+    },
+    "BP_matched": {
+      "top10": {
+        "gross_return": 0.6033763788797224,
+        "net_return": 0.4656357488004368,
+        "net_cagr": 0.06924182383295041,
+        "net_mdd": -0.44828535164000827,
+        "net_excess_annual": 0.023993986671178563,
+        "net_excess_ir": 0.2377619457883469,
+        "net_excess_mdd": -0.26228551324489296,
+        "gross_excess_annual": 0.03972409692113668,
+        "mean_turnover": 0.06642799598160364,
+        "annual_cost_drag": 0.01573011024995811,
+        "test_days": 1359
+      },
+      "top20": {
+        "gross_return": 0.48510926813847455,
+        "net_return": 0.3929198636385698,
+        "net_cagr": 0.05975532282708884,
+        "net_mdd": -0.46331627041385237,
+        "net_excess_annual": 0.013110953012367317,
+        "net_excess_ir": 0.14896840657051877,
+        "net_excess_mdd": -0.24163156648403625,
+        "gross_excess_annual": 0.02434264594682879,
+        "mean_turnover": 0.04753645744974504,
+        "annual_cost_drag": 0.011231692934461506,
+        "test_days": 1359
+      }
+    },
+    "replacement_difference": {
+      "mean": 1.0209861522445987e-05,
+      "low": -0.00019596358016791,
+      "high": 0.00023008336530479744,
+      "p": 0.46026986506746626,
+      "annual_difference": 0.002429947042342145
+    },
+    "interpretation": "Candidate replaces BP; this is not the incremental effect of adding a candidate to Alpha158 or a blended portfolio"
+  }
+}

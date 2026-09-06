@@ -8,9 +8,12 @@
   The three new quarterly formulas failed their frozen screen; do not flip signs
   or retune this batch. Three formulas on two years do not close the economic
   families. Comparability diagnostics are complete; the next two-formula batch
-  is frozen in configs/factors/m2_supplementary.json. Execute its historical
-  collection plan, exposure extension and evaluation next; do not replan or add
-  formulas. BP has priority but is not the only research direction.
+  is frozen in configs/factors/m2_supplementary.json. Its collection and fixed
+  historical screen have now run; both supplementary formulas are IC_SCREEN_REJECT.
+  Stop adding formulas. Resolve the observed 2008–2012 legacy industry-text
+  compatibility gap without future backfill, then freeze a bounded rolling
+  model protocol and validate its training coverage before execution.
+  BP has priority but is not the only research direction.
   Full-history data and M2 completion gates remain open. Do not start M3 agents,
   dashboards or trading automation as part of this work.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.

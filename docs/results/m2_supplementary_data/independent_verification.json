@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "cashflow_cells_checked": 2222286,
+  "raw_request_hashes_checked": 21138,
+  "artifact_hashes_checked": 741,
+  "method": "direct fiscal-priority eligibility selection, not merge_asof",
+  "checks": [
+    "publication strictly earlier",
+    "latest fiscal-period priority",
+    "400/550-day age limits",
+    "membership",
+    "missing values"
+  ]
+}

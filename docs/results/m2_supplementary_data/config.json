@@ -1,0 +1,89 @@
+{
+  "name": "m2_supplementary_economic_batch_v1",
+  "protocol_status": "FROZEN_BEFORE_SUPPLEMENTARY_RETURN_EVALUATION",
+  "data_period": [
+    "2008-01-01",
+    "2020-07-31"
+  ],
+  "historical_training": [
+    "2008-01-01",
+    "2014-12-31"
+  ],
+  "observed_screen": [
+    "2015-01-01",
+    "2020-07-31"
+  ],
+  "sample_role": "All dates are previously observed research or burned diagnostics, never independent OOS",
+  "financial_quarter_bounds": [
+    "2007Q1",
+    "2020Q2"
+  ],
+  "quarter_request_rule": "Per instrument: fiscal periods from max(2007Q1, first eligible signal minus 550 calendar days) through the last completed fiscal quarter on its last eligible signal; publication after research end is retained only in raw cache and excluded from event selection",
+  "membership": "Daily historical CSI300 membership from the frozen M0 snapshot, never current members",
+  "primary_universe": "Known historical nonfinancial members; exclude J66,J67,J68,J69 and unknown industry; separately report classification coverage against all daily members",
+  "financial_codes": [
+    "J66",
+    "J67",
+    "J68",
+    "J69"
+  ],
+  "fields": {
+    "query_cash_flow_data": [
+      "CFOToOR"
+    ]
+  },
+  "hypotheses": {
+    "CASHFLOW_MARGIN_YTD": {
+      "family": "Cashflow Quality",
+      "field": "CFOToOR",
+      "direction": 1,
+      "expression": "latest published finite operating cash flow / operating revenue ratio; negative values retained",
+      "mechanism": "Cash conversion of operating revenue is a different measurement from ROE or net-profit growth",
+      "semantics": "Vendor reporting-period ratio; no sum of quarterly ratios, no false TTM reconstruction, denominator is not independently reconstructed",
+      "availability": "strictly after pubDate; max publication age 400 days and fiscal age 550 days; never fill a missing latest value"
+    },
+    "ILLIQUIDITY_20": {
+      "family": "Liquidity",
+      "direction": 1,
+      "expression": "log1p(1000000 * Mean(abs(adjusted_close/Ref(adjusted_close,1)-1) / raw_amount_RMB, 20))",
+      "mechanism": "Fixed positive illiquidity-premium hypothesis; may disappear after size/volatility controls or costs",
+      "availability": "20 complete valid exchange-day observations, amount > 0, no suspension filling; known at close, earliest execution next close"
+    }
+  },
+  "reference": "BP with the same universe, dates and controls; original BP FORWARD is not an independent confirmation",
+  "neutralization": "Reuse 1/99 percent clipping and daily standardization, then industry and circulating-cap proxy OLS, minimum group size 5; do not tune for coverage",
+  "industry_sampling": "monthly historical snapshot available after snapshot date, maximum age 62 calendar days; group by stable CSRC code",
+  "primary_horizon": 5,
+  "diagnostic_horizons": [
+    20
+  ],
+  "min_pairs": 30,
+  "min_year_coverage": 0.7,
+  "min_rank_ic": 0.01,
+  "positive_full_years_required": 4,
+  "full_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "partial_year": 2020,
+  "block_length": 20,
+  "bootstrap_samples": 2000,
+  "seed": 42,
+  "max_q": 0.1,
+  "primary_test_count": 2,
+  "multiple_testing": "BH across the two new primary neutralized five-day mean-RankIC tests; references and prespecified sensitivities are diagnostic only",
+  "screen_decision": "IC_SCREEN_PASS requires all annual coverage gates, RankIC>=0.01, q<=0.10 and >=4/5 positive full years; otherwise IC_SCREEN_REJECT. Neither status is FORWARD/KEEP. Report partial 2020 separately",
+  "sensitivity_budget": [
+    "2015-2016 versus 2017-2020 temporal split",
+    "financial-sector exclusion counts",
+    "cashflow common fiscal-period matched comparison",
+    "20-day label diagnostic"
+  ],
+  "portfolio_protocol": "Reuse M0 fees and execution assumptions; Top60 primary, Top30 diagnostic; paired references use identical available stocks; do not select a topology after seeing returns",
+  "model_queue": "Both fixed supplementary formulas and BP are candidates for a bounded rolling-model protocol if data semantics/coverage pass; weak univariate IC alone is not proof of no nonlinear model contribution. No further candidate formulas may be mined from these diagnostics",
+  "stopping_rule": "No direction/window/threshold search or revival of ROE, EARNINGS_GROWTH, LOW_ASSET_GROWTH from the closed batch. Stop new formula expansion after this two-formula supplement and report positive or negative results",
+  "qualification_lockbox": "NOT_AUTHORIZED_BY_THIS_PROTOCOL; full numerical model and qualification protocol must be frozen separately before 2021+ access"
+}

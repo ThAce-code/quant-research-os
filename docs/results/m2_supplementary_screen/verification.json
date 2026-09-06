@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "data_run": "20260906T072711741731Z",
+  "protocol_sha256": "5570c504c52b8f53229bd5cec394135d8055003ef2df49d148a846e2e4ccfae5",
+  "primary_tests": 2,
+  "max_orthogonality_error": 8.26481740188813e-14,
+  "baseline_unchanged": true,
+  "paired_masks_equal": true,
+  "no_2021_plus_access": true,
+  "rolling_model_increment": "NOT_RUN",
+  "independent_alpha": "NOT_CONFIRMED"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "baseline_identity": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325",
+  "cashflow_requests": 20260,
+  "members": 726,
+  "rows_returned": 19762,
+  "rows_after_end_excluded": 295,
+  "no_2021_plus_requests": true,
+  "protocol_sha256": "5570c504c52b8f53229bd5cec394135d8055003ef2df49d148a846e2e4ccfae5",
+  "research_status": "NOT_EVALUATED",
+  "revision_status": "vendor_revision_unknown",
+  "BP_lag": "one exchange day",
+  "industry_max_age_days": 62
+}

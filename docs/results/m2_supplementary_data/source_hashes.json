@@ -1,0 +1,9 @@
+{
+  "configs/factors/m2_supplementary.json": "5570c504c52b8f53229bd5cec394135d8055003ef2df49d148a846e2e4ccfae5",
+  "src/quant_research/m2/supplementary_data.py": "397f1fa37014fb5a4d7fae3ad5e60458be2aac245a88fb16f739194e2e02f612",
+  "src/quant_research/m2/supplementary.py": "e6402315c044a4cf89c951abe1faf5d3ccba090180d860e4bae29097c3e2909c",
+  "src/quant_research/m2/quarterly.py": "5196cae237782ce51b840b96af0b10cb4e4a9977c7f8e17c3823d0a4e980158a",
+  "src/quant_research/m2/core.py": "d892703a75c19359d1425bcd2dc8673b9a2f7b97ecaa1c5be8323ba9b041a995",
+  "src/quant_research/baostock_data.py": "9c79acbaa5763ddae89d69b475188e3d797a55112402e4ffd24a90e7ac32a248",
+  "scripts/collect_supplementary.py": "0c40d1394b215d2b834a9714b5e7d649f6b06e49b64b2fb0e313f3a671e57114"
+}

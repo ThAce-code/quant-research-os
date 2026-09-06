@@ -474,5 +474,81 @@
   "docs/results/m2_supplementary_plan/requests_by_year.csv": {
     "source_run": "20260906T071914958860Z",
     "sha256": "6f9c9901dc577e551329c87ffd15571e6d5f7b996d1d22db09c32eb33b45df89"
+  },
+  "docs/results/m2_supplementary_data/report.md": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "2577071299aed3835e7082e812341870265a38c80fff4284c3fde2c4f0ce8db7"
+  },
+  "docs/results/m2_supplementary_data/status.json": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "189311d1e15677d81d37f2a37fca4f5577cc870b09efec68024f56e86eb72c21"
+  },
+  "docs/results/m2_supplementary_data/config.json": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "1063bbf245b7e77071a05707221d4667bda5168cee0081c59671269a11a2947b"
+  },
+  "docs/results/m2_supplementary_data/verification.json": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "cd1652a5264bbed8868b1d90b25df342608a9d0a7a0679e761b0e92adb166e3e"
+  },
+  "docs/results/m2_supplementary_data/independent_verification.json": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "2b4e03454fee661101d50de49b7a5ae6054891cbde78e496e7cc222db7c9d142"
+  },
+  "docs/results/m2_supplementary_data/coverage.csv": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "1dc6f73d3bbbb5219a886c36c747567153dc16c0604a883f8ea71facea11c929"
+  },
+  "docs/results/m2_supplementary_data/source_hashes.json": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "3171eed4488092c14280e533fd86c586105958ba6aa9e94932ae3476c6142c89"
+  },
+  "docs/results/m2_supplementary_data/regression_tests.txt": {
+    "source_run": "20260906T072711741731Z",
+    "sha256": "643ec235532d8a67166f024b275ed7d659a539f1af123bfd6e5cdd566a5f04ad"
+  },
+  "docs/results/m2_supplementary_screen/report.md": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "6b79f28053cfc4cae3e0f7fd47f8210822aaada99a9c7257034684c7fe318655"
+  },
+  "docs/results/m2_supplementary_screen/status.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "9fdca6db861306683445622c5def23d2afef89c19065b0840d4db2a6a111ae04"
+  },
+  "docs/results/m2_supplementary_screen/config.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "1063bbf245b7e77071a05707221d4667bda5168cee0081c59671269a11a2947b"
+  },
+  "docs/results/m2_supplementary_screen/verification.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "9a6f65920206085d8357ba067dcdb475ad930f9fcf13f770fea908d63cb7d7ba"
+  },
+  "docs/results/m2_supplementary_screen/source_hashes.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "f262e15f6907ced4664530824e2b31d9c67d58b15f9791fd48b57e08e19f9af1"
+  },
+  "docs/results/m2_supplementary_screen/summary.csv": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "a640ecdc3ef2fcca3aff92188bee1e4de4e0c145b83510806425118f72e0d86c"
+  },
+  "docs/results/m2_supplementary_screen/ic_metrics.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "e17a805aa1eaf9e340f2f4f13b9e3e90bd2a63ec6bb80aef11203758b1f22c14"
+  },
+  "docs/results/m2_supplementary_screen/portfolio.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "83309722e75b18f52d94d1c4d1865b2ecc424b5b4919612e0af59f637a9d1d4e"
+  },
+  "docs/results/m2_supplementary_screen/fiscal_sensitivity.json": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "52993343e7c45f4a2baf0c5f424be7edf2b866d71f05020aede55e02cbe7ab6b"
+  },
+  "docs/results/m2_supplementary_screen/correlation.csv": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "42badd0de35718d475a7ce4c3349965ed98ce4a74319f61469d3fc0675626d96"
+  },
+  "docs/results/m2_supplementary_screen/universe_counts.csv": {
+    "source_run": "20260906T084009964682Z",
+    "sha256": "90a83cbda8130cdc15421464dd2e7bce8f885bab0a394ce24bd4bd4cd525fa6f"
   }
 }
