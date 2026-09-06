@@ -1,0 +1,24 @@
+# Research scope and working conventions
+
+- Read `docs/PROJECT_CONTEXT.md` and `docs/M2_ROADMAP.md` before changing research scope.
+- M0 is frozen; M1 is closed for feature expansion. Fix demonstrated defects when
+  needed, but do not redesign the engine, registry or provenance system without a
+  concrete research blocker. Do not modify vendor Qlib source.
+- Current research priority is the Alpha158 technical map, then PIT factor
+  families, conditional signal and rolling model add/drop. Do not start M3 agents,
+  dashboards or trading automation as part of this work.
+- The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.
+  Do not call them fresh OOS. Do not access 2021+ qualification/lockbox observations
+  through research scripts until candidate definitions and the corresponding
+  numerical qualification/lockbox protocol are frozen. Do not adjust a failed
+  candidate on the same qualification sample and present the retry as confirmation.
+- Preserve original factor directions, hypotheses and thresholds per experiment.
+  Record negative results. Engineering PASS, FORWARD, KEEP and independent
+  confirmation are different claims. Linear residuals do not establish model alpha.
+- Reuse existing data, fees and same-universe paired comparisons. Keep missing
+  values and vendor revision uncertainty visible.
+- Test changed research behavior and required regression gates; add new checks only
+  for a concrete risk. Avoid expanding audit infrastructure as an end in itself.
+- Separate commits by topic. Publish small reports/configurations and source-run
+  evidence under `docs/results`; keep raw market data, full feature panels, caches,
+  credentials and large experiment artifacts out of Git.
