@@ -1,0 +1,20 @@
+{
+  "name": "m1_factor_engine_v1",
+  "baseline_id": "BL-CN-CSI300-A158-LGBM-001",
+  "baseline_config": "configs/experiments/baostock_alpha158.json",
+  "universe": "csi300",
+  "horizon": 5,
+  "decay_horizons": [1, 2, 5, 10, 20],
+  "min_pairs": 30,
+  "rules": {"min_coverage": 0.7, "min_days": 100, "min_rank_ic": 0.01, "min_positive_ratio": 0.5, "max_pool_corr": 0.9},
+  "factors": [
+    {"name": "MOM_20", "family": "momentum", "expression": "close / Ref(close,20) - 1", "hypothesis": "过去20日强势股票具有收益延续性", "direction": 1},
+    {"name": "MOM_60", "family": "momentum", "expression": "close / Ref(close,60) - 1", "hypothesis": "过去60日强势股票具有收益延续性", "direction": 1},
+    {"name": "REV_5", "family": "reversal", "expression": "-(close / Ref(close,5) - 1)", "hypothesis": "短期下跌股票存在反转", "direction": 1},
+    {"name": "VOL_20", "family": "volatility", "expression": "Std(returns,20)", "hypothesis": "低波动股票未来收益排序较高", "direction": -1},
+    {"name": "TURNOVER_MEAN_20", "family": "turnover", "expression": "Mean(turnover,20)", "hypothesis": "较低换手率对应更高后续收益", "direction": -1},
+    {"name": "TURNOVER_CHANGE_20", "family": "turnover", "expression": "Mean(turnover,5) / Mean(turnover,20) - 1", "hypothesis": "近期换手率升温对应短期回落", "direction": -1},
+    {"name": "VOLUME_RATIO_5_20", "family": "volume", "expression": "Mean(volume,5) / Mean(volume,20)", "hypothesis": "近期相对放量对应短期回落", "direction": -1},
+    {"name": "PRICE_POSITION_60", "family": "price_position", "expression": "(close - Min(low,60)) / (Max(high,60) - Min(low,60))", "hypothesis": "接近60日高位的股票有收益延续性", "direction": 1}
+  ]
+}
