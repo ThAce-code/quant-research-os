@@ -18,7 +18,8 @@ from .alpha_map import compress_basis, conditional_residual
 
 def checked_artifact(folder, relative, manifest):
     path = folder / relative
-    if hashlib.sha256(path.read_bytes()).hexdigest() != manifest[relative]:
+    normalized = {key.replace('\\', '/'): value for key, value in manifest.items()}
+    if hashlib.sha256(path.read_bytes()).hexdigest() != normalized[relative.replace('\\', '/')]:
         raise ValueError(f'input artifact changed: {relative}')
     return path
 

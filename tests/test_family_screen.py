@@ -15,3 +15,10 @@ def test_input_drift_is_rejected(tmp_path):
     (tmp_path/'x').write_text('changed')
     with pytest.raises(ValueError,match='input artifact changed'):
         checked_artifact(tmp_path,'x',{'x':'wrong'})
+
+
+def test_existing_windows_manifest_keys_are_supported(tmp_path):
+    import hashlib
+    (tmp_path/'data').mkdir()
+    p=tmp_path/'data'/'x';p.write_text('sealed')
+    assert checked_artifact(tmp_path,'data/x',{'data\\x':hashlib.sha256(p.read_bytes()).hexdigest()}) == p
