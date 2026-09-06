@@ -1,0 +1,8 @@
+{
+  "configs/factors/m2_quarterly.json": "4e115e8c0138bc6d4e393c3161736313601031b973e0e11cfdb26a272e09119f",
+  "scripts/run_quarterly.py": "f6973556a5778ea49989e5e112cc734f918b091a4bbee6d01a031bfab9506b27",
+  "run-quarterly.ps1": "e0d55f57735549459addf343caa2634a1f86cb403ca13a69d5c64386edc53e2b",
+  "src/quant_research/m2/quarterly.py": "7475a77e8cb38044544c522a1676e6942ce9a57ae4c85defeedcc9b6db29c0ec",
+  "src/quant_research/m2/core.py": "d892703a75c19359d1425bcd2dc8673b9a2f7b97ecaa1c5be8323ba9b041a995",
+  "src/quant_research/baostock_data.py": "9c79acbaa5763ddae89d69b475188e3d797a55112402e4ffd24a90e7ac32a248"
+}

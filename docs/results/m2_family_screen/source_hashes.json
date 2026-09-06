@@ -1,0 +1,9 @@
+{
+  "src/quant_research/m2/family_screen.py": "3631b82978ff8d7280a8f3d3fa8fb71df239bc84e2dd9b1e0e4925688a462edd",
+  "src/quant_research/m2/core.py": "d892703a75c19359d1425bcd2dc8673b9a2f7b97ecaa1c5be8323ba9b041a995",
+  "src/quant_research/m2/alpha_map.py": "6c65c670c1d4029b5c1e3b8a4c24f0c7a6c8ee1b226d9d1796b80b1213b9260c",
+  "src/quant_research/factors/data.py": "e70189f0b3c8ff03f295c838fa104191ad55c6479addc848fe19b4825e8e672c",
+  "src/quant_research/factors/analytics.py": "5bf7f0c0147fd4493fa2b315195a18bd7c69cdfe39a8a83a37b1a90d599b7fd1",
+  "configs/factors/m2_family_screen.json": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "scripts/run_family_screen.py": "6802c98d7688cd07c7536e7e7a7beea589bd8f7ae251898c32b4b036d7d2d0dd"
+}

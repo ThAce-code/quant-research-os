@@ -76,7 +76,7 @@ print(report.status, report.artifact_directory)
 含成本组合和三组匹配股票范围的增量实验；独立数据库为 `data/m2_factor_registry.sqlite`。
 
 运行 `20260905T055210630475Z` 已通过：[首轮报告](docs/results/m2/report.md)。
-2015–2016年历史成分并集409只；BP、EP、SP各评估原始和行业/市值中性化两个版本。
+含2014年12月预热的历史成分并集409只（精确2015–2016年为392只）；BP、EP、SP各评估原始和行业/市值中性化两个版本。
 BP中性化版进入FORWARD，其余5个REJECT，0个KEEP。BP中性化RankIC=0.0330、
 Top60含成本超额年化12.79%，但净值最大回撤45.54%；加入低波的增量置信区间跨0。
 EP中性化版覆盖率67.8%，未达预设70%门槛。所有数据属于已观察历史探索，不能称为独立alpha确认。
@@ -103,3 +103,20 @@ M1已收尾，M2优先研究相对现有技术信息的增量；[收束后的路
 2016同样本BP RankIC从0.0355降至0.0167。结果是历史条件预测诊断，不是独立Alpha确认；
 没有新增组合回测或LightGBM重训，BP状态不变。134项测试通过，2021后样本未访问。
 全量季度财务、至少4个经济族、滚动模型add/drop与资格/锁箱仍待后续完成。
+
+## M2.2–M2.3：季度覆盖与四族首轮筛选
+
+`./run-quarterly.ps1` 已采集2015–2016全部392只历史成分，10,192个盈利/成长请求，
+9,896条有效接口记录，异常记录0。ROE/利润同比原始覆盖约99.9%，资产同比约99.1%–99.3%。
+完整研究历史尚未扩展，供应商修订仍未知。[季度报告](docs/results/m2_quarterly/report.md)。
+
+按[取数前固定的三项新假设](docs/M2_QUARTERLY_PROTOCOL.md)完成筛选，连同既有Value参考组成四个经济族。
+ROE、净利润增长、低资产增长中性化后的RankIC分别为0.0069、-0.0015、0.0051，
+均为IC_SCREEN_REJECT；本批关闭这三个具体公式，不翻方向重试，也不据此否定整个经济家族。
+[四族结果](docs/results/m2_family_screen/report.md)。BP条件诊断精确复现，仍为FORWARD。
+
+筛选入口：`python scripts/run_family_screen.py <quarterly_run_directory>`。
+当前141项测试通过。下一优先事项是BP的含成本同样本增量与滚动模型实验；
+季度更长历史在具体候选需要时扩展。M2整体未完成，2021+资格/锁箱未访问。
+
+本轮季度独立验收：956,480个日度面板值、10,192个原始响应哈希和1,581个产物哈希通过核验。[验收记录](docs/results/m2_quarterly/independent_verification.json)，[141项回归测试](docs/results/m2_quarterly/regression_tests.txt)。

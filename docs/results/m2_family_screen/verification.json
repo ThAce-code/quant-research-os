@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "quarterly_run": "20260906T061523076221Z",
+  "primary_tests": 3,
+  "max_orthogonality_error": 2.94703099843963e-14,
+  "pca_variance_retained": 0.7772309613095199,
+  "pca_loadings_reproduced": true,
+  "conditional_masks_equal": true,
+  "baseline_unchanged": true,
+  "no_2021_plus_access": true,
+  "portfolio_increment": "NOT_RUN",
+  "rolling_model_increment": "NOT_RUN"
+}

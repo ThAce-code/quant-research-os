@@ -4,8 +4,11 @@
 - M0 is frozen; M1 is closed for feature expansion. Fix demonstrated defects when
   needed, but do not redesign the engine, registry or provenance system without a
   concrete research blocker. Do not modify vendor Qlib source.
-- Current research priority is the Alpha158 technical map, then PIT factor
-  families, conditional signal and rolling model add/drop. Do not start M3 agents,
+- Alpha158 mapping and the first four-family historical screen are complete.
+  The three new quarterly formulas failed their frozen screen; do not flip signs
+  or retune this batch. Prioritize BP paired net increments and rolling model
+  add/drop; expand quarterly history only for concrete surviving-candidate needs.
+  Full-history data and M2 completion gates remain open. Do not start M3 agents,
   dashboards or trading automation as part of this work.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.
   Do not call them fresh OOS. Do not access 2021+ qualification/lockbox observations

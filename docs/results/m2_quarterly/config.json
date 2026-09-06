@@ -1,0 +1,42 @@
+{
+  "name": "m2_quarterly_pilot_universe_v1",
+  "start": "2015-01-01",
+  "end": "2016-12-31",
+  "first_quarter": "2013Q3",
+  "last_quarter": "2016Q3",
+  "max_publication_age_days": 400,
+  "max_period_age_days": 550,
+  "min_coverage": 0.7,
+  "fields": {
+    "query_profit_data": [
+      "roeAvg",
+      "npMargin"
+    ],
+    "query_growth_data": [
+      "YOYNI",
+      "YOYAsset",
+      "YOYEquity"
+    ]
+  },
+  "sample_role": "previously_observed_pilot_history_not_holdout",
+  "pit_level": "publication_aligned_vendor_snapshot_revision_unknown",
+  "scope": "All historical CSI300 members in 2015-2016; not yet the full 2008-2020 research history",
+  "candidates": {
+    "ROE": {
+      "family": "Quality",
+      "field": "roeAvg",
+      "direction": 1
+    },
+    "EARNINGS_GROWTH": {
+      "family": "Growth",
+      "field": "YOYNI",
+      "direction": 1
+    },
+    "LOW_ASSET_GROWTH": {
+      "family": "Investment",
+      "field": "YOYAsset",
+      "direction": -1
+    }
+  },
+  "candidate_budget": "Three new primary formulas, no sign search; existing BP is the Value reference. Other downloaded fields are data-quality diagnostics only. Coverage pass is not factor acceptance."
+}

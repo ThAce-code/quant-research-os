@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "baseline_identity": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325",
+  "symbols": 392,
+  "requests": 10192,
+  "accepted_records": 9896,
+  "quarantined_records": 0,
+  "quarantine_reasons": {},
+  "availability": "strictly after pubDate on the sealed exchange calendar",
+  "publication_age_quantiles": {
+    "0.5": 55.0,
+    "0.95": 144.0,
+    "1.0": 189.0
+  },
+  "period_age_quantiles": {
+    "0.5": 96.0,
+    "0.95": 171.0,
+    "1.0": 212.0
+  },
+  "pit_level": "publication_aligned_vendor_snapshot_revision_unknown",
+  "no_labels_or_returns_loaded": true,
+  "no_2021_plus_quarters_requested": true,
+  "candidates": {
+    "ROE": {
+      "family": "Quality",
+      "field": "roeAvg",
+      "direction": 1,
+      "coverage_gate": true,
+      "research_status": "NOT_EVALUATED"
+    },
+    "EARNINGS_GROWTH": {
+      "family": "Growth",
+      "field": "YOYNI",
+      "direction": 1,
+      "coverage_gate": true,
+      "research_status": "NOT_EVALUATED"
+    },
+    "LOW_ASSET_GROWTH": {
+      "family": "Investment",
+      "field": "YOYAsset",
+      "direction": -1,
+      "coverage_gate": true,
+      "research_status": "NOT_EVALUATED"
+    }
+  }
+}

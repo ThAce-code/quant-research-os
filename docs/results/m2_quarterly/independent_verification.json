@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checked_panel_cells": 956480,
+  "raw_request_hashes_verified": 10192,
+  "artifact_hashes_verified": 1581,
+  "method": "direct per-date eligible-event selection; production merge_asof not used",
+  "checks": [
+    "strict publication lag",
+    "latest fiscal precedence",
+    "publication and fiscal staleness",
+    "date-specific membership",
+    "missing field preservation"
+  ]
+}
