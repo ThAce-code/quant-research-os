@@ -7,15 +7,31 @@
     "stock_method_completeness.csv": "c8b60bca3eb12e4472b4b7c881f91503f97b43cfc85b13cb4766c05ebf974f26",
     "available_requests.json": "5585e81f4e686da66ea2c36077bc06cc4ddf8271abe352ff4f2b1c4af71e627e"
   },
-  "data_period": ["2008-01-01", "2020-07-31"],
-  "source_period": ["2006-01-01", "2020-06-30"],
-  "fields": {"query_profit_data": ["roeAvg", "npMargin"], "query_growth_data": ["YOYNI", "YOYAsset", "YOYEquity"]},
+  "data_period": [
+    "2008-01-01",
+    "2020-07-31"
+  ],
+  "source_period": [
+    "2006-01-01",
+    "2020-06-30"
+  ],
+  "fields": {
+    "query_profit_data": [
+      "roeAvg",
+      "npMargin"
+    ],
+    "query_growth_data": [
+      "YOYNI",
+      "YOYAsset",
+      "YOYEquity"
+    ]
+  },
   "source_assignment": "Keep complete BaoStock symbol-method histories; replace each incomplete symbol-method history entirely with separately labelled Eastmoney reconstruction. Never mix periods inside a symbol-method history or overwrite BaoStock caches.",
-  "availability": "Field-specific maximum NOTICE_DATE of required statements; strict signal date greater than availability. Missing dependencies create a missing event at current report notice, followed by a value only when every dependency is available. Never substitute UPDATE_DATE for NOTICE_DATE.",
-  "revision_policy": "Vendor latest historical values, original announcement aligned, revision unknown. Keep UPDATE_DATE and flag updates after notice. Not historical-version PIT.",
+  "availability": "Primary Eastmoney values become available strictly after maximum NOTICE_DATE and UPDATE_DATE across required statements. Emit missing at first notice until that time; unknown update timestamp stays missing. UPDATE_DATE is a conservative version-availability guard, never relabelled as first announcement. BaoStock retains frozen publication-aligned revision-unknown policy.",
+  "revision_policy": "Known restatement evidence forbids announcement backfill of latest Eastmoney values. Use conservative update-aware primary panels; announcement-aligned cross-source comparisons are diagnostic only. Historical original versions are not recovered.",
   "formulas": {
     "roeAvg": "PARENT_NETPROFIT / mean(previous year-end, current TOTAL_PARENT_EQUITY)",
-    "npMargin": "NETPROFIT / OPERATE_INCOME",
+    "npMargin": "NETPROFIT / OPERATE_INCOME for ordinary companies; NETPROFIT / TOTAL_OPERATE_INCOME for bank, securities, insurance report types",
     "YOYNI": "NETPROFIT_YOY / 100",
     "YOYAsset": "TOTAL_ASSETS_YOY / 100",
     "YOYEquity": "TOTAL_PARENT_EQUITY_YOY / 100"
@@ -25,10 +41,27 @@
   "invalid_dates": "Retain and quarantine invalid source dates. Invalid rows outside planned report periods and required opening-equity dependencies cannot enter panels; any required invalid row blocks the build.",
   "max_publication_age_days": 400,
   "max_period_age_days": 550,
-  "network": {"endpoint": "https://datacenter.eastmoney.com/securities/api/data/get", "batch_symbols": 10, "page_size": 200, "minimum_interval_seconds": 1.0, "timeout_seconds": [10, 30], "automatic_retries": 0},
-  "tables": ["GBALANCE", "BBALANCE", "SBALANCE", "IBALANCE", "GINCOME"],
+  "network": {
+    "endpoint": "https://datacenter.eastmoney.com/securities/api/data/get",
+    "batch_symbols": 10,
+    "page_size": 200,
+    "minimum_interval_seconds": 1.0,
+    "timeout_seconds": [
+      10,
+      30
+    ],
+    "automatic_retries": 0
+  },
+  "tables": [
+    "GBALANCE",
+    "BBALANCE",
+    "SBALANCE",
+    "IBALANCE",
+    "GINCOME"
+  ],
   "control_selection": "10 evenly spaced complete-history symbols in sorted symbol order, chosen without outcomes",
   "cross_source_comparison": "Descriptive per-field differences and publication-date differences on all overlap; do not claim exact substitution or tune formulas to improve agreement",
   "completion": "Every frozen request page succeeds or explicitly reports no data; every planned symbol-method-quarter is accounted for; all five full-scope panels independently replayed from raw inputs; coverage and cross-source differences disclosed. No new factor tests or protected-period access.",
-  "research_decisions_unchanged": true
+  "research_decisions_unchanged": true,
+  "amendment": "Before corrected build: source audit found financial-revenue denominator mismatch and retroactively restated 002027 figures. Correct semantics and conservatively delay revised values; no factor or return tests and no threshold tuning."
 }

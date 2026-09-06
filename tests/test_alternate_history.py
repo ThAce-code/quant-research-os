@@ -37,4 +37,15 @@ def test_revision_flag_is_not_a_claim_of_historical_version_recovery():
     income={'2016-03-31':{'NOTICE_DATE':'2016-04-20','UPDATE_DATE':'2022-04-20','NETPROFIT_YOY':5}}
     events=field_events('sz.000630',['2016-03-31'],{},income)
     assert events.revision_unknown.all() and events.updated_after_notice.all()
-    assert events.pubDate.eq(pd.Timestamp('2016-04-20')).all()
+    first=events[events.pubDate.eq(pd.Timestamp('2016-04-20'))]
+    assert first.value.isna().all()
+    revised=events[events.field.eq('YOYNI') & events.pubDate.eq(pd.Timestamp('2022-04-20'))]
+    assert revised.value.iloc[0]==.05
+
+
+def test_financial_income_uses_full_revenue_not_nonfinancial_subcomponent():
+    income={'2015-06-30':statement('2015-07-30',ORG_TYPE='证券',NETPROFIT=852050169.99,
+                                 TOTAL_OPERATE_INCOME=1352716949.58,OPERATE_INCOME=12068927.54)}
+    events=field_events('sz.000712',['2015-06-30'],{},income)
+    value=events[events.field.eq('npMargin')].value.iloc[0]
+    assert abs(value-.629881)<1e-6

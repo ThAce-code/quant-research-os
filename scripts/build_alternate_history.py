@@ -72,6 +72,7 @@ def main(folder):
                 if period in needed:
                     assert period<=row['NOTICE_DATE'][:10], f'Required invalid date: {symbol} {period}'
         em=field_events(code,periods,b,i)
+        diagnostic=field_events(code,periods,b,i,conservative=False)
         if len(em):em=em[em.pubDate.le(pd.Timestamp(c['data_period'][1]))]
         chosen=[]
         for method,fields in c['fields'].items():
@@ -85,7 +86,7 @@ def main(folder):
                 if raw is not None and len(raw):
                     assert raw.statDate.iloc[0]==period
                     bs.append(raw)
-                current=em[em.statDate.eq(pd.Timestamp(period)) & em.field.isin(fields)]
+                current=diagnostic[diagnostic.statDate.eq(pd.Timestamp(period)) & diagnostic.field.isin(fields)]
                 accounting.append({'symbol':symbol,'method':method,'period':period,'source':provider,
                                    'baostock_request_cached':raw is not None,
                                    'source_record_present':bool(len(raw)) if use_bs else bool(len(current)),
@@ -111,7 +112,7 @@ def main(folder):
         events.to_parquet(events_dir/f'{symbol}.parquet',index=False);event_count+=len(events)
         for field in FIELDS:
             e=events[events.field.eq(field)][['code','pubDate','statDate','value']].rename(columns={'value':field})
-            panels[field][symbol]=daily_panel(e,member.index,[field],400,550)[field].where(member[symbol])
+            panels[field][symbol]=pd.to_numeric(daily_panel(e,member.index,[field],400,550)[field],errors='coerce').astype(float).where(member[symbol])
         if n%50==0:print(f'PANELS {n}/726',flush=True)
     member.to_parquet(folder/'membership.parquet')
     pd.DataFrame(assignments).to_csv(folder/'source_assignment.csv',index=False)

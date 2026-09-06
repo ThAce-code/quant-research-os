@@ -16,7 +16,7 @@ def divide(numerator, denominator):
     return numerator / denominator
 
 
-def field_events(code, periods, balance, income):
+def field_events(code, periods, balance, income, conservative=True):
     """Emit missing current reports before delayed dependencies become available."""
     records = []
     for period in periods:
@@ -29,7 +29,8 @@ def field_events(code, periods, balance, income):
                                (numeric(b, 'TOTAL_PARENT_EQUITY')+numeric(opening, 'TOTAL_PARENT_EQUITY'))/2)
             elif field == 'npMargin':
                 current = needed = [i]
-                value = divide(numeric(i, 'NETPROFIT'), numeric(i, 'OPERATE_INCOME'))
+                denominator = 'TOTAL_OPERATE_INCOME' if i is not None and i.get('ORG_TYPE') in {'银行','证券','保险'} else 'OPERATE_INCOME'
+                value = divide(numeric(i, 'NETPROFIT'), numeric(i, denominator))
             else:
                 row, key = {'YOYNI': (i, 'NETPROFIT_YOY'), 'YOYAsset': (b, 'TOTAL_ASSETS_YOY'),
                             'YOYEquity': (b, 'TOTAL_PARENT_EQUITY_YOY')}[field]
@@ -41,6 +42,12 @@ def field_events(code, periods, balance, income):
             first = min(notices)
             complete = all(row is not None for row in needed)
             available = max(pd.Timestamp(row['NOTICE_DATE']).normalize() for row in needed) if complete else first
+            if complete and conservative:
+                updates=[pd.to_datetime(row.get('UPDATE_DATE'),errors='coerce') for row in needed]
+                if any(pd.isna(date) for date in updates):
+                    value=np.nan  # No trusted version timestamp; retain missing.
+                else:
+                    available=max([available]+[date.normalize() for date in updates])
             revision = any(pd.notna(row.get('UPDATE_DATE')) and pd.Timestamp(row['UPDATE_DATE']).normalize() > pd.Timestamp(row['NOTICE_DATE']).normalize()
                            for row in needed if row is not None)
             base = {'code':code, 'statDate':pd.Timestamp(period), 'field':field,

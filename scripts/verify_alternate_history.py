@@ -87,11 +87,14 @@ def main(folder):
                     assert first>=period
                     all_present=all(x is not None for x in dependencies)
                     available=max(x['NOTICE_DATE'][:10] for x in dependencies) if all_present else first
+                    updates_known=all(x is not None and pd.notna(x.get('UPDATE_DATE')) for x in dependencies)
+                    if all_present and updates_known:
+                        available=max([available]+[x['UPDATE_DATE'][:10] for x in dependencies])
                     value=np.nan
-                    if all_present:
+                    if all_present and updates_known:
                         try:
                             if f=='roeAvg':value=2*float(i['PARENT_NETPROFIT'])/(float(b['TOTAL_PARENT_EQUITY'])+float(opening['TOTAL_PARENT_EQUITY']))
-                            elif f=='npMargin':value=float(i['NETPROFIT'])/float(i['OPERATE_INCOME'])
+                            elif f=='npMargin':value=float(i['NETPROFIT'])/float(i['TOTAL_OPERATE_INCOME'] if i.get('ORG_TYPE') in ['银行','证券','保险'] else i['OPERATE_INCOME'])
                             elif f=='YOYNI':value=float(i['NETPROFIT_YOY'])*.01
                             elif f=='YOYAsset':value=float(b['TOTAL_ASSETS_YOY'])*.01
                             else:value=float(b['TOTAL_PARENT_EQUITY_YOY'])*.01
@@ -114,7 +117,7 @@ def main(folder):
                 safe=np.maximum(selected,0)
                 good=(selected>=0)&member[symbol].to_numpy()&((days-pub[safe])/np.timedelta64(1,'D')<=400)&((days-stat[safe])/np.timedelta64(1,'D')<=550)
                 want[good]=e.value.to_numpy()[safe[good]]
-            np.testing.assert_allclose(panels[f][symbol].to_numpy(),want,rtol=1e-12,atol=1e-12,equal_nan=True)
+            np.testing.assert_allclose(panels[f][symbol].to_numpy(dtype=float),want,rtol=1e-12,atol=1e-12,equal_nan=True)
             cells+=len(want)
         if n%50==0:print(f'INDEPENDENT PANELS {n}/726',flush=True)
     result={'status':'PASS','raw_derived_events_checked':event_rows,'panel_cells_checked':cells,'eastmoney_pages_checked':network_pages,
