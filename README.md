@@ -79,6 +79,7 @@ M2整体尚未完成。完整Alpha158地图、五个经济机制的有限筛选�
 - [模型独立验收](docs/results/m2_rolling/independent_verification.json)
 - [历史财务缓存保全](docs/results/m2_history_blocked/report.md)
 - [服务恢复说明](docs/BAOSTOCK_ACCESS_RESTRICTION.md)
+- [AKShare替代源小样本成功，整批尚待验证](docs/AKSHARE_FEASIBILITY.md)
 - [研究路线](docs/M2_ROADMAP.md)
 
 旧Value pilot、Alpha158地图、四族筛选与补充结果保留在docs/results；历史FORWARD不能充当当前准入。原始数据、面板、模型和SQLite留在本地。研究范围是历史CSI300，不是全市场；公告时间对齐且修订未知，不是完整历史版本PIT。

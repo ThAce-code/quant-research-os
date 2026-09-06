@@ -1,8 +1,9 @@
 {
-  "status": "INCOMPLETE_PROVIDER_RESTRICTION",
+  "status": "INCOMPLETE_ALTERNATE_SOURCE_VALIDATION",
   "objective": "Complete all M2 research tasks",
   "remaining": [
-    "Complete original historical financial request plan",
+    "Validate alternate-source mapping, availability dates and full historical coverage",
+    "Complete original stock/period/field scope with separate source provenance",
     "Independently verify all five full panels",
     "Perform final overall completion audit"
   ],
@@ -21,5 +22,13 @@
   "valid_model_run": "20260906T092732142566Z",
   "source_failure_run": "20260906T090008112664Z",
   "offline_audit_run": "20260906T095714683879Z",
-  "no_2021_plus_access": true
+  "no_2021_plus_access": true,
+  "alternative_source": {
+    "provider": "AKShare/Eastmoney",
+    "status": "SMALL_SAMPLE_FEASIBILITY_PASSED",
+    "compared_values": 17,
+    "within_1e_6": 17,
+    "full_coverage_verified": false,
+    "report": "docs/AKSHARE_FEASIBILITY.md"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "experiments/m2/akshare_source_probe/20260906T105247160449Z/000630.SZ.csv": "1bbd8cd35e0ea3bb8779f5904484646d3eccb8446e5308b138f0f35fe72af9cd",
+  "experiments/m2/akshare_source_probe/20260906T105247160449Z/600519.SH.csv": "53ee9bdef91c59d23d4db3a6295fad533860d385feb4a8e66a5d77dfc64ca5ac",
+  "experiments/m2/akshare_source_probe/20260906T105247160449Z/probe.json": "66a1b8b8d2ccc73249fb4c58e866e1ffe304378d063d8e67bf3d4667d3bb44c7",
+  "experiments/m2/akshare_source_probe/20260906T105247160449Z/response_1.json": "b5f2fa425cec9055d9e9ac63bdb9ca423cf6b93ac94f064fb056e14a8f7537b5",
+  "experiments/m2/akshare_source_probe/20260906T105247160449Z/response_2.json": "70653c409b5983ba8bceace74f0c3e1ad3855847a5dc0262aeac49367402230e",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/comparison.csv": "8c793988dfa67a78989d4fa80870a6f3006a3866249a2e382807df5340988318",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/comparison_summary.json": "a6d6a5e21874bb444b35febc7142295bfc69854a1b9cef7e50e87a12d513a98d",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/probe.json": "b6a9a9d2a66f1719c67dd6576e3603371775847b9f8de3daedfd819936d9c4fc",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SH600519_lrb.json": "2d1eb98671806c66910bf6cfab10b29ae7eed3044ad9926db7c86c640f1fbac4",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SH600519_opening_equity.json": "58bfefec57946b1f4f7e4098aabc47666be8aaf71d0f3331257d540fed304f0b",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SH600519_zcfzb.json": "e3b25217e09bc32586bc8013698b70b6360946516f24d9aeae827d6a2b200555",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SZ000630_lrb.json": "8f80fef185f7e21c5e8ddcd18326fd79bda0e662d051e4fc699933ce93dcfea1",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SZ000630_opening_equity.json": "4e7ad1f7980617c89482c376ff51726e299758941fdc16de2358285e6efbe2be",
+  "experiments/m2/akshare_statement_probe/20260906T105421549133Z/SZ000630_zcfzb.json": "651b702b878a0f7b09a518dcc0da2c2055ba60ec3ec6f8b2a1d9012c007f5593",
+  "scripts/probe_akshare_history.py": "867a2eb833612f3099aca57194b8c428c1540bceb03567acae5959904bae1607",
+  "scripts/probe_akshare_statements.py": "083ecd3d85904465c7396dd5252def8834d2e999ba24b13ca446f1d79dd86b1e"
+}

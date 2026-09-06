@@ -21,6 +21,11 @@
   data/baostock_access_restriction.json stops collection before networking.
   Do not retry BaoStock or bypass the denial without evidence of restored access;
   legitimately supplied missing raw caches can also unblock offline completion.
+  The user has now authorized trying AKShare as an independent alternate source.
+  Two-stock historical statement reconstruction matches all 17 comparable cached
+  values within 1e-6; this is feasibility only. See docs/AKSHARE_FEASIBILITY.md.
+  Continue alternate-source coverage/date validation with separate provenance;
+  do not label its responses as BaoStock or infer full coverage from this sample.
   Full five-field independent verification and overall M2 completion remain open.
   Qualification and lockbox have recorded no-entry decisions: neither was
   executed or passed. Do not start M3 agents,

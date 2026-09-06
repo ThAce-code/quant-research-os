@@ -714,5 +714,21 @@
   "docs/results/m2_history_blocked/collection_failure.json": {
     "source_run": "20260906T090008112664Z",
     "sha256": "e35560343aa9f07826b6c4a3e9916afc07bb7bd3098a696877dff6287d9d6bb3"
+  },
+  "docs/results/m2_akshare_probe/indicator_probe.json": {
+    "source_run": "20260906T105247160449Z",
+    "sha256": "66a1b8b8d2ccc73249fb4c58e866e1ffe304378d063d8e67bf3d4667d3bb44c7"
+  },
+  "docs/results/m2_akshare_probe/comparison.csv": {
+    "source_run": "20260906T105421549133Z",
+    "sha256": "8c793988dfa67a78989d4fa80870a6f3006a3866249a2e382807df5340988318"
+  },
+  "docs/results/m2_akshare_probe/comparison_summary.json": {
+    "source_run": "20260906T105421549133Z",
+    "sha256": "a6d6a5e21874bb444b35febc7142295bfc69854a1b9cef7e50e87a12d513a98d"
+  },
+  "docs/results/m2_akshare_probe/source_and_raw_hashes.json": {
+    "source_run": "20260906T105421549133Z",
+    "sha256": "e2e1bfdc01667a40cc51a09ab442d96e537c54be275d9cecf74c7fa8096ab192"
   }
 }
