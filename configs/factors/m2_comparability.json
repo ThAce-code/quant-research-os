@@ -1,0 +1,19 @@
+{
+  "name": "m2_fundamental_comparability_v1",
+  "period": ["2015-01-01", "2016-12-31"],
+  "quarterly_run": "experiments/m2/m2_quarterly_pilot_universe_v1/20260906T061523076221Z",
+  "screen_run": "experiments/m2/m2_four_family_screen_v1/20260906T063503769408Z",
+  "pilot_run": "experiments/m2/m2_value_pilot_v1/20260905T055210630475Z",
+  "views": ["nonfinancial", "nonfinancial_same_fiscal_period"],
+  "financial_codes": ["J66", "J67", "J68", "J69"],
+  "fiscal_period_selection": "daily modal statDate among eligible nonfinancial stocks; newest period breaks ties; never use returns",
+  "horizon": 5,
+  "min_pairs": 30,
+  "probe_codes": ["sh.600000", "sh.600519", "sz.000002"],
+  "probe_years": [2008, 2012, 2014, 2016, 2019, 2020],
+  "probe_methods": ["query_profit_data", "query_growth_data", "query_cash_flow_data"],
+  "probe_quarters": "Q1 and Q4 except 2020 Q1 only; dates and availability only, no return screening",
+  "status_policy": "DIAGNOSTIC_ONLY; original three IC_SCREEN_REJECT decisions cannot be upgraded by these views",
+  "historical_scope_target": ["2008-01-01", "2020-07-31"],
+  "historical_scope_limit": "Three-stock endpoint probes are not full-universe quarterly coverage"
+}
