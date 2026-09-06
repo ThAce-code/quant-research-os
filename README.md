@@ -116,7 +116,9 @@ ROE、净利润增长、低资产增长中性化后的RankIC分别为0.0069、-0
 [四族结果](docs/results/m2_family_screen/report.md)。BP条件诊断精确复现，仍为FORWARD。
 
 筛选入口：`python scripts/run_family_screen.py <quarterly_run_directory>`。
-当前141项测试通过。下一优先事项是BP的含成本同样本增量与滚动模型实验；
-季度更长历史在具体候选需要时扩展。M2整体未完成，2021+资格/锁箱未访问。
+当前141项测试通过。下一批先明确更长已观察历史、财报可比性检查与有限补充假设的预注册，
+再集中做含成本增量与滚动模型；BP优先但不独占路线。M2整体未完成，2021+资格/锁箱未访问。
 
 本轮季度独立验收：956,480个日度面板值、10,192个原始响应哈希和1,581个产物哈希通过核验。[验收记录](docs/results/m2_quarterly/independent_verification.json)，[141项回归测试](docs/results/m2_quarterly/regression_tests.txt)。
+
+当前状态统一入口：[CONTEXT.md](CONTEXT.md) → [项目研究上下文](docs/PROJECT_CONTEXT.md)。本文件历史批次标题沿用当时编号，当前M2.0–M2.7状态以该上下文表为准。

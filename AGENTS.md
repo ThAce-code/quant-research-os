@@ -6,8 +6,10 @@
   concrete research blocker. Do not modify vendor Qlib source.
 - Alpha158 mapping and the first four-family historical screen are complete.
   The three new quarterly formulas failed their frozen screen; do not flip signs
-  or retune this batch. Prioritize BP paired net increments and rolling model
-  add/drop; expand quarterly history only for concrete surviving-candidate needs.
+  or retune this batch. Three formulas on two years do not close the economic
+  families. Define longer-history data/comparability checks and a bounded
+  preregistered supplementary batch before model-increment work. BP has priority,
+  but is not the only permissible research direction.
   Full-history data and M2 completion gates remain open. Do not start M3 agents,
   dashboards or trading automation as part of this work.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.
@@ -25,3 +27,10 @@
 - Separate commits by topic. Publish small reports/configurations and source-run
   evidence under `docs/results`; keep raw market data, full feature panels, caches,
   credentials and large experiment artifacts out of Git.
+
+- At the end of every batch and whenever scope changes, update
+  `docs/PROJECT_CONTEXT.md` before the final response: update date, evidence
+  revision/run IDs, completed work, negative findings, verification, remaining
+  gaps and next batch. Synchronize `docs/M2_ROADMAP.md` and these instructions
+  when the plan changes. `CONTEXT.md` is a stable pointer, not a second status
+  copy. Use canonical M2.0–M2.7 numbering; do not rewrite frozen old reports.
