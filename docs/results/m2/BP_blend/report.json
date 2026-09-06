@@ -1,0 +1,149 @@
+{
+  "status": "FORWARD",
+  "reasons": [
+    "reference/control only, not candidate admission"
+  ],
+  "config": {
+    "name": "m2_value_pilot_v1",
+    "start": "2014-12-01",
+    "end": "2016-12-31",
+    "evaluation_start": "2015-01-01",
+    "primary_horizon": 5,
+    "horizons": [
+      5,
+      20
+    ],
+    "block_length": 20,
+    "bootstrap_samples": 2000,
+    "seed": 42,
+    "min_coverage": 0.7,
+    "min_rank_ic": 0.01,
+    "max_q": 0.1,
+    "blend_candidate_weight": 0.25,
+    "min_increment_annual": 0.01,
+    "factors": {
+      "BP": "pbMRQ",
+      "EP": "peTTM",
+      "SP": "psTTM"
+    },
+    "pit_level": "vendor_historical_snapshot_revision_unknown",
+    "sample_role": "previously_observed_historical_exploration_not_holdout",
+    "industry_sampling": "month_end_snapshot_available_next_trading_day_max_age_62_days",
+    "negative_denominator": "exclude",
+    "reference": "negative_20_day_return_volatility",
+    "scope": "M2 infrastructure v1 and first value-factor experiment; no independent alpha confirmation",
+    "segments": {
+      "valid": [
+        "2015-01-01",
+        "2016-12-31"
+      ]
+    }
+  },
+  "splits": {
+    "valid": {
+      "coverage": 0.6925409836065574,
+      "decay": {
+        "5": {
+          "days": 474,
+          "pairs": 92080,
+          "ic": 0.024707293128881473,
+          "ic_std": 0.1323490281442473,
+          "icir": 0.18668284516568553,
+          "positive_ic_ratio": 0.5991561181434599,
+          "rank_ic": 0.049641591095697185,
+          "rank_ic_std": 0.12873746766782931,
+          "rank_icir": 0.3856032901298268,
+          "positive_rank_ic_ratio": 0.6645569620253164
+        },
+        "20": {
+          "days": 461,
+          "pairs": 86729,
+          "ic": 0.05788645287292757,
+          "ic_std": 0.14145229082754399,
+          "icir": 0.40922951854842465,
+          "positive_ic_ratio": 0.6963123644251626,
+          "rank_ic": 0.08605444024865803,
+          "rank_ic_std": 0.13733406254379096,
+          "rank_icir": 0.6266066746639664,
+          "positive_rank_ic_ratio": 0.7462039045553145
+        }
+      },
+      "primary": {
+        "days": 474,
+        "pairs": 92080,
+        "ic": 0.024707293128881473,
+        "ic_std": 0.1323490281442473,
+        "icir": 0.18668284516568553,
+        "positive_ic_ratio": 0.5991561181434599,
+        "rank_ic": 0.049641591095697185,
+        "rank_ic_std": 0.12873746766782931,
+        "rank_icir": 0.3856032901298268,
+        "positive_rank_ic_ratio": 0.6645569620253164
+      },
+      "years": {
+        "2015": {
+          "days": 236,
+          "pairs": 42397,
+          "ic": 0.02911274557578089,
+          "ic_std": 0.1359665771083114,
+          "icir": 0.21411692634278487,
+          "positive_ic_ratio": 0.6186440677966102,
+          "rank_ic": 0.053135581755211006,
+          "rank_ic_std": 0.12796052410780068,
+          "rank_icir": 0.4152497977458016,
+          "positive_rank_ic_ratio": 0.6864406779661016
+        },
+        "2016": {
+          "days": 238,
+          "pairs": 49683,
+          "ic": 0.02033886129077952,
+          "ic_std": 0.12879918462992865,
+          "icir": 0.1579114134085399,
+          "positive_ic_ratio": 0.5798319327731093,
+          "rank_ic": 0.046176961702229694,
+          "rank_ic_std": 0.1296796488154739,
+          "rank_icir": 0.35608487626255564,
+          "positive_rank_ic_ratio": 0.6428571428571429
+        }
+      },
+      "inference": {
+        "mean": 0.049641591095697185,
+        "low": 0.025636524982252076,
+        "high": 0.07233611464127895,
+        "p": 0.0004997501249375312
+      },
+      "portfolio": {
+        "top10": {
+          "gross_return": 0.3949924609135449,
+          "net_return": 0.25779724675998783,
+          "net_cagr": 0.11835735658519364,
+          "net_mdd": -0.42852838707564167,
+          "net_excess_annual": 0.1423178719757655,
+          "net_excess_ir": 1.5695071303811605,
+          "net_excess_mdd": -0.09869120271543652,
+          "gross_excess_annual": 0.19289762341080482,
+          "mean_turnover": 0.21345276092231888,
+          "annual_cost_drag": 0.05057975143503934,
+          "test_days": 488
+        },
+        "top20": {
+          "gross_return": 0.25670357273141264,
+          "net_return": 0.16413729505059726,
+          "net_cagr": 0.07693768483232377,
+          "net_mdd": -0.45973194980153254,
+          "net_excess_annual": 0.10985849135915175,
+          "net_excess_ir": 1.4319458383074737,
+          "net_excess_mdd": -0.0635675678760845,
+          "gross_excess_annual": 0.14723969927256378,
+          "mean_turnover": 0.15801108070423836,
+          "annual_cost_drag": 0.03738120791341203,
+          "test_days": 488
+        }
+      },
+      "double_fee_net_excess_annual": 0.07247728559558572,
+      "size_rank_corr": -0.02357432207885007
+    }
+  },
+  "artifact_directory": "F:\\workspace\\finance\\quant-research-os\\experiments\\m2\\m2_value_pilot_v1\\20260905T055210630475Z\\BP_blend",
+  "holdout_status": "NOT_RUN"
+}

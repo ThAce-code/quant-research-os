@@ -1,0 +1,9 @@
+factor,direction,valid_rank_ic,valid_net_excess_annual,test_rank_ic,test_net_excess_annual,test_net_mdd,status,reasons
+MOM_20,1,-0.07570897373475934,-0.25920815421831567,-0.01733263542077225,-0.08326298709888111,-0.44500475814523854,REJECT,validation_gate:rank_ic;validation_gate:positive_rank_ic_ratio;validation_gate:net_excess_annual
+MOM_60,1,-0.0820498239437196,-0.2734477401244309,-0.001572729772606989,-0.00028491709876205483,-0.3579903668812613,REJECT,validation_gate:rank_ic;validation_gate:positive_rank_ic_ratio;validation_gate:net_excess_annual
+REV_5,1,0.057030066853360734,0.006598641845088657,0.02209990489819315,-0.17545813053641116,-0.4756178482700002,FORWARD,missing_exposure:size;missing_exposure:industry;existing_keep_pool_unavailable
+VOL_20,-1,0.055032284133203754,0.11422595725228926,0.0151920739903195,-0.1392627625637521,-0.34910061952019555,FORWARD,missing_exposure:size;missing_exposure:industry;existing_keep_pool_unavailable
+TURNOVER_MEAN_20,-1,0.04379901186546087,0.10609193752868107,0.032507811424837406,-0.06437007403458087,-0.2658464473601029,FORWARD,missing_exposure:size;missing_exposure:industry;existing_keep_pool_unavailable
+TURNOVER_CHANGE_20,-1,0.010577496862111577,-0.09569968895825999,-0.0008189444765196013,-0.170711773530431,-0.45768901038022325,REJECT,validation_gate:net_excess_annual
+VOLUME_RATIO_5_20,-1,0.011086786312571085,-0.10048017063736515,-0.000215845483618875,-0.1701324196874599,-0.45642715190713956,REJECT,validation_gate:net_excess_annual
+PRICE_POSITION_60,1,-0.06272348310032556,-0.24712371502287656,0.00626140415237509,0.0049350231305739165,-0.3416980340520802,REJECT,validation_gate:rank_ic;validation_gate:positive_rank_ic_ratio;validation_gate:net_excess_annual

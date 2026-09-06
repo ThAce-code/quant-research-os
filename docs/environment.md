@@ -33,9 +33,9 @@ guarantee that these development builds are available from a public package inde
 | pytest | 9.1.1 |
 
 Git stores project source, configurations, tests, documentation and the frozen M0
-source/manifest. Market datasets, experiment outputs, SQLite databases, caches
-and the vendor checkout remain local and are not uploaded. README experiment
-links therefore refer to artifacts in the original workspace, not hosted files.
+source/manifest. Selected reports and validation records are published under
+`docs/results` with source-run IDs and checksums. Market datasets, complete
+experiment outputs, SQLite databases, caches and the vendor checkout remain local.
 
 A new clone alone cannot reproduce the exact frozen run: the baseline manifest
 references the original artifact location and hashes. Restoring that snapshot is

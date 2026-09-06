@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-09-03T00:46:19.795087+00:00",
+  "tests": "18 passed",
+  "expected_membership_rows": 261300,
+  "prediction_rows": 261297,
+  "test_days": 871,
+  "extra_prediction_rows": 0,
+  "source_missing_rows": [
+    {
+      "date": "2017-02-15",
+      "instrument": "SH600005",
+      "reason": "No source bar; outside available Qlib instrument span",
+      "last_available_source_bar": "2017-02-14"
+    },
+    {
+      "date": "2017-02-16",
+      "instrument": "SH600005",
+      "reason": "No source bar; outside available Qlib instrument span",
+      "last_available_source_bar": "2017-02-14"
+    },
+    {
+      "date": "2017-02-17",
+      "instrument": "SH600005",
+      "reason": "No source bar; outside available Qlib instrument span",
+      "last_available_source_bar": "2017-02-14"
+    }
+  ],
+  "usable_label_rows": 254364,
+  "independent_signal_metrics": {
+    "IC": 0.04942839346363402,
+    "ICIR": 0.4123214563493522,
+    "Rank IC": 0.051816369937908696,
+    "Rank ICIR": 0.44407060296259787
+  },
+  "independent_net_excess_metrics": {
+    "annualized_return": 0.09823673324083579,
+    "information_ratio": 1.167644352096994,
+    "max_drawdown": -0.08470575521986573
+  },
+  "metric_match_tolerance": {
+    "rtol": 1e-06,
+    "atol": 1e-07,
+    "note": "CSV roundtrip converts Qlib float32 benchmark values to decimal float64"
+  },
+  "artifacts_sha256": {
+    "predictions.parquet": "eb946ed8dfe85014ea6a633ff8883982fffbcf14d168c27c9b7011922975a796",
+    "labels.parquet": "fcd23db3a58e60aebe075261d8f23c3882acf3a9334c1cc91d3d979b77411e50",
+    "daily_ic.csv": "a4759f0a31257167f89e451cc9ed813b2f59786c9b2212e52f66704b29f9b5fb",
+    "daily_backtest.csv": "ba2c7261985d02ea40f09c85003a406e7ed99ee252009d8d7857d8e41298acfb",
+    "metrics.json": "ec49af5b858a1a525c7d607f1aaac006fded77b7f3433b7c7bc41d133e4db745",
+    "model.txt": "2ad7cb97364564fa10c6f960b1648865381d36415d1341974e9037419c8a87b5",
+    "performance.png": "a4e3cc51f488d1cd1c8850e42b6c4a8cdddfa767f22beb786058a79fa8dd1781"
+  }
+}

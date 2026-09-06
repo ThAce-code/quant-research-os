@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-09-03T07:02:14.084199+00:00",
+  "factors": 8,
+  "sampled_daily_rank_ic_checks": 3360,
+  "source_label_cell_checks": 45915,
+  "portfolio_day_checks": 21744,
+  "failed_history_preserved": 16,
+  "unit_tests": 122,
+  "scope": "membership, source label timing/limits on three stocks, sampled saved IC, all saved portfolios, SQLite parity, source/data identity"
+}

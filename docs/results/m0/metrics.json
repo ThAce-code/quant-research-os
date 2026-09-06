@@ -1,0 +1,45 @@
+{
+  "signal": {
+    "IC": 0.04942839346363402,
+    "ICIR": 0.4123214563493522,
+    "Rank IC": 0.051816369937908696,
+    "Rank ICIR": 0.44407060296259787
+  },
+  "portfolio": {
+    "benchmark": {
+      "mean": 0.000477148249046877,
+      "std": 0.012295189313590527,
+      "annualized_return": 0.11356128007173538,
+      "information_ratio": 0.5986963440018642,
+      "max_drawdown": -0.3704770803451538
+    },
+    "excess_gross": {
+      "mean": 0.000567640650515987,
+      "std": 0.005454174367136552,
+      "annualized_return": 0.1350984748228049,
+      "information_ratio": 1.6055836966638,
+      "max_drawdown": -0.0746601533504429
+    },
+    "excess_net": {
+      "mean": 0.0004127593907889541,
+      "std": 0.00545349412873927,
+      "annualized_return": 0.09823673500777108,
+      "information_ratio": 1.1676443747518128,
+      "max_drawdown": -0.08470575174170905
+    },
+    "strategy_net_compound": {
+      "mean": 0.000790572114522714,
+      "std": 0.014116099354503076,
+      "annualized_return": 0.20693227086517663,
+      "information_ratio": 0.8640030263968392,
+      "max_drawdown": -0.23394943123679424
+    }
+  },
+  "best_iteration": 31,
+  "test_days": 871,
+  "prediction_rows": 261297,
+  "mean_daily_turnover": 0.15534972876739905,
+  "annualized_cost_drag": 0.036861739815033864,
+  "recorder_id": "cf3fb3f771144bf9814dd8e30a877d98",
+  "experiment_id": "594100278276327519"
+}

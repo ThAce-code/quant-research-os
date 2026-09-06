@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "candidate_variants": 6,
+  "portfolio_variants": 13,
+  "baseline_unchanged": true,
+  "source_unchanged": true,
+  "data_hashes_verified": true,
+  "max_ols_orthogonality_error": 2.120252523087097e-14
+}

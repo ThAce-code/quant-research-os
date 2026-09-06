@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "source_cells": 628530,
+  "independent_spearman_samples": 351,
+  "portfolio_days": 12688,
+  "industry_cells": 141,
+  "registry_parity": true
+}
