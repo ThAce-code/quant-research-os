@@ -1,0 +1,7 @@
+{
+  "status": "FAIL",
+  "run_id": "20260906T090008112664Z",
+  "requests_completed": 29400,
+  "requests_total": 40520,
+  "error": "BaoStock 10001011: 黑名单用户，请与管理员联系; request={'method': 'query_growth_data', 'params': {'code': 'sz.000630', 'year': 2007, 'quarter': 3}}"
+}

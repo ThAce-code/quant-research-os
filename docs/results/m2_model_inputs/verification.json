@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "baseline_identity": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325",
+  "legacy_mapping": "none; contemporaneous full-string categories",
+  "2015_plus_scores_identical": true,
+  "features": 158,
+  "rows": 918282,
+  "no_2021_plus_access": true,
+  "source_run": "20260906T072711741731Z",
+  "industry_source": "https://www.csrc.gov.cn/csrc/c101864/c1024632/content.shtml"
+}

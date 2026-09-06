@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "model_predictions_replayed": 2424,
+  "independent_rank_ic_days": 200,
+  "folds_checked": 24,
+  "primary_joint_decisions_checked": 3,
+  "artifact_hashes_checked": 50,
+  "no_2021_plus_access": true,
+  "all_prediction_rows_match_causal_universe": true,
+  "labels_match_input": true,
+  "limits": "model replay and independent IC samples; inference reuses previously tested block routine"
+}

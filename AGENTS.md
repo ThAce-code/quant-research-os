@@ -10,11 +10,20 @@
   families. Comparability diagnostics are complete; the next two-formula batch
   is frozen in configs/factors/m2_supplementary.json. Its collection and fixed
   historical screen have now run; both supplementary formulas are IC_SCREEN_REJECT.
-  Stop adding formulas. Resolve the observed 2008–2012 legacy industry-text
-  compatibility gap without future backfill, then freeze a bounded rolling
-  model protocol and validate its training coverage before execution.
+  Stop adding formulas. Legacy industry-text handling is corrected without
+  future backfill. The frozen rolling protocol has completed 24 fits and six
+  paired portfolios; corrected run 20260906T092732142566Z is NO_GO and has
+  independent prediction replay verification. Conditional diagnostics are done.
   BP has priority but is not the only research direction.
-  Full-history data and M2 completion gates remain open. Do not start M3 agents,
+  Full-history profitability/growth data remains incomplete: 8,354 of 40,520
+  requests are missing after BaoStock error 10001011 (explicit blacklist).
+  Do not waive this task because models are NO_GO. The local guard at
+  data/baostock_access_restriction.json stops collection before networking.
+  Do not retry BaoStock or bypass the denial without evidence of restored access;
+  legitimately supplied missing raw caches can also unblock offline completion.
+  Full five-field independent verification and overall M2 completion remain open.
+  Qualification and lockbox have recorded no-entry decisions: neither was
+  executed or passed. Do not start M3 agents,
   dashboards or trading automation as part of this work.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.
   Do not call them fresh OOS. Do not access 2021+ qualification/lockbox observations

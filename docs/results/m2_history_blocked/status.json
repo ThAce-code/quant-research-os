@@ -1,0 +1,13 @@
+{
+  "status": "PARTIAL_BLOCKED",
+  "network_calls": 0,
+  "planned_requests": 40520,
+  "verified_cached_requests": 32166,
+  "missing_requests": 8354,
+  "complete_symbol_methods": 987,
+  "total_symbol_methods": 1452,
+  "data_complete": false,
+  "provider_error": "10001011",
+  "source_failed_run": "20260906T090008112664Z",
+  "interpretation": "Known incomplete symbol-method histories are entirely withheld; no old-value resurrection or completeness claim"
+}

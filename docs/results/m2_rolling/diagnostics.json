@@ -1,0 +1,40 @@
+{
+  "DROP_BP": {
+    "interpretation": "effect retained by ADD_BOTH versus ADD_CASHFLOW",
+    "net_increment": {
+      "mean": 0.00016427838909590807,
+      "low": 4.157326311782668e-06,
+      "high": 0.00031943208297305277,
+      "p": 0.01999000499750125
+    }
+  },
+  "DROP_CASHFLOW": {
+    "interpretation": "effect retained by ADD_BOTH versus ADD_BP",
+    "net_increment": {
+      "mean": -0.00013959398897165647,
+      "low": -0.00031788212324364187,
+      "high": 3.660231601940498e-05,
+      "p": 0.9385307346326837
+    }
+  },
+  "BLEND_BP": {
+    "net_increment": {
+      "mean": -0.00021702300596042576,
+      "low": -0.0006430329492554464,
+      "high": 0.0002060934611574737,
+      "p": 0.8480759620189905
+    },
+    "annual_net_increment": -0.05165147541858133,
+    "status": "DIAGNOSTIC_ONLY"
+  },
+  "BLEND_CASHFLOW": {
+    "net_increment": {
+      "mean": -0.00019696296596334977,
+      "low": -0.0004228191045085134,
+      "high": 2.135315497619455e-05,
+      "p": 0.9540229885057471
+    },
+    "annual_net_increment": -0.046877185899277245,
+    "status": "DIAGNOSTIC_ONLY"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "src/quant_research/m2/rolling.py": "f021e0c7c56de2dc71c89a7089856254cd4cbb3c7291d5d10b1a736c48bce703",
+  "configs/factors/m2_rolling.json": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a",
+  "src/quant_research/factors/analytics.py": "5bf7f0c0147fd4493fa2b315195a18bd7c69cdfe39a8a83a37b1a90d599b7fd1",
+  "src/quant_research/factors/portfolio.py": "d19022711a6150a81412a6940bd5fb45307287ceed1e2c5ae2e58d7c95335ea7",
+  "src/quant_research/m2/core.py": "d892703a75c19359d1425bcd2dc8673b9a2f7b97ecaa1c5be8323ba9b041a995"
+}

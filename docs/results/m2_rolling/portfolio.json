@@ -1,0 +1,80 @@
+{
+  "BASE": {
+    "gross_return": 1.5007762760362713,
+    "net_return": 1.459500282275719,
+    "net_cagr": 0.1707078574797909,
+    "net_mdd": -0.43838988537687174,
+    "net_excess_annual": 0.10734355639377693,
+    "net_excess_ir": 1.1966415639433041,
+    "net_excess_mdd": -0.141625842603125,
+    "gross_excess_annual": 0.1102727597040296,
+    "mean_turnover": 0.012668241339229022,
+    "annual_cost_drag": 0.002929203310252656,
+    "test_days": 1359
+  },
+  "ADD_BP": {
+    "gross_return": 1.345819635120678,
+    "net_return": 1.301399250662433,
+    "net_cagr": 0.15716478431640346,
+    "net_mdd": -0.4235943189104613,
+    "net_excess_annual": 0.09207567093387728,
+    "net_excess_ir": 1.1594958777370543,
+    "net_excess_mdd": -0.10628392900550454,
+    "gross_excess_annual": 0.09544012318525932,
+    "mean_turnover": 0.014498153047730965,
+    "annual_cost_drag": 0.0033644522513820393,
+    "test_days": 1359
+  },
+  "ADD_CASHFLOW": {
+    "gross_return": 0.5558087362929174,
+    "net_return": 0.5326643087134273,
+    "net_cagr": 0.07764846077143805,
+    "net_mdd": -0.41209190558870135,
+    "net_excess_annual": 0.019754044953796925,
+    "net_excess_ir": 0.24063468034100868,
+    "net_excess_mdd": -0.3089659918449585,
+    "gross_excess_annual": 0.022393791339745006,
+    "mean_turnover": 0.011452428718779942,
+    "annual_cost_drag": 0.002639746385948094,
+    "test_days": 1359
+  },
+  "ADD_BOTH": {
+    "gross_return": 0.9287082527281514,
+    "net_return": 0.8992643821380684,
+    "net_cagr": 0.11889239738359514,
+    "net_mdd": -0.4285177230201286,
+    "net_excess_annual": 0.058852301558623046,
+    "net_excess_ir": 0.768669724639279,
+    "net_excess_mdd": -0.1504807825820912,
+    "gross_excess_annual": 0.061557922805833276,
+    "mean_turnover": 0.011729495643299538,
+    "annual_cost_drag": 0.0027056212472102376,
+    "test_days": 1359
+  },
+  "BLEND_BP": {
+    "gross_return": 0.8629784592479699,
+    "net_return": 0.7626418693904782,
+    "net_cagr": 0.10435935186018508,
+    "net_mdd": -0.4864121807020595,
+    "net_excess_annual": 0.05569208097519562,
+    "net_excess_ir": 0.5718825341235314,
+    "net_excess_mdd": -0.22048345264761093,
+    "gross_excess_annual": 0.06540963891990825,
+    "mean_turnover": 0.04118022185480738,
+    "annual_cost_drag": 0.009717557944712636,
+    "test_days": 1359
+  },
+  "BLEND_CASHFLOW": {
+    "gross_return": 0.9276837142941288,
+    "net_return": 0.8967555960893043,
+    "net_cagr": 0.11863342064739246,
+    "net_mdd": -0.44347855232249966,
+    "net_excess_annual": 0.06046637049449972,
+    "net_excess_ir": 0.7454658729052307,
+    "net_excess_mdd": -0.0970644955121161,
+    "gross_excess_annual": 0.06330964360573733,
+    "mean_turnover": 0.012307729388197118,
+    "annual_cost_drag": 0.0028432731112376167,
+    "test_days": 1359
+  }
+}

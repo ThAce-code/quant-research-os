@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "archived_trials_checked": 7,
+  "prior_trials_preserved": 26,
+  "total_trials": 33,
+  "keep_pool_size": 0,
+  "registry_schema_unchanged": true,
+  "readback_report_parity": true
+}

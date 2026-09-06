@@ -1,0 +1,17 @@
+{
+  "period": [
+    "2016-01-01",
+    "2016-12-31"
+  ],
+  "fit": [
+    "2015-01-01",
+    "2015-12-31"
+  ],
+  "horizon": 5,
+  "pca_cap": 20,
+  "variance_target": 0.9,
+  "min_rows_per_parameter": 2,
+  "status": "POST_RESULT_DIAGNOSTIC_ONLY",
+  "timing": "initiated after fixed rolling NO_GO; no candidate selection, gate changes, sign flips or tuning",
+  "reference": "reuse exact previously frozen Alpha158 representative PCA; cannot represent full technical information"
+}

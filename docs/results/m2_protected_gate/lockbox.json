@@ -1,0 +1,23 @@
+{
+  "status": "NOT_OPENED_NO_ELIGIBLE_CANDIDATE",
+  "phase": "lockbox",
+  "period": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "executed": false,
+  "passed": false,
+  "upstream_decision": "NO_GO",
+  "upstream_run": "20260906T092732142566Z",
+  "upstream_hashes": {
+    "research_decision.json": "31bc078e173ec1e69082c71413e859338145b4e44639233a39a4af8acb89b97e",
+    "comparisons.json": "1c5805ad5ef4d8143e680fd2e566bdbc7ffb63e67b1e30cb8165e949e991a7b3",
+    "independent_verification.json": "2ae3d43894b98d4c353ca9cb56db755aa23bff6acae3a7852238583ea79d918b",
+    "verification.json": "1e731cbabe2ac9815fafe7e1cf1324fd33d3cf15332c97385f0c8c005aea5e56"
+  },
+  "protocol_sha256": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a",
+  "data_requests_issued": 0,
+  "protected_observations_read": 0,
+  "reason": "No historical model variant satisfies the frozen joint entry gate; no retry or retuning allowed",
+  "interpretation": "conditional research branch closed; this is not an executed or passed holdout test"
+}

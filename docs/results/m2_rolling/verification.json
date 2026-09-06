@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "baseline_identity": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325",
+  "fits": 24,
+  "portfolios": 6,
+  "same_prediction_rows": true,
+  "input_run": "20260906T092519215478Z",
+  "features": 158,
+  "no_2021_plus_access": true,
+  "frozen_protocol_sha256": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a"
+}

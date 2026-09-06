@@ -1,0 +1,25 @@
+{
+  "status": "INCOMPLETE_PROVIDER_RESTRICTION",
+  "objective": "Complete all M2 research tasks",
+  "remaining": [
+    "Complete original historical financial request plan",
+    "Independently verify all five full panels",
+    "Perform final overall completion audit"
+  ],
+  "provider_error": "10001011",
+  "cached_requests": 32166,
+  "missing_requests": 8354,
+  "M2.0": "COMPLETE",
+  "M2.1": "COMPLETE",
+  "M2.2": "COMPLETE",
+  "M2.3": "INCOMPLETE",
+  "M2.4": "COMPLETED_DIAGNOSTICS_NO_CONFIRMED_INCREMENT",
+  "M2.5": "COMPLETED_NO_GO",
+  "M2.6": "NOT_OPENED_NO_ELIGIBLE_CANDIDATE",
+  "M2.7": "NOT_OPENED_NO_ELIGIBLE_CANDIDATE",
+  "goal_achieved": false,
+  "valid_model_run": "20260906T092732142566Z",
+  "source_failure_run": "20260906T090008112664Z",
+  "offline_audit_run": "20260906T095714683879Z",
+  "no_2021_plus_access": true
+}

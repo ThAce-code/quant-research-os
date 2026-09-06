@@ -68,63 +68,19 @@ print(report.status, report.artifact_directory)
 
 复用测试命令 `python -m pytest tests -q`。设计和口径详见 `docs/superpowers/specs/2026-09-03-factor-engine-design.md`。Alpha158解剖、基本面、中性化、聚类和边际贡献属于M2。
 
-## M2：首轮基础设施与价值因子探索
+## M2：模型研究已完成，完整数据任务仍受阻
 
-入口：`./run-m2.ps1`。使用现有 quant 环境、串行 BaoStock 缓存与 M0 封存行情；
-配置为 `configs/factors/m2_first.json`，规则在取数前写入源码快照。
-每次输出独立目录、状态、原始请求清单、数据校验和、时点处理结果、因子报告、
-含成本组合和三组匹配股票范围的增量实验；独立数据库为 `data/m2_factor_registry.sqlite`。
+M2整体尚未完成。完整Alpha158地图、五个经济机制的有限筛选、条件诊断及滚动base/add/drop已执行；修正后的24个模型和6组连续含成本配对回测均未产生GO候选。
 
-运行 `20260905T055210630475Z` 已通过：[首轮报告](docs/results/m2/report.md)。
-含2014年12月预热的历史成分并集409只（精确2015–2016年为392只）；BP、EP、SP各评估原始和行业/市值中性化两个版本。
-BP中性化版进入FORWARD，其余5个REJECT，0个KEEP。BP中性化RankIC=0.0330、
-Top60含成本超额年化12.79%，但净值最大回撤45.54%；加入低波的增量置信区间跨0。
-EP中性化版覆盖率67.8%，未达预设70%门槛。所有数据属于已观察历史探索，不能称为独立alpha确认。
+盈利/成长全历史采集遭BaoStock明确拒绝（10001011黑名单用户），已停止网络请求并离线保全缓存，原清单尚未补齐。不能把部分数据或NO_GO当作整体完成。2021–2023资格和2024–2025锁箱按事前准入规则保持未打开，未执行、未通过。
 
-已实现公告日期约束的季度数据对齐，并对三只股票的36份财报做真实核验；
-日频估值与月度行业覆盖本次全部股票。季度财务并未全市场下载。
-市值是流通市值代理，供应商历史修订未知。完整Alpha158解剖、聚类、
-滚动模型增量与新时期锁箱仍待后续M2交付。
+- [唯一当前状态与剩余任务](docs/PROJECT_CONTEXT.md)
+- [有效滚动结果](docs/results/m2_rolling/report.md)
+- [模型独立验收](docs/results/m2_rolling/independent_verification.json)
+- [历史财务缓存保全](docs/results/m2_history_blocked/report.md)
+- [服务恢复说明](docs/BAOSTOCK_ACCESS_RESTRICTION.md)
+- [研究路线](docs/M2_ROADMAP.md)
 
-129项测试通过。独立核验入口：`python scripts/verify_m2.py`，核对原始响应、
-时点对齐、RankIC、收益/成本、匹配组合范围及SQLite。首批曾在CSV基准float32
-回读验收失败，已保留失败目录；修正回读类型后按相同规则全量复跑。
-详见 `docs/superpowers/specs/2026-09-04-m2-first-research.md`。
+旧Value pilot、Alpha158地图、四族筛选与补充结果保留在docs/results；历史FORWARD不能充当当前准入。原始数据、面板、模型和SQLite留在本地。研究范围是历史CSI300，不是全市场；公告时间对齐且修订未知，不是完整历史版本PIT。
 
-## M2.1：Alpha158地图与研究路线收束
-
-M1已收尾，M2优先研究相对现有技术信息的增量；[收束后的路线](docs/M2_ROADMAP.md)规定后续顺序与研究边界。
-
-`./run-alpha-map.ps1` 已完成真实数据运行 `20260906T055955632527Z`：
-[地图与条件信号报告](docs/results/m2_alpha_map/report.md)。精确提取158项Qlib公式，
-156项满足覆盖要求，在2015进行强相关聚类，得到123个技术代表。高维直接投影样本不足，
-随后训练期PCA压缩到20维，实际保留77.7%方差；该压缩不代表覆盖全部技术信息。
-
-2016同样本BP RankIC从0.0355降至0.0167。结果是历史条件预测诊断，不是独立Alpha确认；
-没有新增组合回测或LightGBM重训，BP状态不变。134项测试通过，2021后样本未访问。
-全量季度财务、至少4个经济族、滚动模型add/drop与资格/锁箱仍待后续完成。
-
-## M2.2–M2.3：季度覆盖与四族首轮筛选
-
-`./run-quarterly.ps1` 已采集2015–2016全部392只历史成分，10,192个盈利/成长请求，
-9,896条有效接口记录，异常记录0。ROE/利润同比原始覆盖约99.9%，资产同比约99.1%–99.3%。
-完整研究历史尚未扩展，供应商修订仍未知。[季度报告](docs/results/m2_quarterly/report.md)。
-
-按[取数前固定的三项新假设](docs/M2_QUARTERLY_PROTOCOL.md)完成筛选，连同既有Value参考组成四个经济族。
-ROE、净利润增长、低资产增长中性化后的RankIC分别为0.0069、-0.0015、0.0051，
-均为IC_SCREEN_REJECT；本批关闭这三个具体公式，不翻方向重试，也不据此否定整个经济家族。
-[四族结果](docs/results/m2_family_screen/report.md)。BP条件诊断精确复现，仍为FORWARD。
-
-筛选入口：`python scripts/run_family_screen.py <quarterly_run_directory>`。
-当前141项测试通过。可比性诊断和两项补充假设预注册现已完成；下一批执行历史现金流清单、
-行业/规模扩展和补充实验，再做增量与滚动模型。M2整体未完成，2021+资格/锁箱未访问。
-
-本轮季度独立验收：956,480个日度面板值、10,192个原始响应哈希和1,581个产物哈希通过核验。[验收记录](docs/results/m2_quarterly/independent_verification.json)，[141项回归测试](docs/results/m2_quarterly/regression_tests.txt)。
-
-当前状态统一入口：[CONTEXT.md](CONTEXT.md) → [项目研究上下文](docs/PROJECT_CONTEXT.md)。本文件历史批次标题沿用当时编号，当前M2.0–M2.7状态以该上下文表为准。
-
-## M2.3：可比性诊断与冻结补充批次
-
-[实际诊断结果](docs/results/m2_comparability/report.md)已完成：金融行业与同报告期敏感性未改变原三项REJECT；145项测试通过。2008–2020的99项接口探针均有响应，但不是全历史覆盖。
-
-[补充协议](docs/M2_SUPPLEMENTARY_PROTOCOL.md)只含现金流质量和20日非流动性两个公式。[取数计划](docs/results/m2_supplementary_plan/status.json)涉及726只历史成分、20,260个现金流请求，完整采集与新候选收益检验尚未执行。入口分别为 `python scripts/run_comparability.py` 和 `python scripts/prepare_supplementary.py`；后者只生成计划，不下载数据。
+服务恢复或缺失缓存到位后，使用既有`python scripts/complete_history.py`补齐，再以`python scripts/verify_history_completion.py <run_directory>`做完整验收。当前停止保护会在网络连接前拒绝自动续采，不应绕过它。M3与实盘均未启动。

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "parent_decision_checked": true,
+  "independent_parent_verification": "PASS",
+  "canonical_calendar_max": "2020-08-05",
+  "no_network_or_data_collection_called": true,
+  "no_independent_alpha_claim": true,
+  "no_holdout_test_claim": true
+}
