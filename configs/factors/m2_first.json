@@ -1,0 +1,23 @@
+{
+  "name": "m2_value_pilot_v1",
+  "start": "2014-12-01",
+  "end": "2016-12-31",
+  "evaluation_start": "2015-01-01",
+  "primary_horizon": 5,
+  "horizons": [5, 20],
+  "block_length": 20,
+  "bootstrap_samples": 2000,
+  "seed": 42,
+  "min_coverage": 0.7,
+  "min_rank_ic": 0.01,
+  "max_q": 0.1,
+  "blend_candidate_weight": 0.25,
+  "min_increment_annual": 0.01,
+  "factors": {"BP": "pbMRQ", "EP": "peTTM", "SP": "psTTM"},
+  "pit_level": "vendor_historical_snapshot_revision_unknown",
+  "sample_role": "previously_observed_historical_exploration_not_holdout",
+  "industry_sampling": "month_end_snapshot_available_next_trading_day_max_age_62_days",
+  "negative_denominator": "exclude",
+  "reference": "negative_20_day_return_volatility",
+  "scope": "M2 infrastructure v1 and first value-factor experiment; no independent alpha confirmation"
+}
