@@ -10,3 +10,11 @@ def test_legacy_categories_remain_distinct_without_future_crosswalk():
     assert industry_key('制造业-交通运输设备制造业')!='C36'
     assert industry_key('') is None
     with pytest.raises(ValueError):industry_key('\ufffd坏数据')
+
+
+def test_explicit_provider_denial_stops_before_network(tmp_path,monkeypatch):
+    from quant_research.m2 import history_completion
+    (tmp_path/'data').mkdir()
+    (tmp_path/'data/baostock_access_restriction.json').write_text('{"active":true}')
+    monkeypatch.setattr(history_completion,'_run',lambda _:pytest.fail('network collection must not start'))
+    with pytest.raises(RuntimeError,match='explicitly denied'):history_completion.run(tmp_path)

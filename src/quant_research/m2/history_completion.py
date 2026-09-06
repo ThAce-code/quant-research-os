@@ -13,25 +13,13 @@ from ..factors.engine import strict_write_json as write, verify_baseline
 from ..factors.provenance import verify_data_identity
 from .supplementary import request_plan
 from .quarterly import clean_events, daily_panel
-
-
-def industry_key(value):
-    """Preserve vintage-specific categories rather than invent a crosswalk."""
-    import re
-    if pd.isna(value) or not str(value).strip(): return None
-    value=str(value).strip()
-    match=re.match(r'^([A-S]\d{2})',value)
-    if match:return match.group(1)
-    if '\ufffd' in value or not re.search(r'[\u4e00-\u9fff]',value):
-        raise ValueError('unrecognized industry encoding')
-    return 'LEGACY:'+value
-
-
-def financial_key(value):
-    return value in {'J66','J67','J68','J69'} or (isinstance(value,str) and value.startswith('LEGACY:金融保险业'))
+from .industry import industry_key,financial_key
 
 
 def run(root):
+    restriction=root/'data/baostock_access_restriction.json'
+    if restriction.exists() and json.loads(restriction.read_text(encoding='utf-8')).get('active'):
+        raise RuntimeError('BaoStock explicitly denied access (10001011); wait for provider restoration before network collection')
     with FileLock(str(root/'data/m2_history_completion.lock'),timeout=0):return _run(root)
 
 
@@ -43,7 +31,7 @@ def _run(root):
     print('HISTORY '+str(output),flush=True)
     names=['src/quant_research/m2/history_completion.py','src/quant_research/m2/quarterly.py',
            'src/quant_research/m2/core.py','src/quant_research/m2/supplementary.py',
-           'src/quant_research/baostock_data.py','configs/factors/m2_history_completion.json']
+           'src/quant_research/baostock_data.py','src/quant_research/m2/industry.py','configs/factors/m2_history_completion.json']
     hashes={n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in names}
     for n in names:
         dest=output/'source'/n;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(root/n,dest)
@@ -103,5 +91,9 @@ def _run(root):
         state.update(status='PASS',requests_completed=done,requests_total=total);write(output/'status.json',state)
         print('PASS '+str(output),flush=True)
     except BaseException as e:
+        if '10001011' in str(e):
+            write(root/'data/baostock_access_restriction.json',{'active':True,'code':'10001011','source_run':output.name,
+                  'reason':str(e),'observed_at':datetime.now(timezone.utc).isoformat(),
+                  'resume_condition':'Provider restriction lifted or missing source data supplied; do not change IP/account to bypass denial'})
         state.update(status='FAIL',error=str(e));write(output/'status.json',state)
         (output/'traceback.txt').write_text(traceback.format_exc(),encoding='utf-8');raise
