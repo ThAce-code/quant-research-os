@@ -15,10 +15,18 @@ def main(root,run,inputs):
     for n,h in manifest.items():assert hashlib.sha256((run/n).read_bytes()).hexdigest()==h,n
     c=json.loads((run/'config.json').read_text());pred=pd.read_parquet(run/'predictions.parquet')
     labels=pd.read_parquet(run/'labels.parquet').label
+    input_manifest=json.loads((inputs/'artifact_hashes.json').read_text())
+    for n,h in input_manifest.items():assert hashlib.sha256((inputs/n).read_bytes()).hexdigest()==h,n
     x=pd.read_parquet(inputs/'alpha158.parquet')
     for name in ['BP','CASHFLOW']:
         x[name]=pd.read_parquet(inputs/f'{name}.parquet').rename_axis(index='datetime',columns='instrument').stack(future_stack=True).reindex(x.index).astype('float32')
     features=list(x.columns[:158]);calendar=pd.DatetimeIndex(pd.read_parquet(root/'data/canonical/baostock_alpha158_csi300_2008_2020/calendar.parquet').datetime)
+    common=pd.read_parquet(inputs/'common.parquet').rename_axis(index='datetime',columns='instrument').stack(future_stack=True)
+    first=calendar[calendar<pd.Timestamp(c['evaluation_period'][0])][-1]
+    eligible_dates=common.index.get_level_values('datetime')
+    want=common[common & (eligible_dates>=first) & (eligible_dates<=c['evaluation_period'][1])].index
+    pd.testing.assert_index_equal(pred.index,want,check_names=True)
+    pd.testing.assert_series_equal(labels,pd.read_parquet(inputs/'labels.parquet').label.reindex(pred.index))
     rows=pd.read_csv(run/'folds.csv');replayed=0;ic_checked=0
     assert len(rows)==24 and set(rows.variant)==set(c['variants'])
     for row in rows.itertuples():
@@ -58,6 +66,7 @@ def main(root,run,inputs):
     np.testing.assert_allclose(bh_adjust(rank_p),[comparisons[n]['q'] for n in c['primary_comparisons']],atol=1e-12)
     result={'status':'PASS','model_predictions_replayed':replayed,'independent_rank_ic_days':ic_checked,'folds_checked':len(rows),
             'primary_joint_decisions_checked':3,'artifact_hashes_checked':len(manifest),'no_2021_plus_access':True,
+            'all_prediction_rows_match_causal_universe':True,'labels_match_input':True,
             'limits':'model replay and independent IC samples; inference reuses previously tested block routine'}
     (run/'independent_verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8');print(json.dumps(result),flush=True)
 
