@@ -1,0 +1,16 @@
+{
+  "name": "m2_history_completion_v1",
+  "data_period": ["2008-01-01", "2020-07-31"],
+  "financial_quarter_bounds": ["2007Q1", "2020Q2"],
+  "fields": {
+    "query_profit_data": ["roeAvg", "npMargin"],
+    "query_growth_data": ["YOYNI", "YOYAsset", "YOYEquity"]
+  },
+  "max_publication_age_days": 400,
+  "max_period_age_days": 550,
+  "purpose": "Complete historical data coverage; never reopen rejected formulas or access 2021+",
+  "legacy_industry": "Use the entire contemporaneous vendor classification string as a namespaced category; financial prefix is 金融保险业. No cross-vintage mapping or future backfill.",
+  "industry_source": "https://www.csrc.gov.cn/csrc/c101864/c1024632/content.shtml",
+  "industry_source_note": "2012 classification revision confirms that taxonomy changed; it does not supply a one-to-one mapping for legacy strings.",
+  "pit_level": "publication_aligned_vendor_revision_unknown"
+}
