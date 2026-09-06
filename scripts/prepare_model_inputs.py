@@ -7,14 +7,15 @@ import json
 from datetime import datetime,timezone
 import numpy as np
 import pandas as pd
-from quant_research.m2.history_completion import industry_key,financial_key
+import shutil
+from quant_research.m2.industry import industry_key,financial_key
 from quant_research.m2.core import asof_events,neutralize
 from quant_research.factors.data import preprocess,load_factor_data
 from quant_research.factors.engine import verify_baseline,strict_write_json as write
 from quant_research.factors.provenance import verify_data_identity
 
 
-def main(root):
+def main(root,feature_cache=None):
     prior=root/'experiments/m2/m2_supplementary_data_v1/20260906T072711741731Z'
     output=root/'experiments/m2/m2_model_inputs_v1'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
     output.mkdir(parents=True);print('MODEL_INPUTS '+str(output),flush=True)
@@ -55,27 +56,36 @@ def main(root):
         from qlib.contrib.data.handler import Alpha158
         qlib.init(provider_uri=str(root/'data/qlib'/baseline['name']),region='cn',kernels=1,expression_cache=None,dataset_cache=None)
         expressions,names=Alpha158.get_feature_config(None);assert len(names)==158
-        # Chunk extraction bounds memory. All chunks use only original sealed history.
+        # Chunk extraction bounds memory. A validated cache avoids repeating unchanged expressions.
         parts=[]
-        for i in range(0,len(member.columns),50):
+        for i in (range(0,len(member.columns),50) if feature_cache is None else []):
             f=D.features(list(member.columns[i:i+50]),expressions,start_time='2008-01-01',end_time='2020-07-31')
             f.columns=names;f=f.reorder_levels(['datetime','instrument']).sort_index()
             eligible=member.iloc[:,i:i+50].rename_axis(index='datetime',columns='instrument').stack(future_stack=True)
             f=f.loc[eligible.reindex(f.index).fillna(False)].replace([np.inf,-np.inf],np.nan).astype('float32')
             parts.append(f);print(f'ALPHA158 {min(i+50,len(member.columns))}/{len(member.columns)}',flush=True)
-        features=pd.concat(parts).sort_index();features.to_parquet(output/'alpha158.parquet')
+        if feature_cache is None:
+            features=pd.concat(parts).sort_index();features.to_parquet(output/'alpha158.parquet')
+        else:
+            cached=json.loads((feature_cache/'artifact_hashes.json').read_text())
+            for name in ['alpha158.parquet','labels.parquet']:
+                assert hashlib.sha256((feature_cache/name).read_bytes()).hexdigest()==cached[name]
+                shutil.copyfile(feature_cache/name,output/name)
+            features=pd.read_parquet(output/'alpha158.parquet')
+            write(output/'feature_cache.json',{'source_run':feature_cache.name,'hashes':{n:cached[n] for n in ['alpha158.parquet','labels.parquet']}})
         # Use the same t+1-close -> t+2-close label as frozen M0.
-        label=D.features(list(member.columns),['Ref($close,-2)/Ref($close,-1)-1'],start_time='2008-01-01',end_time='2020-07-31')
-        label.columns=['label'];label=label.reorder_levels(['datetime','instrument']).sort_index()
-        label.reindex(features.index).to_parquet(output/'labels.parquet')
+        if feature_cache is None:
+            label=D.features(list(member.columns),['Ref($close,-2)/Ref($close,-1)-1'],start_time='2008-01-01',end_time='2020-07-31')
+            label.columns=['label'];label=label.reorder_levels(['datetime','instrument']).sort_index()
+            label.reindex(features.index).to_parquet(output/'labels.parquet')
         write(output/'verification.json',{'status':'PASS','baseline_identity':identity,'legacy_mapping':'none; contemporaneous full-string categories',
               '2015_plus_scores_identical':True,'features':158,'rows':len(features),'no_2021_plus_access':True,
               'source_run':prior.name,'industry_source':'https://www.csrc.gov.cn/csrc/c101864/c1024632/content.shtml'})
-        write(output/'source_hashes.json',{n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in ['scripts/prepare_model_inputs.py','src/quant_research/m2/history_completion.py']})
+        write(output/'source_hashes.json',{n:hashlib.sha256((root/n).read_bytes()).hexdigest() for n in ['scripts/prepare_model_inputs.py','src/quant_research/m2/industry.py']})
         write(output/'artifact_hashes.json',{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in output.iterdir() if p.is_file() and p.name!='status.json'})
         state.update(status='PASS');write(output/'status.json',state);print('PASS '+str(output),flush=True)
     except BaseException as exc:
         state.update(status='FAIL',error=str(exc));write(output/'status.json',state);raise
 
 
-if __name__=='__main__':main(Path(__file__).resolve().parents[1])
+if __name__=='__main__':main(Path(__file__).resolve().parents[1],Path(sys.argv[1]) if len(sys.argv)>1 else None)
