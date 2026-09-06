@@ -1,0 +1,23 @@
+{
+  "name": "m2_alpha158_map_v2",
+  "start": "2015-01-01",
+  "end": "2016-12-31",
+  "basis_fit": ["2015-01-01", "2015-12-31"],
+  "diagnostic": ["2016-01-01", "2016-12-31"],
+  "horizon": 5,
+  "min_pairs": 30,
+  "min_correlation_days": 100,
+  "min_basis_coverage": 0.9,
+  "cluster_distance": 0.1,
+  "linkage": "complete",
+  "representative": "maximum_mean_absolute_within_cluster_correlation_then_name",
+  "orientation": "original_qlib_expression_no_sign_selection",
+  "projection_basis": "training_only_pca_of_daily_standardized_representatives",
+  "pca_variance_target": 0.9,
+  "pca_max_components": 20,
+  "candidate_run": "experiments/m2/m2_value_pilot_v1/20260905T055210630475Z",
+  "candidate": "BP_neutral",
+  "residual_min_rows_per_parameter": 2,
+  "protected_start": "2021-01-01",
+  "interpretation": "historical_feature_geometry_and_conditional_signal_not_independent_alpha_confirmation"
+}
