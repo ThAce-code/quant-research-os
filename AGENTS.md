@@ -7,7 +7,7 @@
 - The frozen finite M2 study is closed with NO_GO. M2.0–M2.5 deliverables are
   complete; qualification and lockbox have closed no-entry records, neither
   executed nor passed. Do not revive rejected formulas or consume protected
-  samples without a new explicit research definition. No M3 work is authorized.
+  samples without a new explicit research definition. M3.0 deterministic paper admission is authorized by the 2026-09-06 user request; follow docs/M3_PROTOCOL.md. LLM generation/refinement and protected-period access remain outside this batch.
 - Full original-scope financial delivery uses 987 complete BaoStock symbol-method
   histories and 465 entirely source-labelled Eastmoney histories. See
   docs/M2_ALTERNATE_SOURCE_PROTOCOL.md and docs/M2_ALTERNATE_SOURCE_AUDIT.md.

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "name": "PAPER101_INTRADAY_MOM",
+      "family": "intraday_momentum",
+      "hypothesis": "Positive intraday return predicts continuation on the following trading day.",
+      "economic_rationale": "Positive intraday return predicts continuation on the following trading day.",
+      "expression": "Log(close / open)",
+      "direction": 1,
+      "source_type": "PAPER_RECONSTRUCTED",
+      "source_url": "https://arxiv.org/abs/1601.00991v3",
+      "source_locator": "Section 2, equation (3), PDF page 4",
+      "original_expression": "ln(yesterday close / yesterday open)",
+      "input_fields": {
+        "close": "BaoStock daily close multiplied by canonical adjustment factor; observable after close t",
+        "open": "BaoStock daily open multiplied by canonical adjustment factor; observable after close t"
+      },
+      "operator_semantics": {
+        "arithmetic": "elementwise + - /; nonfinite becomes missing",
+        "Log": "natural logarithm, nonpositive becomes missing"
+      },
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "direction_evidence": "Section 2 explicitly describes positive intraday momentum and next-day long positions.",
+      "deviations": [
+        "CSI300 historical membership replaces proprietary original universe.",
+        "Current signal date t maps to paper previous day relative to execution; execute at t+1 close instead of assumed opening opportunity.",
+        "M2 five-day label, industry/size neutralization and preprocessing replace original portfolio construction.",
+        "Canonical adjusted OHLC retained; Alpha101 epsilon is in those price units, original price normalization unspecified."
+      ],
+      "version": 1
+    },
+    {
+      "name": "PAPER101_ALPHA101",
+      "family": "intraday_momentum",
+      "hypothesis": "Positive intraday candle body relative to daily range predicts continuation.",
+      "economic_rationale": "Positive intraday candle body relative to daily range predicts continuation.",
+      "expression": "(close - open) / (high - low + 0.001)",
+      "direction": 1,
+      "source_type": "PAPER_RECONSTRUCTED",
+      "source_url": "https://arxiv.org/abs/1601.00991v3",
+      "source_locator": "Appendix A Alpha#101 PDF page 15; Section 2 PDF page 4 direction and delay-1",
+      "original_expression": "((close - open) / ((high - low) + .001))",
+      "input_fields": {
+        "close": "BaoStock daily close multiplied by canonical adjustment factor; observable after close t",
+        "open": "BaoStock daily open multiplied by canonical adjustment factor; observable after close t",
+        "high": "BaoStock daily high multiplied by canonical adjustment factor; observable after close t",
+        "low": "BaoStock daily low multiplied by canonical adjustment factor; observable after close t"
+      },
+      "operator_semantics": {
+        "arithmetic": "elementwise + - /; literal epsilon 0.001 retained in adjusted-price units"
+      },
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "direction_evidence": "Section 2 explicitly describes positive intraday momentum and next-day long positions.",
+      "deviations": [
+        "CSI300 historical membership replaces proprietary original universe.",
+        "Current signal date t maps to paper previous day relative to execution; execute at t+1 close instead of assumed opening opportunity.",
+        "M2 five-day label, industry/size neutralization and preprocessing replace original portfolio construction.",
+        "Canonical adjusted OHLC retained; Alpha101 epsilon is in those price units, original price normalization unspecified."
+      ],
+      "version": 1
+    }
+  ]
+}
