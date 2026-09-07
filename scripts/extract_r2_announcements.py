@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import sys
 import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -38,12 +39,18 @@ def annual_q1_fields(text,year):
 
 
 def main():
-    from pypdf import PdfReader
+    reuse='--reuse-extracted-documents' in sys.argv
+    if not reuse:
+        from pypdf import PdfReader
     run=ROOT/'experiments/r2/r2_cninfo_q1_backfill_v1';state=read(run/'status.json')
     if state['status'] not in ['PASS_ARCHIVE','PARTIAL_ARCHIVE']:raise ValueError('archive incomplete')
     hashes=read(run/'artifact_hashes.json')
     for name,h in hashes.items():assert sha(run/name)==h,name
-    out=ROOT/'experiments/r2/cninfo_extracted_v1';out.mkdir(parents=True,exist_ok=False);(out/'text').mkdir()
+    out=ROOT/'experiments/r2/cninfo_extracted_v1'
+    if reuse:
+        if (out/'summary.json').exists() or (out/'artifact_hashes.json').exists():raise ValueError('completed extraction cannot be overwritten')
+    else:
+        out.mkdir(parents=True,exist_ok=False);(out/'text').mkdir()
     selected={str(r['announcementId']):r for r in read(run/'selected.json')}
     supplement=ROOT/'experiments/r2/r2_cninfo_supplement_v1'
     if supplement.exists():
@@ -51,6 +58,13 @@ def main():
         for name,h in read(supplement/'artifact_hashes.json').items():assert sha(supplement/name)==h,name
         selected.update({str(r['announcementId']):r for r in read(supplement/'selected.json')})
     selected=list(selected.values());documents=[];failures=[]
+    if reuse:
+        documents=read(out/'documents.json');failures=read(out/'extraction_failures.json')
+        if failures or {d['announcement_id'] for d in documents}!={str(r['announcementId']) for r in selected}:raise ValueError('incomplete saved extraction')
+        for d in documents:
+            assert sha(ROOT/d['pdf_path'])==d['pdf_sha256']
+            assert sha(ROOT/d['text_path'])==d['text_sha256']
+        selected=[]
     for sequence,row in enumerate(selected,1):
         if sequence==1 or sequence%10==0:print(f'R2_EXTRACT {sequence}/{len(selected)}',flush=True)
         aid=str(row['announcementId']);pdf=ROOT/row['archive_pdf_path'] if 'archive_pdf_path' in row else run/row['local_pdf']
@@ -111,6 +125,8 @@ def main():
         'explicit_annual_q1_records':sum(d['explicit_annual_q1_fields'] is not None for d in documents),
         'extraction_failures':len(failures),'snapshot_matches':sum(bool(r['document_ids']) for r in reconciliation),
         'snapshot_rows':len(reconciliation),'returns_loaded':False,'data_admission':'DOCUMENT_ARCHIVE_ONLY_PENDING_NUMERIC_AND_COMPLETENESS_CHECKS',
+        'reused_verified_extracted_documents':reuse,
+        'initial_extractor_sha256':sha(out/'extractor_initial.py') if reuse else None,
         'source_archive_manifest_sha256':sha(run/'artifact_hashes.json'),
         'supplement_manifest_sha256':sha(supplement/'artifact_hashes.json') if supplement.exists() else None,'extractor_sha256':sha(Path(__file__))}
     write(out/'summary.json',summary)

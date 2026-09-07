@@ -1,0 +1,103 @@
+{
+  "purpose": "Post-retrieval source transcription and edge-case checks; not factor preregistration",
+  "cases": [
+    {
+      "announcement_id": "1200574709",
+      "code": "300358",
+      "notice_date": "2015-01-24",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": 42340000,
+      "parent_profit_upper_yuan": 50810000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20,
+      "page": 1,
+      "issue": null,
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1200800371",
+      "code": "300358",
+      "notice_date": "2015-04-09",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": 21170000,
+      "parent_profit_upper_yuan": 29640000,
+      "yoy_lower_percent": -50,
+      "yoy_upper_percent": -30,
+      "page": 1,
+      "issue": null,
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1200705304",
+      "code": "300341",
+      "notice_date": "2015-03-17",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": 8554100.0,
+      "parent_profit_upper_yuan": 9537900.0,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 0,
+      "page": 1,
+      "issue": "SOURCE_ARITHMETIC_INCONSISTENCY: 855.41 differs from 953.79 * 0.9; preserve printed values",
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1200809462",
+      "code": "300341",
+      "notice_date": "2015-04-10",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": 7153400.0,
+      "parent_profit_upper_yuan": 9061000.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": -5,
+      "page": 1,
+      "issue": "SOURCE_REFERENCE_ID_CONFLICT: correction cites 2015-017; located original is numbered 2015-014, matching date, title and YoY range",
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1202178462",
+      "code": "002658",
+      "notice_date": "2016-04-15",
+      "period": "2016-03-31",
+      "parent_profit_lower_yuan": 8789400.0,
+      "parent_profit_upper_yuan": 14649000.0,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -50,
+      "page": 1,
+      "issue": "NO_PRIOR_DISCLOSED_FORECAST: explicitly stated by document; do not fabricate a zero predecessor",
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1200691662",
+      "code": "002415",
+      "notice_date": "2015-03-12",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": 1029949800.0,
+      "parent_profit_upper_yuan": 1098613100.0,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 60,
+      "page": 6,
+      "issue": "EMBEDDED_Q1_FORECAST_IN_PRIOR_YEAR_ANNUAL_REPORT_SUMMARY",
+      "review_method": "PDF table/source text inspected; purposive data-quality example, not statistical sample",
+      "research_admission": false
+    },
+    {
+      "announcement_id": "1200838958",
+      "code": "000826",
+      "notice_date": "2015-04-16",
+      "period": "2015-03-31",
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "page": 2,
+      "issue": "QUALITATIVE_ONLY: stable growth; threshold discussion is not an explicit numerical forecast range",
+      "review_method": "PDF page text inspected",
+      "research_admission": false
+    }
+  ]
+}
