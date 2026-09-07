@@ -21,3 +21,7 @@ R1现已完成六候选筛选与合格代表12次模型拟合，结果NO_GO；[�
 R2后续已按用户授权使用巨潮补采211份原始文书，当前限定窗口的文书交付完成；仍须逐事件数值与版本验收，未开展Alpha回测。BaoStock恢复未确认，旧限制记录保留。[最新补采报告](results/r2_backfill/report.md)。
 
 2026-09-07用户要求的单次恢复探测已成功：BaoStock登录和一个2015Q1成长财务查询均返回成功并取得1行。当前不能继续沿用上段历史批次的未确认状态；事件接口与批量稳定性尚未测试。旧M2研究及替代源证据不变。[探测结果](results/baostock_probe_20260907/result.json)。
+
+<!-- BAOSTOCK_BULK_CURRENT_START -->
+用户已授权后续批量BaoStock采集，现按`configs/r2/baostock_event_bulk.json`执行690项预告/快报请求；两个事件接口都已实际返回成功。批次尚在运行，最终逐项核销、范围过滤及跨源对照完成后更新本段；不重开M2/R1研究或保护期。
+<!-- BAOSTOCK_BULK_CURRENT_END -->
