@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "name": "PAPER101_ALPHA034",
+      "family": "short_reversal_volatility_ratio",
+      "hypothesis": "The fixed Alpha34 composite ranks recent price declines and lower two-day volatility relative to five-day volatility positively.",
+      "economic_rationale": "Researcher interpretation of the formula: combine short reversal with volatility contraction. This interpretation is not a mechanism established by the paper, and may contain only existing Alpha158 information.",
+      "expression": "Rank((1 - Rank(Std(returns, 2) / Std(returns, 5))) + (1 - Rank(Delta(close, 1))))",
+      "direction": 1,
+      "source_type": "PAPER_RECONSTRUCTED",
+      "source_url": "https://arxiv.org/abs/1601.00991v3",
+      "source_locator": "Appendix A, Alpha#34, PDF page 10; operator definitions at end of Appendix A",
+      "original_expression": "rank(((1 - rank((stddev(returns, 2) / stddev(returns, 5)))) + (1 - rank(delta(close, 1)))))",
+      "input_fields": {
+        "close": "Canonical adjusted BaoStock close, observable after close t",
+        "returns": "Canonical adjusted close divided by previous trading-day close minus one; observable after close t"
+      },
+      "operator_semantics": {
+        "Rank": "Cross-sectional percentile rank among historical index members; pandas average tie handling",
+        "Std": "Trailing full-window sample standard deviation with ddof=1; two and five trading days",
+        "Delta": "Current panel minus the panel one trading day earlier",
+        "arithmetic": "Elementwise subtraction, division and addition; nonfinite final output stays missing"
+      },
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "direction_evidence": "Preserve the published Alpha#34 expression as a positive score; no sign selected from local performance.",
+      "deviations": [
+        "CSI300 historical membership and canonical adjusted prices replace proprietary source data and universe.",
+        "Next-day close execution, five-day screening labels and industry/size neutralization follow the fixed local protocol.",
+        "Paper does not fully specify standard-deviation ddof or tie rules; local sample ddof=1 and percentile average ranks are explicit reconstruction choices.",
+        "The paper's return results are not reproduced; this is one formula transfer on already-observed research history."
+      ],
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "campaign_id": "m3_dedup_import_check_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 2,
+  "max_evaluations": 0,
+  "max_calls": 0,
+  "max_output_tokens": 0,
+  "max_rounds": 1,
+  "seed": 42,
+  "objective": "Import the two old pilot definitions solely to verify cross-registry duplicate rejection. Zero model calls and zero evaluations are authorized."
+}

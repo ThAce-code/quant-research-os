@@ -1,0 +1,11 @@
+{
+  "campaign_id": "m3_paper34_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 1,
+  "max_evaluations": 1,
+  "max_calls": 0,
+  "max_output_tokens": 0,
+  "max_rounds": 1,
+  "seed": 42,
+  "objective": "One fixed paper-reconstructed Alpha34 migration through the persistent M3 controller. No parameter search, direction change or adaptive refinement. Historical screening is exploratory; original M2 and pilot remain frozen."
+}
