@@ -1,0 +1,11 @@
+{
+  "BLEND_ENGINEERING_NOISE": {
+    "status": "DIAGNOSTIC_ONLY",
+    "net_increment": {
+      "mean": 0.0010280139029485184,
+      "low": -0.00035698756049361584,
+      "high": 0.002343721983196066,
+      "p": 0.059470264867566215
+    }
+  }
+}

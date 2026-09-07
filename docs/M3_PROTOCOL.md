@@ -104,3 +104,14 @@ Verification of this interface includes a small real LightGBM BASE/ADD fit and
 sample/purge tests. The actual first paper batch produces NO_ENTRY; the complete
 survivor model/backtest branch has not yet been exercised on a genuine admitted
 candidate. Keep this runtime limitation distinct from implemented interfaces.
+
+## Engineering fixture validation
+
+The shared numerical model path can be exercised via
+`python scripts/verify_m3_model_path.py`. This command uses observed pre-2021 cached
+features, a seeded random candidate and an isolated SQLite file. It does not forge
+screen admission or write to the production registry. Run
+`20260907T022607184842Z` passed two real fits and three costed portfolios on a short
+2015 fold; full-scale genuine survivor research remains unverified. See
+[engineering evidence](results/m3_engineering/report.md). Formal research gate
+thresholds and protected-period restrictions are unchanged.

@@ -1,0 +1,22 @@
+{
+  "ADD_ENGINEERING_NOISE": {
+    "rank_ic_increment": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+    },
+    "q": 1.0,
+    "net_increment": {
+      "mean": 0.0,
+      "low": 0.0,
+      "high": 0.0,
+      "p": 1.0
+    },
+    "annual_net_increment": {
+      "2015": 0.0
+    },
+    "decision": "NO_GO",
+    "positive_full_years": 0
+  }
+}

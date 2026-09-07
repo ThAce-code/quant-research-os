@@ -830,5 +830,41 @@
   "docs/results/m3_increment_admission/status.json": {
     "source_run": "20260907T010954850339Z",
     "sha256": "def861e481ed2298962b38932f1677f7ac11e990a003db0a90bddc58427ae4c5"
+  },
+  "docs/results/m3_engineering/blend_diagnostics.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "18f8ead0e1a84b8120ca92cd5f8ff5cd3d396be02293820fd11b75f72a860beb"
+  },
+  "docs/results/m3_engineering/comparisons.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "ef5bb284bb85a07ca89c8df9f2132425f7df4e502a4d50ebbf8dbd7323f9bcc2"
+  },
+  "docs/results/m3_engineering/fixture.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "8773fa4c71f515c7d0e8e3e62ddcf156bc41f0447b583fe9fada0387753937bb"
+  },
+  "docs/results/m3_engineering/folds.csv": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "1143cc6d42dc2fccafe2f5856e4fef9be014a873c2cdabb79f4b950be68d7ef5"
+  },
+  "docs/results/m3_engineering/initial_fixture_failure.json": {
+    "source_run": "20260907T022354224093Z",
+    "sha256": "7908c9fd61230f363e9c3dca31a1ab5df08dac719ee6b690d4b51adfc46f88b8"
+  },
+  "docs/results/m3_engineering/portfolio.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "543f73d25c893e74fe32cd35f95355c37aa1c7a92556a7b4e0b02c2178bc8317"
+  },
+  "docs/results/m3_engineering/report.md": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "f994c9d9b2496a3cd1a09622a12418599bb2dc5d652f5421bfb001bd582fdbdb"
+  },
+  "docs/results/m3_engineering/source_hashes.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "b6cad4691145491227852e695584de04c29214dd0b1b308ee69579e6e122f731"
+  },
+  "docs/results/m3_engineering/status.json": {
+    "source_run": "20260907T022607184842Z",
+    "sha256": "3495f914bc7041334a8070bda1d68a75fcc4249343c7e692a29536bade38bf11"
   }
 }
