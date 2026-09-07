@@ -71,7 +71,16 @@ ROE、净利润增长、低资产增长首轮RankIC约0.0069、-0.0015、0.0051�
 
 ## M3.0 当前批次
 
-2026-09-06按网页端修正意见启动。主架构参考RD-Agent(Q)，暂不运行LLM生成或自动优化。
-首批按[协议](M3_PROTOCOL.md)冻结《101 Formulaic Alphas》的两个公开公式，登记为PAPER_RECONSTRUCTED，复用M1/M2内核。
-Schema/adapter、防未来配置、批内AST去重测试13项通过；真实数据筛选和归档待执行。
-若初筛拒绝则停止；若通过则费用/模型增量仍待接入，不能声称KEEP。2021–2025继续封存。
+2026-09-06按网页端修正意见推进，以RD-Agent(Q)研究对象/执行接口为主参考。确定性论文接入首批已运行并归档；M3整体尚未完成，LLM生成与自动优化尚未开启。
+
+协议提交`9f8eb30`，实现提交`11101ff`，有效run `20260906T145830964860Z`。见[协议](M3_PROTOCOL.md)、[首批报告](results/m3_paper_pilot/report.md)、[结果](results/m3_paper_pilot/results.json)与[独立重放](results/m3_paper_pilot/independent_verification.json)。
+
+- ResearchHypothesis五类来源、字段/算子/方向/时序证据，映射现有FactorDefinition和DSL；新增批内AST去重及读取市场数据前的保护期配置限制。
+- 首批《101 Formulaic Alphas》方程(3)与Alpha#101，均为PAPER_RECONSTRUCTED：公开公式迁移至CSI300和次日收盘执行，不能称复现原论文收益。
+- 固定正方向、中性化五日RankIC分别-0.029408、-0.022580，BH q均1.0，两个年度均负，均REJECT。未翻方向、调窗口或阈值。2016条件诊断复用冻结20-PC，仍不是独立Alpha证明。
+- 假设→定义→运行→结果来源链已归档，原SQLite追加两项拒绝。M2冻结的33项历史试验保留；项目现35项，KEEP仍为0。
+- 708,576个原始因子单元直接从canonical重算；100个日期RankIC、两条registry记录和38份源快照校验通过。回归171 passed、5项已有warnings。
+
+当前完成的是M3.0的确定性接入、历史筛选、条件诊断和拒绝分支。两个候选未达到初筛门槛，含成本/滚动模型没有执行，记录NOT_RUN_SCREEN_REJECT。通用合格候选的后续费用/模型自动衔接、跨批去重和生成层仍待完成；不能把拒绝分支验收写成完整M3完成。
+
+下一批先补齐合格候选的费用/模型接口及冻结协议，再做有预算的M3.1生成。M3.2只在research split反馈优化，M3.3再做轨迹记忆/演化。2021–2025继续封存，旧M2 NO_GO不变。

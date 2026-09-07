@@ -1,0 +1,37 @@
+{
+  "name": "m2_four_family_screen_v1",
+  "period": [
+    "2015-01-01",
+    "2016-12-31"
+  ],
+  "conditional_period": [
+    "2016-01-01",
+    "2016-12-31"
+  ],
+  "primary_horizon": 5,
+  "min_pairs": 30,
+  "min_coverage": 0.7,
+  "min_rank_ic": 0.01,
+  "max_q": 0.1,
+  "block_length": 20,
+  "bootstrap_samples": 2000,
+  "seed": 42,
+  "primary_tests": [
+    "ROE",
+    "EARNINGS_GROWTH",
+    "LOW_ASSET_GROWTH"
+  ],
+  "variant": "industry_and_circulating_size_neutralized_only",
+  "multiple_testing": "BH across exactly three new primary tests; BP is an already observed reference",
+  "screen_rule": "coverage >=0.70 in each year, mean RankIC >=0.01, positive RankIC in each year, BH q<=0.10; pass means IC_SCREEN_PASS only, never KEEP or independent alpha",
+  "pilot_run": "experiments/m2/m2_value_pilot_v1/20260905T055210630475Z",
+  "alpha_map_run": "experiments/m2/m2_alpha158_map_v2/20260906T055955632527Z",
+  "conditional_rule": "Reuse exact 2015-fitted 20-PC map and joint industry/size OLS; matched candidate and residual use identical rows; diagnostic only",
+  "scope": "Historical IC screening and conditional diagnostics only. Net portfolio increments and rolling LightGBM still required. No 2021+ access.",
+  "alpha_map_input_sha256": {
+    "features.parquet": "27939f967e92919693f350a2505fbff1758458aed2b37144b5931d42d8f927f5",
+    "basis.json": "a5171c55e8d54aa7780cf9038465c2e9766c0965f20b13670e31c0ef814e5a6e",
+    "pca.json": "d02e29c9f6fc9bacb62d8551f7594ebbf8a630c8a744df317ce9f1f7029d4367",
+    "pca_loadings.csv": "082d1b5497c0377a3a3296ce7f3de4e0749b0b6fe8632239d24987790d2a67fd"
+  }
+}
