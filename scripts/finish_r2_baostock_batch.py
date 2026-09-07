@@ -26,6 +26,8 @@ def replace_block(path,body):
 
 
 def main():
+    write(RUN/'finalization.json',{'status':'WAITING_FOR_COLLECTION','published':False,
+         'started_at':datetime.now(timezone.utc).isoformat(),'finisher_sha256':sha(Path(__file__))})
     deadline=time.monotonic()+10800
     while time.monotonic()<deadline:
         state=read(RUN/'status.json')
