@@ -1,0 +1,35 @@
+{
+  "status": "PASS_DATA_AUDIT_ONLY",
+  "protected_returns_loaded": false,
+  "network_requests": 0,
+  "sources": {
+    "profit": "experiments/m2/m2_history_cache_audit_v1/20260906T095714683879Z/available_requests.json",
+    "cash": "experiments/m2/m2_supplementary_data_v1/20260906T072711741731Z/requests.json"
+  },
+  "rows": {
+    "profit": 15683,
+    "cash": 19762
+  },
+  "same_fiscal_pairs": 15479,
+  "same_publication_date_pairs": 15478,
+  "profit_revenue_ratio_check": {
+    "rows": 7418,
+    "median_abs_error": 0.00041770607979383506,
+    "p95_abs_error": 0.01877188604096835,
+    "within_1e_5": 2204,
+    "within_1e_3": 4677
+  },
+  "cash_profit_ratio_check": {
+    "rows": 14737,
+    "median_abs_error": 4.512599999992317e-07,
+    "p95_abs_error": 4.100420799968409e-06,
+    "within_1e_5": 14470,
+    "within_1e_3": 14718
+  },
+  "raw_balance_amounts_full_scope_available": false,
+  "limitations": [
+    "BaoStock revisions remain unknown; same code/fiscal quarter does not guarantee original historical vintage.",
+    "No full-scope assets or raw operating cashflow amount cache. Alternate-source income/balance covers a subset and is not silently mixed.",
+    "Published values after 2020-07-31 are preserved in source cache but excluded from feasibility pairs."
+  ]
+}

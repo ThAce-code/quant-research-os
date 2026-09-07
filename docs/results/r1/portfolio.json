@@ -1,0 +1,28 @@
+{
+  "BASE": {
+    "gross_return": 0.5590250557711633,
+    "net_return": 0.5523486296057465,
+    "net_cagr": 0.08005958363115395,
+    "net_mdd": -0.42036884106667183,
+    "net_excess_annual": 0.020021265423536962,
+    "net_excess_ir": 0.23258559950615257,
+    "net_excess_mdd": -0.2276806251955824,
+    "gross_excess_annual": 0.0207744961800088,
+    "mean_turnover": 0.003531952884203816,
+    "annual_cost_drag": 0.0007532307564718454,
+    "test_days": 1359
+  },
+  "ADD_1": {
+    "gross_return": 0.6475765377399152,
+    "net_return": 0.6387971140360484,
+    "net_cagr": 0.09035905103019704,
+    "net_mdd": -0.43138374940865676,
+    "net_excess_annual": 0.03058329171959113,
+    "net_excess_ir": 0.3496402166132339,
+    "net_excess_mdd": -0.20895878053944122,
+    "gross_excess_annual": 0.031521777699313205,
+    "mean_turnover": 0.00430333420635295,
+    "annual_cost_drag": 0.0009384859797220806,
+    "test_days": 1359
+  }
+}

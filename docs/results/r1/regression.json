@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "command": "python -m pytest -q",
+  "passed": 257,
+  "warnings": 5,
+  "seconds": 29.46,
+  "log_sha256": "3d1563fdb1ac30de88f65b6c305c75352af4a4501ded37672163a46f0fc25cdd"
+}

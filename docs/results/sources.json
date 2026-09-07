@@ -1426,5 +1426,93 @@
   "docs/results/m3_local_llm/screens/20260907T042901973993Z/status.json": {
     "source_run": "m3_local_llm_loop_v4_and_preserved_format_campaigns",
     "sha256": "5b24812da73678e8624a7f0f57eb44f9de42b5d75a128893245702acd45e66a4"
+  },
+  "docs/results/r1/budget.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "fcd92d6f391f7245bbf112b64cac95dc3ea0a4e616f22e4710397d45477ae957"
+  },
+  "docs/results/r1/conditional.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "9a658ac3d5053c27f2af2445629f7ab6a079430c91f3a7a3601c468fbe0b2963"
+  },
+  "docs/results/r1/correlation.csv": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "d405f816dac86beddf04a0326e47e6bad20d7085c3014c9373e0c833c2b0f9b8"
+  },
+  "docs/results/r1/coverage.csv": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "179068ce68c4792ddb73e036b7df5233d9dfa60f11d6b7763fffbb2622a278c2"
+  },
+  "docs/results/r1/drop_diagnostics.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "436777d289b990005b0488b63abb63b53b4adbedba19bd692b085fb737da7406"
+  },
+  "docs/results/r1/folds.csv": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "fc77ece235bc2bb9207dde254e4072aef1975be8c1df33e74756375e792bcda3"
+  },
+  "docs/results/r1/independent_verification.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "30f35859542e0f51febdc49d4dc337b25f56c7fa825b9d06491cfb109f059d69"
+  },
+  "docs/results/r1/input_audit.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "e90e46ea6a6f6465b0ccdd8742aae33f8f4556c6293299385e3c827f26291c9d"
+  },
+  "docs/results/r1/input_verification.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "8414f54686ccc6fa3b811a863c9041bf6a61b64680ba688136777985dd28b9a9"
+  },
+  "docs/results/r1/model_artifact_hashes.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "466b3d4c7f0997c630f35e9dff4759253539633f4423b75865c457c84b429ab6"
+  },
+  "docs/results/r1/model_comparisons.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "642ccc835ec26ca8e3d283968ae326d1b3fe59ad08570658437345a4078e8500"
+  },
+  "docs/results/r1/model_source_hashes.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "6956819803344b2d292fff2072d8ffae12ac2739bbb1a2baf13a7bb8cb161fce"
+  },
+  "docs/results/r1/model_status.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "1dce7ba205882f79139163ae8e9f0031927d59b18a961b8fc13f3b83b3ce8f68"
+  },
+  "docs/results/r1/portfolio.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "7e961d3e73f9f24d92b1f2494b1fe5d525d37236e998e9f5fb3d8d67c7ba3969"
+  },
+  "docs/results/r1/regression.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "7e5b3105836db85349700b02e63053a33d11a2cb16aa35de783b7ef1c563f536"
+  },
+  "docs/results/r1/report.md": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "29e822361a07a8b7fabeba0f53a3c6cc460a33aa84478d62e2b0ae5ee8b84c72"
+  },
+  "docs/results/r1/schedule.csv": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "e33a7578e0ff47df90d7569621a1493225e4a5f9d3af05fa8acf8c4428fe894e"
+  },
+  "docs/results/r1/screen.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "41441a41a76a75b5b8bd03ea79f15b0f96e7ffc06319e4f96aefd0246b947a5d"
+  },
+  "docs/results/r1/screen_artifact_hashes.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "9274cf83cce8a87761b904796bf2f045724df14f0413260547ee50a0395ef4cf"
+  },
+  "docs/results/r1/screen_source_hashes.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "6956819803344b2d292fff2072d8ffae12ac2739bbb1a2baf13a7bb8cb161fce"
+  },
+  "docs/results/r1/selection.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "b950f876ac8ea220398213e56f49dd899f4c5bfc9517e9e345caf3230f6af6da"
+  },
+  "docs/results/r1/signal_metrics.json": {
+    "source_run": "20260907T074523610278Z",
+    "sha256": "b61748ead621199c46277287322433dd3623258e391d5d8d03886a5fc11e149c"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "decision": "NO_GO",
+  "financial_events_recomputed": 77872,
+  "raw_cells_replayed": 4479324,
+  "screen_rank_ic_days": 2928,
+  "screen_bootstrap_replayed": true,
+  "conditional_rank_ic_days": 2928,
+  "selected": [
+    "R1_QUIET_REVERSAL"
+  ],
+  "predictions_replayed": 360,
+  "prediction_rows": 234038,
+  "model_bootstrap_replayed": true,
+  "model_variants": 2,
+  "registry_screen_records": 6,
+  "registry_model_records": 1,
+  "limits": "Historical exploratory evidence. Financial vintages remain unknown; sampled panel transfer, full event/formula checks; no fill-level or capacity verification.",
+  "verifier_sha256": "fe309a54e13cad524717586ce201bb7a82e1fa5f992c7e4ae74cd5d3efc87102"
+}

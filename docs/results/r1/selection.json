@@ -1,0 +1,9 @@
+{
+  "selected": [
+    "R1_QUIET_REVERSAL"
+  ],
+  "rule": "For each family, select the first fixed-order candidate with coverage>=0.70 in both screen years and positive RankIC in both. No ranking by performance. Allows predeclared weak-positive combination exploration despite failed significance; does not upgrade single-factor status.",
+  "protocol_sha256": "616af7d4e4041db6908ac08cd376fa288c436bf4a454f27d809ffee6457a46f0",
+  "model_variants_max": 2,
+  "scope": "EXPLORATORY; not standalone promotion or protected admission"
+}

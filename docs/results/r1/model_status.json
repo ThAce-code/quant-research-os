@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "stage": "model",
+  "decision": "NO_GO",
+  "passing": [],
+  "fits": 12,
+  "portfolios": 2,
+  "qualification": "SEALED",
+  "lockbox": "SEALED",
+  "independent_alpha": false
+}

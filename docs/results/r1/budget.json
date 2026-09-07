@@ -1,0 +1,21 @@
+{
+  "campaign": "r1_mechanism_campaign_v1",
+  "run_id": "20260907T074523610278Z",
+  "protocol_sha256": "616af7d4e4041db6908ac08cd376fa288c436bf4a454f27d809ffee6457a46f0",
+  "data_definition_rejects": 2,
+  "screened_candidates": 6,
+  "attempts_used": 8,
+  "attempts_limit": 12,
+  "unallocated_slots": 4,
+  "unused_slots_closed": true,
+  "selected_families": 1,
+  "fits": 12,
+  "fits_limit": 48,
+  "portfolios": 2,
+  "portfolios_limit": 8,
+  "model_runs": 1,
+  "model_runs_limit": 1,
+  "llm_calls": 0,
+  "qualification": "SEALED",
+  "lockbox": "SEALED"
+}

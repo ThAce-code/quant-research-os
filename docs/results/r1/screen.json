@@ -1,0 +1,326 @@
+{
+  "R1_CASH_SURPLUS": {
+    "primary": {
+      "days": 456,
+      "pairs": 67162,
+      "ic": -0.01362889584857605,
+      "ic_std": 0.08294090909277174,
+      "icir": -0.16432055059020087,
+      "positive_ic_ratio": 0.44298245614035087,
+      "rank_ic": -0.019590396969947358,
+      "rank_ic_std": 0.08444670640066028,
+      "rank_icir": -0.23198532903107022,
+      "positive_rank_ic_ratio": 0.39473684210526316
+    },
+    "years": {
+      "2015": {
+        "days": 233,
+        "pairs": 33453,
+        "ic": -0.020264111101273154,
+        "ic_std": 0.09407945716684613,
+        "icir": -0.21539358018760216,
+        "positive_ic_ratio": 0.4678111587982833,
+        "rank_ic": -0.030810321408435374,
+        "rank_ic_std": 0.09477374607572023,
+        "rank_icir": -0.3250934217986828,
+        "positive_rank_ic_ratio": 0.33905579399141633
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 33709,
+        "ic": -0.006696137311004637,
+        "ic_std": 0.06895742996120244,
+        "icir": -0.09710537812636129,
+        "positive_ic_ratio": 0.4170403587443946,
+        "rank_ic": -0.00786733690641504,
+        "rank_ic_std": 0.07042022849184054,
+        "rank_icir": -0.11171984350102773,
+        "positive_rank_ic_ratio": 0.452914798206278
+      }
+    },
+    "coverage": {
+      "2015": 0.6917780131907186,
+      "2016": 0.661146193256285
+    },
+    "inference": {
+      "mean": -0.019590396969947358,
+      "low": -0.0452804456499831,
+      "high": 0.007420383600105232,
+      "p": 0.9140429785107447
+    },
+    "q": 1.0,
+    "status": "REJECT",
+    "model_representative": false,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  },
+  "R1_CASH_IMPROVEMENT": {
+    "primary": {
+      "days": 454,
+      "pairs": 61541,
+      "ic": -0.0012547758989900318,
+      "ic_std": 0.10319743418707247,
+      "icir": -0.012158983494835934,
+      "positive_ic_ratio": 0.5814977973568282,
+      "rank_ic": 0.0028358340692892395,
+      "rank_ic_std": 0.102116372680406,
+      "rank_icir": 0.027770611067086764,
+      "positive_rank_ic_ratio": 0.4889867841409692
+    },
+    "years": {
+      "2015": {
+        "days": 231,
+        "pairs": 31157,
+        "ic": -0.02862199507222911,
+        "ic_std": 0.10589979994808782,
+        "icir": -0.27027430728159674,
+        "positive_ic_ratio": 0.4935064935064935,
+        "rank_ic": -0.007503883282890025,
+        "rank_ic_std": 0.1079869121722433,
+        "rank_icir": -0.06948882167239898,
+        "positive_rank_ic_ratio": 0.3939393939393939
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 30384,
+        "ic": 0.027094226921719505,
+        "ic_std": 0.09233443705864516,
+        "icir": 0.29343577309634666,
+        "positive_ic_ratio": 0.672645739910314,
+        "rank_ic": 0.013546482985672244,
+        "rank_ic_std": 0.0947120877440029,
+        "rank_icir": 0.14302802639391715,
+        "positive_rank_ic_ratio": 0.5874439461883408
+      }
+    },
+    "coverage": {
+      "2015": 0.6467040289785736,
+      "2016": 0.5955132678592705
+    },
+    "inference": {
+      "mean": 0.0028358340692892386,
+      "low": -0.026716966561176784,
+      "high": 0.029838947763479527,
+      "p": 0.4407796101949025
+    },
+    "q": 1.0,
+    "status": "REJECT",
+    "model_representative": false,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  },
+  "R1_GROSS_MARGIN_CHANGE": {
+    "primary": {
+      "days": 458,
+      "pairs": 75921,
+      "ic": 0.011688811779627837,
+      "ic_std": 0.07968715813752003,
+      "icir": 0.14668375749397264,
+      "positive_ic_ratio": 0.5786026200873362,
+      "rank_ic": 0.015131554027654877,
+      "rank_ic_std": 0.07684435724648753,
+      "rank_icir": 0.19691171310235045,
+      "positive_rank_ic_ratio": 0.5676855895196506
+    },
+    "years": {
+      "2015": {
+        "days": 235,
+        "pairs": 36869,
+        "ic": 0.02902668787949993,
+        "ic_std": 0.08036267410888963,
+        "icir": 0.3611961423803471,
+        "positive_ic_ratio": 0.6851063829787234,
+        "rank_ic": 0.03608254674622391,
+        "rank_ic_std": 0.07711011231218337,
+        "rank_icir": 0.4679353416078851,
+        "positive_rank_ic_ratio": 0.7106382978723405
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 39052,
+        "ic": -0.006582044200057998,
+        "ic_std": 0.07490763630744526,
+        "icir": -0.08786880115991315,
+        "positive_ic_ratio": 0.4663677130044843,
+        "rank_ic": -0.006946846370837151,
+        "rank_ic_std": 0.0702440694350766,
+        "rank_icir": -0.09889584169461886,
+        "positive_rank_ic_ratio": 0.4170403587443946
+      }
+    },
+    "coverage": {
+      "2015": 0.7694358063083074,
+      "2016": 0.7651954860342802
+    },
+    "inference": {
+      "mean": 0.015131554027654879,
+      "low": -0.006206047330523734,
+      "high": 0.03501202578805724,
+      "p": 0.07746126936531735
+    },
+    "q": 0.4647676161919041,
+    "status": "REJECT",
+    "model_representative": false,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  },
+  "R1_NET_MARGIN_CHANGE": {
+    "primary": {
+      "days": 458,
+      "pairs": 75921,
+      "ic": 0.009644883571848294,
+      "ic_std": 0.08648439122703709,
+      "icir": 0.11152166807220437,
+      "positive_ic_ratio": 0.5655021834061136,
+      "rank_ic": 0.00441159494934712,
+      "rank_ic_std": 0.09115798917542821,
+      "rank_icir": 0.048395044573188904,
+      "positive_rank_ic_ratio": 0.5218340611353712
+    },
+    "years": {
+      "2015": {
+        "days": 235,
+        "pairs": 36869,
+        "ic": 0.030957344000689675,
+        "ic_std": 0.10262792698606137,
+        "icir": 0.30164639304167384,
+        "positive_ic_ratio": 0.6212765957446809,
+        "rank_ic": 0.014010977018993636,
+        "rank_ic_std": 0.08344650075640007,
+        "rank_icir": 0.16790370946643965,
+        "positive_rank_ic_ratio": 0.5617021276595745
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 39052,
+        "ic": -0.012814435714150465,
+        "ic_std": 0.05751315999872334,
+        "icir": -0.22280875741195433,
+        "positive_ic_ratio": 0.5067264573991032,
+        "rank_ic": -0.005704345796692934,
+        "rank_ic_std": 0.0978065190401143,
+        "rank_icir": -0.05832275652662128,
+        "positive_rank_ic_ratio": 0.4798206278026906
+      }
+    },
+    "coverage": {
+      "2015": 0.7694358063083074,
+      "2016": 0.7651954860342802
+    },
+    "inference": {
+      "mean": 0.004411594949347119,
+      "low": -0.017573516712983312,
+      "high": 0.025561664281008967,
+      "p": 0.37831084457771114
+    },
+    "q": 1.0,
+    "status": "REJECT",
+    "model_representative": false,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  },
+  "R1_QUIET_REVERSAL": {
+    "primary": {
+      "days": 456,
+      "pairs": 71517,
+      "ic": 0.03660615113186501,
+      "ic_std": 0.12525200248412552,
+      "icir": 0.29226000707257743,
+      "positive_ic_ratio": 0.6293859649122807,
+      "rank_ic": 0.04334081867618712,
+      "rank_ic_std": 0.12308651191193622,
+      "rank_icir": 0.35211671858242155,
+      "positive_rank_ic_ratio": 0.6359649122807017
+    },
+    "years": {
+      "2015": {
+        "days": 233,
+        "pairs": 34020,
+        "ic": 0.04713090794294919,
+        "ic_std": 0.1372411166060424,
+        "icir": 0.3434168207640051,
+        "positive_ic_ratio": 0.6266094420600858,
+        "rank_ic": 0.058124237103499676,
+        "rank_ic_std": 0.1349867402305914,
+        "rank_icir": 0.430592197457386,
+        "positive_rank_ic_ratio": 0.6695278969957081
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 37497,
+        "ic": 0.02560943213194295,
+        "ic_std": 0.11059918616245584,
+        "icir": 0.2315517231232246,
+        "positive_ic_ratio": 0.6322869955156951,
+        "rank_ic": 0.027894466687111666,
+        "rank_ic_std": 0.10742449029242426,
+        "rank_icir": 0.25966580442857196,
+        "positive_rank_ic_ratio": 0.600896860986547
+      }
+    },
+    "coverage": {
+      "2015": 0.7002699654854253,
+      "2016": 0.7345747306428827
+    },
+    "inference": {
+      "mean": 0.04334081867618712,
+      "low": 0.02038176731652092,
+      "high": 0.06591793132182891,
+      "p": 0.0004997501249375312
+    },
+    "q": 0.005997001499250375,
+    "status": "FORWARD",
+    "model_representative": true,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  },
+  "R1_ACTIVE_CONTINUATION": {
+    "primary": {
+      "days": 453,
+      "pairs": 59449,
+      "ic": -0.0851948694717522,
+      "ic_std": 0.11588796217200399,
+      "icir": -0.7351485682810067,
+      "positive_ic_ratio": 0.2251655629139073,
+      "rank_ic": -0.07839878711812084,
+      "rank_ic_std": 0.11045159772640015,
+      "rank_icir": -0.7098022005288019,
+      "positive_rank_ic_ratio": 0.23620309050772628
+    },
+    "years": {
+      "2015": {
+        "days": 230,
+        "pairs": 27253,
+        "ic": -0.10563854511261807,
+        "ic_std": 0.11789225108804421,
+        "icir": -0.8960601238645037,
+        "positive_ic_ratio": 0.18695652173913044,
+        "rank_ic": -0.10290077087042132,
+        "rank_ic_std": 0.11323055619616265,
+        "rank_icir": -0.9087721046972,
+        "positive_rank_ic_ratio": 0.18695652173913044
+      },
+      "2016": {
+        "days": 223,
+        "pairs": 32196,
+        "ic": -0.0641094641022493,
+        "ic_std": 0.11012527342968542,
+        "icir": -0.5821503284909704,
+        "positive_ic_ratio": 0.2645739910313901,
+        "rank_ic": -0.05312768279960467,
+        "rank_ic_std": 0.10173405579277277,
+        "rank_icir": -0.5222212206679652,
+        "positive_rank_ic_ratio": 0.28699551569506726
+      }
+    },
+    "coverage": {
+      "2015": 0.5542835662782353,
+      "2016": 0.6328743340538885
+    },
+    "inference": {
+      "mean": -0.07839878711812084,
+      "low": -0.11494588714165845,
+      "high": -0.04928114290175367,
+      "p": 1.0
+    },
+    "q": 1.0,
+    "status": "REJECT",
+    "model_representative": false,
+    "interpretation": "Historical exploratory screen; weak-positive combination route is separate from standalone significance."
+  }
+}

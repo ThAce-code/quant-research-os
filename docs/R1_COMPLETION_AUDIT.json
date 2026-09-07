@@ -1,0 +1,71 @@
+{
+  "status": "COMPLETE",
+  "research_decision": "NO_GO",
+  "run_id": "20260907T074523610278Z",
+  "scope": "Frozen finite R1 empirical study; not independent alpha or trading readiness",
+  "protocol_sha256": "616af7d4e4041db6908ac08cd376fa288c436bf4a454f27d809ffee6457a46f0",
+  "candidates_sha256": "27b9609dcb34257ba9d27ffa6092b550782c59c1b43b8d196e99f4c8024a8da4",
+  "items": [
+    {
+      "item": "Data feasibility and definition freeze",
+      "status": "PASS",
+      "evidence": "docs/results/r1/input_audit.json"
+    },
+    {
+      "item": "Publication alignment and same-period arithmetic",
+      "status": "PASS",
+      "evidence": "docs/results/r1/input_verification.json"
+    },
+    {
+      "item": "All six fixed-direction screens and FDR",
+      "status": "PASS",
+      "evidence": "docs/results/r1/screen.json"
+    },
+    {
+      "item": "Partial technical conditional diagnostics and correlation",
+      "status": "PASS",
+      "evidence": "docs/results/r1/conditional.json"
+    },
+    {
+      "item": "Predeclared family representatives and all admitted subsets",
+      "status": "PASS",
+      "evidence": "docs/results/r1/selection.json",
+      "note": "Only one family admissible; one nonempty subset, no rejected-family combination"
+    },
+    {
+      "item": "Purged twenty-day rolling Alpha158 increment and paired costs",
+      "status": "PASS_NO_GO",
+      "evidence": "docs/results/r1/model_comparisons.json"
+    },
+    {
+      "item": "Independent numerical and bootstrap replay",
+      "status": "PASS",
+      "evidence": "docs/results/r1/independent_verification.json"
+    },
+    {
+      "item": "Finite budget and existing registry lineage",
+      "status": "PASS",
+      "evidence": "docs/results/r1/budget.json"
+    },
+    {
+      "item": "Regression",
+      "status": "PASS",
+      "evidence": "docs/results/r1/regression.json"
+    }
+  ],
+  "registry": {
+    "m1_m3_r1": 47,
+    "m2": 33,
+    "total": 80,
+    "keep": 0
+  },
+  "required_work_remaining": [],
+  "protected_periods": "2021-2025 SEALED",
+  "paper_trading_started": false,
+  "limitations": [
+    "Historical adaptive research; not fresh OOS",
+    "Financial revisions and historical industry vintages unknown",
+    "No fill-level replay or capacity validation",
+    "Only one family admitted; cross-family combination was not empirically tested"
+  ]
+}
