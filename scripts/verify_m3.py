@@ -24,6 +24,14 @@ def verify(folder):
         assert hashlib.sha256((folder/'source'/name).read_bytes()).hexdigest() == expected, name
     canonical = ROOT/'data/canonical/baostock_alpha158_csi300_2008_2020'
     results = json.loads((folder/'results.json').read_text())
+    pit_equity = None
+    if 'PIT_LOW_EQUITY_GROWTH' in results:
+        batch = json.loads((folder/'batch.json').read_text())
+        binding = batch['data_contract']; path = folder/'source'/binding['path']
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == binding['sha256']
+        meta = json.loads(path.read_text())['fields']['pit_equity_growth']['panel']
+        assert hashlib.sha256((ROOT/meta['path']).read_bytes()).hexdigest() == meta['sha256']
+        pit_equity = pd.read_parquet(ROOT/meta['path'])
     raw = {n: pd.read_parquet(folder/n/'raw.parquet') for n in results}
     scores = {n: pd.read_parquet(folder/n/'scores.parquet') for n in results}
     reference = next(iter(raw.values()))
@@ -39,6 +47,7 @@ def verify(folder):
         expected.update(SAGE_EXPORT_ROW0=-2.0-h,
                         FORGE_EXPORT_ROW0=1/(-0.01*vwap),
                         FORGE_EXPORT_ROW1=2.0-((vwap-(-10.0))-30.0))
+        if pit_equity is not None:expected['PIT_LOW_EQUITY_GROWTH']=pit_equity[symbol]
         for name in results:
             np.testing.assert_allclose(raw[name][symbol], expected[name].reindex(reference.index),
                                        rtol=1e-12, atol=1e-12, equal_nan=True)
@@ -67,7 +76,7 @@ def verify(folder):
     report = {'status':'PASS','run_id':folder.name,'raw_cells_replayed':cell_count,
               'rank_ic_dates_replayed':ic_count,'registry_reports_matched':len(results),
               'source_snapshot_hashes_verified':len(source_hashes),
-              'verification_scope':'direct canonical formulas, sampled rank correlations, artifacts and registry; not full independent portfolio/model validation'}
+              'verification_scope':'direct canonical formulas or pinned PIT source panel, sampled rank correlations, artifacts and registry; not full independent portfolio/model validation'}
     write(folder/'independent_verification.json', report)
     print(json.dumps(report))
 
