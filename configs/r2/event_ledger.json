@@ -1,0 +1,64 @@
+{
+  "run_id": "r2_event_ledger_v1",
+  "purpose": "Offline primary-event transcription, deduplication and availability audit; not factor preregistration",
+  "periods": ["2015-03-31", "2016-03-31"],
+  "notice_window": "January through April of the report year",
+  "availability_rule": "First calendar trading date strictly after source index notice date; date precision only, never PDF signature date",
+  "membership_rule": "Historical interval contains availability date, inclusive endpoints",
+  "version_policy": "Only explicitly reviewed primary references link versions; earliest archived is not necessarily first disclosure; cancellation time unknown stays quarantined",
+  "dedup_rule": "Same company, period, notice date and identical reviewed parent-profit bounds; all document identities retained; conflicting values quarantine the date",
+  "research_admission": false,
+  "returns_loaded": false,
+  "network_requests": 0,
+  "reviewed_annual_tables": [
+    ["1200691662", 6, 102994.98, 109861.31, 50, 60],
+    ["1200737744", 13, 29228.55, 31770.16, 15, 25],
+    ["1200755518", 7, 22860.5, 25400.55, 350, 400],
+    ["1200756884", 7, 10000, 15000, 735.70, 1153.55],
+    ["1200765852", 5, 25780.29, 30936.35, 0, 20],
+    ["1200764931", 11, 2122.13, 6366.38, -90, -70],
+    ["1200767194", 3, 20514, 22793, -10, 0],
+    ["1200784086", 19, 14036.12, 18714.83, -25, 0],
+    ["1200784085", 6, 14036.12, 18714.83, -25, 0],
+    ["1200811767", 7, 11616.09, 13636.28, 15, 35],
+    ["1202004929", 5, 18612.9, 21715.05, 80, 110],
+    ["1202046793", 13, 28400, 39759, -25, 5],
+    ["1202063756", 17, 34493.23, 37628.98, 10, 20],
+    ["1202091378", 7, 18880.87, 24275.40, -30, -10],
+    ["1202090004", 7, 39726.91, 43037.49, 20, 30],
+    ["1202089378", 8, 72000, 90000, 495.31, 644.13],
+    ["1202100531", 8, 24877.35, 37316.03, 0, 50],
+    ["1202111580", 9, 6787.86, 9183.57, -15, 15],
+    ["1202110695", 7, 43953.3, 50715.35, 30, 50],
+    ["1200633670", 8, 30385.16, 32366.80, 360, 390]
+  ],
+  "annual_table_columns": ["announcement_id", "page", "lower_10k_yuan", "upper_10k_yuan", "yoy_lower_percent", "yoy_upper_percent"],
+  "annual_review_method": "Archived page text and explicitly labelled current-Q1 parent-profit table; selected PDF visual checks recorded separately; no vendor values used to fill primary fields",
+  "visual_checks_this_batch": ["1200756884", "1202111580", "1200788295", "1200833073"],
+  "extra_transcriptions": [
+    {
+      "announcement_id": "1200788295",
+      "code": "002252",
+      "period": "2015-03-31",
+      "notice_date": "2015-04-04",
+      "page": 1,
+      "parent_profit_lower_yuan": 376511200,
+      "parent_profit_upper_yuan": 383117300,
+      "yoy_lower_percent": 470,
+      "yoy_upper_percent": 480,
+      "issue": null
+    }
+  ],
+  "document_issues": {
+    "1202111580": ["SOURCE_PROSE_RANGE_CONFLICT: prose says decline over 50%, table says -15% to +15%; retain table transcription but quarantine"],
+    "1202100531": ["CANCELLED_DOCUMENT_WITH_UNKNOWN_CANCELLATION_TIME"],
+    "1200829000": ["CHANGED_CONSOLIDATION_SCOPE; cross-vendor comparison base unresolved"],
+    "1200833073": ["RESTATED_PRIOR_PROFIT; vendor pre-adjustment and printed restated bases differ"]
+  },
+  "reviewed_links": [
+    {"prior": "1200574709", "revision": "1200800371", "status": "VERIFIED_LOCAL_REFERENCE", "reference_page": 1, "reference_tokens": ["2015年1月24日", "2015-11", "增长0-20%"], "note": "Original 2015-011 and cited 2015-11 differ only in zero padding; original PDF independently archived"},
+    {"prior": "1200633670", "revision": "1200788295", "status": "VERIFIED_LOCAL_REFERENCE", "reference_page": 1, "reference_tokens": ["2015年2月13日", "2014年度报告摘要", "360％~390%"], "note": "Reference date, annual-summary title and original growth range match the independently archived original"},
+    {"prior": "1200705304", "revision": "1200809462", "status": "UNRESOLVED_REFERENCE_ID_CONFLICT", "reference_page": 1, "reference_tokens": ["2015年03月17日", "2015-017"], "note": "Original is numbered 2015-014; do not certify or manufacture an intermediate document"},
+    {"prior": null, "revision": "1202178462", "status": "EXPLICIT_NO_PRIOR_DISCLOSED", "reference_page": 1, "reference_tokens": ["故公司未披露2016年第一季度业绩预告"], "note": "Missing predecessor is not a zero forecast"}
+  ]
+}
