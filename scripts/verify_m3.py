@@ -1,4 +1,4 @@
-"""Replay paper formulas from canonical bars and sampled IC without the DSL."""
+"""Replay fixed paper/search-export formulas and sampled IC without the DSL."""
 import argparse
 import hashlib
 import json
@@ -35,6 +35,10 @@ def verify(folder):
         o, h, l, c = [(b[k]*b.factor).where(active) for k in ['open','high','low','close']]
         expected = {'PAPER101_INTRADAY_MOM': np.log(c/o),
                     'PAPER101_ALPHA101': (c-o)/(h-l+0.001)}
+        vwap = (b.amount*b.factor/b.volume.where(b.volume.gt(0))).where(active)
+        expected.update(SAGE_EXPORT_ROW0=-2.0-h,
+                        FORGE_EXPORT_ROW0=1/(-0.01*vwap),
+                        FORGE_EXPORT_ROW1=2.0-((vwap-(-10.0))-30.0))
         for name in results:
             np.testing.assert_allclose(raw[name][symbol], expected[name].reindex(reference.index),
                                        rtol=1e-12, atol=1e-12, equal_nan=True)
