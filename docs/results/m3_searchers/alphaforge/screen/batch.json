@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "deviations": [
+        "Generated export is transferred to the local historical CSI300 protocol; upstream reward is not local alpha evidence.",
+        "Declared upstream periods: {\"diagnostic\": [\"2012-08-07\", \"2014-02-19\"], \"train\": [\"2009-08-06\", \"2013-02-21\"]}",
+        "Float32 upstream and local floating-point arithmetic can differ; missing values remain explicit."
+      ],
+      "direction": 1,
+      "direction_evidence": "Fixed positive expression sign before local screening. Absolute upstream reward does not determine a positive local return relationship.",
+      "economic_rationale": "For positive VWAP this score increases with nominal price. It is an economically weak price-level candidate, not a demonstrated liquidity premium; adjustment sensitivity and redundancy are likely failure mechanisms.",
+      "expression": "Div(1, Mul(-(0.01), vwap))",
+      "family": "generated_vwap_level",
+      "hypothesis": "Test the native negative reciprocal adjusted VWAP score exactly as exported.",
+      "input_fields": {
+        "vwap": "Canonical daily vwap; generator data units must be compared with local units"
+      },
+      "name": "FORGE_EXPORT_ROW0",
+      "operator_semantics": {
+        "Inv": "Div(1, operand); mapped from pinned upstream implementation; full-window historical semantics",
+        "Mul": "Mul; mapped from pinned upstream implementation; full-window historical semantics"
+      },
+      "original_expression": "Inv((-0.01*vwap))",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "asset_sha256:2b489296583283278d5725a648577bb612415f2d5d001374c0a4518ceee9d33f/row:0",
+      "source_type": "SEARCH_GENERATED",
+      "source_url": "https://github.com/dulyHao/AlphaForge/tree/d0cfc27df23c60f271bc885fd43027b86b787746",
+      "version": 1
+    },
+    {
+      "deviations": [
+        "Generated export is transferred to the local historical CSI300 protocol; upstream reward is not local alpha evidence.",
+        "Declared upstream periods: {\"diagnostic\": [\"2012-08-07\", \"2014-02-19\"], \"train\": [\"2009-08-06\", \"2013-02-21\"]}",
+        "Float32 upstream and local floating-point arithmetic can differ; missing values remain explicit."
+      ],
+      "direction": 1,
+      "direction_evidence": "Fixed positive expression sign before local screening, independent of export scores.",
+      "economic_rationale": "This ranks lower nominal prices positively and may carry little information beyond existing price features. Preserve the exact expression and let the common engine reject it if unsupported by evidence.",
+      "expression": "Sub(2.0, Sub(Sub(vwap, -(10.0)), 30.0))",
+      "family": "generated_vwap_level",
+      "hypothesis": "Test the native constant-minus-adjusted-VWAP score with its exported offsets and positive sign.",
+      "input_fields": {
+        "vwap": "Canonical daily vwap; generator data units must be compared with local units"
+      },
+      "name": "FORGE_EXPORT_ROW1",
+      "operator_semantics": {
+        "Sub": "Sub; mapped from pinned upstream implementation; full-window historical semantics"
+      },
+      "original_expression": "(2.0-((vwap--10.0)-30.0))",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "asset_sha256:2b489296583283278d5725a648577bb612415f2d5d001374c0a4518ceee9d33f/row:1",
+      "source_type": "SEARCH_GENERATED",
+      "source_url": "https://github.com/dulyHao/AlphaForge/tree/d0cfc27df23c60f271bc885fd43027b86b787746",
+      "version": 1
+    }
+  ]
+}

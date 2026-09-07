@@ -1,0 +1,17 @@
+{
+    "exprs": [
+        "Sub(-2.0,$high)",
+        "Log(Add(Pow(0.5,$vwap),-5.0))",
+        "Div(-0.01,Div(TsVar(TsSkew(Sign($low),10),30),$volume))",
+        "Mul(Add(0.5,$volume),Add(Mul(30.0,$low),5.0))",
+        "Div(1.0,$close)"
+    ],
+    "weights": [
+        0.0033457374665886164,
+        0.0,
+        0.0,
+        0.018112020567059517,
+        0.015065071173012257
+    ],
+    "record_reward": []
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "deviations": [
+        "Generated export is transferred to the local historical CSI300 protocol; upstream reward is not local alpha evidence.",
+        "Declared upstream periods: {\"diagnostic\": [\"2012-08-07\", \"2014-02-19\"], \"train\": [\"2009-08-06\", \"2013-02-21\"]}",
+        "Float32 upstream and local floating-point arithmetic can differ; missing values remain explicit."
+      ],
+      "direction": 1,
+      "direction_evidence": "Fixed positive expression direction before local evaluation. The generator uses absolute IC, so its reward does not establish this sign.",
+      "economic_rationale": "A low nominal price preference is a weak interpretation, not a valuation ratio. Adjustment conventions and corporate actions can dominate it; this candidate is primarily a genuine generator transfer for falsification.",
+      "expression": "Sub(-(2.0), high)",
+      "family": "generated_price_level",
+      "hypothesis": "Test the generator's negative adjusted daily-high level score without changing its sign or offset.",
+      "input_fields": {
+        "high": "Canonical daily high; generator data units must be compared with local units"
+      },
+      "name": "SAGE_EXPORT_ROW0",
+      "operator_semantics": {
+        "Sub": "Sub; mapped from pinned upstream implementation; full-window historical semantics"
+      },
+      "original_expression": "Sub(-2.0,$high)",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "asset_sha256:4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa/row:0",
+      "source_type": "SEARCH_GENERATED",
+      "source_url": "https://github.com/BerkinChen/AlphaSAGE/tree/517467a34909512a92d6e3139df54891957560de",
+      "version": 1
+    }
+  ]
+}

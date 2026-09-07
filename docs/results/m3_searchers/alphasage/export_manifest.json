@@ -1,0 +1,18 @@
+{
+  "source": "alphasage",
+  "revision": "517467a34909512a92d6e3139df54891957560de",
+  "asset_sha256": "4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa",
+  "periods": {
+    "train": [
+      "2009-08-06",
+      "2013-02-21"
+    ],
+    "diagnostic": [
+      "2012-08-07",
+      "2014-02-19"
+    ]
+  },
+  "protected_accessed": false,
+  "asset": "native\\pool_64.json",
+  "generation_evidence": "Local pinned upstream execution; see runtime/training/input contract"
+}

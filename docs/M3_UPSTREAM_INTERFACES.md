@@ -1,8 +1,11 @@
 # External searcher integration evidence
 
-These official upstream checkouts have been inspected and pinned locally. No
-generator training or output import has yet passed acceptance. Their libraries
-are not installed into the frozen quant environment merely by cloning them.
+These official upstream checkouts are pinned locally. Bounded native generation,
+export import, numerical replay and common-engine screening have now passed
+acceptance; all screened candidates were rejected. See the [run report](results/m3_searchers/report.md).
+Dependencies are installed in a separate CPU venv; the original quant environment
+was not modified. The earlier inspection findings below remain relevant to
+reproduction and do not imply that native default datasets/splits may be used.
 
 | Project | Official repository | Inspected revision | Export interface |
 |---|---|---|---|
@@ -28,7 +31,17 @@ Important implementation findings:
   An isolated compatible environment or an explicitly verified equivalent runtime
   is required. This is a discovered dependency issue, not completed integration.
 
-Next acceptance evidence must include an actual upstream-produced expression
-asset, pinned source identity, declared generation data/time scope, translator
-semantics and a unified candidate import. A handcrafted pool JSON alone is not
-that evidence.
+The accepted evidence now includes actual native CSV/JSON assets, source hashes,
+data/time contracts, exact execution driver, controlled and canonical numerical
+replay, ledger imports and independent screen verification. AlphaSAGE generated
+five pool expressions in 64 episodes; AlphaForge generated two post-training
+expressions in one bounded native predictor/generator round. This verifies
+integration, not the full training budget, alpha zoo, portfolio construction or
+returns reported in either paper.
+
+The runtime is `data/m3_search_env/Scripts/python.exe`, created from the existing
+quant Python 3.12 environment with `venv --system-site-packages`. Its local overlay
+includes torch 2.4.1+cpu, torchgfn 1.2.1, torch-geometric 2.6.1,
+stable-baselines3/sb3-contrib 2.7.0 and tensorboard 2.20.0. Exact overlay versions
+are in `docs/results/m3_searchers/runtime_overlay.txt`. Native warnings are kept
+in logs, not suppressed or presented as a successful model improvement.

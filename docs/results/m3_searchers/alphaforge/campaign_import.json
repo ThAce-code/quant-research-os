@@ -1,0 +1,23 @@
+{
+  "source": "alphaforge",
+  "revision": "d0cfc27df23c60f271bc885fd43027b86b787746",
+  "asset_sha256": "2b489296583283278d5725a648577bb612415f2d5d001374c0a4518ceee9d33f",
+  "exported_expression_count": 2,
+  "selected_rows": [
+    0,
+    1
+  ],
+  "scope_evidence": "DECLARED_UPSTREAM_PROVENANCE",
+  "proposals": [
+    {
+      "proposal_id": 7,
+      "status": "ACCEPTED",
+      "reason": null
+    },
+    {
+      "proposal_id": 8,
+      "status": "ACCEPTED",
+      "reason": null
+    }
+  ]
+}

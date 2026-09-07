@@ -112,3 +112,24 @@ explicit migration path; its original protocol and negative result stay fixed.
 
 Runtime acceptance of real LLM generation and a multi-round loop remains pending.
 Protocol-server fixtures verify HTTP serialization and error handling only.
+
+## External search exports
+
+`import-search CAMPAIGN SOURCE ASSET MANIFEST ANNOTATIONS --round 0` accepts
+`alphasage` native pool JSON or `alphaforge` expression CSV. The manifest pins
+revision, asset SHA256, all generation/feedback periods and protected-access
+declaration. Annotations select at most three exact zero-based rows and fix their
+hypotheses, economic interpretations and directions. Examples are
+`configs/m3/alphasage_annotations_v1.json` and `alphaforge_annotations_v1.json`.
+
+The importer does not use exported rewards or weights to set local signs or
+promote candidates. Unsupported formulas become budgeted INVALID proposals;
+accepted formulas enter the same `evaluate → freeze → model` flow. Repeat import
+is another attempted proposal subject to deduplication/budget, not a resume call.
+The two published campaigns are already frozen; do not repeat their evaluations.
+
+Use the separate search venv for `scripts/run_m3_searcher.py`, which executes
+pinned upstream networks and optimizers on bounded canonical tensors. Use the
+quant Python environment for common CLI imports and numerical screening. Native
+training/search outcomes and local admission outcomes are distinct; both are
+retained in [the integration report](results/m3_searchers/report.md).

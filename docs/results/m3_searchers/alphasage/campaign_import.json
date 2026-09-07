@@ -1,0 +1,29 @@
+{
+  "source": "alphasage",
+  "revision": "517467a34909512a92d6e3139df54891957560de",
+  "asset_sha256": "4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa",
+  "exported_expression_count": 5,
+  "selected_rows": [
+    0,
+    1,
+    2
+  ],
+  "scope_evidence": "DECLARED_UPSTREAM_PROVENANCE",
+  "proposals": [
+    {
+      "proposal_id": 4,
+      "status": "ACCEPTED",
+      "reason": null
+    },
+    {
+      "proposal_id": 5,
+      "status": "INVALID",
+      "reason": "unsupported expression node, field or operation"
+    },
+    {
+      "proposal_id": 6,
+      "status": "INVALID",
+      "reason": "unsupported expression node, field or operation"
+    }
+  ]
+}

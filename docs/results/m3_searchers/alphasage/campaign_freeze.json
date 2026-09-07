@@ -1,0 +1,76 @@
+{
+  "selected": [],
+  "protocols": {
+    "configs/m3/increment.json": "a09f2b225e4b9a1b2459d178cad95d9ad9597707eeeba517b633de0cb2a5e1b2",
+    "configs/factors/m2_rolling.json": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a"
+  },
+  "spec": {
+    "campaign_id": "m3_alphasage_export_v1",
+    "max_calls": 0,
+    "max_evaluations": 1,
+    "max_model_runs": 1,
+    "max_output_tokens": 0,
+    "max_proposals": 3,
+    "max_rounds": 1,
+    "objective": "Import the first three rows of the single frozen AlphaSAGE 64-episode export. Unsupported rows remain invalid attempts. Evaluate the supported row once with fixed positive sign, then use the frozen model gate if admitted. No replacement rows, score-based sign changes, retries or protected data.",
+    "research_period": [
+      "2015-01-01",
+      "2020-07-31"
+    ],
+    "seed": 42
+  },
+  "proposals": [
+    {
+      "id": 4,
+      "campaign": "m3_alphasage_export_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"Generated export is transferred to the local historical CSI300 protocol; upstream reward is not local alpha evidence.\", \"Declared upstream periods: {\\\"diagnostic\\\": [\\\"2012-08-07\\\", \\\"2014-02-19\\\"], \\\"train\\\": [\\\"2009-08-06\\\", \\\"2013-02-21\\\"]}\", \"Float32 upstream and local floating-point arithmetic can differ; missing values remain explicit.\"], \"direction\": 1, \"direction_evidence\": \"Fixed positive expression direction before local evaluation. The generator uses absolute IC, so its reward does not establish this sign.\", \"economic_rationale\": \"A low nominal price preference is a weak interpretation, not a valuation ratio. Adjustment conventions and corporate actions can dominate it; this candidate is primarily a genuine generator transfer for falsification.\", \"expression\": \"Sub(-(2.0), high)\", \"family\": \"generated_price_level\", \"hypothesis\": \"Test the generator's negative adjusted daily-high level score without changing its sign or offset.\", \"input_fields\": {\"high\": \"Canonical daily high; generator data units must be compared with local units\"}, \"name\": \"SAGE_EXPORT_ROW0\", \"operator_semantics\": {\"Sub\": \"Sub; mapped from pinned upstream implementation; full-window historical semantics\"}, \"original_expression\": \"Sub(-2.0,$high)\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"asset_sha256:4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa/row:0\", \"source_type\": \"SEARCH_GENERATED\", \"source_url\": \"https://github.com/BerkinChen/AlphaSAGE/tree/517467a34909512a92d6e3139df54891957560de\", \"version\": 1}",
+      "signature": "c4aa1f217bf122092130661fbe1d395977172d8e34d98f0fa8e59c9a78f684ad",
+      "status": "ACCEPTED",
+      "reason": null,
+      "parents": "[]",
+      "created_at": "2026-09-07 03:47:49"
+    },
+    {
+      "id": 5,
+      "campaign": "m3_alphasage_export_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"unsupported or semantically unaligned upstream operator: Log\"], \"direction\": 1, \"direction_evidence\": \"Fixed positive sign independent of local outcomes or pool weights.\", \"economic_rationale\": \"No established economic mechanism; its log and power expression can be undefined. It must fail explicitly if the formula cannot be faithfully represented.\", \"expression\": \"UNSUPPORTED_UPSTREAM_EXPRESSION\", \"family\": \"generated_nonlinear_price\", \"hypothesis\": \"Preserve the second native export row as an attempted nonlinear price hypothesis.\", \"input_fields\": {}, \"name\": \"SAGE_EXPORT_ROW1\", \"operator_semantics\": {}, \"original_expression\": \"Log(Add(Pow(0.5,$vwap),-5.0))\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"asset_sha256:4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa/row:1\", \"source_type\": \"SEARCH_GENERATED\", \"source_url\": \"https://github.com/BerkinChen/AlphaSAGE/tree/517467a34909512a92d6e3139df54891957560de\", \"version\": 1}",
+      "signature": null,
+      "status": "INVALID",
+      "reason": "unsupported expression node, field or operation",
+      "parents": "[]",
+      "created_at": "2026-09-07 03:47:49"
+    },
+    {
+      "id": 6,
+      "campaign": "m3_alphasage_export_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"unsupported or semantically unaligned upstream operator: TsVar\"], \"direction\": 1, \"direction_evidence\": \"Fixed positive sign independent of local outcomes or pool weights.\", \"economic_rationale\": \"No established mechanism; unsupported sign and higher-moment semantics prohibit a faithful local calculation at present.\", \"expression\": \"UNSUPPORTED_UPSTREAM_EXPRESSION\", \"family\": \"generated_shape_volume\", \"hypothesis\": \"Preserve the third native export row involving higher moments and volume as a recorded attempt.\", \"input_fields\": {}, \"name\": \"SAGE_EXPORT_ROW2\", \"operator_semantics\": {}, \"original_expression\": \"Div(-0.01,Div(TsVar(TsSkew(Sign($low),10),30),$volume))\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"asset_sha256:4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa/row:2\", \"source_type\": \"SEARCH_GENERATED\", \"source_url\": \"https://github.com/BerkinChen/AlphaSAGE/tree/517467a34909512a92d6e3139df54891957560de\", \"version\": 1}",
+      "signature": null,
+      "status": "INVALID",
+      "reason": "unsupported expression node, field or operation",
+      "parents": "[]",
+      "created_at": "2026-09-07 03:47:49"
+    }
+  ],
+  "evaluations": [
+    {
+      "proposal": 4,
+      "state": "COMPLETE",
+      "run_id": "20260907T034802617924Z",
+      "evidence": "{\"batch_q\": 0.9855072463768116, \"decision\": \"IC_SCREEN_REJECT\", \"inference\": {\"high\": -0.0014027253651363346, \"low\": -0.029315655478187208, \"mean\": -0.015360763403506577, \"p\": 0.9855072463768116}, \"interpretation\": \"EXPLORATORY_SEARCH_FEEDBACK; batch q is not campaign-wide confirmation\", \"period\": [\"2015-01-01\", \"2016-12-31\"], \"primary\": {\"days\": 475, \"ic\": -0.007965720742916387, \"ic_std\": 0.07749158936315761, \"icir\": -0.10279464917909642, \"pairs\": 99621, \"positive_ic_ratio\": 0.48210526315789476, \"positive_rank_ic_ratio\": 0.4126315789473684, \"rank_ic\": -0.015360763403506578, \"rank_ic_std\": 0.08275523099222129, \"rank_icir\": -0.18561682710970184}, \"protected_accessed\": false, \"result_sha256\": \"b6f2344abd1bf40f23c9616e44a6175a7559a8855dfca07241a94da21e35c2d2\", \"scope\": \"research_only\", \"screen_run\": \"20260907T034802617924Z\"}"
+    }
+  ],
+  "calls": [],
+  "hypothesis_budget": 3,
+  "evaluation_budget": 1,
+  "proposal_attempts": 3,
+  "evaluation_attempts": 1,
+  "feedback_rounds_observed": [
+    0
+  ],
+  "statistical_scope": "EXPLORATORY_SEARCH; per-batch q and selected-model q do not establish campaign-wide confirmation",
+  "protected_periods": "SEALED",
+  "loop_specs": []
+}

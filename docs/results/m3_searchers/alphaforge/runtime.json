@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:37:13) [MSC v.1942 64 bit (AMD64)]",
+  "torch": "2.4.1+cpu",
+  "device": "cpu",
+  "revision": "d0cfc27df23c60f271bc885fd43027b86b787746",
+  "runner_sha256": "d174935b7042e24bbd7aaae4d28b65c0cb04b53529075e8a76314b9b0ab8edc5"
+}

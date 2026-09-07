@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "source": "alphasage",
+  "revision": "517467a34909512a92d6e3139df54891957560de",
+  "asset_sha256": "4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa",
+  "source_files_checked": 90,
+  "fixture_cases": [
+    {
+      "expression": "$close",
+      "translated": "close",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Abs($close)",
+      "translated": "Abs(close)",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Inv($close)",
+      "translated": "Div(1, close)",
+      "finite_cells": 278,
+      "missing_cells": 2,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Add($close,$open)",
+      "translated": "Add(close, open)",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Sub($close,2)",
+      "translated": "Sub(close, 2)",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Mul($close,$open)",
+      "translated": "Mul(close, open)",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Div($close,$open)",
+      "translated": "Div(close, open)",
+      "finite_cells": 278,
+      "missing_cells": 2,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "Ref($close,2)",
+      "translated": "Ref(close, 2)",
+      "finite_cells": 279,
+      "missing_cells": 1,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "TsMean($close,3)",
+      "translated": "Mean(close, 3)",
+      "finite_cells": 277,
+      "missing_cells": 3,
+      "max_abs_error": 3.552713678800501e-15
+    },
+    {
+      "expression": "TsStd($close,3)",
+      "translated": "Std(close, 3)",
+      "finite_cells": 277,
+      "missing_cells": 3,
+      "max_abs_error": 5.2263748884229244e-14
+    },
+    {
+      "expression": "TsMax($close,3)",
+      "translated": "Max(close, 3)",
+      "finite_cells": 277,
+      "missing_cells": 3,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "TsMin($close,3)",
+      "translated": "Min(close, 3)",
+      "finite_cells": 277,
+      "missing_cells": 3,
+      "max_abs_error": 0.0
+    },
+    {
+      "expression": "TsDelta($close,3)",
+      "translated": "Delta(close, 3)",
+      "finite_cells": 278,
+      "missing_cells": 2,
+      "max_abs_error": 0.0
+    }
+  ],
+  "export_rows": [
+    {
+      "row": 0,
+      "status": "PASS",
+      "train": {
+        "expression": "Sub(-2.0,$high)",
+        "translated": "Sub(-(2.0), high)",
+        "finite_cells": 213523,
+        "missing_cells": 315731,
+        "max_abs_error": 0.0
+      },
+      "diagnostic": {
+        "expression": "Sub(-2.0,$high)",
+        "translated": "Sub(-(2.0), high)",
+        "finite_cells": 69762,
+        "missing_cells": 103026,
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "row": 1,
+      "status": "UNSUPPORTED",
+      "reason": "unsupported or semantically unaligned upstream operator: Log",
+      "expression": "Log(Add(Pow(0.5,$vwap),-5.0))"
+    },
+    {
+      "row": 2,
+      "status": "UNSUPPORTED",
+      "reason": "unsupported or semantically unaligned upstream operator: TsVar",
+      "expression": "Div(-0.01,Div(TsVar(TsSkew(Sign($low),10),30),$volume))"
+    },
+    {
+      "row": 3,
+      "status": "PASS",
+      "train": {
+        "expression": "Mul(Add(0.5,$volume),Add(Mul(30.0,$low),5.0))",
+        "translated": "Mul(Add(0.5, volume), Add(Mul(30.0, low), 5.0))",
+        "finite_cells": 213523,
+        "missing_cells": 315731,
+        "max_abs_error": 0.0
+      },
+      "diagnostic": {
+        "expression": "Mul(Add(0.5,$volume),Add(Mul(30.0,$low),5.0))",
+        "translated": "Mul(Add(0.5, volume), Add(Mul(30.0, low), 5.0))",
+        "finite_cells": 69762,
+        "missing_cells": 103026,
+        "max_abs_error": 0.0
+      }
+    },
+    {
+      "row": 4,
+      "status": "PASS",
+      "train": {
+        "expression": "Div(1.0,$close)",
+        "translated": "Div(1.0, close)",
+        "finite_cells": 213523,
+        "missing_cells": 315731,
+        "max_abs_error": 0.0
+      },
+      "diagnostic": {
+        "expression": "Div(1.0,$close)",
+        "translated": "Div(1.0, close)",
+        "finite_cells": 69762,
+        "missing_cells": 103026,
+        "max_abs_error": 0.0
+      }
+    }
+  ],
+  "rtol": 2e-05,
+  "atol": 2e-05,
+  "scope": "Supported formulas replayed on actual generation and diagnostic tensors; unsupported rows rejected. Not an alpha verdict.",
+  "verifier_sha256": "21738467fda89f9be0911fb73c2ebd4efb518001c066c58c5bb31d996814648c",
+  "protected_accessed": false
+}

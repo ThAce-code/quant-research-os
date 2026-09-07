@@ -1,0 +1,17 @@
+{
+  "algorithm": "upstream structure-aware GFlowNet",
+  "episodes": 64,
+  "optimizer_updates": 8,
+  "losses": [
+    3787.070068359375,
+    4464.1455078125,
+    4897.18896484375,
+    5383.97998046875,
+    1063.992431640625,
+    6088.67431640625,
+    5003.615234375,
+    3853.97900390625
+  ],
+  "pool_size": 5,
+  "full_paper_replication": false
+}

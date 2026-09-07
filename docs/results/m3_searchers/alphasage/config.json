@@ -1,0 +1,42 @@
+{
+  "purpose": "Bounded genuine upstream generation for adapter acceptance; not a full paper-performance replication",
+  "seed": 42,
+  "threads": 4,
+  "train": [
+    "2010-01-04",
+    "2012-12-31"
+  ],
+  "diagnostic": [
+    "2013-01-04",
+    "2013-12-31"
+  ],
+  "lookback_days": 100,
+  "future_label_days": 30,
+  "device": "cpu",
+  "alphasage": {
+    "episodes": 64,
+    "update_freq": 8,
+    "pool_capacity": 5,
+    "encoder_type": "gnn",
+    "entropy_coef": 0.01,
+    "entropy_temperature": 1.0,
+    "mask_dropout_prob": 1.0,
+    "ssl_weight": 1.0,
+    "nov_weight": 0.3,
+    "weight_decay_type": "linear",
+    "final_weight_ratio": 0.0
+  },
+  "alphaforge": {
+    "outer_rounds": 1,
+    "collection_target": 128,
+    "collection_max_iter": 8,
+    "batch_size": 16,
+    "predictor_epochs": 3,
+    "generator_epochs": 3,
+    "ic_threshold": 0.03,
+    "icir_threshold": 0.1,
+    "correlation_threshold": 0.7
+  },
+  "selection": "Export native pool and collected generated expressions; no local-IC winner selection or retries to obtain a passing factor",
+  "protected_periods": "SEALED"
+}

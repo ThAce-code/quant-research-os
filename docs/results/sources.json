@@ -966,5 +966,181 @@
   "docs/results/m3_feedback_controller/verification.json": {
     "source_run": "m3_feedback_controller_v1",
     "sha256": "b8857f01d3356b612e0086b78c57d20d22561023b8fd5a2cf7aa08af66499969"
+  },
+  "docs/results/m3_searchers/alphasage/config.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "833e39c967b5a0c9c5b1cd53c494f1eed1c0b427c02b4a5b357eae4082ad7302"
+  },
+  "docs/results/m3_searchers/alphasage/status.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "44d3bcc7cd0ee10499815fac7be62137aa50f889838e693db5707288f8389183"
+  },
+  "docs/results/m3_searchers/alphasage/runtime.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "34614e46122c427672952bf75d4b8615f950e0181d354606c596878b86510207"
+  },
+  "docs/results/m3_searchers/alphasage/input_contract.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "c69e77084f9e3974832fee81cdd3d4e7dca85857ffdbebc3fe287e127957e654"
+  },
+  "docs/results/m3_searchers/alphasage/training.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "6168c6cf5f1b0fdc08a9eba61da2c0d5cdf8cce720c021308efa2bfa9943902f"
+  },
+  "docs/results/m3_searchers/alphasage/source_hashes.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "57b0bb6fd62a7d7db37450c4bee863e9182ba53cf3e5e9a21c3912111fd8884f"
+  },
+  "docs/results/m3_searchers/alphasage/export_manifest.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "b91771754d1d174d87d55c3243e7c82e0123d710269426d6b3395179c49fd723"
+  },
+  "docs/results/m3_searchers/alphasage/campaign_import.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "f06bfc635b4ada4981632bc5774a5d4bc73d6f8df0c16d7eccd2e518b21f73fe"
+  },
+  "docs/results/m3_searchers/alphasage/campaign_final.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "2edd55669ed69d3f8cd4de2d1507f9169bff8ed6514f5f0fa60ad0855f80a5a1"
+  },
+  "docs/results/m3_searchers/alphasage/campaign_freeze.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "d7970d7aaa67e8ccd84f1207dcc215f4e157245381a2cc1a9ff9738a6f6d1cdb"
+  },
+  "docs/results/m3_searchers/alphasage/model_admission.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "ef16ce9deaba84477b01a003dabf8d55df266c18ca5f215b93fea6bd2b0c22ee"
+  },
+  "docs/results/m3_searchers/alphasage/runner.py": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "d174935b7042e24bbd7aaae4d28b65c0cb04b53529075e8a76314b9b0ab8edc5"
+  },
+  "docs/results/m3_searchers/alphasage/verification/result.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "e36e678816216034cd4a254fd358a976bc6656a7532732871a14c49ba96788dc"
+  },
+  "docs/results/m3_searchers/alphasage/native/pool_64.json": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "4a64868ad72de238aee54ddb11f06b010e62b5c77930e0b017f67eb0eec92afa"
+  },
+  "docs/results/m3_searchers/alphasage/generation.txt": {
+    "source_run": "20260907T033952178556Z",
+    "sha256": "c8785b9b435aa29b4517caf6206867164be6f32e8f6a2742cd059ddbeacea812"
+  },
+  "docs/results/m3_searchers/alphasage/screen/batch.json": {
+    "source_run": "20260907T034802617924Z",
+    "sha256": "3a5df4398bfac5764fbf2ab648122775ba52a923fb782df6a25303cafb13f7b0"
+  },
+  "docs/results/m3_searchers/alphasage/screen/results.json": {
+    "source_run": "20260907T034802617924Z",
+    "sha256": "b6f2344abd1bf40f23c9616e44a6175a7559a8855dfca07241a94da21e35c2d2"
+  },
+  "docs/results/m3_searchers/alphasage/screen/status.json": {
+    "source_run": "20260907T034802617924Z",
+    "sha256": "0af9e7d6f3f1a8c4530e66e05ee7a8c17e260c9b6d1ce35a15a78868421317ff"
+  },
+  "docs/results/m3_searchers/alphasage/screen/lineage.json": {
+    "source_run": "20260907T034802617924Z",
+    "sha256": "081b7b2154919556b5f0ba894761b143f5881f21a81eed47e6c53f1d6609e00c"
+  },
+  "docs/results/m3_searchers/alphasage/screen/independent_verification.json": {
+    "source_run": "20260907T034802617924Z",
+    "sha256": "24eaaa0b8648e98189b94b2bf7fd614222c70a3250afed11e080836de689de6e"
+  },
+  "docs/results/m3_searchers/alphaforge/config.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "833e39c967b5a0c9c5b1cd53c494f1eed1c0b427c02b4a5b357eae4082ad7302"
+  },
+  "docs/results/m3_searchers/alphaforge/status.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "fcf91b962581ccb5c2abdc7462f43a121eafb2a7294f3d28c3ac9168a91e897e"
+  },
+  "docs/results/m3_searchers/alphaforge/runtime.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "fb0642dab8270a16f5aa9da1275c813ed80ea4800fd84e586d60ba8c009d7ffb"
+  },
+  "docs/results/m3_searchers/alphaforge/input_contract.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "c69e77084f9e3974832fee81cdd3d4e7dca85857ffdbebc3fe287e127957e654"
+  },
+  "docs/results/m3_searchers/alphaforge/training.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "e14bda75edb773ee6247f68d6a7aa61f221dcd24cd22c28280bbf24db779b5ef"
+  },
+  "docs/results/m3_searchers/alphaforge/source_hashes.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "06bdde607e8db52bbc59b47f29038bc8825649831c3284c025926354492ede39"
+  },
+  "docs/results/m3_searchers/alphaforge/export_manifest.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "f382ad85440ce79efa0740f61e03fe6c2bf0c9ffea93e6e0920ec00ae93d3307"
+  },
+  "docs/results/m3_searchers/alphaforge/campaign_import.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "cd8cf2c9ad61750bbf8bc547956c89d8d5865db3e8b1e9c98c22d61104277525"
+  },
+  "docs/results/m3_searchers/alphaforge/campaign_final.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "7be4ffc94330ba51eaa89d5e38e2a5675e75aadcebc9e91c6a409edcdc04d022"
+  },
+  "docs/results/m3_searchers/alphaforge/campaign_freeze.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "e3764542263c06f251d6becf66bda5e8034ab935869e8b358ef2bef1d1ffa3e7"
+  },
+  "docs/results/m3_searchers/alphaforge/model_admission.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "ef16ce9deaba84477b01a003dabf8d55df266c18ca5f215b93fea6bd2b0c22ee"
+  },
+  "docs/results/m3_searchers/alphaforge/runner.py": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "d174935b7042e24bbd7aaae4d28b65c0cb04b53529075e8a76314b9b0ab8edc5"
+  },
+  "docs/results/m3_searchers/alphaforge/verification/result.json": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "dab316d128dd090397e989b15dce7e4541470c19912636a89aed9f69e2cdb54a"
+  },
+  "docs/results/m3_searchers/alphaforge/generated.csv": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "2b489296583283278d5725a648577bb612415f2d5d001374c0a4518ceee9d33f"
+  },
+  "docs/results/m3_searchers/alphaforge/generation.txt": {
+    "source_run": "20260907T034031298675Z",
+    "sha256": "777cbe137fea4a0ed162c85c650019bdee2c53aaa21527adb4a513a0080879ad"
+  },
+  "docs/results/m3_searchers/alphaforge/screen/batch.json": {
+    "source_run": "20260907T034848603170Z",
+    "sha256": "18727d1bc2fd396af5c2dee7e2eca653a9ac2aaa37a54cd197392dcee7490782"
+  },
+  "docs/results/m3_searchers/alphaforge/screen/results.json": {
+    "source_run": "20260907T034848603170Z",
+    "sha256": "f0401a2a56e6811d0856413c024551b88dd0cf3269349b5829cdde41aaf4dd05"
+  },
+  "docs/results/m3_searchers/alphaforge/screen/status.json": {
+    "source_run": "20260907T034848603170Z",
+    "sha256": "182395427f7d89fc50e01a11b24309b5bcc24c44597e242e716e2f3b1350d46c"
+  },
+  "docs/results/m3_searchers/alphaforge/screen/lineage.json": {
+    "source_run": "20260907T034848603170Z",
+    "sha256": "5643c30988b4630a2ddde1c8744a76247584bc5bebc74e80b9aabef0c753f82f"
+  },
+  "docs/results/m3_searchers/alphaforge/screen/independent_verification.json": {
+    "source_run": "20260907T034848603170Z",
+    "sha256": "15359cd9b7ed0d0332519d8870b1585eb43a20ad3326f2ace2d6bf887d82953b"
+  },
+  "docs/results/m3_searchers/vwap_verification.json": {
+    "source_run": "m3_vwap_extension",
+    "sha256": "81b0178a816f20a202aa3aa2e8f1cfd5057a1c1a4932784d5f2a33dd7af0ec36"
+  },
+  "docs/results/m3_searchers/runtime_overlay.txt": {
+    "source_run": "m3_search_env",
+    "sha256": "555c11960474ffb43f39f7d6c74b37bcccf2555ec3844a745de291179ad0edb6"
+  },
+  "docs/results/m3_searchers/summary.json": {
+    "source_run": "m3_searchers_batch_v1",
+    "sha256": "51531562cf03ee3b5272d854bbee0a27c88b55d87f9d6c353ffd0084cb739cb1"
+  },
+  "docs/results/m3_searchers/report.md": {
+    "source_run": "m3_searchers_batch_v1",
+    "sha256": "8b464739294078bc6869f13f2a7dfe3ba239ca0a5a7fc3ee284a299b4de309df"
   }
 }

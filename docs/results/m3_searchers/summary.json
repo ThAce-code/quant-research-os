@@ -1,0 +1,78 @@
+{
+  "alphasage": {
+    "generation_run": "20260907T033952178556Z",
+    "screen_run": "20260907T034802617924Z",
+    "proposals": [
+      {
+        "id": 4,
+        "status": "ACCEPTED",
+        "reason": null
+      },
+      {
+        "id": 5,
+        "status": "INVALID",
+        "reason": "unsupported expression node, field or operation"
+      },
+      {
+        "id": 6,
+        "status": "INVALID",
+        "reason": "unsupported expression node, field or operation"
+      }
+    ],
+    "evaluations": {
+      "SAGE_EXPORT_ROW0": {
+        "rank_ic": -0.015360763403506578,
+        "q": 0.9855072463768116,
+        "decision": "REJECT"
+      }
+    },
+    "model_admission": {
+      "decision": "NO_ENTRY",
+      "fits": 0,
+      "portfolios": 0
+    }
+  },
+  "alphaforge": {
+    "generation_run": "20260907T034031298675Z",
+    "screen_run": "20260907T034848603170Z",
+    "proposals": [
+      {
+        "id": 7,
+        "status": "ACCEPTED",
+        "reason": null
+      },
+      {
+        "id": 8,
+        "status": "ACCEPTED",
+        "reason": null
+      }
+    ],
+    "evaluations": {
+      "FORGE_EXPORT_ROW0": {
+        "rank_ic": 0.007905920597664042,
+        "q": 0.2588705647176412,
+        "decision": "REJECT"
+      },
+      "FORGE_EXPORT_ROW1": {
+        "rank_ic": -0.015604175377881979,
+        "q": 0.9860069965017492,
+        "decision": "REJECT"
+      }
+    },
+    "model_admission": {
+      "decision": "NO_ENTRY",
+      "fits": 0,
+      "portfolios": 0
+    }
+  },
+  "registry_counts": {
+    "factor_registry.sqlite": 31,
+    "m2_factor_registry.sqlite": 33
+  },
+  "regression": {
+    "passed": 233,
+    "warnings": 5,
+    "seconds": 23.36
+  },
+  "protected_accessed": false
+}

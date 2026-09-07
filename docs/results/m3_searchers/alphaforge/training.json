@@ -1,0 +1,10 @@
+{
+  "algorithm": "upstream AlphaForge predictor and DCGAN generator losses",
+  "predictor_epochs": 3,
+  "generator_epochs": 3,
+  "collected": 140,
+  "generated": 2,
+  "during_training": 3,
+  "full_paper_replication": false,
+  "scope": "One bounded native training round; exports are candidates, not a completed threshold-filled alpha zoo or dynamic portfolio."
+}

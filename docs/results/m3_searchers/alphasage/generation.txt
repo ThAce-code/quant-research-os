@@ -1,0 +1,20 @@
+SEARCHER_RUN F:\workspace\finance\quant-research-os\experiments\m3_searchers\alphasage\20260907T033952178556Z
+F:\workspace\finance\quant-research-os\data\m3_search_env\Lib\site-packages\torch\optim\lr_scheduler.py:216: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+{BEG: 0, Abs: 1, SLog1p: 2, Inv: 3, Sign: 4, Log: 5, Rank: 6, Add: 7, Sub: 8, Mul: 9, Div: 10, Pow: 11, Greater: 12, Less: 13, Ref: 14, TsMean: 15, TsSum: 16, TsStd: 17, TsIr: 18, TsMinMaxDiff: 19, TsMaxDiff: 20, TsMinDiff: 21, TsVar: 22, TsSkew: 23, TsKurt: 24, TsMax: 25, TsMin: 26, TsMed: 27, TsMad: 28, TsRank: 29, TsDelta: 30, TsDiv: 31, TsPctChange: 32, TsWMA: 33, TsEMA: 34, TsCov: 35, TsCorr: 36, $open: 37, $close: 38, $high: 39, $low: 40, $volume: 41, $vwap: 42, 10: 43, 20: 44, 30: 45, 40: 46, 50: 47, -30.0: 48, -10.0: 49, -5.0: 50, -2.0: 51, -1.0: 52, -0.5: 53, -0.01: 54, 0.01: 55, 0.5: 56, 1.0: 57, 2.0: 58, 5.0: 59, 10.0: 60, 30.0: 61, SEP: 62}
+[Pool Add] Sub(-2.0,$high)
+[Pool Add] Log(Add(Pow(0.5,$vwap),-5.0))
+SAGE episode=16 updates=2 pool=2
+[Pool Add] Div(-0.01,Div(TsVar(TsSkew(Sign($low),10),30),$volume))
+[Pool Add] Mul(Add(0.5,$volume),Add(Mul(30.0,$low),5.0))
+SAGE episode=32 updates=4 pool=4
+[Pool Add] Div(1.0,$close)
+[Pool Reject] $volume
+[Pool Reject] Mul(Mul(Sub(-5.0,Sign($vwap)),-0.01),$high)
+[Pool Reject] Sub(Div(Mul(-5.0,Rank($open)),1.0),2.0)
+[Pool Reject] $vwap
+SAGE episode=48 updates=6 pool=5
+[Pool Reject] Sub(5.0,Add(Less($open,-30.0),Inv($vwap)))
+[Pool Reject] Pow(-0.5,TsWMA(TsSkew(Add(Abs(Abs(Abs($low))),10.0),50),30))
+[Pool Reject] Add(-0.01,$volume)
+SAGE episode=64 updates=8 pool=5
