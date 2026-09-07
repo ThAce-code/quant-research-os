@@ -1,0 +1,20 @@
+{
+  "name": "r2_baostock_event_bulk_v1",
+  "authorization": "User explicitly requested bulk acquisition after successful recovery probe",
+  "membership": "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet",
+  "target_report_dates": ["2015-03-31", "2016-03-31"],
+  "membership_windows": [["2015-01-01", "2015-04-30"], ["2016-01-01", "2016-04-30"]],
+  "audit_sentinels": ["sz.300358", "sz.300341", "sz.002658"],
+  "methods": ["query_forecast_report", "query_performance_express_report"],
+  "start_date": "2015-01-01",
+  "end_date": "2016-04-30",
+  "date_semantics": "SDK forecast filters publication OR statistical date; express filters publication OR update date. Archive responses unchanged and filter report period/publication separately. Intermediate quarters returned by the combined range are not admitted into the Q1 research sample.",
+  "minimum_request_spacing_seconds": 1.0,
+  "request_timeout_seconds": 20,
+  "automatic_retries": 0,
+  "max_data_queries": 700,
+  "max_pages_per_query": 1,
+  "failure_policy": "Stop entire run on nonzero API code, transport failure, full-page ambiguity or access denial; successful checkpoints reused, uncertain attempts not automatically replayed",
+  "research_admission": false,
+  "protected_periods": "2021-2025 SEALED"
+}
