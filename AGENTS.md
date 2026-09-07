@@ -44,3 +44,5 @@
 - The user has now authorized the finite R1 empirical study. Follow docs/R1_PROTOCOL.md and the frozen configs/r1 files. R1 may adapt the 20-day label, purging and fixed rebalance schedule in its own modules, reusing existing numerical kernels. M3 engineering remains closed; no new generic framework. R1 cannot open 2021+ samples or trade.
 
 - R1 is now complete with NO_GO; see docs/results/r1/report.md and docs/R1_COMPLETION_AUDIT.json. Preserve its six candidate results, single model-stage budget and source snapshots. Do not spend its four unallocated slots, retune failed candidates or open another research campaign without a new user-authorized definition.
+
+- The user's subsequent "continue" authorizes the proposed event-data feasibility work. R2 starts with the bounded 2015/2016 event audit in configs/r2/event_audit.json, without factor/return evaluation. Check announcement versions and historical availability before defining an event experiment; preserve all R1 results and protected samples.

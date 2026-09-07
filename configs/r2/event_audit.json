@@ -1,0 +1,16 @@
+{
+  "name": "r2_event_feasibility_v1",
+  "scope": "Data feasibility only; no return evaluation or factor search",
+  "report_dates": ["2015-03-31", "2016-03-31"],
+  "notice_cutoff": "2020-07-31",
+  "reports": {"forecast": "RPT_PUBLIC_OP_NEWPREDICT", "express": "RPT_FCI_PERFORMANCEE"},
+  "endpoint": "https://datacenter.eastmoney.com/securities/api/data/v1/get",
+  "page_size": 500,
+  "max_pages_per_query": 12,
+  "max_requests": 48,
+  "minimum_request_spacing_seconds": 1,
+  "retries": 0,
+  "research_admission": "Requires original announcement evidence matching values and original availability, or a verified historical version chain. A NOTICE_DATE field alone is insufficient. UPDATE_DATE after notice is conservatively delayed; missing version evidence remains unverified.",
+  "protected_periods": "No 2021+ report periods, prices, labels or trading; old-report revision metadata is audited only",
+  "baostock": "No requests; restriction record preserved"
+}
