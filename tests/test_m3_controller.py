@@ -4,7 +4,11 @@ from pathlib import Path
 import pytest
 
 from quant_research.m3.campaign import CampaignLedger
-from quant_research.m3.controller import prepare_evaluation, import_candidates
+from quant_research.m3.controller import prepare_evaluation, import_candidates, attach_screen
+from quant_research.m3.pipeline import sha
+from quant_research.m3.candidates import ResearchHypothesis
+from quant_research.factors.registry import FactorRegistry
+from dataclasses import asdict
 from quant_research.m3.trajectory import retrieve, refine
 from test_m3_campaign import spec, candidate
 
@@ -84,3 +88,25 @@ def test_negative_memory_is_retrieved_stably_after_restart(tmp_path):
     assert retrieve(obj,'study','unknown-term')==[]
     with pytest.raises(ValueError,match='completed research'):
         refine(obj,'study',[999],None,'must not call any model')
+
+
+def test_screen_attachment_accepts_reserialized_protocol_but_rejects_changed_source(tmp_path):
+    obj=ledger(tmp_path);proposal=obj.propose('study',0,candidate())['proposal_id']
+    config=tmp_path/'configs/factors/m2_family_screen.json';config.parent.mkdir(parents=True)
+    config.write_bytes(b'{"period":["2015-01-01","2016-12-31"]}\r\n')
+    frozen=prepare_evaluation(tmp_path,obj,'study',[proposal])
+    screen=tmp_path/'screen';source=screen/'source/configs/factors/m2_family_screen.json'
+    source.parent.mkdir(parents=True);source.write_bytes(config.read_bytes())
+    h=ResearchHypothesis(**candidate());registry=FactorRegistry(tmp_path/'data/factor_registry.sqlite')
+    registry.register(h.factor().factor_id,asdict(h.factor()))
+    result={'status':'REJECT','admission_stage':'IC_SCREEN_REJECT','primary':{'rank_ic':-.02},'inference':{'p':1.},'q':1.}
+    registry.record(screen.name,h.factor().factor_id,result)
+    values={'batch.json':json.loads(frozen.read_text()),'screen_protocol.json':json.loads(config.read_text()),
+            'results.json':{h.name:result},'status.json':{'status':'PASS'}}
+    for name,value in values.items():(screen/name).write_text(json.dumps(value,indent=2))
+    (screen/'artifact_hashes.json').write_text(json.dumps({name:sha(screen/name) for name in values}))
+    attached=attach_screen(tmp_path,obj,'study',screen,[proposal])
+    assert attached['evaluations'][0]['state']=='COMPLETE'
+    assert attach_screen(tmp_path,obj,'study',screen,[proposal])==attached
+    source.write_text('{}')
+    with pytest.raises(ValueError,match='protocol differs'):attach_screen(tmp_path,obj,'study',screen,[proposal])

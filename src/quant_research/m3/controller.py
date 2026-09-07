@@ -95,7 +95,9 @@ def attach_screen(root,ledger,campaign,screen,proposal_ids):
     frozen=root/'experiments/m3_campaigns'/campaign/('batch_'+'_'.join(map(str,proposal_ids))+'.json')
     if not frozen.exists() or json.loads(frozen.read_text(encoding='utf-8'))!=batch:
         raise ValueError('screen does not match the frozen campaign batch')
-    if batch.get('screen_protocol_sha256')!=sha(screen/'screen_protocol.json'):
+    protocol_source=screen/'source/configs/factors/m2_family_screen.json'
+    if (not protocol_source.exists() or batch.get('screen_protocol_sha256')!=sha(protocol_source)
+            or json.loads(protocol_source.read_text())!=c):
         raise ValueError('screen protocol differs from batch freeze')
     rows={r['factor_id']:r['report'] for r in FactorRegistry(root/'data/factor_registry.sqlite').evaluations()
           if r['run_id']==screen.name}
