@@ -1,0 +1,35 @@
+[
+  {
+    "row": 0,
+    "name": "SAGE_EXPORT_ROW0",
+    "family": "generated_price_level",
+    "hypothesis": "Test the generator's negative adjusted daily-high level score without changing its sign or offset.",
+    "economic_rationale": "A low nominal price preference is a weak interpretation, not a valuation ratio. Adjustment conventions and corporate actions can dominate it; this candidate is primarily a genuine generator transfer for falsification.",
+    "direction": 1,
+    "direction_evidence": "Fixed positive expression direction before local evaluation. The generator uses absolute IC, so its reward does not establish this sign.",
+    "deviations": [],
+    "version": 1
+  },
+  {
+    "row": 1,
+    "name": "SAGE_EXPORT_ROW1",
+    "family": "generated_nonlinear_price",
+    "hypothesis": "Preserve the second native export row as an attempted nonlinear price hypothesis.",
+    "economic_rationale": "No established economic mechanism; its log and power expression can be undefined. It must fail explicitly if the formula cannot be faithfully represented.",
+    "direction": 1,
+    "direction_evidence": "Fixed positive sign independent of local outcomes or pool weights.",
+    "deviations": [],
+    "version": 1
+  },
+  {
+    "row": 2,
+    "name": "SAGE_EXPORT_ROW2",
+    "family": "generated_shape_volume",
+    "hypothesis": "Preserve the third native export row involving higher moments and volume as a recorded attempt.",
+    "economic_rationale": "No established mechanism; unsupported sign and higher-moment semantics prohibit a faithful local calculation at present.",
+    "direction": 1,
+    "direction_evidence": "Fixed positive sign independent of local outcomes or pool weights.",
+    "deviations": [],
+    "version": 1
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "campaign_id": "m3_alphaforge_export_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 2,
+  "max_evaluations": 2,
+  "max_calls": 0,
+  "max_output_tokens": 0,
+  "max_rounds": 1,
+  "max_model_runs": 1,
+  "seed": 42,
+  "objective": "Import all two rows of the single frozen AlphaForge post-training export, preserving its native order and a fixed positive sign. One joint local screen, then the frozen model gate if admitted. No search for replacement formulas, local-score selection, sign changes or protected data."
+}

@@ -1,0 +1,12 @@
+{
+  "campaign_id": "m3_alphasage_export_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 3,
+  "max_evaluations": 1,
+  "max_calls": 0,
+  "max_output_tokens": 0,
+  "max_rounds": 1,
+  "max_model_runs": 1,
+  "seed": 42,
+  "objective": "Import the first three rows of the single frozen AlphaSAGE 64-episode export. Unsupported rows remain invalid attempts. Evaluate the supported row once with fixed positive sign, then use the frozen model gate if admitted. No replacement rows, score-based sign changes, retries or protected data."
+}

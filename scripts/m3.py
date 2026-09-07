@@ -13,6 +13,7 @@ from quant_research.m3.controller import (create_campaign,import_candidates,eval
 from quant_research.m3.generation import ModelEndpoint,generate
 from quant_research.m3.trajectory import retrieve,refine
 from quant_research.m3.loop import run_loop
+from quant_research.m3.external import import_export
 
 
 def main():
@@ -39,6 +40,9 @@ def main():
     model_attach.add_argument('proposals',type=int,nargs='+');model_attach.add_argument('--legacy',action='store_true')
     loop=sub.add_parser('loop');loop.add_argument('campaign');loop.add_argument('endpoint',type=Path)
     loop.add_argument('brief',type=Path);loop.add_argument('--example',type=Path,default=ROOT/'configs/m3/paper_pilot.json')
+    external=sub.add_parser('import-search');external.add_argument('campaign');external.add_argument('source',choices=['alphaforge','alphasage'])
+    external.add_argument('asset',type=Path);external.add_argument('manifest',type=Path);external.add_argument('annotations',type=Path)
+    external.add_argument('--round',type=int,default=0)
     args=parser.parse_args();ledger=CampaignLedger(ROOT/'data/m3_campaigns.sqlite')
     if args.command=='create':
         _,spec,seed=create_campaign(ROOT,args.spec);result={'campaign':asdict(spec),'seed_audit':seed}
@@ -50,6 +54,8 @@ def main():
     elif args.command=='freeze':result=freeze_campaign(ROOT,ledger,args.campaign,args.proposals)
     elif args.command=='model':result=model_increment(ROOT,ledger,args.campaign)
     elif args.command=='attach-model':result=attach_model(ROOT,ledger,args.campaign,args.run,args.proposals,args.legacy)
+    elif args.command=='import-search':result=import_export(ledger,args.campaign,args.round,args.source,args.asset,
+        json.loads(args.manifest.read_text(encoding='utf-8')),json.loads(args.annotations.read_text(encoding='utf-8')))
     elif args.command=='memory':result=retrieve(ledger,args.campaign,args.query,args.limit)
     elif args.command=='refine':result=refine(ledger,args.campaign,args.parents,
         ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8'))),args.brief.read_text(encoding='utf-8'))

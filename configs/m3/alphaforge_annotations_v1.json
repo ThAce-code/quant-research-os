@@ -1,0 +1,24 @@
+[
+  {
+    "row": 0,
+    "name": "FORGE_EXPORT_ROW0",
+    "family": "generated_vwap_level",
+    "hypothesis": "Test the native negative reciprocal adjusted VWAP score exactly as exported.",
+    "economic_rationale": "For positive VWAP this score increases with nominal price. It is an economically weak price-level candidate, not a demonstrated liquidity premium; adjustment sensitivity and redundancy are likely failure mechanisms.",
+    "direction": 1,
+    "direction_evidence": "Fixed positive expression sign before local screening. Absolute upstream reward does not determine a positive local return relationship.",
+    "deviations": [],
+    "version": 1
+  },
+  {
+    "row": 1,
+    "name": "FORGE_EXPORT_ROW1",
+    "family": "generated_vwap_level",
+    "hypothesis": "Test the native constant-minus-adjusted-VWAP score with its exported offsets and positive sign.",
+    "economic_rationale": "This ranks lower nominal prices positively and may carry little information beyond existing price features. Preserve the exact expression and let the common engine reject it if unsupported by evidence.",
+    "direction": 1,
+    "direction_evidence": "Fixed positive expression sign before local screening, independent of export scores.",
+    "deviations": [],
+    "version": 1
+  }
+]

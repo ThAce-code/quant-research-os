@@ -7,7 +7,7 @@ import json
 from ..factors.expressions import Expression, FactorDefinition, FIELDS
 
 SOURCE_TYPES = {'PAPER_EXACT', 'PAPER_RECONSTRUCTED', 'PAPER_INSPIRED',
-                'LLM_GENERATED', 'HUMAN_GENERATED'}
+                'LLM_GENERATED', 'HUMAN_GENERATED', 'SEARCH_GENERATED'}
 
 
 def identity(value):
