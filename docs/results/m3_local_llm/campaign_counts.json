@@ -1,0 +1,52 @@
+[
+  {
+    "campaign": "m3_local_llm_loop_v1",
+    "calls": 1,
+    "used_output_tokens": 924,
+    "proposals": 2,
+    "evaluations": 0,
+    "proposal_statuses": [
+      "INVALID",
+      "INVALID"
+    ]
+  },
+  {
+    "campaign": "m3_local_llm_loop_v2",
+    "calls": 1,
+    "used_output_tokens": 657,
+    "proposals": 2,
+    "evaluations": 0,
+    "proposal_statuses": [
+      "INVALID",
+      "INVALID"
+    ]
+  },
+  {
+    "campaign": "m3_local_llm_loop_v3",
+    "calls": 2,
+    "used_output_tokens": 1632,
+    "proposals": 4,
+    "evaluations": 1,
+    "proposal_statuses": [
+      "ACCEPTED",
+      "INVALID",
+      "INVALID",
+      "INVALID"
+    ]
+  },
+  {
+    "campaign": "m3_local_llm_loop_v4",
+    "calls": 3,
+    "used_output_tokens": 3092,
+    "proposals": 6,
+    "evaluations": 6,
+    "proposal_statuses": [
+      "ACCEPTED",
+      "ACCEPTED",
+      "ACCEPTED",
+      "ACCEPTED",
+      "ACCEPTED",
+      "ACCEPTED"
+    ]
+  }
+]

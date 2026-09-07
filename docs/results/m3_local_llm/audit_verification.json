@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "result": {
+    "state": "COMPLETE",
+    "authority": "ADVISORY_ONLY",
+    "directory": "F:\\workspace\\finance\\quant-research-os\\experiments\\m3_audits\\m3_local_llm_loop_v4\\review_v1",
+    "calls": 2,
+    "evidence_sha256": "c97d77c61f636986a004729387e30f531643febbad2c1eec1012f5ee528f0129",
+    "claim_verification": "Evidence IDs and numeric source identity checked; model prose not independently established."
+  },
+  "research_databases_unchanged": {
+    "data\\factor_registry.sqlite": "7b595c00007f5e2eab1bbbb6858eb119d5bd7e098220fd0ff2c98ec5f26e83c1",
+    "data\\m2_factor_registry.sqlite": "0939ae50af4d8e7c4090a51ceb88b1e06e820ce0d130adf1a3d850007565f6e6",
+    "data\\m3_campaigns.sqlite": "e33ece4b526ee60f2cd342a1e99f00b0d84203283505f3b9ec7c993b16590819"
+  },
+  "restart_same_result": true,
+  "calls": 2
+}

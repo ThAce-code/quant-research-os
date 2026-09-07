@@ -1,0 +1,65 @@
+{
+  "health": {
+    "status": "ok"
+  },
+  "models": {
+    "models": [
+      {
+        "name": "m3-gemma4-e4b",
+        "model": "m3-gemma4-e4b",
+        "modified_at": "",
+        "size": "",
+        "digest": "",
+        "type": "model",
+        "description": "",
+        "tags": [
+          ""
+        ],
+        "capabilities": [
+          "completion"
+        ],
+        "parameters": "",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "",
+          "families": [
+            ""
+          ],
+          "parameter_size": "",
+          "quantization_level": ""
+        }
+      }
+    ],
+    "object": "list",
+    "data": [
+      {
+        "id": "m3-gemma4-e4b",
+        "aliases": [
+          "m3-gemma4-e4b"
+        ],
+        "tags": [],
+        "object": "model",
+        "created": 1788754101,
+        "owned_by": "llamacpp",
+        "meta": {
+          "vocab_type": 2,
+          "n_vocab": 262144,
+          "n_ctx": 8192,
+          "n_ctx_train": 131072,
+          "n_embd": 2560,
+          "n_params": 7463013674,
+          "size": 4574983336,
+          "ftype": "Q4_0"
+        }
+      }
+    ]
+  },
+  "completion": {
+    "status": "ok"
+  },
+  "completion_tokens": 11,
+  "seconds": 0.625,
+  "probe_calls": 1,
+  "purpose": "connectivity only; no candidate generation or numerical evaluation"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "run_id": "20260907T042723123686Z",
+  "raw_cells_replayed": 708576,
+  "rank_ic_dates_replayed": 100,
+  "registry_reports_matched": 2,
+  "source_snapshot_hashes_verified": 48,
+  "verification_scope": "direct canonical formulas or pinned PIT source panel, sampled rank correlations, artifacts and registry; not full independent portfolio/model validation"
+}

@@ -1,0 +1,8 @@
+{
+  "state": "COMPLETE",
+  "authority": "ADVISORY_ONLY",
+  "directory": "F:\\workspace\\finance\\quant-research-os\\experiments\\m3_audits\\m3_local_llm_loop_v4\\review_v1",
+  "calls": 2,
+  "evidence_sha256": "c97d77c61f636986a004729387e30f531643febbad2c1eec1012f5ee528f0129",
+  "claim_verification": "Evidence IDs and numeric source identity checked; model prose not independently established."
+}

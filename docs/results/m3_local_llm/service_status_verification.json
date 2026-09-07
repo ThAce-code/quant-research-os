@@ -1,0 +1,9 @@
+{
+  "health": {
+    "status": "ok"
+  },
+  "inference": "PASS",
+  "purpose": "Connectivity probe; no research hypotheses or numerical evaluation",
+  "pid": 24560,
+  "state": "READY"
+}

@@ -1,0 +1,41 @@
+{
+  "screen_run": "20260907T042723123686Z",
+  "batch_sha256": "4a94174ef4c25c86d933f80a1a8529932c222b86e36f356ab85c3b80f9172718",
+  "candidates": [
+    {
+      "name": "CANDIDATE002_VWAP_VOLUME_DIVERGENCE",
+      "family": "volume_divergence",
+      "hypothesis": "A divergence between price movement relative to VWAP and volume suggests an impending trend exhaustion.",
+      "economic_rationale": "When price moves significantly away from VWAP on low volume, the move lacks conviction and is likely to reverse.",
+      "expression": "(close - vwap) / (volume + 1)",
+      "direction": -1,
+      "source_type": "LLM_GENERATED",
+      "source_url": "model://m3-gemma4-e4b",
+      "source_locator": "campaign:m3_local_llm_loop_v4/call:5",
+      "original_expression": "(close - vwap) / (volume + 1)",
+      "input_fields": {
+        "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+        "volume": "Canonical raw shares / adjustment factor; after close t; suspended observations missing.",
+        "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+      },
+      "operator_semantics": {
+        "arithmetic": "Elementwise arithmetic; nonfinite final outputs become missing. No formula or direction change."
+      },
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "direction_evidence": "The hypothesis suggests that large deviations from VWAP on low volume indicate a lack of support/resistance, leading to a reversal.",
+      "deviations": [
+        "Uses the absolute difference from VWAP normalized by volume to measure divergence.",
+        "Adds 1 to volume to ensure a non-zero denominator and avoid division by zero.",
+        "Focuses on the magnitude of the deviation rather than a directional momentum.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "version": 1
+    }
+  ],
+  "screen_by_hypothesis": {
+    "H_ec869a70a992cc080a03": "20260907T042723123686Z"
+  },
+  "qualification": "SEALED",
+  "lockbox": "SEALED"
+}

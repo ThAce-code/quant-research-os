@@ -52,8 +52,8 @@ are bound on first invocation. In each later round it chooses at most the first
 two evaluated proposals from the preceding round, by ID. It does not rank parents
 by profit. Completed model responses are replayed without new requests. A reserved
 or failed execution stops the loop for evidence-based recovery, without retries.
-The loop has passed controlled HTTP/evaluator tests; real LLM multi-round runtime
-acceptance remains pending.
+The loop has passed both controlled failure tests and a real three-round local-model
+campaign with six evaluated candidates and a full survivor model NO_GO.
 
 All adaptive feedback is exploratory. A per-batch BH q-value is not correction
 for an entire adaptive campaign and is not independent confirmation. A selected
@@ -110,8 +110,9 @@ explicit migration path; its original protocol and negative result stay fixed.
 - Failed numerical runs and their reservations remain visible. Investigate them
   before designing a new attempt; a restart is not a new budget.
 
-Runtime acceptance of real LLM generation and a multi-round loop remains pending.
-Protocol-server fixtures verify HTTP serialization and error handling only.
+Real runtime evidence and preserved invalid-only attempts are in
+[the local-model report](results/m3_local_llm/report.md). Protocol-server fixtures
+remain labelled separately from those actual inference and numerical runs.
 
 ## External search exports
 
@@ -133,3 +134,35 @@ pinned upstream networks and optimizers on bounded canonical tensors. Use the
 quant Python environment for common CLI imports and numerical screening. Native
 training/search outcomes and local admission outcomes are distinct; both are
 retained in [the integration report](results/m3_searchers/report.md).
+
+## Daily and PIT inputs
+
+New evaluations bind `configs/m3/data_contract_v1.json` before reserving work.
+The screen and survivor model stages verify that same contract; different input
+contracts cannot be silently pooled across screens. Existing daily-only batches
+without a contract remain legacy-compatible. A PIT expression without a frozen
+contract fails before market loading. See [field definitions and limits](M3_DATA_CONTRACT.md).
+
+## Local structured model endpoint
+
+`endpoint_local_gemma.json` uses ordinary JSON-mode chat completions;
+`endpoint_local_gemma_schema.json` explicitly requests schema-constrained chat
+completions from a supporting server. The schema is saved with each call request.
+It constrains required metadata and lowercase field keys, while local AST and
+field-map validation still decide whether a proposal is calculable. Server JSON
+success never bypasses those checks. Unsupported providers fail as recorded
+attempts instead of silently falling back to another protocol.
+
+
+New generated requests freeze an authoritative calculation catalog. The adapter
+extracts fields/operators from the validated DSL and fills their exact metadata;
+it preserves raw model declarations, formula and direction. Model rationale is
+still unverified. Earlier calls without that policy retain their old metadata.
+
+`audit CAMPAIGN ENDPOINT.json` performs two budgeted opposing advisory reviews of
+a completed frozen campaign. Numerical databases are read-only, evidence IDs are
+validated and failed/uncertain attempts stop without retries. A pair of model roles
+is not independent numerical validation. `abort CAMPAIGN --reason TEXT` explicitly
+closes an unrecoverable open/overrun search after its worker stops, preserving all
+raw responses and reservations, including a response that cannot fit remaining
+proposal slots. It is not a successful numerical freeze. See [operations](M3_OPERATIONS.md).

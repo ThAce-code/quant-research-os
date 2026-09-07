@@ -9,13 +9,13 @@ trade execution or a claim that alpha must be found.
 | Stage | Deliverable | Required evidence | Current acceptance |
 |---|---|---|---|
 | M3.0 | Common hypothesis/candidate adapter, source distinctions, cross-batch deduplication, existing kernel invocation and resumable lineage | Real paper migration plus rejected/failed/survivor engineering paths; persisted restart and duplicate checks | Daily-formula path verified: real Alpha34 admission, 12 full fits, 3 portfolios, final NO_GO; cross-registry duplicate rejection and actual attachment recovery verified |
-| M3.1 | Budgeted LLM generation and manual/paper imports through one entry | Real configured model request, structured-response validation, exhausted budget/error tests, at least one bounded research batch | Partial: persisted controller and real paper batch verified; real model request pending |
-| M3.2 | Research-only feedback/refinement, fixed campaign budget and immutable children | Real multi-round execution and protected-feedback rejection; all failed proposals retained and multiple-testing family tracked across rounds | Partial: finite loop, family freeze and once-only model stage implemented; real LLM multi-round execution pending; adaptive statistics remain exploratory |
-| M3.3 | Searchable trajectory memory, parent-linked mutation/crossover, deterministic resume | Restarted run with recorded lineage; retrieval excluding protected outcomes; lineage and duplicate validation | Partial: real screen/model memory and recovery verified; crossover/restart tested with controlled HTTP/evaluator fixtures; real generated children pending |
+| M3.1 | Budgeted LLM generation and manual/paper imports through one entry | Real configured model request, structured-response validation, exhausted budget/error tests, at least one bounded research batch | Verified: real paper imports and local schema-constrained model calls; invalid/duplicate/error attempts retained; bounded V4 six-candidate batch evaluated |
+| M3.2 | Research-only feedback/refinement, fixed campaign budget and immutable children | Real multi-round execution and protected-feedback rejection; all failed proposals retained and multiple-testing family tracked across rounds | Verified: three real feedback rounds, complete family freeze and once-budgeted 12-fit model stage; final NO_GO, adaptive statistics remain exploratory |
+| M3.3 | Searchable trajectory memory, parent-linked mutation/crossover, deterministic resume | Restarted run with recorded lineage; retrieval excluding protected outcomes; lineage and duplicate validation | Verified: four real evaluated children with two-parent lineage, negative feedback preserved; actual restart added zero calls/evaluations; mutation/error paths also tested |
 | M3.4 | AlphaForge and AlphaSAGE external generator adapters | Verified upstream interfaces/revisions; genuine produced asset imported, unsupported DSL rejected explicitly; no substitute algorithm labelled as upstream | Verified bounded native generation/import/replay and common screening: 3 REJECT, 2 unsupported attempts retained; both frozen NO_ENTRY. Not full-paper training/performance reproduction |
-| M3.5 | Research auditor drawing on TradingAgents-style opposing analysis | Structured evidence-based review of a completed run; no power to alter admissions, positions or orders | Pending |
-| M3.6 | Multi-source data/candidate boundary | Daily formula inputs and existing PIT fundamental panels through one explicit data contract; field availability/identity tests; unknown event/text/microstructure fields fail rather than fabricated | Partial: canonical daily VWAP added and raw/legacy identity verified; unified PIT fundamental contract pending |
-| Delivery | Unified CLI, configuration examples, operational documentation and source evidence | Reproducible generation → evaluation → feedback → archive, failure recovery and regression suite; requirement-by-requirement audit | Pending |
+| M3.5 | Research auditor drawing on TradingAgents-style opposing analysis | Structured evidence-based review of a completed run; no power to alter admissions, positions or orders | Verified: two real opposing local-model calls over checked frozen evidence; database identity unchanged, repeat added zero calls. Advisory prose quality remains limited |
+| M3.6 | Multi-source data/candidate boundary | Daily formula inputs and existing PIT fundamental panels through one explicit data contract; field availability/identity tests; unknown event/text/microstructure fields fail rather than fabricated | Verified: 8 daily + 6 existing PIT fields, exact source-panel transfer, field identity/firewall checks and one real PIT screen REJECT/NO_ENTRY. Does not reconstruct full-vintage financial history or align different fields' fiscal periods |
+| Delivery | Unified CLI, configuration examples, operational documentation and source evidence | Reproducible generation → evaluation → feedback → archive, failure recovery and regression suite; requirement-by-requirement audit | Verified: unified CLI, model lifecycle probes, explicit abort/recovery, operational guide, 251 passing tests and M3_COMPLETION_AUDIT.json |
 
 ## Scope interpretation
 
@@ -52,3 +52,12 @@ available. No OPENAI/ANTHROPIC/LLM/OLLAMA/DEEPSEEK environment variable names or
 Ollama executable were found in this process. A real inference endpoint still
 needs discovery/configuration; this does not block local protocol and controller
 implementation and is not evidence that LLM generation works.
+
+## Current closure
+
+M3.0–M3.6 engineering acceptance is complete within the scope above. The initial
+endpoint absence was resolved using pre-existing local Gemma weights and llama.cpp;
+real inference/loop/model/review evidence supersedes the earlier environment note.
+The final generated survivor is NO_GO, KEEP remains empty, and protected periods
+remain sealed. See [completion audit](M3_COMPLETION_AUDIT.json),
+[runbook](M3_OPERATIONS.md) and [real loop report](results/m3_local_llm/report.md).

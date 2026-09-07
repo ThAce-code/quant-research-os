@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "status": "COMPLETE_ENGINEERING",
+  "review_date_utc": "2026-09-07",
+  "scope": "The finite M3.0-M3.6 engineering roadmap authorized for this project; not full upstream framework deployment or exhaustive data/alpha discovery.",
+  "requirements": [
+    {
+      "id": "M3.0",
+      "requirement": "Common hypothesis/source adapters and real reject/survivor evaluation with immutable lineage",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_paper_pilot/independent_verification.json",
+        "docs/results/m3_campaign_paper34/report.md"
+      ]
+    },
+    {
+      "id": "M3.1",
+      "requirement": "Real budgeted model generation, imports, validation and retained failures",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_local_llm/campaign_counts.json",
+        "docs/results/m3_local_llm/campaign_v4.json"
+      ]
+    },
+    {
+      "id": "M3.2",
+      "requirement": "Real three-round research feedback and frozen once-budgeted model stage",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_local_llm/freezes/v4.json",
+        "docs/results/m3_local_llm/model_independent_verification.json"
+      ]
+    },
+    {
+      "id": "M3.3",
+      "requirement": "Evaluated parent-linked crossover children, negative memory and no-repeat restart",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_local_llm/restart_v4.json",
+        "tests/test_m3_loop.py",
+        "tests/test_m3_abort.py"
+      ]
+    },
+    {
+      "id": "M3.4",
+      "requirement": "Pinned native AlphaForge/AlphaSAGE generation, export replay and common screening",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_searchers/report.md",
+        "docs/M3_UPSTREAM_INTERFACES.md"
+      ]
+    },
+    {
+      "id": "M3.5",
+      "requirement": "Two real advisory opposing reviews with checked citations, read-only research stores and restart",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_local_llm/auditor/report.json",
+        "docs/results/m3_local_llm/audit_verification.json",
+        "tests/test_m3_auditor.py"
+      ]
+    },
+    {
+      "id": "M3.6",
+      "requirement": "Shared daily/PIT contract, exact panel transfer and actual PIT candidate screening",
+      "status": "PASS",
+      "evidence": [
+        "docs/results/m3_pit_transfer/verification.json",
+        "docs/results/m3_pit_transfer/screen/independent_verification.json",
+        "docs/M3_DATA_CONTRACT.md"
+      ]
+    },
+    {
+      "id": "DELIVERY",
+      "requirement": "Unified CLI, runtime lifecycle, recovery, documentation and required regression",
+      "status": "PASS",
+      "evidence": [
+        "scripts/m3.py",
+        "scripts/m3_local_model.ps1",
+        "docs/M3_OPERATIONS.md",
+        "docs/results/m3_local_llm/final_verification.json"
+      ]
+    }
+  ],
+  "research_outcome": {
+    "latest_generated_model_run": "20260907T043013673204Z",
+    "decision": "NO_GO",
+    "new_keep": 0,
+    "independent_alpha_confirmed": false
+  },
+  "remaining_required_work": [],
+  "limitations": [
+    "All adaptive statistics are historical exploration; no campaign-wide confirmatory claim.",
+    "2021-2025 qualification/lockbox remain sealed and trading is not authorized.",
+    "Native external search runs are bounded interface acceptance, not full paper performance reproduction.",
+    "Six PIT fields retain vendor revision uncertainty, missing/stale values and possible differing fiscal periods.",
+    "Financial-input survivor model branch was not exercised by the rejected PIT pilot; shared input binding is covered by tests.",
+    "Two roles use the same local model and produced mostly summaries; deep mechanism criticism and prose factual accuracy are not guaranteed.",
+    "Bootstrap/q reused by independent verification, not independently resampled; no fill-level execution or capacity proof.",
+    "Event/text/microstructure data and full financial vintages require separately defined adapters and availability contracts."
+  ]
+}

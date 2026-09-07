@@ -1,0 +1,107 @@
+{
+  "CANDIDATE_001_VOL_RETURN_INTERACTION": {
+    "hypothesis_id": "H_d52f110ed7186e4c67cb",
+    "factor_id": "F_b4b7a0c39525e4ca",
+    "source_type": "LLM_GENERATED",
+    "causality": {
+      "status": "PASS",
+      "method": "whitelisted historical AST + prefix invariance",
+      "cutoff": "2014-12-31",
+      "lookback": 1,
+      "signal_available": "after close t",
+      "earliest_execution": "close t+1"
+    },
+    "primary": {
+      "days": 475,
+      "pairs": 99275,
+      "ic": -0.022858326838752628,
+      "ic_std": 0.10994729115305883,
+      "icir": -0.20790259222422589,
+      "positive_ic_ratio": 0.42526315789473684,
+      "rank_ic": -0.02463028895602189,
+      "rank_ic_std": 0.1070040369668321,
+      "rank_icir": -0.23018093199284162,
+      "positive_rank_ic_ratio": 0.42736842105263156
+    },
+    "coverage_by_year": {
+      "2015": 0.739344262295082,
+      "2016": 0.7617896174863388
+    },
+    "years": {
+      "2015": {
+        "days": 237,
+        "pairs": 46555,
+        "ic": -0.03027429431065121,
+        "ic_std": 0.11787205151776989,
+        "icir": -0.25684031049622635,
+        "positive_ic_ratio": 0.4092827004219409,
+        "rank_ic": -0.035626247242045314,
+        "rank_ic_std": 0.11715591099800228,
+        "rank_icir": -0.3040926141801996,
+        "positive_rank_ic_ratio": 0.39662447257383965
+      },
+      "2016": {
+        "days": 238,
+        "pairs": 52720,
+        "ic": -0.015473518894046901,
+        "ic_std": 0.10115263111282394,
+        "icir": -0.15297198623323993,
+        "positive_ic_ratio": 0.4411764705882353,
+        "rank_ic": -0.013680532175401928,
+        "rank_ic_std": 0.09481993323597683,
+        "rank_icir": -0.144279074119947,
+        "positive_rank_ic_ratio": 0.4579831932773109
+      }
+    },
+    "inference": {
+      "mean": -0.02463028895602189,
+      "low": -0.03344429827931787,
+      "high": -0.01650754016041561,
+      "p": 1.0
+    },
+    "data_contract": {
+      "path": "configs/m3/data_contract_v1.json",
+      "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+    },
+    "q": 1.0,
+    "status": "REJECT",
+    "admission_stage": "IC_SCREEN_REJECT",
+    "independent_alpha": false,
+    "downstream": {
+      "matched_cost_increment": "NOT_RUN_SCREEN_REJECT",
+      "rolling_model_increment": "NOT_RUN_SCREEN_REJECT"
+    },
+    "protected": {
+      "qualification_executed": false,
+      "lockbox_executed": false
+    },
+    "conditional": {
+      "status": "DIAGNOSTIC_ONLY",
+      "variance_retained": 0.7772309613095199,
+      "matched": {
+        "days": 238,
+        "pairs": 52221,
+        "ic": -0.01609001436024095,
+        "ic_std": 0.10120927755908271,
+        "icir": -0.15897766240696778,
+        "positive_ic_ratio": 0.42857142857142855,
+        "rank_ic": -0.014536723139201789,
+        "rank_ic_std": 0.0955081913773957,
+        "rank_icir": -0.15220394114428024,
+        "positive_rank_ic_ratio": 0.4495798319327731
+      },
+      "residual": {
+        "days": 238,
+        "pairs": 52221,
+        "ic": -0.0025716406484254987,
+        "ic_std": 0.06979160313360683,
+        "icir": -0.03684742193845915,
+        "positive_ic_ratio": 0.46638655462184875,
+        "rank_ic": -0.0006049214945724944,
+        "rank_ic_std": 0.061555526001750814,
+        "rank_icir": -0.009827249214884277,
+        "positive_rank_ic_ratio": 0.5084033613445378
+      }
+    }
+  }
+}

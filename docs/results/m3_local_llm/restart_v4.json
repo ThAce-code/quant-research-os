@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "restart_result": {
+    "state": "SEARCH_COMPLETE",
+    "campaign": "m3_local_llm_loop_v4",
+    "rounds": 3,
+    "next": "freeze final selection before the separately budgeted model stage"
+  },
+  "unchanged_snapshot": true,
+  "calls": 3,
+  "evaluations": 6,
+  "lineage": [
+    {
+      "proposal": 18,
+      "round": 0,
+      "parents": []
+    },
+    {
+      "proposal": 19,
+      "round": 0,
+      "parents": []
+    },
+    {
+      "proposal": 20,
+      "round": 1,
+      "parents": [
+        18,
+        19
+      ]
+    },
+    {
+      "proposal": 21,
+      "round": 1,
+      "parents": [
+        18,
+        19
+      ]
+    },
+    {
+      "proposal": 22,
+      "round": 2,
+      "parents": [
+        20,
+        21
+      ]
+    },
+    {
+      "proposal": 23,
+      "round": 2,
+      "parents": [
+        20,
+        21
+      ]
+    }
+  ]
+}

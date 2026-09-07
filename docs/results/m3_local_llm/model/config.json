@@ -1,0 +1,120 @@
+{
+  "numeric_protocol": {
+    "name": "m3_survivor_increment_v1",
+    "data_period": [
+      "2008-01-01",
+      "2020-07-31"
+    ],
+    "evaluation_period": [
+      "2015-01-01",
+      "2020-07-31"
+    ],
+    "train_start": "2008-01-01",
+    "fold_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "validation": "previous calendar year; expanding training ends before validation; purge final two exchange dates from train and validation",
+    "label": "Ref($close,-2)/Ref($close,-1)-1",
+    "label_normalization": "within-day rank on the identical matched universe, (rank_pct-0.5)*3.46; raw return used for evaluation",
+    "feature_processing": "exact 158 raw Qlib expressions; infinities become missing; LightGBM native missing handling; no whole-history fitted preprocessing",
+    "variants": {
+      "BASE": [],
+      "ADD_CANDIDATE002_VWAP_VOLUME_DIVERGENCE": [
+        "CANDIDATE002_VWAP_VOLUME_DIVERGENCE"
+      ]
+    },
+    "primary_comparisons": [
+      "ADD_CANDIDATE002_VWAP_VOLUME_DIVERGENCE"
+    ],
+    "drop_diagnostics": {},
+    "universe": "historical nonfinancial CSI300 with known industry and all surviving neutralized candidates available; cached raw Alpha158 is not restricted by failed BP/CASHFLOW availability",
+    "candidate_definitions": [
+      {
+        "name": "CANDIDATE002_VWAP_VOLUME_DIVERGENCE",
+        "family": "volume_divergence",
+        "hypothesis": "A divergence between price movement relative to VWAP and volume suggests an impending trend exhaustion.",
+        "economic_rationale": "When price moves significantly away from VWAP on low volume, the move lacks conviction and is likely to reverse.",
+        "expression": "(close - vwap) / (volume + 1)",
+        "direction": -1,
+        "source_type": "LLM_GENERATED",
+        "source_url": "model://m3-gemma4-e4b",
+        "source_locator": "campaign:m3_local_llm_loop_v4/call:5",
+        "original_expression": "(close - vwap) / (volume + 1)",
+        "input_fields": {
+          "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+          "volume": "Canonical raw shares / adjustment factor; after close t; suspended observations missing.",
+          "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+        },
+        "operator_semantics": {
+          "arithmetic": "Elementwise arithmetic; nonfinite final outputs become missing. No formula or direction change."
+        },
+        "signal_timing": "after_close_t_execute_close_t_plus_1",
+        "direction_evidence": "The hypothesis suggests that large deviations from VWAP on low volume indicate a lack of support/resistance, leading to a reversal.",
+        "deviations": [
+          "Uses the absolute difference from VWAP normalized by volume to measure divergence.",
+          "Adds 1 to volume to ensure a non-zero denominator and avoid division by zero.",
+          "Focuses on the magnitude of the deviation rather than a directional momentum.",
+          "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+          "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+        ],
+        "version": 1
+      }
+    ],
+    "model_source": "configs/experiments/baostock_alpha158.json:model",
+    "num_boost_round": 1000,
+    "early_stopping_rounds": 50,
+    "seed": 42,
+    "min_train_rows": 100000,
+    "min_valid_rows": 20000,
+    "min_prediction_daily_pairs": 30,
+    "strategy": {
+      "topk": 50,
+      "n_drop": 5
+    },
+    "costs": "unchanged frozen M0; 238-day arithmetic annualization",
+    "blend_diagnostics": {
+      "BLEND_CANDIDATE002_VWAP_VOLUME_DIVERGENCE": {
+        "BASE": 0.75,
+        "CANDIDATE002_VWAP_VOLUME_DIVERGENCE": 0.25
+      }
+    },
+    "blend_rule": "cross-sectional percentile ranks of base prediction and candidate on the same rows; fixed weights; no selection by blend results",
+    "block_length": 20,
+    "bootstrap_samples": 2000,
+    "gate": {
+      "min_rank_ic_increment": 0.002,
+      "max_increment_q": 0.1,
+      "min_net_annual_increment": 0.02,
+      "net_increment_ci_low_strictly_positive": true,
+      "min_positive_full_years": 4,
+      "full_years": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
+    },
+    "selection": "No automatic winner selection or protected admission",
+    "qualification": "SEALED_REQUIRES_SEPARATE_ADMISSION",
+    "lockbox": "SEALED_REQUIRES_SEPARATE_ADMISSION",
+    "research_status": "2015-2020 burned historical diagnostics, not fresh OOS; engineering completion does not imply independent alpha",
+    "budget": "at most 3 survivors, 24 fits, 7 matched portfolios; no LLM or parameter search"
+  },
+  "adapter_protocol": {
+    "schema_version": 1,
+    "input_run": "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z",
+    "input_manifest_sha256": "bd9b4cc819f2f2dcc44bbc0d53d084991670ff8025f8cb0f73ed486fcc34bfeb",
+    "rolling_protocol_sha256": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a",
+    "scope": "Survivors only; BASE and each individual ADD on identical common rows. No combined variants, no tuning. M0 numerical parameters and M2 rolling gate retained.",
+    "universe": "historical nonfinancial CSI300 with known industry and all surviving neutralized candidates available; cached raw Alpha158 is not restricted by failed BP/CASHFLOW availability",
+    "diagnostics": "fixed 75/25 BASE/candidate rank blend; dropping the only added candidate is the identical BASE comparison",
+    "protected_periods": "never automatically opened",
+    "budget": "at most 3 survivors, 24 fits, 7 matched portfolios; no LLM or parameter search"
+  }
+}

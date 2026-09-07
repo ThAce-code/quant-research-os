@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "protected_accessed": false,
+  "fields": {
+    "returns": {
+      "semantics": {
+        "kind": "daily",
+        "unit": "dimensionless ratio",
+        "availability": "Observed after close t; earliest execution close t+1",
+        "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+        "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+      },
+      "eligible_finite_cells": 885013,
+      "operation": "identity/reindex; no fill or unit conversion"
+    },
+    "volume": {
+      "semantics": {
+        "kind": "daily",
+        "unit": "raw shares / adjustment factor",
+        "availability": "Observed after close t; earliest execution close t+1",
+        "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+        "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+      },
+      "eligible_finite_cells": 890252,
+      "operation": "identity/reindex; no fill or unit conversion"
+    }
+  },
+  "cross_field_fiscal_alignment": "Not guaranteed; each field is latest independently available. Mixed-field hypotheses must account for mismatched reporting periods."
+}

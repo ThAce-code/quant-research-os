@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "campaign": "m3_local_llm_loop_v4",
+  "evidence": {
+    "BUDGET": {
+      "period": [
+        "2015-01-01",
+        "2020-07-31"
+      ],
+      "max_proposals": 6,
+      "proposal_attempts": 6,
+      "evaluation_attempts": 6,
+      "calls": 3,
+      "selected": [
+        19
+      ],
+      "scope": "Adaptive historical search; no campaign-wide confirmation; protected samples SEALED."
+    },
+    "SCREEN_18": {
+      "name": "CANDIDATE001_VOL_REVERSAL",
+      "expression": "returns / (turnover - TsRank(turnover, 5))",
+      "direction": -1,
+      "hypothesis": "High turnover relative to average turnover suggests a short-term mean reversion in price returns.",
+      "economic_rationale": "High turnover indicates strong conviction, which may lead to a temporary overextension and subsequent price correction.",
+      "input_fields": {
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "turnover": "Canonical vendor percent turnover / 100; dimensionless, after close t."
+      },
+      "deviations": [
+        "Uses returns as the primary signal variable.",
+        "Normalizes turnover by its trailing window percentile rank to identify relative volume spikes.",
+        "The expression is designed to capture the deviation from the typical volume behavior.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [],
+      "primary": {
+        "days": 475,
+        "pairs": 98106,
+        "ic": -0.017235602851247627,
+        "ic_std": 0.10045155231616873,
+        "icir": -0.17158124940666922,
+        "positive_ic_ratio": 0.4189473684210526,
+        "rank_ic": -0.02024661421329709,
+        "rank_ic_std": 0.09674247903795902,
+        "rank_icir": -0.20928359924860818,
+        "positive_rank_ic_ratio": 0.42947368421052634
+      },
+      "q": 1.0,
+      "decision": "IC_SCREEN_REJECT"
+    },
+    "SCREEN_19": {
+      "name": "CANDIDATE002_VWAP_VOLUME_DIVERGENCE",
+      "expression": "(close - vwap) / (volume + 1)",
+      "direction": -1,
+      "hypothesis": "A divergence between price movement relative to VWAP and volume suggests an impending trend exhaustion.",
+      "economic_rationale": "When price moves significantly away from VWAP on low volume, the move lacks conviction and is likely to reverse.",
+      "input_fields": {
+        "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+        "volume": "Canonical raw shares / adjustment factor; after close t; suspended observations missing.",
+        "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+      },
+      "deviations": [
+        "Uses the absolute difference from VWAP normalized by volume to measure divergence.",
+        "Adds 1 to volume to ensure a non-zero denominator and avoid division by zero.",
+        "Focuses on the magnitude of the deviation rather than a directional momentum.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [],
+      "primary": {
+        "days": 475,
+        "pairs": 99621,
+        "ic": 0.011190130526321162,
+        "ic_std": 0.0809348300133671,
+        "icir": 0.1382609999239266,
+        "positive_ic_ratio": 0.5747368421052632,
+        "rank_ic": 0.01407724592487986,
+        "rank_ic_std": 0.09143982364945756,
+        "rank_icir": 0.15395093038287339,
+        "positive_rank_ic_ratio": 0.5894736842105263
+      },
+      "q": 0.0009995002498750624,
+      "decision": "IC_SCREEN_PASS"
+    },
+    "SCREEN_20": {
+      "name": "CANDIDATE003_VOL_REVERSAL_ABS",
+      "expression": "Abs(returns) / (turnover - TsRank(turnover, 5))",
+      "direction": -1,
+      "hypothesis": "The absolute deviation of returns from their recent mean, scaled by the relative turnover rank, predicts a mean-reverting price action.",
+      "economic_rationale": "Large absolute returns relative to the typical turnover suggest an overreaction, leading to a mean reversion.",
+      "input_fields": {
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "turnover": "Canonical vendor percent turnover / 100; dimensionless, after close t."
+      },
+      "deviations": [
+        "Uses absolute returns as the primary signal variable.",
+        "Normalizes turnover by its trailing window percentile rank to identify relative volume spikes.",
+        "The expression is designed to capture the magnitude of the deviation from the typical volume behavior.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [
+        18,
+        19
+      ],
+      "primary": {
+        "days": 475,
+        "pairs": 98106,
+        "ic": 0.003558336637440816,
+        "ic_std": 0.09639108388596138,
+        "icir": 0.036915620138171935,
+        "positive_ic_ratio": 0.5221052631578947,
+        "rank_ic": -0.0007645250339772295,
+        "rank_ic_std": 0.09136707283875328,
+        "rank_icir": -0.008367620962603026,
+        "positive_rank_ic_ratio": 0.4905263157894737
+      },
+      "q": 0.974512743628186,
+      "decision": "IC_SCREEN_REJECT"
+    },
+    "SCREEN_21": {
+      "name": "CANDIDATE004_VWAP_VOLUME_ABS",
+      "expression": "Abs(close - vwap) / (volume + 1)",
+      "direction": -1,
+      "hypothesis": "The absolute magnitude of the price deviation from VWAP, scaled by the volume, indicates a lack of conviction and suggests a reversal.",
+      "economic_rationale": "When price moves significantly away from VWAP, the lack of volume conviction suggests the move is unsustainable and will reverse.",
+      "input_fields": {
+        "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+        "volume": "Canonical raw shares / adjustment factor; after close t; suspended observations missing.",
+        "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+      },
+      "deviations": [
+        "Uses absolute price deviation from VWAP as the primary signal variable.",
+        "Adds 1 to volume to ensure a non-zero denominator and avoid division by zero.",
+        "Focuses on the magnitude of the deviation rather than a directional momentum.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [
+        18,
+        19
+      ],
+      "primary": {
+        "days": 475,
+        "pairs": 99621,
+        "ic": -0.013464920300043938,
+        "ic_std": 0.08144330169172036,
+        "icir": -0.1653287627141079,
+        "positive_ic_ratio": 0.4631578947368421,
+        "rank_ic": -0.010240465515327857,
+        "rank_ic_std": 0.08756856997891617,
+        "rank_icir": -0.11694224900319199,
+        "positive_rank_ic_ratio": 0.4610526315789474
+      },
+      "q": 0.974512743628186,
+      "decision": "IC_SCREEN_REJECT"
+    },
+    "SCREEN_22": {
+      "name": "CANDIDATE005_VOL_RETURN_RATIO_ABS",
+      "expression": "Abs(returns) / Mean(turnover, 10)",
+      "direction": -1,
+      "hypothesis": "The ratio of absolute returns to the trailing window average of turnover suggests that extreme price movements relative to typical trading activity signal a mean-reverting opportunity.",
+      "economic_rationale": "High absolute returns occurring when turnover is below its recent average suggests an overextended move lacking conviction, leading to a reversal.",
+      "input_fields": {
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "turnover": "Canonical vendor percent turnover / 100; dimensionless, after close t."
+      },
+      "deviations": [
+        "Uses absolute returns as the primary signal variable.",
+        "Normalizes returns by the trailing window mean of turnover to gauge relative magnitude.",
+        "The expression is designed to capture the magnitude of the deviation from the typical volume behavior.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [
+        20,
+        21
+      ],
+      "primary": {
+        "days": 475,
+        "pairs": 96186,
+        "ic": -0.011141606362447192,
+        "ic_std": 0.07922161318869433,
+        "icir": -0.1406384686450339,
+        "positive_ic_ratio": 0.44842105263157894,
+        "rank_ic": -0.018288265452654922,
+        "rank_ic_std": 0.090490132231391,
+        "rank_icir": -0.2021023176968099,
+        "positive_rank_ic_ratio": 0.4231578947368421
+      },
+      "q": 1.0,
+      "decision": "IC_SCREEN_REJECT"
+    },
+    "SCREEN_23": {
+      "name": "CANDIDATE006_VWAP_RETURN_RATIO_ABS",
+      "expression": "Abs(close - vwap) / Abs(returns)",
+      "direction": -1,
+      "hypothesis": "The ratio of the absolute price deviation from VWAP to the absolute daily returns suggests that large price deviations without corresponding large returns indicate a lack of momentum and potential reversal.",
+      "economic_rationale": "When the price deviates significantly from VWAP but the absolute return is small, it suggests the move is not supported by overall price action, implying a reversal.",
+      "input_fields": {
+        "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+      },
+      "deviations": [
+        "Uses absolute price deviation from VWAP as the primary signal variable.",
+        "Normalizes the deviation by the absolute returns to measure the inefficiency of the move.",
+        "The expression is designed to capture the magnitude of the deviation from the typical price movement.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "parents": [
+        20,
+        21
+      ],
+      "primary": {
+        "days": 475,
+        "pairs": 95539,
+        "ic": 0.0021721359926928146,
+        "ic_std": 0.07605801309602865,
+        "icir": 0.028558936846671743,
+        "positive_ic_ratio": 0.5642105263157895,
+        "rank_ic": -0.0009501002305206812,
+        "rank_ic_std": 0.08401448712524419,
+        "rank_icir": -0.011308766654783286,
+        "positive_rank_ic_ratio": 0.47578947368421054
+      },
+      "q": 1.0,
+      "decision": "IC_SCREEN_REJECT"
+    },
+    "MODEL_19": {
+      "rank_ic_increment": {
+        "mean": 0.001804694586481217,
+        "low": -0.00100578155525625,
+        "high": 0.004705620320403852,
+        "p": 0.11294352823588207
+      },
+      "q": 0.11294352823588207,
+      "net_increment": {
+        "mean": -0.000172409163147806,
+        "low": -0.0003768636137859904,
+        "high": 4.2962950367459384e-05,
+        "p": 0.9425287356321839
+      },
+      "annual_net_increment": {
+        "2015": -0.09350951917555882,
+        "2016": -0.14044251440390118,
+        "2017": -0.013730466673648337,
+        "2018": -0.00045481218865806977,
+        "2019": 0.028406099094901282,
+        "2020": -0.015360023588615993
+      },
+      "decision": "NO_GO",
+      "positive_full_years": 1
+    },
+    "LIMITS": {
+      "text": "Historical CSI300, known observed periods, approximate costs and execution; bootstrap q is not independently resampled. No live capacity or independent alpha claim. Model rationale may misdescribe formula; inspect canonical field semantics. Reviews are advisory and cannot change numerical decisions."
+    }
+  },
+  "provenance": {
+    "freeze_sha256": "f1982ae3d5365a60822a61f02b9e38d23a39dcff523e71a3cb7e9dc74679a707",
+    "SCREEN_18": {
+      "run_id": "20260907T042723123686Z",
+      "results_sha256": "019ffdcfef894884228141886085b7eff4ea168596b548395f446aa0635dfe67"
+    },
+    "SCREEN_19": {
+      "run_id": "20260907T042723123686Z",
+      "results_sha256": "019ffdcfef894884228141886085b7eff4ea168596b548395f446aa0635dfe67"
+    },
+    "SCREEN_20": {
+      "run_id": "20260907T042811623931Z",
+      "results_sha256": "39677dd6e5f44a60916b318a5908d33ebaa5d2451e6daf63146be625275b279f"
+    },
+    "SCREEN_21": {
+      "run_id": "20260907T042811623931Z",
+      "results_sha256": "39677dd6e5f44a60916b318a5908d33ebaa5d2451e6daf63146be625275b279f"
+    },
+    "SCREEN_22": {
+      "run_id": "20260907T042901973993Z",
+      "results_sha256": "46db4e7ad109412963e143f6c8f03fb92a8cfc95288f767b4ae711ac5bca4dd9"
+    },
+    "SCREEN_23": {
+      "run_id": "20260907T042901973993Z",
+      "results_sha256": "46db4e7ad109412963e143f6c8f03fb92a8cfc95288f767b4ae711ac5bca4dd9"
+    },
+    "MODEL_19": {
+      "run_id": "20260907T043013673204Z",
+      "comparisons_sha256": "a71943a8bce89cdf4706655677e6182c3105279337e1e49aaddf5aaf8e26324b"
+    }
+  },
+  "invalid_attempts": []
+}

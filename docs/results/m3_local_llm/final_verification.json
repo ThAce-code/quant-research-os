@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "baseline_id": "BL-CN-CSI300-A158-LGBM-001",
+  "source_and_original_artifacts_unchanged": true,
+  "regression": {
+    "passed": 251,
+    "warnings": 5,
+    "seconds": 28.99
+  },
+  "registry_counts": {
+    "m1_m3": 40,
+    "m2": 33,
+    "total": 73
+  },
+  "protected_periods": "2021-2025 SEALED",
+  "new_keep": 0
+}

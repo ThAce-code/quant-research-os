@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "deviations": [
+        "Uses absolute returns as the primary signal variable.",
+        "Normalizes returns by the trailing window mean of turnover to gauge relative magnitude.",
+        "The expression is designed to capture the magnitude of the deviation from the typical volume behavior.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "direction": -1,
+      "direction_evidence": "The hypothesis posits that high absolute returns relative to the recent average turnover suggests an overreaction, implying a negative signal.",
+      "economic_rationale": "High absolute returns occurring when turnover is below its recent average suggests an overextended move lacking conviction, leading to a reversal.",
+      "expression": "Abs(returns) / Mean(turnover, 10)",
+      "family": "volume_reversal",
+      "hypothesis": "The ratio of absolute returns to the trailing window average of turnover suggests that extreme price movements relative to typical trading activity signal a mean-reverting opportunity.",
+      "input_fields": {
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "turnover": "Canonical vendor percent turnover / 100; dimensionless, after close t."
+      },
+      "name": "CANDIDATE005_VOL_RETURN_RATIO_ABS",
+      "operator_semantics": {
+        "Abs": "Elementwise absolute value.",
+        "Mean": "Trailing full-window arithmetic mean; incomplete windows missing.",
+        "arithmetic": "Elementwise arithmetic; nonfinite final outputs become missing. No formula or direction change."
+      },
+      "original_expression": "Abs(returns) / Mean(turnover, 10)",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "campaign:m3_local_llm_loop_v4/call:7",
+      "source_type": "LLM_GENERATED",
+      "source_url": "model://m3-gemma4-e4b",
+      "version": 1
+    },
+    {
+      "deviations": [
+        "Uses absolute price deviation from VWAP as the primary signal variable.",
+        "Normalizes the deviation by the absolute returns to measure the inefficiency of the move.",
+        "The expression is designed to capture the magnitude of the deviation from the typical price movement.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Calculation metadata is derived from the exact DSL and frozen canonical catalog, not model-supplied field descriptions. Raw model declarations remain in the saved call response.",
+        "Economic rationale is an unverified model hypothesis; evaluate the exact expression under canonical field definitions. The adapter does not establish that the rationale matches every formula term."
+      ],
+      "direction": -1,
+      "direction_evidence": "The hypothesis suggests that large deviations from VWAP relative to returns indicate a lack of momentum, implying a negative signal.",
+      "economic_rationale": "When the price deviates significantly from VWAP but the absolute return is small, it suggests the move is not supported by overall price action, implying a reversal.",
+      "expression": "Abs(close - vwap) / Abs(returns)",
+      "family": "volume_divergence",
+      "hypothesis": "The ratio of the absolute price deviation from VWAP to the absolute daily returns suggests that large price deviations without corresponding large returns indicate a lack of momentum and potential reversal.",
+      "input_fields": {
+        "close": "Canonical adjusted close: raw close * adjustment factor; after close t.",
+        "returns": "Canonical adjusted close / previous trading-day adjusted close - 1; NOT close/open - 1; after close t.",
+        "vwap": "Canonical CNY amount / raw shares * adjustment factor; after close t; zero volume or missing amount stays missing."
+      },
+      "name": "CANDIDATE006_VWAP_RETURN_RATIO_ABS",
+      "operator_semantics": {
+        "Abs": "Elementwise absolute value.",
+        "arithmetic": "Elementwise arithmetic; nonfinite final outputs become missing. No formula or direction change."
+      },
+      "original_expression": "Abs(close - vwap) / Abs(returns)",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "campaign:m3_local_llm_loop_v4/call:7",
+      "source_type": "LLM_GENERATED",
+      "source_url": "model://m3-gemma4-e4b",
+      "version": 1
+    }
+  ],
+  "data_contract": {
+    "path": "configs/m3/data_contract_v1.json",
+    "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+  }
+}

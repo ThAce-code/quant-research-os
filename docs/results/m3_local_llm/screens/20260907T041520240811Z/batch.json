@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "deviations": [
+        "Uses raw volume instead of normalized volume metrics.",
+        "The expression is a simple multiplicative interaction rather than a complex statistical model."
+      ],
+      "direction": 1,
+      "direction_evidence": "Positive returns coupled with high volume often signals trend confirmation.",
+      "economic_rationale": "High volume confirms the strength of the observed price move, indicating institutional participation that may drive continuation.",
+      "expression": "returns * (volume / (volume + 1))",
+      "family": "volume_momentum",
+      "hypothesis": "High trading volume accompanying positive daily returns suggests strong conviction and predicts further upward movement.",
+      "input_fields": {
+        "returns": "CSI300 daily returns calculated as (close - open) / open.",
+        "volume": "CSI300 daily trading volume."
+      },
+      "name": "CANDIDATE_001_VOL_RETURN_INTERACTION",
+      "operator_semantics": {
+        "Div": "elementwise division",
+        "Mul": "elementwise multiplication"
+      },
+      "original_expression": "returns * (volume / (volume + 1))",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "campaign:m3_local_llm_loop_v3/call:3",
+      "source_type": "LLM_GENERATED",
+      "source_url": "model://m3-gemma4-e4b",
+      "version": 1
+    }
+  ],
+  "data_contract": {
+    "path": "configs/m3/data_contract_v1.json",
+    "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+  }
+}

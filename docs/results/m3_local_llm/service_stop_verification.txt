@@ -1,0 +1,1 @@
+Owned model service stopped; model files and evidence retained.

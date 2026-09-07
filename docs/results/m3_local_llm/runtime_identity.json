@@ -1,0 +1,35 @@
+{
+  "server_version": "10282 (a035a8887)",
+  "server_sha256": "0f0da0e7b1e6b29a1b01b8fdc2020d7400de3ab5f14739ac33462a3f3555a347",
+  "model_file": "C:\\Users\\19609\\.cache\\huggingface\\hub\\models--ggml-org--gemma-4-E4B-it-GGUF\\snapshots\\b8093469224f83f5c38f691eb906c380e9e63114\\gemma-4-E4B-it-Q4_0.gguf",
+  "model_size": 4590807392,
+  "model_sha256": "a555b900214b477d8880e7832e0b8925e139b0159640036b09fe472b6f2097f2",
+  "weights_source": "pre-existing user cache; no model download",
+  "launch": {
+    "arguments": [
+      "-m",
+      "C:/Users/19609/.cache/huggingface/hub/models--ggml-org--gemma-4-E4B-it-GGUF/snapshots/b8093469224f83f5c38f691eb906c380e9e63114/gemma-4-E4B-it-Q4_0.gguf",
+      "--host",
+      "127.0.0.1",
+      "--port",
+      "18341",
+      "--alias",
+      "m3-gemma4-e4b",
+      "-c",
+      "8192",
+      "-np",
+      "1",
+      "-ngl",
+      "auto",
+      "-ctk",
+      "q8_0",
+      "-ctv",
+      "q8_0",
+      "--reasoning",
+      "off"
+    ],
+    "started_utc": "2026-09-07T04:07:23.4860307Z",
+    "pid": 23028,
+    "executable": "D:/llama/llama-server.exe"
+  }
+}
