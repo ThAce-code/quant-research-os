@@ -40,3 +40,5 @@
   gaps and next batch. Synchronize `docs/M2_ROADMAP.md` and these instructions
   when the plan changes. `CONTEXT.md` is a stable pointer, not a second status
   copy. Use canonical M2.0–M2.7 numbering; do not rewrite frozen old reports.
+
+- The user has now authorized the finite R1 empirical study. Follow docs/R1_PROTOCOL.md and the frozen configs/r1 files. R1 may adapt the 20-day label, purging and fixed rebalance schedule in its own modules, reusing existing numerical kernels. M3 engineering remains closed; no new generic framework. R1 cannot open 2021+ samples or trade.

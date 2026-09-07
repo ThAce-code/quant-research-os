@@ -1,0 +1,68 @@
+[
+  {
+    "name": "R1_CASH_SURPLUS",
+    "family": "cash_quality",
+    "expression": "CFOToOR_q - npMargin_q",
+    "direction": 1,
+    "hypothesis": "Cash-backed reported profits may be more persistent than accrual-heavy profits. Same-period cash-to-profit algebra must reconcile; this is a revenue-scaled cash surplus proxy, not the original assets-scaled Sloan factor.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  },
+  {
+    "name": "R1_CASH_IMPROVEMENT",
+    "family": "cash_quality",
+    "expression": "(CFOToOR_q - npMargin_q) - (CFOToOR_q_minus_4 - npMargin_q_minus_4)",
+    "direction": 1,
+    "hypothesis": "Same-season improvement in cash support may precede broader recognition of improving earnings quality.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  },
+  {
+    "name": "R1_GROSS_MARGIN_CHANGE",
+    "family": "profitability_change",
+    "expression": "gpMargin_q - gpMargin_q_minus_4",
+    "direction": 1,
+    "hypothesis": "Same-season gross-margin improvement may reflect pricing power or operating-cost improvement that diffuses into prices slowly. It is not analyst earnings surprise.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  },
+  {
+    "name": "R1_NET_MARGIN_CHANGE",
+    "family": "profitability_change",
+    "expression": "npMargin_q - npMargin_q_minus_4",
+    "direction": 1,
+    "hypothesis": "Same-season net-margin improvement may contain persistent operating information beyond technical features. It is not a revived raw ROE or net-profit-growth factor.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  },
+  {
+    "name": "R1_QUIET_REVERSAL",
+    "family": "liquidity_conditioned_price",
+    "expression": "-(close/Ref(close,5)-1) / (1 + turnover/Mean(turnover,20))",
+    "direction": 1,
+    "hypothesis": "Recent moves with subdued participation may reflect transient price pressure and partially reverse over the predeclared 20-day target.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  },
+  {
+    "name": "R1_ACTIVE_CONTINUATION",
+    "family": "liquidity_conditioned_price",
+    "expression": "(close/Ref(close,20)-1) * (turnover/Mean(turnover,60)) / (1 + turnover/Mean(turnover,60))",
+    "direction": 1,
+    "hypothesis": "Sustained price movement with elevated participation may reflect gradual information incorporation. Expected overlap with Alpha158 is a falsifiable concern, not evidence of independence.",
+    "generator": "human",
+    "source": "R1 predeclared mechanism research",
+    "version": 1,
+    "paper": null
+  }
+]

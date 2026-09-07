@@ -1,0 +1,119 @@
+{
+  "name": "r1_mechanism_campaign_v1",
+  "data_period": [
+    "2008-01-01",
+    "2020-07-31"
+  ],
+  "screen_period": [
+    "2015-01-01",
+    "2016-12-31"
+  ],
+  "evaluation_period": [
+    "2015-01-01",
+    "2020-07-31"
+  ],
+  "train_start": "2008-01-01",
+  "fold_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "horizon": 20,
+  "execution_delay": 1,
+  "label": "close(t+21)/close(t+1)-1; remove labels crossing each segment end",
+  "purge_trading_dates": 21,
+  "primary_only_horizon": true,
+  "rebalance_every": 5,
+  "strategy": {
+    "topk": 50,
+    "n_drop": 5
+  },
+  "baseline": "BL-CN-CSI300-A158-LGBM-001",
+  "controls_run": "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z",
+  "controls_manifest_sha256": "bd9b4cc819f2f2dcc44bbc0d53d084991670ff8025f8cb0f73ed486fcc34bfeb",
+  "financial_audit": "experiments/r1/input_audit_v1",
+  "financial_inputs": {
+    "profit.parquet": "e348c9920abec47adcee1640f9c1075b8b625ecaa95f767cb231dd310696c233",
+    "cash.parquet": "468ca1bbd5ee8d8ed27d784c58f0b00a1dc28cca5ae334f54358f4afb51fbe3c",
+    "report.json": "e90e46ea6a6f6465b0ccdd8742aae33f8f4556c6293299385e3c827f26291c9d",
+    "source_hashes.json": "851926770b773ad64437e348233c7f1d215920893a734846f16c6922f8c2f0a7"
+  },
+  "candidate_order": [
+    "R1_CASH_SURPLUS",
+    "R1_CASH_IMPROVEMENT",
+    "R1_GROSS_MARGIN_CHANGE",
+    "R1_NET_MARGIN_CHANGE",
+    "R1_QUIET_REVERSAL",
+    "R1_ACTIVE_CONTINUATION"
+  ],
+  "family_order": [
+    "cash_quality",
+    "profitability_change",
+    "liquidity_conditioned_price"
+  ],
+  "budget": {
+    "max_candidate_attempts": 12,
+    "data_definition_rejects": 2,
+    "numerical_candidates": 6,
+    "unallocated_attempts": 4,
+    "automatic_refinement": false,
+    "max_family_representatives": 3,
+    "max_model_variants": 8,
+    "max_fits": 48,
+    "max_portfolios": 8,
+    "max_model_stage_runs": 1,
+    "llm_calls": 0
+  },
+  "data_definition_rejects": [
+    {
+      "name": "CASH_SURPLUS_OVER_ASSETS",
+      "reason": "No full-scope assets and raw operating cashflow amounts; not estimated."
+    },
+    {
+      "name": "REVENUE_SCALED_EARNINGS_SURPRISE",
+      "reason": "MBRevenue is frequently missing and inconsistent with npMargin denominator. No analyst expectation or reliable shared revenue denominator; not relabelled as SUE."
+    }
+  ],
+  "screen": {
+    "min_coverage": 0.7,
+    "min_pairs": 30,
+    "min_rank_ic": 0.01,
+    "max_q": 0.1,
+    "positive_both_years": true,
+    "bh_family_size": 12
+  },
+  "representative_selection": "For each family, select the first fixed-order candidate with coverage>=0.70 in both screen years and positive RankIC in both. No ranking by performance. Allows predeclared weak-positive combination exploration despite failed significance; does not upgrade single-factor status.",
+  "model_comparisons": "All nonempty subsets of at most three selected family representatives, each versus BASE on one matched universe; all comparisons counted in a fixed seven-test BH family. Bundle-minus-one contrasts are diagnostic only.",
+  "num_boost_round": 1000,
+  "early_stopping_rounds": 50,
+  "seed": 42,
+  "min_train_rows": 100000,
+  "min_valid_rows": 20000,
+  "min_prediction_daily_pairs": 30,
+  "block_length": 60,
+  "bootstrap_samples": 2000,
+  "model_bh_family_size": 7,
+  "gate": {
+    "min_rank_ic_increment": 0.002,
+    "max_increment_q": 0.1,
+    "min_net_annual_increment": 0.02,
+    "net_increment_ci_low_strictly_positive": true,
+    "min_positive_full_years": 4,
+    "full_years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ]
+  },
+  "costs": "Frozen M0 rates, limit and close execution approximations; identical five-trading-day rebalance schedule for every variant; 238-day arithmetic annualization.",
+  "primary_universe": "Daily historical nonfinancial CSI300 with contemporaneously known industry, active observations and available size; candidate missingness disclosed, common model sample depends on features only, not future labels.",
+  "financial_policy": "BaoStock-only observed raw histories, missing requests stay missing, no mixed-provider arithmetic. Same code and fiscal quarter, maximum dependency publication strictly before signal. Latest partial release clears older values. 400/550-day staleness. Revision unknown retained.",
+  "failure": "No new candidates, sign/window changes or budget reset after outcomes. No eligible representatives => NO_ENTRY; insufficient model sample => DATA_GATE_FAIL; model gate failure => NO_GO.",
+  "protected_periods": "2021-2025 SEALED; no automatic qualification, lockbox or trading",
+  "research_status": "Adaptive and already-observed historical research only; 20-day protocol is new and both BASE/ADD retrain identically, no amendment of M0/M2/M3 results."
+}
