@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "input_run": "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z",
+  "input_manifest_sha256": "bd9b4cc819f2f2dcc44bbc0d53d084991670ff8025f8cb0f73ed486fcc34bfeb",
+  "rolling_protocol_sha256": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a",
+  "scope": "Survivors only; BASE and each individual ADD on identical common rows. No combined variants, no tuning. M0 numerical parameters and M2 rolling gate retained.",
+  "universe": "historical nonfinancial CSI300 with known industry and all surviving neutralized candidates available; cached raw Alpha158 is not restricted by failed BP/CASHFLOW availability",
+  "diagnostics": "fixed 75/25 BASE/candidate rank blend; dropping the only added candidate is the identical BASE comparison",
+  "protected_periods": "never automatically opened",
+  "budget": "at most 3 survivors, 24 fits, 7 matched portfolios; no LLM or parameter search"
+}

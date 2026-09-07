@@ -72,3 +72,35 @@ M3.1 bounded AlphaAgent-style candidate generation; M3.2 research-only feedback
 refinement; M3.3 trajectory memory/evolution; later AlphaForge/AlphaSAGE generators
 and TradingAgents review. Define budgets and provenance before each new batch.
 Complete survivor cost/model integration before using generation at scale.
+
+## Follow-on implementation: survivor routing
+
+The original first-run snapshot above remains immutable. The subsequent adapter
+implements the previously pending survivor interface in `m3/increment.py`, with
+`configs/m3/increment.json` pinning the M2 numerical protocol and the original
+full-history feature/control cache. It recomputes the initial screen decision and
+matches it to the append-only registry before admitting any candidate. A rejected
+batch exits NO_ENTRY before reading market data or training models.
+
+Each surviving candidate is added separately to Alpha158; BASE and all ADD models
+share the intersection of available neutralized candidate observations in historical
+nonfinancial CSI300. Original failed BP/CASHFLOW observations do not constrain this
+intersection. Numerical training settings, annual folds, purge, fees and GO thresholds
+remain as in M2; BH covers only the predeclared surviving ADD comparisons. Maximum
+three survivors means 24 fits and seven continuous portfolios. No combined-factor
+search. Removing the single added candidate gives the identical BASE comparison;
+fixed 75/25 rank blends are costed diagnostics only, never selected by their returns.
+
+These model labels are one-day M0 returns, distinct from five-day initial screening.
+Model-period nonfinancial universe is explicitly different from initial screening;
+all model arms use the same sample. Historical GO still means FORWARD pending separate
+qualification admission, not KEEP. This command never opens qualification/lockbox.
+
+Run `python scripts/run_m3.py` for screen plus conditional routing, or
+`python scripts/run_m3.py --resume-screen experiments/m3/<run_id>` to resume without
+repeating candidate tests. `--screen-only` preserves the standalone screening entry.
+
+Verification of this interface includes a small real LightGBM BASE/ADD fit and
+sample/purge tests. The actual first paper batch produces NO_ENTRY; the complete
+survivor model/backtest branch has not yet been exercised on a genuine admitted
+candidate. Keep this runtime limitation distinct from implemented interfaces.
