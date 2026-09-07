@@ -176,7 +176,30 @@ def _evaluate(root, screen, output, selected, registry):
         candidate_panels[h.name] = scores
     features, labels = matched_features(panels['alpha158'], candidate_panels, panels['labels'].label)
     features.to_parquet(output/'features.parquet'); labels.to_frame('label').to_parquet(output/'labels.parquet')
-    calendar = market.membership.index
+    comparisons = evaluate_models(features, labels, market.membership.index, c,
+                                  baseline, provider, selected, output)
+    # Validate before any irreversible successful research record is appended.
+    verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
+    source_hashes = json.loads((output/'source_hashes.json').read_text())
+    if any(sha(root/n) != v for n, v in source_hashes.items()):
+        raise ValueError('source changed before result registration')
+    for h in selected:
+        decision = comparisons['ADD_'+h.name]
+        registry.record(output.name, h.factor().factor_id, {'status': 'FORWARD' if decision['decision']=='GO' else 'REJECT',
+            'reasons': ['HISTORICAL_MODEL_'+decision['decision']], 'model_increment': decision,
+            'hypothesis_id': h.hypothesis_id, 'screen_run': screen.name,
+            'qualification': 'SEALED_PENDING_SEPARATE_ADMISSION', 'independent_alpha': False})
+    verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
+    write(output/'status.json', {'status': 'PASS', 'fits': len(c['fold_years'])*len(c['variants']),
+                                'portfolios': len(c['variants'])+len(selected), 'qualification': 'SEALED', 'lockbox': 'SEALED'})
+    return output
+
+
+def evaluate_models(features, labels, calendar, c, baseline, provider, selected, output):
+    """Shared numerical execution for admitted research and isolated engineering checks.
+
+    This function cannot admit candidates or write to a research registry.
+    """
     predictions = fit_predict(features, labels, calendar, c, baseline['model'], output)
     predictions.to_parquet(output/'predictions.parquet')
     evaluation = predictions.index.get_level_values('datetime') >= c['evaluation_period'][0]
@@ -215,13 +238,4 @@ def _evaluate(root, screen, output, selected, registry):
         blends[name] = {'status': 'DIAGNOSTIC_ONLY',
             'net_increment': block_inference(delta, c['block_length'], c['bootstrap_samples'], c['seed'])}
     write(output/'blend_diagnostics.json', blends)
-    for h in selected:
-        decision = comparisons['ADD_'+h.name]
-        registry.record(output.name, h.factor().factor_id, {'status': 'FORWARD' if decision['decision']=='GO' else 'REJECT',
-            'reasons': ['HISTORICAL_MODEL_'+decision['decision']], 'model_increment': decision,
-            'hypothesis_id': h.hypothesis_id, 'screen_run': screen.name,
-            'qualification': 'SEALED_PENDING_SEPARATE_ADMISSION', 'independent_alpha': False})
-    verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
-    write(output/'status.json', {'status': 'PASS', 'fits': len(c['fold_years'])*len(c['variants']),
-                                'portfolios': len(signals), 'qualification': 'SEALED', 'lockbox': 'SEALED'})
-    return output
+    return comparisons
