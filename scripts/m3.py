@@ -46,6 +46,7 @@ def main():
     external.add_argument('--round',type=int,default=0)
     review=sub.add_parser('audit');review.add_argument('campaign');review.add_argument('endpoint',type=Path)
     review.add_argument('--audit-id',default='review_v1')
+    abort=sub.add_parser('abort');abort.add_argument('campaign');abort.add_argument('--reason',required=True)
     args=parser.parse_args()
     if args.command=='audit':
         result=audit(ROOT,args.campaign,ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8'))),args.audit_id)
@@ -54,6 +55,7 @@ def main():
     if args.command=='create':
         _,spec,seed=create_campaign(ROOT,args.spec);result={'campaign':asdict(spec),'seed_audit':seed}
     elif args.command=='status':result=ledger.snapshot(args.campaign)
+    elif args.command=='abort':result=ledger.abort(args.campaign,args.reason)
     elif args.command=='import':result=import_candidates(ledger,args.campaign,args.round,args.file,args.source_type)
     elif args.command=='evaluate':result={'screen_directory':str(evaluate(ROOT,ledger,args.campaign,args.proposals))}
     elif args.command=='attach-screen':result=attach_screen(ROOT,ledger,args.campaign,args.screen,args.proposals)

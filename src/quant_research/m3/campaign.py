@@ -103,6 +103,12 @@ class CampaignLedger:
                     run_id TEXT, error TEXT);
                 CREATE TABLE IF NOT EXISTS loop_specs (
                     campaign TEXT PRIMARY KEY REFERENCES campaigns(id), payload TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS campaign_aborts (
+                    campaign TEXT PRIMARY KEY REFERENCES campaigns(id), payload TEXT NOT NULL);
+                CREATE TRIGGER IF NOT EXISTS campaign_aborts_no_update BEFORE UPDATE ON campaign_aborts
+                    BEGIN SELECT RAISE(ABORT, 'immutable campaign abort'); END;
+                CREATE TRIGGER IF NOT EXISTS campaign_aborts_no_delete BEFORE DELETE ON campaign_aborts
+                    BEGIN SELECT RAISE(ABORT, 'immutable campaign abort'); END;
                 CREATE TRIGGER IF NOT EXISTS model_results_no_update BEFORE UPDATE ON model_results
                     BEGIN SELECT RAISE(ABORT, 'immutable model result'); END;
                 CREATE TRIGGER IF NOT EXISTS model_results_no_delete BEFORE DELETE ON model_results
@@ -305,7 +311,8 @@ class CampaignLedger:
                 'model_results':[dict(r) for r in db.execute('SELECT m.* FROM model_results m JOIN proposals p ON m.proposal=p.id WHERE p.campaign=? ORDER BY m.proposal',(campaign,))],
                 'freezes':[dict(r) for r in db.execute('SELECT * FROM campaign_freezes WHERE campaign=?',(campaign,))],
                 'model_runs':[dict(r) for r in db.execute('SELECT * FROM model_runs WHERE campaign=?',(campaign,))],
-                'loops':[dict(r) for r in db.execute('SELECT * FROM loop_specs WHERE campaign=?',(campaign,))]}
+                'loops':[dict(r) for r in db.execute('SELECT * FROM loop_specs WHERE campaign=?',(campaign,))],
+                'aborts':[dict(r) for r in db.execute('SELECT * FROM campaign_aborts WHERE campaign=?',(campaign,))]}
 
     def freeze(self, campaign, selected, protocols):
         """End exploration once, preserving the complete search family before modeling."""
@@ -343,6 +350,33 @@ class CampaignLedger:
             db.execute('INSERT INTO campaign_freezes VALUES (?,?)',(campaign,encoded))
             db.execute("UPDATE campaigns SET state='FROZEN' WHERE id=?",(campaign,))
             return payload
+
+    def abort(self,campaign,reason):
+        """Close an unusable attempt without refunding it or inventing outcomes.
+
+        Stop any external worker before using this explicit terminal operation.
+        Unknown calls and unmaterialized responses remain intact for inspection;
+        this is neither a successful freeze nor a NO_ENTRY numerical conclusion.
+        """
+        if not isinstance(reason,str) or not 1<=len(reason.strip())<=2000:raise ValueError('abort requires a concise reason')
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            old=db.execute('SELECT payload FROM campaign_aborts WHERE campaign=?',(campaign,)).fetchone()
+            if old:
+                result=json.loads(old['payload'])
+                if result['reason']!=reason:raise ValueError('campaign abort is immutable')
+                return result
+            row=db.execute('SELECT * FROM campaigns WHERE id=?',(campaign,)).fetchone()
+            if row is None or row['state'] not in {'OPEN','STOPPED_PROVIDER_OVERRUN'}:
+                raise ValueError('only unfinished searches can be aborted')
+            calls=[dict(x) for x in db.execute('SELECT * FROM calls WHERE campaign=? ORDER BY id',(campaign,))]
+            proposals=[dict(x) for x in db.execute('SELECT * FROM proposals WHERE campaign=? ORDER BY id',(campaign,))]
+            result={'state':'ABORTED','campaign':campaign,'reason':reason,'spec':json.loads(row['spec']),
+                    'calls':calls,'proposals':proposals,'refunded_calls':0,'refunded_tokens':0,
+                    'interpretation':'Terminal search closure; unresolved outcomes stay unknown, no numerical success or model admission.'}
+            db.execute('INSERT INTO campaign_aborts VALUES (?,?)',(campaign,json.dumps(result,sort_keys=True,allow_nan=False)))
+            db.execute("UPDATE campaigns SET state='ABORTED' WHERE id=?",(campaign,))
+            return result
 
     def reserve_model(self, campaign):
         with self.connect() as db:
