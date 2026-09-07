@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "repeated_memory_reads_identical": true,
+  "repeated_attachment_identical": true,
+  "registry_count_before": 28,
+  "registry_count_after": 28,
+  "screen_rerun": false,
+  "root_cause": "Original protocol bytes differ from pretty-printed archival JSON; recovered by original source hash and semantic equality."
+}

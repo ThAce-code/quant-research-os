@@ -1,0 +1,41 @@
+{
+  "BASE": {
+    "gross_return": 1.2270101376081546,
+    "net_return": 1.186336807866831,
+    "net_cagr": 0.14681729106939256,
+    "net_mdd": -0.4026625469515851,
+    "net_excess_annual": 0.08469013172836654,
+    "net_excess_ir": 0.9724729005022426,
+    "net_excess_mdd": -0.1111038265824082,
+    "gross_excess_annual": 0.0879338073857596,
+    "mean_turnover": 0.01398923447782829,
+    "annual_cost_drag": 0.0032436756573930364,
+    "test_days": 1359
+  },
+  "ADD_PAPER101_ALPHA034": {
+    "gross_return": 0.8916318612673071,
+    "net_return": 0.8117663033653821,
+    "net_cagr": 0.10968858157743289,
+    "net_mdd": -0.4603843225511983,
+    "net_excess_annual": 0.054580541778897936,
+    "net_excess_ir": 0.6572720869240476,
+    "net_excess_mdd": -0.17872223041874802,
+    "gross_excess_annual": 0.06215621213899875,
+    "mean_turnover": 0.03218258124818844,
+    "annual_cost_drag": 0.007575670360100816,
+    "test_days": 1359
+  },
+  "BLEND_PAPER101_ALPHA034": {
+    "gross_return": 0.9522580084603878,
+    "net_return": 0.9128891554395528,
+    "net_cagr": 0.12029394685112837,
+    "net_mdd": -0.45499311098853534,
+    "net_excess_annual": 0.06380597466356494,
+    "net_excess_ir": 0.7101452204598453,
+    "net_excess_mdd": -0.14364687449717262,
+    "gross_excess_annual": 0.06739005943867818,
+    "mean_turnover": 0.015421450799265731,
+    "annual_cost_drag": 0.0035840847751132427,
+    "test_days": 1359
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "campaign": {
+    "id": "m3_paper34_v1",
+    "spec": "{\"campaign_id\": \"m3_paper34_v1\", \"max_calls\": 0, \"max_evaluations\": 1, \"max_output_tokens\": 0, \"max_proposals\": 1, \"max_rounds\": 1, \"objective\": \"One fixed paper-reconstructed Alpha34 migration through the persistent M3 controller. No parameter search, direction change or adaptive refinement. Historical screening is exploratory; original M2 and pilot remain frozen.\", \"research_period\": [\"2015-01-01\", \"2020-07-31\"], \"seed\": 42}",
+    "state": "OPEN"
+  },
+  "proposals": [
+    {
+      "id": 3,
+      "campaign": "m3_paper34_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"CSI300 historical membership and canonical adjusted prices replace proprietary source data and universe.\", \"Next-day close execution, five-day screening labels and industry/size neutralization follow the fixed local protocol.\", \"Paper does not fully specify standard-deviation ddof or tie rules; local sample ddof=1 and percentile average ranks are explicit reconstruction choices.\", \"The paper's return results are not reproduced; this is one formula transfer on already-observed research history.\"], \"direction\": 1, \"direction_evidence\": \"Preserve the published Alpha#34 expression as a positive score; no sign selected from local performance.\", \"economic_rationale\": \"Researcher interpretation of the formula: combine short reversal with volatility contraction. This interpretation is not a mechanism established by the paper, and may contain only existing Alpha158 information.\", \"expression\": \"Rank((1 - Rank(Std(returns, 2) / Std(returns, 5))) + (1 - Rank(Delta(close, 1))))\", \"family\": \"short_reversal_volatility_ratio\", \"hypothesis\": \"The fixed Alpha34 composite ranks recent price declines and lower two-day volatility relative to five-day volatility positively.\", \"input_fields\": {\"close\": \"Canonical adjusted BaoStock close, observable after close t\", \"returns\": \"Canonical adjusted close divided by previous trading-day close minus one; observable after close t\"}, \"name\": \"PAPER101_ALPHA034\", \"operator_semantics\": {\"Delta\": \"Current panel minus the panel one trading day earlier\", \"Rank\": \"Cross-sectional percentile rank among historical index members; pandas average tie handling\", \"Std\": \"Trailing full-window sample standard deviation with ddof=1; two and five trading days\", \"arithmetic\": \"Elementwise subtraction, division and addition; nonfinite final output stays missing\"}, \"original_expression\": \"rank(((1 - rank((stddev(returns, 2) / stddev(returns, 5)))) + (1 - rank(delta(close, 1)))))\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"Appendix A, Alpha#34, PDF page 10; operator definitions at end of Appendix A\", \"source_type\": \"PAPER_RECONSTRUCTED\", \"source_url\": \"https://arxiv.org/abs/1601.00991v3\", \"version\": 1}",
+      "signature": "f97ac305b244246b3bfef28a5ca8f1aa60c8b7ead365fddb0f8ca477c2738c52",
+      "status": "ACCEPTED",
+      "reason": null,
+      "parents": "[]",
+      "created_at": "2026-09-07 02:58:08"
+    }
+  ],
+  "calls": [],
+  "evaluations": [
+    {
+      "proposal": 3,
+      "state": "COMPLETE",
+      "run_id": "20260907T025821527769Z",
+      "evidence": "{\"batch_q\": 0.0034982508745627187, \"decision\": \"IC_SCREEN_PASS\", \"inference\": {\"high\": 0.019006579553834967, \"low\": 0.003500040318553779, \"mean\": 0.011279950282435367, \"p\": 0.0034982508745627187}, \"interpretation\": \"EXPLORATORY_SEARCH_FEEDBACK; batch q is not campaign-wide confirmation\", \"period\": [\"2015-01-01\", \"2016-12-31\"], \"primary\": {\"days\": 475, \"ic\": 0.006607756978603054, \"ic_std\": 0.08424645642687985, \"icir\": 0.07843364883053727, \"pairs\": 97747, \"positive_ic_ratio\": 0.5263157894736842, \"positive_rank_ic_ratio\": 0.5663157894736842, \"rank_ic\": 0.011279950282435367, \"rank_ic_std\": 0.08678529063920544, \"rank_icir\": 0.12997537024251926}, \"protected_accessed\": false, \"result_sha256\": \"2c422e31a8d05addedba38f078ce4984a2c560564ac1fb4ceb33c62130176eb9\", \"scope\": \"research_only\", \"screen_run\": \"20260907T025821527769Z\"}"
+    }
+  ]
+}

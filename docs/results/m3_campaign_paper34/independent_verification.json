@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "run_id": "20260907T030012969333Z",
+  "screen_run": "20260907T025821527769Z",
+  "source_files_checked": 41,
+  "artifacts_checked": 28,
+  "fits": 12,
+  "predictions_replayed": 360,
+  "prediction_rows": 242757,
+  "rank_ic_days_replayed": {
+    "BASE": 1359,
+    "ADD_PAPER101_ALPHA034": 1359
+  },
+  "portfolio_days": 1359,
+  "portfolios": 3,
+  "numerical_registry_records": 1,
+  "qualification_executed": false,
+  "lockbox_executed": false,
+  "limits": "Historical research only. Stored bootstrap intervals/q reused, not independently resampled. No fill-level order replay or live capacity claim."
+}

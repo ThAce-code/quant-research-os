@@ -866,5 +866,81 @@
   "docs/results/m3_engineering/status.json": {
     "source_run": "20260907T022607184842Z",
     "sha256": "3495f914bc7041334a8070bda1d68a75fcc4249343c7e692a29536bade38bf11"
+  },
+  "docs/results/m3_campaign_paper34/controller_recovery.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "a48253001b93d74f63acc2c184664febefa6520b896c4dcd522896bfa4322aa8"
+  },
+  "docs/results/m3_campaign_paper34/dedup_ledger.json": {
+    "source_run": "m3_dedup_import_check_v1",
+    "sha256": "0df5482a43c221cbf45c0c88cf746f847212e14b39a1b9350f8fad501cb0379f"
+  },
+  "docs/results/m3_campaign_paper34/independent_verification.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "42e94d8dcb3dc780c50350517ff0457dd3f707ed71818064de25e88b71f3bc36"
+  },
+  "docs/results/m3_campaign_paper34/memory.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "89a97024fa0ddeb9907522e31b3396293f52790050be602eaf40449c291efc2f"
+  },
+  "docs/results/m3_campaign_paper34/model_admission.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "38ad4d2ef8f483446e098d82b86cd0e3b2273c9dbafa06e77430fd694aeac978"
+  },
+  "docs/results/m3_campaign_paper34/model_blend_diagnostics.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "5b0b222be00ae4b1f2f3392b92c01b4cf4982fbff32b4264f478d3791ce9c246"
+  },
+  "docs/results/m3_campaign_paper34/model_comparisons.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "7c7243373ad003ac11123f31a3619ba1f1576d6a8b60af6d42da8ffa06f50745"
+  },
+  "docs/results/m3_campaign_paper34/model_config.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "65ed61fbacf95362cb4e2463712c3c457f9e20fbb9c7104faffa89102107b40d"
+  },
+  "docs/results/m3_campaign_paper34/model_folds.csv": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "3fc726da9081f42634d1aae637989370b038f929f75746f194e0ae70310c6be3"
+  },
+  "docs/results/m3_campaign_paper34/model_portfolio.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "6b550c627a37b29e62b046f5c80c6033bbc3bec3c1569681aa5495de432e4bc5"
+  },
+  "docs/results/m3_campaign_paper34/model_source_hashes.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "af0e17eeb368f9f858ab7760cbadd0b9f720dfdccd422c44e1d87dc12c884639"
+  },
+  "docs/results/m3_campaign_paper34/model_status.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "7ae5580ec774300f8f11cad93c6a6e74e71e6a31082304eff8d491ffa770f26e"
+  },
+  "docs/results/m3_campaign_paper34/paper34_ledger.json": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "580c6b1d7b57d7636b7c577fd98d3ea7d78f399476d6650bd2eaadefd32666fc"
+  },
+  "docs/results/m3_campaign_paper34/report.md": {
+    "source_run": "20260907T030012969333Z",
+    "sha256": "2507055800e1e64fedeac179a7743099ce07f53af6dc479c938a195dbb2f8c65"
+  },
+  "docs/results/m3_campaign_paper34/screen_batch.json": {
+    "source_run": "20260907T025821527769Z",
+    "sha256": "f63e194b8b3117cca3723e3e6bbe11bdcbe5013693661ff5d68290b0b70cb532"
+  },
+  "docs/results/m3_campaign_paper34/screen_results.json": {
+    "source_run": "20260907T025821527769Z",
+    "sha256": "2c422e31a8d05addedba38f078ce4984a2c560564ac1fb4ceb33c62130176eb9"
+  },
+  "docs/results/m3_campaign_paper34/screen_screen_protocol.json": {
+    "source_run": "20260907T025821527769Z",
+    "sha256": "bcd2e839e0fc289d5c710e7218685790339ed7c54b7f566f759f4d9b50121342"
+  },
+  "docs/results/m3_campaign_paper34/screen_source_hashes.json": {
+    "source_run": "20260907T025821527769Z",
+    "sha256": "b526cba32267932018a0be21c4dc21f9b367da2257773e07aac7d13df366c615"
+  },
+  "docs/results/m3_campaign_paper34/screen_status.json": {
+    "source_run": "20260907T025821527769Z",
+    "sha256": "bc7dca20410e79432a3646735acc7c9e09db1a98aec27e780b8e43b0fa3539d5"
   }
 }
