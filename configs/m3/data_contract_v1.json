@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "name": "m3_existing_daily_and_pit_v1",
+  "protected_accessed": false,
+  "canonical_manifest": {
+    "path": "data/canonical/baostock_alpha158_csi300_2008_2020/manifest.json",
+    "sha256": "a4c41b852e30937f1613d76c6951dbdcb7846cd58e4afbd0813064ff3b77b325"
+  },
+  "fields": {
+    "open": {
+      "kind": "daily",
+      "unit": "adjusted CNY price",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "high": {
+      "kind": "daily",
+      "unit": "adjusted CNY price",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "low": {
+      "kind": "daily",
+      "unit": "adjusted CNY price",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "close": {
+      "kind": "daily",
+      "unit": "adjusted CNY price",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "volume": {
+      "kind": "daily",
+      "unit": "raw shares / adjustment factor",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "turnover": {
+      "kind": "daily",
+      "unit": "dimensionless ratio",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "returns": {
+      "kind": "daily",
+      "unit": "dimensionless ratio",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "vwap": {
+      "kind": "daily",
+      "unit": "adjusted CNY price",
+      "availability": "Observed after close t; earliest execution close t+1",
+      "missing_policy": "Suspended/invalid observations remain missing; VWAP additionally requires positive volume and known amount",
+      "revision_policy": "Frozen canonical BaoStock snapshot; adjustment factor inherited from M0, not a claim of vintage-complete price revisions"
+    },
+    "pit_roe": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/roeAvg.parquet",
+        "sha256": "9008c916080f2867519eda961a1ff94a43571e1f817fcbc46f211445105793ec"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+        "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+        "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+      },
+      "additional_evidence": [
+        {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+          "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+        }
+      ]
+    },
+    "pit_net_margin": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/npMargin.parquet",
+        "sha256": "115b868344ba857a70148c8bc27c43c5f7db3782936b8494f5ecf74fe9379a76"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+        "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+        "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+      },
+      "additional_evidence": [
+        {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+          "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+        }
+      ]
+    },
+    "pit_earnings_growth": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/YOYNI.parquet",
+        "sha256": "2ce33d3cf106df0dbcf6bcaaf4ec5d73a3ffd020f6b4a715a806555e0e9b1e68"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+        "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+        "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+      },
+      "additional_evidence": [
+        {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+          "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+        }
+      ]
+    },
+    "pit_asset_growth": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/YOYAsset.parquet",
+        "sha256": "b29dae186179dd31310fe4c0bd391ac538e69a9adc207dc4f486ca72bad987a3"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+        "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+        "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+      },
+      "additional_evidence": [
+        {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+          "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+        }
+      ]
+    },
+    "pit_equity_growth": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/YOYEquity.parquet",
+        "sha256": "77a746228d28d11e4dbbdc6cecafa3837db09486dc176c0d2105282a21372cc2"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+        "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+        "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+      },
+      "additional_evidence": [
+        {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+          "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+        }
+      ]
+    },
+    "pit_cashflow_margin": {
+      "kind": "pit_panel",
+      "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+      "availability": "Strictly after BaoStock pubDate; latest fiscal period takes priority",
+      "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+      "revision_policy": "BaoStock publication alignment with revision_unknown; denominator not independently reconstructed",
+      "publication_age_days": 400,
+      "fiscal_age_days": 550,
+      "period": [
+        "2008-01-02",
+        "2020-07-31"
+      ],
+      "panel": {
+        "path": "experiments/m2/m2_supplementary_data_v1/20260906T072711741731Z/CFOToOR.parquet",
+        "sha256": "62eac6d1ca19b24172af48e98bc2eadd9486a91cf610cfd805fbf14e822f42ef"
+      },
+      "manifest": {
+        "path": "experiments/m2/m2_supplementary_data_v1/20260906T072711741731Z/artifact_hashes.json",
+        "sha256": "2005a70cb18f9b9ba8a8ef4882ac4ab32a0fd8766ee1d7495075af11519d1bfd"
+      },
+      "verification": {
+        "path": "experiments/m2/m2_supplementary_data_v1/20260906T072711741731Z/independent_verification.json",
+        "sha256": "2b4e03454fee661101d50de49b7a5ae6054891cbde78e496e7cc222db7c9d142"
+      },
+      "additional_evidence": []
+    }
+  },
+  "unsupported_sources": [
+    "event",
+    "text",
+    "microstructure",
+    "alternative"
+  ],
+  "scope": "Existing daily data and six already built publication-aligned fundamental fields; no network collection; not full-vintage PIT; mixed fiscal periods not silently reconciled"
+}

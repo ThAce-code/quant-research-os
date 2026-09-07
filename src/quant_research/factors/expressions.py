@@ -9,7 +9,12 @@ import numpy as np
 import pandas as pd
 
 
-FIELDS = {'open', 'high', 'low', 'close', 'volume', 'turnover', 'returns', 'vwap'}
+DAILY_FIELDS = {'open', 'high', 'low', 'close', 'volume', 'turnover', 'returns', 'vwap'}
+# These identifiers require M3's checksummed, publication-aligned data adapter.
+# The daily market loader does not manufacture or fetch fundamental values.
+PIT_FIELDS = {'pit_roe', 'pit_net_margin', 'pit_earnings_growth',
+              'pit_asset_growth', 'pit_equity_growth', 'pit_cashflow_margin'}
+FIELDS = DAILY_FIELDS | PIT_FIELDS
 WINDOW = {'Ref', 'Mean', 'Std', 'Min', 'Max', 'TsRank', 'Delta'}
 BINARY = {'Add', 'Sub', 'Mul', 'Div'}
 UNARY = {'Abs', 'Log', 'Rank'}

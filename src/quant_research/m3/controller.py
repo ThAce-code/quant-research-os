@@ -6,6 +6,7 @@ import sqlite3
 
 from .campaign import CampaignLedger, CampaignSpec
 from .candidates import ResearchHypothesis
+from .data_contract import freeze_binding, required_fields
 from .pipeline import sha, run as screen_run
 from ..factors.engine import strict_write_json as write
 from ..factors.registry import FactorRegistry
@@ -68,6 +69,8 @@ def prepare_evaluation(root,ledger,campaign,proposal_ids):
     batch={'schema_version':1,'feedback_scope':'research_only','automatic_refinement':False,
            'screen_protocol_sha256':sha(protocol),
            'candidates':[json.loads(chosen[p]['payload']) for p in proposal_ids]}
+    binding=freeze_binding(root,required_fields([ResearchHypothesis(**h) for h in batch['candidates']]))
+    if binding is not None:batch['data_contract']=binding
     directory=root/'experiments/m3_campaigns'/campaign
     directory.mkdir(parents=True,exist_ok=True)
     path=directory/('batch_'+'_'.join(map(str,proposal_ids))+'.json')

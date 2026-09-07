@@ -11,6 +11,7 @@ from filelock import FileLock
 
 from .candidates import admit_batch, identity
 from .pipeline import sha, research_firewall
+from .data_contract import read_contract, required_fields, attach_fields, verify_input_identity
 from ..factors.engine import strict_write_json as write, verify_baseline
 from ..factors.provenance import verify_data_identity
 from ..factors.data import load_factor_data, preprocess
@@ -120,6 +121,8 @@ def run(root, screen, *, selection=None, more_screens=()):
                 other=Path(other).resolve();extra,batch=survivors(other,registry)
                 if batch['screen_protocol_sha256']!=payload['screen_protocol_sha256']:
                     raise ValueError('combined screening protocols differ')
+                if batch.get('data_contract')!=payload.get('data_contract'):
+                    raise ValueError('combined screening input contracts differ')
                 for h in extra:
                     if h.hypothesis_id in combined:raise ValueError('duplicate screened hypothesis')
                     combined[h.hypothesis_id]=h;screen_by_hypothesis[h.hypothesis_id]=other.name
@@ -134,6 +137,7 @@ def run(root, screen, *, selection=None, more_screens=()):
         output.mkdir(parents=True)
         tracked = list((root/'src/quant_research').rglob('*.py')) + [
             root/'configs/m3/increment.json', root/'scripts/run_m3_increment.py']
+        if payload.get('data_contract'):tracked.append(root/payload['data_contract']['path'])
         hashes = {str(p.relative_to(root)): sha(p) for p in tracked}
         for n in hashes:
             target = output/'source'/n; target.parent.mkdir(parents=True, exist_ok=True)
@@ -159,6 +163,10 @@ def run(root, screen, *, selection=None, more_screens=()):
 
 
 def _evaluate(root, screen, output, selected, registry, screen_by_hypothesis=None):
+    screen_manifest=json.loads((screen/'artifact_hashes.json').read_text())
+    screen_batch=json.loads(checked_artifact(screen,'batch.json',screen_manifest).read_text())
+    needed=required_fields(selected)
+    contract=read_contract(root,screen_batch.get('data_contract'),needed)
     config = json.loads((root/'configs/m3/increment.json').read_text())
     protocol = root/'configs/factors/m2_rolling.json'
     if sha(protocol) != config['rolling_protocol_sha256']:
@@ -189,6 +197,8 @@ def _evaluate(root, screen, output, selected, registry, screen_by_hypothesis=Non
     panels = {n: pd.read_parquet(checked_artifact(cache, n+'.parquet', manifest))
               for n in ['alpha158', 'labels', 'industry', 'universe', 'log_size']}
     market = load_factor_data(root, baseline)
+    market,input_report=attach_fields(root,market,contract,needed)
+    write(output/'data_inputs.json',input_report)
     candidate_panels = {}
     for h in selected:
         raw = Expression(h.expression).evaluate(market.fields, market.membership)*h.direction
@@ -201,6 +211,7 @@ def _evaluate(root, screen, output, selected, registry, screen_by_hypothesis=Non
                                   baseline, provider, selected, output)
     # Validate before any irreversible successful research record is appended.
     verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
+    verify_input_identity(root,contract,needed)
     source_hashes = json.loads((output/'source_hashes.json').read_text())
     if any(sha(root/n) != v for n, v in source_hashes.items()):
         raise ValueError('source changed before result registration')

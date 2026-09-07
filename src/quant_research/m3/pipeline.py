@@ -14,6 +14,7 @@ import pandas as pd
 from filelock import FileLock
 
 from .candidates import admit_batch, identity
+from .data_contract import read_contract, required_fields, attach_fields, verify_input_identity
 from ..factors.engine import strict_write_json as write, verify_baseline, audit_causality
 from ..factors.expressions import Expression
 from ..factors.provenance import verify_data_identity
@@ -49,6 +50,7 @@ def run(root, batch_path):
     baseline = json.loads((root/'configs/experiments/baostock_alpha158.json').read_text())
     c = json.loads((root/'configs/factors/m2_family_screen.json').read_text())
     research_firewall(baseline, c)  # Before loading any market observations.
+    read_contract(root,payload.get('data_contract'),required_fields(hypotheses))
     if payload['screen_protocol_sha256'] != sha(root/'configs/factors/m2_family_screen.json'):
         raise ValueError('screen protocol changed after batch freeze')
     with FileLock(str(root/'data/factor_engine.lock'), timeout=0):
@@ -69,6 +71,7 @@ def _run(root, batch_path, payload, hypotheses, baseline, c):
         sources = list((root/'src/quant_research').rglob('*.py')) + [batch_path,
                   root/'scripts/run_m3.py', root/'docs/M3_PROTOCOL.md',
                   root/'configs/factors/m2_family_screen.json']
+        if payload.get('data_contract'):sources.append(root/payload['data_contract']['path'])
         hashes = {str(p.relative_to(root)): sha(p) for p in sources}
         for n in hashes:
             target = output/'source'/n
@@ -78,6 +81,10 @@ def _run(root, batch_path, payload, hypotheses, baseline, c):
         frozen = verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
         data_hash = verify_data_identity(root, baseline, frozen)
         market = load_factor_data(root, baseline)
+        needed=required_fields(hypotheses)
+        contract=read_contract(root,payload.get('data_contract'),needed)
+        market,input_report=attach_fields(root,market,contract,needed)
+        write(output/'data_inputs.json',input_report)
         if market.membership.index.max() >= pd.Timestamp('2021-01-01'):
             raise ValueError('canonical observations crossed research firewall')
         dates = market.membership.loc[c['period'][0]:c['period'][1]].index
@@ -107,6 +114,8 @@ def _run(root, batch_path, payload, hypotheses, baseline, c):
                 'coverage_by_year': coverage,
                 'years': {str(y): summarize_ic(d) for y, d in daily.groupby(daily.index.year)},
                 'inference': block_inference(daily.rank_ic, c['block_length'], c['bootstrap_samples'], c['seed'])}
+            if contract is not None:
+                results[h.name]['data_contract']=payload['data_contract']
             print(f'SCREEN {h.name}', flush=True)
         qs = bh_adjust([results[h.name]['inference']['p'] for h in hypotheses])
         amap = root/c['alpha_map_run']; ah = c['alpha_map_input_sha256']
@@ -139,6 +148,7 @@ def _run(root, batch_path, payload, hypotheses, baseline, c):
             write(output/h.name/'hypothesis.json', asdict(h))
             print(f'RESULT {h.name} {r["status"]} rank_ic={r["primary"]["rank_ic"]}', flush=True)
         verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
+        verify_input_identity(root,contract,needed)
         if any(sha(root/n) != v for n, v in hashes.items()):
             raise ValueError('source changed during experiment')
         for h in hypotheses:
