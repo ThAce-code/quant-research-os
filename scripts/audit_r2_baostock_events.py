@@ -53,14 +53,19 @@ def main():
     for path in sorted((run/'session_recoveries').glob('*/recovery.json')):
         event=read(path);failed=path.parent/'failed_response.json';record=read(failed)
         assert sha(failed)==event['failed_response_sha256']
-        assert record['code']=='10001001' and record['data']==[] and record['fields']==[]
+        assert record['code'] in ['10001001','10002007'] and record['data']==[] and record['fields']==[]
         assert record['request']==jobs[event['query_index']]
         recoveries.append(event)
         for source in [path,failed]:hashes[str(source.relative_to(ROOT)).replace('\\','/')]=sha(source)
     if recoveries:
         policy=read(run/'session_recovery_policy.json')
         assert len(recoveries)<=policy['max_session_refreshes']
-        assert max(Counter(r['query_index'] for r in recoveries).values())<=policy['max_refreshes_per_failed_query']
+        counts=Counter()
+        for r in recoveries:
+            counts[r['query_index']]+=1
+            cap=policy.get('max_receive_refreshes_per_query',0) if r['code']=='10002007' else policy['max_refreshes_per_failed_query']
+            assert counts[r['query_index']]<=cap
+        assert sum(r['code']=='10002007' for r in recoveries)<=policy.get('max_receive_refreshes',0)
     coverage=[]
     for period in cfg['target_report_dates']:
         for kind in ['forecast','express']:

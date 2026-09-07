@@ -4,6 +4,7 @@ from pathlib import Path
 import hashlib
 import json
 import socket
+import sys
 import time
 import pandas as pd
 from quant_research.baostock_data import DeadlineSocket, session_lock
@@ -20,6 +21,21 @@ def write(p, value):
     temporary=p.with_suffix('.tmp')
     temporary.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
     temporary.replace(p)
+
+
+def artifact_hashes(out):
+    """Runtime locks are not evidence and may be unreadable while held on Windows."""
+    return {str(p.relative_to(out)):sha(p) for p in out.rglob('*')
+            if p.is_file() and p.name!='artifact_hashes.json' and not p.name.endswith('.lock')}
+
+
+def seal_archive(out,state):
+    original_error=sys.exc_info()[0] is not None
+    try:write(out/'artifact_hashes.json',artifact_hashes(out))
+    except Exception as exc:
+        state.update(status='STOPPED',manifest_error=repr(exc));write(out/'status.json',state)
+        if not original_error:raise
+        print(f'ARCHIVE_ERROR (original collection failure preserved): {exc!r}',file=sys.stderr,flush=True)
 
 
 def plan(config):
@@ -88,7 +104,7 @@ def main():
             state.update(status='STOPPED',error=repr(exc),finished_at=now());write(out/'status.json',state);raise
         finally:
             if getattr(context,'default_socket',None) is not None:context.default_socket.close()
-            write(out/'artifact_hashes.json',{str(p.relative_to(out)):sha(p) for p in out.rglob('*') if p.is_file() and p.name!='artifact_hashes.json'})
+            seal_archive(out,state)
     print(json.dumps(state,ensure_ascii=False,indent=2))
 
 

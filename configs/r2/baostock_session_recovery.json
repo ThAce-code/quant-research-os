@@ -1,10 +1,15 @@
 {
-  "scope": "Repair the user-operated batch after the observed explicit 10001001 session failure; original data scope and successful responses unchanged",
+  "scope": "Repair user-operated read-only batch session loss and empty 10002007 receive failure; preserve original data scope, attempts and successful responses",
   "recoverable_code": "10001001",
+  "recoverable_receive_code": "10002007",
+  "read_only_methods": ["query_forecast_report", "query_performance_express_report"],
   "require_empty_failed_response": true,
   "max_refreshes_per_failed_query": 1,
   "max_session_refreshes": 60,
+  "max_receive_refreshes": 20,
+  "max_receive_refreshes_per_query": 2,
   "cooldown_seconds": 5,
-  "forbidden_retries": ["10001011", "transport failure", "unknown response", "failed login"],
+  "receive_backoff_seconds": [15, 30],
+  "forbidden_retries": ["10001011", "partial data", "unknown response without explicit eligible code", "failed login", "non-read-only operation"],
   "evidence_policy": "Archive failed response, prior status/login and manifest before replay; never delete successful responses or erase the first failure"
 }

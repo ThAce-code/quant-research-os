@@ -15,10 +15,20 @@ def failure(code='10001001'):
 
 def test_only_explicit_empty_not_logged_in_is_recoverable():
     assert module.recovery_allowed(failure(),99,[],POLICY)
-    for code in ['10001011','10002007','unknown']:
+    for code in ['10001011','10002006','unknown']:
         assert not module.recovery_allowed(failure(code),99,[],POLICY)
     assert not module.recovery_allowed({**failure(),'data':[['partial']]},99,[],POLICY)
     assert not module.recovery_allowed({**failure(),'status':'RESERVED'},99,[],POLICY)
+
+
+def test_receive_error_retry_is_bounded_and_read_only():
+    assert module.recovery_allowed(failure('10002007'),367,[],POLICY)
+    history=[{'query_index':367,'code':'10002007'}]
+    assert module.recovery_allowed(failure('10002007'),367,history,POLICY)
+    assert not module.recovery_allowed(failure('10002007'),367,history*2,POLICY)
+    assert not module.recovery_allowed(failure('10002007'),367,[{'query_index':i,'code':'10002007'} for i in range(20)],POLICY)
+    bad={**failure('10002007'),'request':{'method':'place_order'}}
+    assert not module.recovery_allowed(bad,367,[],POLICY)
 
 
 def test_repeated_same_query_and_total_budget_stop():
