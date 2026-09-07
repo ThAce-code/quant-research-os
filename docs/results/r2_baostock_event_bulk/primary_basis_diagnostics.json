@@ -1,0 +1,65 @@
+[
+  {
+    "code": "600893",
+    "period": "2015-03-31",
+    "announcement_id": "1200829000",
+    "source_page": 1,
+    "primary_url": "https://static.cninfo.com.cn/finalpage/2015-04-14/1200829000.PDF",
+    "pdf_sha256": "79ab584242397cbfb73b9e89a6e36f8583bbe8dfc32b80c15345b6084aa65cc5",
+    "review_method": "Review of previously extracted primary-document page text",
+    "prior_profit_yuan": 63169242.5,
+    "forecast_profit_bounds_yuan": [
+      -50000000,
+      -30000000
+    ],
+    "derived_growth_percent": [
+      -179.15244511599138,
+      -147.49146706959482
+    ],
+    "derived_formula": "(forecast - prior) / abs(prior) * 100",
+    "interpretation": "Printed prior profit implies negative growth matching BaoStock. Disclosure mentions changed consolidation scope; Eastmoney comparison basis not established.",
+    "research_admission": false
+  },
+  {
+    "code": "000425",
+    "period": "2015-03-31",
+    "announcement_id": "1200833073",
+    "source_page": 1,
+    "primary_url": "https://static.cninfo.com.cn/finalpage/2015-04-15/1200833073.PDF",
+    "pdf_sha256": "245cdf06470dfe5fd8902d871ee7432cc04910e93e312e4f5d71d58e539e8714",
+    "review_method": "Review of previously extracted primary-document page text",
+    "prior_profit_yuan": 464000000,
+    "forecast_profit_bounds_yuan": [
+      -420000000,
+      -380000000
+    ],
+    "derived_growth_percent": [
+      -190.51724137931035,
+      -181.89655172413794
+    ],
+    "derived_formula": "(forecast - prior) / abs(prior) * 100",
+    "interpretation": "Printed restated prior profit is 464m; stated consolidation adjustment about 52m. Inferred pre-adjustment 412m produces BaoStock bounds; comparable-base choice matters. Printed values are rounded.",
+    "research_admission": false
+  },
+  {
+    "code": "000425",
+    "period": "2016-03-31",
+    "announcement_id": "1202178851",
+    "source_page": 1,
+    "primary_url": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178851.PDF",
+    "pdf_sha256": "811446e8c1e9b1da17532a290a2b63b7a1863ca5a7db594d57d6e415b6ac6e09",
+    "review_method": "Review of previously extracted primary-document page text",
+    "prior_profit_yuan": -393580000,
+    "forecast_profit_bounds_yuan": [
+      10000000,
+      15000000
+    ],
+    "derived_growth_percent": [
+      102.54077951115401,
+      103.81116926673104
+    ],
+    "derived_formula": "(forecast - prior) / abs(prior) * 100",
+    "interpretation": "Using absolute prior loss as denominator gives 102.54-103.81%; BaoStock matches this convention, Eastmoney differs by about 0.01 percentage point. Percentages are derived, not printed forecast bounds.",
+    "research_admission": false
+  }
+]

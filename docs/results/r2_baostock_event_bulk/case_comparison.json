@@ -1,0 +1,65 @@
+[
+  {
+    "announcement_id": "1200574709",
+    "code": "300358",
+    "period": "2015-03-31",
+    "notice_date": "2015-01-24",
+    "status": "NO_SAME_DATE_VERSION_RETURNED",
+    "matching_provider_rows": 0,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1200800371",
+    "code": "300358",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "status": "YOY_BOUNDS_MATCH",
+    "matching_provider_rows": 1,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1200705304",
+    "code": "300341",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-17",
+    "status": "NO_SAME_DATE_VERSION_RETURNED",
+    "matching_provider_rows": 0,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1200809462",
+    "code": "300341",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "status": "YOY_BOUNDS_MATCH",
+    "matching_provider_rows": 1,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1202178462",
+    "code": "002658",
+    "period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "status": "YOY_BOUNDS_MATCH",
+    "matching_provider_rows": 1,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1200691662",
+    "code": "002415",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-12",
+    "status": "YOY_BOUNDS_MATCH",
+    "matching_provider_rows": 1,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  },
+  {
+    "announcement_id": "1200838958",
+    "code": "000826",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-16",
+    "status": "QUALITATIVE_CASE_REQUIRES_CONTENT_REVIEW",
+    "matching_provider_rows": 1,
+    "limits": "Date and YoY bounds only; not an amount, text or population-wide version validation"
+  }
+]

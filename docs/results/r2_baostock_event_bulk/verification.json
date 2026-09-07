@@ -1,0 +1,20 @@
+{
+  "status": "PASS_BOUNDED_ACQUISITION",
+  "original_archive_hashes_verified": 722,
+  "all_690_successful_requests_accounted_for": true,
+  "missing_requests": 0,
+  "original_failures_retained": 2,
+  "new_network_requests_this_acceptance": 0,
+  "m0_frozen_source_and_artifacts_verified": true,
+  "registry_evaluations": [
+    47,
+    33
+  ],
+  "keep": 0,
+  "scope_filtered_forecast_rows": 145,
+  "scope_filtered_express_rows": 11,
+  "basis_diagnostics_do_not_grant_factor_admission": true,
+  "plan_and_member_unions_rebuilt_from_canonical_data": true,
+  "source_bindings_verified": true,
+  "source_archive_manifest_sha256": "8cf85c891b8ad9d7ddf83cf2023ba44d547937b548568a9bd7ba1e018cce7635"
+}

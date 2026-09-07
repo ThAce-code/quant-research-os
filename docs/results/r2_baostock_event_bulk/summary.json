@@ -1,0 +1,116 @@
+{
+  "status": "PASS_ACQUISITION_AUDIT",
+  "collection": {
+    "status": "PASS",
+    "planned_queries": 690,
+    "completed": 690,
+    "nonempty": 378,
+    "rows": 1087,
+    "started_at": "2026-09-07T12:21:57.732357+00:00",
+    "returns_loaded": false,
+    "updated_at": "2026-09-07T13:28:23.523868+00:00",
+    "paused_at": "2026-09-07T12:30:33.271099+00:00",
+    "resumed_by_user_at": "2026-09-07T13:22:03.774976+00:00",
+    "finished_at": "2026-09-07T13:28:24.526771+00:00"
+  },
+  "coverage": [
+    {
+      "period": "2015-03-31",
+      "kind": "forecast",
+      "raw_target_rows": 96,
+      "eligible_member_notice_rows": 81,
+      "eligible_companies": 81,
+      "multiple_rows_company_period": 0,
+      "member_union_denominator": 301
+    },
+    {
+      "period": "2015-03-31",
+      "kind": "express",
+      "raw_target_rows": 8,
+      "eligible_member_notice_rows": 5,
+      "eligible_companies": 5,
+      "multiple_rows_company_period": 0,
+      "member_union_denominator": 301
+    },
+    {
+      "period": "2016-03-31",
+      "kind": "forecast",
+      "raw_target_rows": 81,
+      "eligible_member_notice_rows": 64,
+      "eligible_companies": 64,
+      "multiple_rows_company_period": 0,
+      "member_union_denominator": 300
+    },
+    {
+      "period": "2016-03-31",
+      "kind": "express",
+      "raw_target_rows": 6,
+      "eligible_member_notice_rows": 6,
+      "eligible_companies": 6,
+      "multiple_rows_company_period": 0,
+      "member_union_denominator": 300
+    }
+  ],
+  "raw_rows": 1087,
+  "excluded_rows": 931,
+  "session_refreshes": 2,
+  "archived_session_failures": [
+    {
+      "query_index": 99,
+      "at": "2026-09-07T13:09:59.233931+00:00",
+      "failed_response_sha256": "f9bdcec536dd34e174d19e0799f68bed52ed7ea6cedf703ae1f0d3e440bba839",
+      "request": {
+        "method": "query_performance_express_report",
+        "params": {
+          "code": "sh.600252",
+          "start_date": "2015-01-01",
+          "end_date": "2016-04-30"
+        }
+      },
+      "code": "10001001",
+      "completed_before": 99
+    },
+    {
+      "query_index": 367,
+      "at": "2026-09-07T13:22:03.750088+00:00",
+      "failed_response_sha256": "17d6fe6000299af0660a5eeeb3191cf04cb0278235bb37f2e8cc009b2001f123",
+      "request": {
+        "method": "query_performance_express_report",
+        "params": {
+          "code": "sh.601808",
+          "start_date": "2015-01-01",
+          "end_date": "2016-04-30"
+        }
+      },
+      "code": "10002007",
+      "completed_before": 367
+    }
+  ],
+  "case_status_counts": {
+    "NO_SAME_DATE_VERSION_RETURNED": 2,
+    "YOY_BOUNDS_MATCH": 4,
+    "QUALITATIVE_CASE_REQUIRES_CONTENT_REVIEW": 1
+  },
+  "eastmoney_comparison_counts": {
+    "ADD_AMP_BOUNDS_MATCH": 163,
+    "MISSING_NUMERIC_BOUND": 6,
+    "ADD_AMP_BOUNDS_MISMATCH": 3,
+    "NO_SAME_DATE_EASTMONEY_ROW": 5
+  },
+  "registry": {
+    "factor_registry.sqlite": {
+      "evaluations": 47,
+      "keep": 0
+    },
+    "m2_factor_registry.sqlite": {
+      "evaluations": 33,
+      "keep": 0
+    }
+  },
+  "returns_loaded": false,
+  "qualification": "SEALED",
+  "lockbox": "SEALED",
+  "research_admission": "NOT_READY_PENDING_ORIGINAL_VERSION_AND_CONTENT_VALIDATION",
+  "limits": "Historical member-union event coverage, not daily factor coverage. API range includes intervening quarters; raw values retained. Source agreement does not establish independent provenance or historical completeness.",
+  "verifier_sha256": "656c1eb17b2a03820d03863209a1a219f6c0654f02544d34e8762b1853a15c63"
+}

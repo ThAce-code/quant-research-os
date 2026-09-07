@@ -1610,5 +1610,45 @@
   "docs/results/baostock_transport_repair/stopped_status.json": {
     "source_run": "r2_baostock_event_bulk_v1_transport_lock_repair",
     "sha256": "01dbaee145243bdbeade58dedf9477548e1d6ff15888a47095baacab7f074009"
+  },
+  "docs/results/r2_baostock_event_bulk/case_comparison.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "afbd106482558ef7a25c3397bc2b06f827b625a6ba09a7bf828e74d974c32bd3"
+  },
+  "docs/results/r2_baostock_event_bulk/eastmoney_comparison.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "31d1e6cea74cd6b39e2874cbb65815bd711e55aff7b9dfc216390163582b9508"
+  },
+  "docs/results/r2_baostock_event_bulk/missing_requests.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "docs/results/r2_baostock_event_bulk/primary_basis_diagnostics.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "cada543fbf9676394a643cec4041d87144a2dddc63e617472f5da03601cc47b7"
+  },
+  "docs/results/r2_baostock_event_bulk/quality_followups.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "40adeea4065b4da4cd34688e043c687d5b9f3b09cbe8f30f697084fb58c290e5"
+  },
+  "docs/results/r2_baostock_event_bulk/report.md": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "bec891844d41c8f18e48827e5c32c39630b9ebd0e857e10e6b3920afcf581857"
+  },
+  "docs/results/r2_baostock_event_bulk/requests.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "95edc114e8135c5cd85a822be13b03b7ba9d3414b4faefde73c496de26f08d87"
+  },
+  "docs/results/r2_baostock_event_bulk/source_hashes.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "d2ba2d9c56e77dfa0a7ab18da6684690beec0d0dda5d0ee14fbba3a5b630cd3d"
+  },
+  "docs/results/r2_baostock_event_bulk/summary.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "93264d306131894fcbfeb794d1a3380b5a68d80fb5fed9536b51b3143286665f"
+  },
+  "docs/results/r2_baostock_event_bulk/verification.json": {
+    "source_run": "r2_baostock_event_bulk_v1",
+    "sha256": "812bbc689a88a17ba2c49e621adfa603b638bb0f13742c362e582f7ee37a9ac0"
   }
 }

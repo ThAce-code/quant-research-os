@@ -1,0 +1,173 @@
+[
+  {
+    "code": "sh.600893",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "status": "ADD_AMP_BOUNDS_MISMATCH",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "-179.150000",
+      "-147.490000"
+    ],
+    "eastmoney_add_amp_bounds": [
+      [
+        51.59,
+        70.95
+      ]
+    ],
+    "primary_documents": [
+      {
+        "announcement_id": "1200829000",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-14/1200829000.PDF",
+        "sha256": "79ab584242397cbfb73b9e89a6e36f8583bbe8dfc32b80c15345b6084aa65cc5"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.000046",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "status": "NO_SAME_DATE_EASTMONEY_ROW",
+    "scope_eligible": false,
+    "baostock_bounds": [
+      "100.660000",
+      "162.770000"
+    ],
+    "eastmoney_add_amp_bounds": [],
+    "primary_documents": [],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.000425",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "status": "ADD_AMP_BOUNDS_MISMATCH",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "-201.940000",
+      "-192.230000"
+    ],
+    "eastmoney_add_amp_bounds": [
+      [
+        -190.53,
+        -181.91
+      ]
+    ],
+    "primary_documents": [
+      {
+        "announcement_id": "1200833073",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-15/1200833073.PDF",
+        "sha256": "245cdf06470dfe5fd8902d871ee7432cc04910e93e312e4f5d71d58e539e8714"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.002450",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "status": "NO_SAME_DATE_EASTMONEY_ROW",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "35.000000",
+      "45.000000"
+    ],
+    "eastmoney_add_amp_bounds": [],
+    "primary_documents": [
+      {
+        "announcement_id": "1200763726",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-31/1200763726.PDF",
+        "sha256": "32a87888daecf5828329cbb3e82bcf721e4d3a6ca2a24bf5897d5fcf7b59a0cc"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.300104",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "status": "NO_SAME_DATE_EASTMONEY_ROW",
+    "scope_eligible": false,
+    "baostock_bounds": [
+      "10.000000",
+      "25.000000"
+    ],
+    "eastmoney_add_amp_bounds": [],
+    "primary_documents": [],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.000413",
+    "period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "status": "NO_SAME_DATE_EASTMONEY_ROW",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "89.550000",
+      "121.140000"
+    ],
+    "eastmoney_add_amp_bounds": [],
+    "primary_documents": [
+      {
+        "announcement_id": "1202180193",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202180193.PDF",
+        "sha256": "01bc7d5e8c917c911265779db958b072daf53f3ddac2957bac0e2c48c9e9b213"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.000425",
+    "period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "status": "ADD_AMP_BOUNDS_MISMATCH",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "102.540000",
+      "103.810000"
+    ],
+    "eastmoney_add_amp_bounds": [
+      [
+        102.55,
+        103.82
+      ]
+    ],
+    "primary_documents": [
+      {
+        "announcement_id": "1202178851",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178851.PDF",
+        "sha256": "811446e8c1e9b1da17532a290a2b63b7a1863ca5a7db594d57d6e415b6ac6e09"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  },
+  {
+    "code": "sz.300104",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-18",
+    "status": "NO_SAME_DATE_EASTMONEY_ROW",
+    "scope_eligible": true,
+    "baostock_bounds": [
+      "10.000000",
+      "40.000000"
+    ],
+    "eastmoney_add_amp_bounds": [],
+    "primary_documents": [
+      {
+        "announcement_id": "1202055065",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-18/1202055065.PDF",
+        "sha256": "5a740033765a582020ff656e65d2acf278bf9ac963f0e90213df7d2307c7f4b0"
+      }
+    ],
+    "status_detail": "REQUIRES_ORIGINAL_PERIOD_BASIS_AND_NUMERIC_REVIEW",
+    "research_admission": false
+  }
+]
