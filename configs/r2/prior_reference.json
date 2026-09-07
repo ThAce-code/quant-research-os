@@ -1,0 +1,12 @@
+{
+  "name": "r2_cninfo_prior_reference_v1",
+  "purpose": "Close single explicit missing predecessor date in archived revision 1200788295",
+  "code": "002252",
+  "notice_date": "2015-02-13",
+  "year": 2015,
+  "max_query_pages": 2,
+  "max_pdfs": 4,
+  "spacing_seconds": 1,
+  "retries": 0,
+  "returns_allowed": false
+}
