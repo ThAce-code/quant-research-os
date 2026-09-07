@@ -1,0 +1,17 @@
+{
+  "batch.json": "6bea62d77b6d42e8aeea52fc940a5b36e465df35c403923e40be2701a38597ad",
+  "data_inputs.json": "a8725f652155e93de6cc19e93f0ac521790b7432d6b3302b763176043785b0d1",
+  "lineage.json": "81788b5a302b03a3e3f8c10a9665ec84cd8a7f30f65fa8cd7dfa04ea0c0e4ae6",
+  "results.json": "4ff25448bd75bdd8d4d71d806ed44c38193593ea0f8e37e5dbe4adb92a13d5de",
+  "screen_protocol.json": "bcd2e839e0fc289d5c710e7218685790339ed7c54b7f566f759f4d9b50121342",
+  "source_hashes.json": "261e4117e2d19514ec167c5f02dd004bdbc4196fc0f6959814a1882f1a08ab49",
+  "status.json": "2a0f68fc1bd2727aa2133e31959f96bbcfb7de2e473a1e8d1f1ee76f71a42e5f",
+  "PIT_LOW_EQUITY_GROWTH\\hypothesis.json": "6c643410104e2488434d1af42306d2cdea47b949268b85d89408c92978392e85",
+  "PIT_LOW_EQUITY_GROWTH\\ic.csv": "d93dfb37d23ca31fc493e7d3820cc6956be1287e3db03746f3494842ee9bc0f0",
+  "PIT_LOW_EQUITY_GROWTH\\matched_ic.csv": "258ae375ccfa431e4b1ef71d7f7766340d24ee3cc17ad1e551f2097eb3cf3132",
+  "PIT_LOW_EQUITY_GROWTH\\neutralization.csv": "57200c51036fc54f8d116ae40a40452c3703a3075e935d818277c566e1d7a455",
+  "PIT_LOW_EQUITY_GROWTH\\raw.parquet": "a4edb68addd1ff27b240f7bc8d677b784d779f7b0ccf542c4e97144cc16cf98c",
+  "PIT_LOW_EQUITY_GROWTH\\report.json": "3d6b91a5c1368f305a0608184500d78db4b22476207756d4540be551ae849085",
+  "PIT_LOW_EQUITY_GROWTH\\residual_ic.csv": "dbebe44642636187d0eae89d516ac51b31cfadfd8ba67ea78dbdc55cc62c9ca9",
+  "PIT_LOW_EQUITY_GROWTH\\scores.parquet": "8e9cf13bc42af827fc5e43560aa3dda5ebc9896aa5b9cbb8c1ba79d5047dcd27"
+}

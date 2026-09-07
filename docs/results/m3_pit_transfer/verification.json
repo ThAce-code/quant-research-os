@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "binding": {
+    "path": "configs/m3/data_contract_v1.json",
+    "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+  },
+  "fields": [
+    {
+      "field": "pit_asset_growth",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 896301,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    },
+    {
+      "field": "pit_cashflow_margin",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 915766,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    },
+    {
+      "field": "pit_earnings_growth",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 708858,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    },
+    {
+      "field": "pit_equity_growth",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 896301,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    },
+    {
+      "field": "pit_net_margin",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 713272,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    },
+    {
+      "field": "pit_roe",
+      "source_cells": 2222286,
+      "reindexed_cells": 2282544,
+      "nonmissing": 687836,
+      "causality": {
+        "status": "PASS",
+        "method": "whitelisted historical AST + prefix invariance",
+        "cutoff": "2014-12-31",
+        "lookback": 0,
+        "signal_available": "after close t",
+        "earliest_execution": "close t+1"
+      }
+    }
+  ],
+  "daily_fields_unchanged": [
+    "close",
+    "high",
+    "low",
+    "open",
+    "returns",
+    "turnover",
+    "volume",
+    "vwap"
+  ],
+  "protected_accessed": false,
+  "source_verification": "Existing independent raw/PIT source verifications are hash-pinned; this run checks exact panel transfer and cutoff invariance, not vendor revision truth."
+}

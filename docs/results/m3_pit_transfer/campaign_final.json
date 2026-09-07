@@ -1,0 +1,54 @@
+{
+  "selected": [],
+  "protocols": {
+    "configs/m3/increment.json": "a09f2b225e4b9a1b2459d178cad95d9ad9597707eeeba517b633de0cb2a5e1b2",
+    "configs/factors/m2_rolling.json": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a"
+  },
+  "spec": {
+    "campaign_id": "m3_pit_equity_transfer_v1",
+    "max_calls": 0,
+    "max_evaluations": 1,
+    "max_model_runs": 1,
+    "max_output_tokens": 0,
+    "max_proposals": 1,
+    "max_rounds": 1,
+    "objective": "One new predeclared low-equity-growth hypothesis through the common six-field PIT adapter. No tuning of closed M2 hypotheses, no formula/sign changes and no repeated local screen. Historical results are exploratory; run the fixed increment stage only if the unchanged screen admits this candidate.",
+    "research_period": [
+      "2015-01-01",
+      "2020-07-31"
+    ],
+    "seed": 42
+  },
+  "proposals": [
+    {
+      "id": 9,
+      "campaign": "m3_pit_equity_transfer_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"BaoStock histories retain publication alignment and unknown revisions; Eastmoney series use conservative dependency notice/update times and cannot recover historical versions.\", \"The original source report distinguishes financial accounting coverage from independent-alpha evidence; this candidate uses the common nonfinancial screen.\", \"No exact external-paper replication is claimed; dates are already observed research history.\"], \"direction\": -1, \"direction_evidence\": \"Negative direction fixed from the proposed capital-discipline mechanism before any local return evaluation.\", \"economic_rationale\": \"Rapid equity expansion can accompany issuance, acquisitions or aggressive investment; lower expansion may proxy greater capital discipline. Retained earnings and recapitalizations can reverse this interpretation. This is a new, limited equity-growth hypothesis, not a parameter adjustment of the closed asset-growth experiment.\", \"expression\": \"pit_equity_growth\", \"family\": \"investment_equity_expansion\", \"hypothesis\": \"Lower latest available year-over-year equity growth predicts higher subsequent relative returns with direction fixed before screening.\", \"input_fields\": {\"pit_equity_growth\": \"Dimensionless YOYEquity from the checksummed existing six-field contract; latest fiscal period, strictly after source-specific availability, 400/550-day age limits; no missing-value fill\"}, \"name\": \"PIT_LOW_EQUITY_GROWTH\", \"operator_semantics\": {\"identity\": \"Use the immutable source panel without rescaling or arithmetic reconstruction; direction -1 applied by the common engine\"}, \"original_expression\": \"negative latest independently available YOYEquity ratio\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"configs/m3/pit_equity_v1.json; fixed finite PIT input-transfer study\", \"source_type\": \"HUMAN_GENERATED\", \"source_url\": \"https://github.com/ThAce-code/quant-research-os/blob/main/docs/M3_DATA_CONTRACT.md\", \"version\": 1}",
+      "signature": "8ac7a6f868f7c1a4aefa34ce54d0c3fe9a52e6d7391493bad629ef99226b9687",
+      "status": "ACCEPTED",
+      "reason": null,
+      "parents": "[]",
+      "created_at": "2026-09-07 04:04:28"
+    }
+  ],
+  "evaluations": [
+    {
+      "proposal": 9,
+      "state": "COMPLETE",
+      "run_id": "20260907T040438553259Z",
+      "evidence": "{\"batch_q\": 0.5257371314342829, \"decision\": \"IC_SCREEN_REJECT\", \"inference\": {\"high\": 0.015092683737428968, \"low\": -0.015285370091778935, \"mean\": -0.0005678293024606083, \"p\": 0.5257371314342829}, \"interpretation\": \"EXPLORATORY_SEARCH_FEEDBACK; batch q is not campaign-wide confirmation\", \"period\": [\"2015-01-01\", \"2016-12-31\"], \"primary\": {\"days\": 475, \"ic\": 0.00859926229762846, \"ic_std\": 0.0784882710582116, \"icir\": 0.10956111252916671, \"pairs\": 96406, \"positive_ic_ratio\": 0.5810526315789474, \"positive_rank_ic_ratio\": 0.5073684210526316, \"rank_ic\": -0.0005678293024606088, \"rank_ic_std\": 0.095020833606076, \"rank_icir\": -0.0059758400438227645}, \"protected_accessed\": false, \"result_sha256\": \"4ff25448bd75bdd8d4d71d806ed44c38193593ea0f8e37e5dbe4adb92a13d5de\", \"scope\": \"research_only\", \"screen_run\": \"20260907T040438553259Z\"}"
+    }
+  ],
+  "calls": [],
+  "hypothesis_budget": 1,
+  "evaluation_budget": 1,
+  "proposal_attempts": 1,
+  "evaluation_attempts": 1,
+  "feedback_rounds_observed": [
+    0
+  ],
+  "statistical_scope": "EXPLORATORY_SEARCH; per-batch q and selected-model q do not establish campaign-wide confirmation",
+  "protected_periods": "SEALED",
+  "loop_specs": []
+}

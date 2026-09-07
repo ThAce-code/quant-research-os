@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "feedback_scope": "research_only",
+  "automatic_refinement": false,
+  "screen_protocol_sha256": "40e3ff1f61a9058d35eab555695258dba9e603141a64209806941f81843cf8cc",
+  "candidates": [
+    {
+      "deviations": [
+        "BaoStock histories retain publication alignment and unknown revisions; Eastmoney series use conservative dependency notice/update times and cannot recover historical versions.",
+        "The original source report distinguishes financial accounting coverage from independent-alpha evidence; this candidate uses the common nonfinancial screen.",
+        "No exact external-paper replication is claimed; dates are already observed research history."
+      ],
+      "direction": -1,
+      "direction_evidence": "Negative direction fixed from the proposed capital-discipline mechanism before any local return evaluation.",
+      "economic_rationale": "Rapid equity expansion can accompany issuance, acquisitions or aggressive investment; lower expansion may proxy greater capital discipline. Retained earnings and recapitalizations can reverse this interpretation. This is a new, limited equity-growth hypothesis, not a parameter adjustment of the closed asset-growth experiment.",
+      "expression": "pit_equity_growth",
+      "family": "investment_equity_expansion",
+      "hypothesis": "Lower latest available year-over-year equity growth predicts higher subsequent relative returns with direction fixed before screening.",
+      "input_fields": {
+        "pit_equity_growth": "Dimensionless YOYEquity from the checksummed existing six-field contract; latest fiscal period, strictly after source-specific availability, 400/550-day age limits; no missing-value fill"
+      },
+      "name": "PIT_LOW_EQUITY_GROWTH",
+      "operator_semantics": {
+        "identity": "Use the immutable source panel without rescaling or arithmetic reconstruction; direction -1 applied by the common engine"
+      },
+      "original_expression": "negative latest independently available YOYEquity ratio",
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "source_locator": "configs/m3/pit_equity_v1.json; fixed finite PIT input-transfer study",
+      "source_type": "HUMAN_GENERATED",
+      "source_url": "https://github.com/ThAce-code/quant-research-os/blob/main/docs/M3_DATA_CONTRACT.md",
+      "version": 1
+    }
+  ],
+  "data_contract": {
+    "path": "configs/m3/data_contract_v1.json",
+    "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+  }
+}

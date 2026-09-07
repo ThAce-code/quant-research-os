@@ -1,0 +1,107 @@
+{
+  "PIT_LOW_EQUITY_GROWTH": {
+    "hypothesis_id": "H_7f8e22eb1e201dff2ca4",
+    "factor_id": "F_bac8a9beb4c856b8",
+    "source_type": "HUMAN_GENERATED",
+    "causality": {
+      "status": "PASS",
+      "method": "whitelisted historical AST + prefix invariance",
+      "cutoff": "2014-12-31",
+      "lookback": 0,
+      "signal_available": "after close t",
+      "earliest_execution": "close t+1"
+    },
+    "primary": {
+      "days": 475,
+      "pairs": 96406,
+      "ic": 0.00859926229762846,
+      "ic_std": 0.0784882710582116,
+      "icir": 0.10956111252916671,
+      "positive_ic_ratio": 0.5810526315789474,
+      "rank_ic": -0.0005678293024606088,
+      "rank_ic_std": 0.095020833606076,
+      "rank_icir": -0.0059758400438227645,
+      "positive_rank_ic_ratio": 0.5073684210526316
+    },
+    "coverage_by_year": {
+      "2015": 0.7169398907103826,
+      "2016": 0.7430327868852459
+    },
+    "years": {
+      "2015": {
+        "days": 237,
+        "pairs": 45015,
+        "ic": 0.004114246479071903,
+        "ic_std": 0.08772062745763073,
+        "icir": 0.046901699159175456,
+        "positive_ic_ratio": 0.5485232067510548,
+        "rank_ic": 0.007814313612320215,
+        "rank_ic_std": 0.09771181540218668,
+        "rank_icir": 0.07997306753698222,
+        "positive_rank_ic_ratio": 0.5738396624472574
+      },
+      "2016": {
+        "days": 238,
+        "pairs": 51391,
+        "ic": 0.013065433511905368,
+        "ic_std": 0.06795756513217396,
+        "icir": 0.1922587056568871,
+        "positive_ic_ratio": 0.6134453781512605,
+        "rank_ic": -0.008914753129364203,
+        "rank_ic_std": 0.09170811615245736,
+        "rank_icir": -0.09720789722192247,
+        "positive_rank_ic_ratio": 0.4411764705882353
+      }
+    },
+    "inference": {
+      "mean": -0.0005678293024606083,
+      "low": -0.015285370091778935,
+      "high": 0.015092683737428968,
+      "p": 0.5257371314342829
+    },
+    "data_contract": {
+      "path": "configs/m3/data_contract_v1.json",
+      "sha256": "d1dee6c8ecf2b834738832080fce4f710705a7a04fa68937ebfa763ad4c65db3"
+    },
+    "q": 0.5257371314342829,
+    "status": "REJECT",
+    "admission_stage": "IC_SCREEN_REJECT",
+    "independent_alpha": false,
+    "downstream": {
+      "matched_cost_increment": "NOT_RUN_SCREEN_REJECT",
+      "rolling_model_increment": "NOT_RUN_SCREEN_REJECT"
+    },
+    "protected": {
+      "qualification_executed": false,
+      "lockbox_executed": false
+    },
+    "conditional": {
+      "status": "DIAGNOSTIC_ONLY",
+      "variance_retained": 0.7772309613095199,
+      "matched": {
+        "days": 238,
+        "pairs": 50805,
+        "ic": 0.013319215617150238,
+        "ic_std": 0.06859064032011436,
+        "icir": 0.1941841562491486,
+        "positive_ic_ratio": 0.6134453781512605,
+        "rank_ic": -0.008694735188136309,
+        "rank_ic_std": 0.09292623574387734,
+        "rank_icir": -0.09356598939507975,
+        "positive_rank_ic_ratio": 0.46218487394957986
+      },
+      "residual": {
+        "days": 238,
+        "pairs": 50805,
+        "ic": 0.007752688851285438,
+        "ic_std": 0.06783193173984146,
+        "icir": 0.11429261488556211,
+        "positive_ic_ratio": 0.5546218487394958,
+        "rank_ic": -0.01192881061100286,
+        "rank_ic_std": 0.07882900607918474,
+        "rank_icir": -0.1513251429178267,
+        "positive_rank_ic_ratio": 0.40756302521008403
+      }
+    }
+  }
+}

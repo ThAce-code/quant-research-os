@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "protected_accessed": false,
+  "fields": {
+    "pit_equity_growth": {
+      "semantics": {
+        "kind": "pit_panel",
+        "unit": "dimensionless vendor reporting-period ratio; no percent conversion or TTM reconstruction",
+        "availability": "Strictly after pubDate; latest fiscal period takes priority; Eastmoney availability is maximum dependency notice/update time",
+        "missing_policy": "Missing latest value, unknown dependency date, stale report or nonmembership remains missing; no fallback to older finite value",
+        "revision_policy": "Mixed source timing: BaoStock original publication alignment with revision_unknown; Eastmoney conservative update-time alignment cannot recover historical versions",
+        "publication_age_days": 400,
+        "fiscal_age_days": 550,
+        "period": [
+          "2008-01-02",
+          "2020-07-31"
+        ],
+        "panel": {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/YOYEquity.parquet",
+          "sha256": "77a746228d28d11e4dbbdc6cecafa3837db09486dc176c0d2105282a21372cc2"
+        },
+        "manifest": {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/build_artifact_hashes.json",
+          "sha256": "2464ded7ff74a89ead344e8b14836f29d4117b7fed99488fd47107155b959a89"
+        },
+        "verification": {
+          "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/independent_verification.json",
+          "sha256": "ec437db8e442a920a2eb797bc69f0bc1b3fc992d4c2bb04c9fbe215d9d874676"
+        },
+        "additional_evidence": [
+          {
+            "path": "experiments/m2/m2_alternate_history_v1/20260906T134337933185Z/source_assignment.csv",
+            "sha256": "8245c098c7fafc81a3137d1f37cceb2078da65e4cea21a238ad33218594dc30b"
+          }
+        ]
+      },
+      "eligible_finite_cells": 896301,
+      "operation": "identity/reindex; no fill or unit conversion"
+    }
+  },
+  "cross_field_fiscal_alignment": "Not guaranteed; each field is latest independently available. Mixed-field hypotheses must account for mismatched reporting periods."
+}
