@@ -20,6 +20,11 @@ def write(p,v):p.write_text(json.dumps(v,indent=2,ensure_ascii=False,allow_nan=F
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 
 
+def candidate_title(title,year):
+    years=set(re.findall(r'20\d{2}',title))
+    return '一季度' in title and '业绩' in title and (not years or str(year) in years)
+
+
 def main():
     c=read(CONFIG);out=ROOT/'experiments/r2'/c['name'];out.mkdir(parents=True,exist_ok=False)
     (out/'pdf').mkdir();(out/'source').mkdir();shutil.copyfile(Path(__file__),out/'source'/Path(__file__).name);shutil.copyfile(CONFIG,out/'source'/CONFIG.name)
@@ -60,10 +65,12 @@ def main():
                 date=pd.Timestamp(row['announcementTime'],unit='ms',tz='UTC').tz_convert('Asia/Shanghai').strftime('%Y-%m-%d')
                 if not begin<=date<=end:raise ValueError('notice outside frozen period')
                 if row['secCode'] not in wanted:continue
-                if '一季度' not in title or '业绩' not in title or str(year) not in title:continue
+                if not candidate_title(title,year):continue
                 relative=row.get('adjunctUrl') or ''
                 if not re.fullmatch(r'finalpage/20(?:15|16)-\d\d-\d\d/[A-Za-z0-9_.-]+\.[Pp][Dd][Ff]',relative):raise ValueError('unexpected PDF source path')
-                aid=str(row['announcementId']);key=(aid,row['secCode'])
+                aid=str(row['announcementId'])
+                if not aid.isdigit():raise ValueError('invalid announcement ID')
+                key=(aid,row['secCode'])
                 selected[key]={**row,'announcementTitle':title,'notice_date':date,'query_year':year,
                     'historical_member_union':row['secCode'] in union,'audit_sentinel':row['secCode'] in c['audit_sentinels'],
                     'document_url':c['document_host']+relative,'local_pdf':'pdf/'+aid+'.pdf'}
