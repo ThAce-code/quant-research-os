@@ -1582,5 +1582,17 @@
   "docs/results/baostock_probe_20260907/result.json": {
     "source_run": "20260907T114125Z",
     "sha256": "0b8425c4b41889deefdc96d572f1f3ec40319c8486788646186ab2a90c2be209"
+  },
+  "docs/results/baostock_session_recovery/failed_response.json": {
+    "source_run": "r2_baostock_event_bulk_v1_session_failure_0099",
+    "sha256": "f9bdcec536dd34e174d19e0799f68bed52ed7ea6cedf703ae1f0d3e440bba839"
+  },
+  "docs/results/baostock_session_recovery/report.md": {
+    "source_run": "r2_baostock_event_bulk_v1_session_failure_0099",
+    "sha256": "10885d0155e6831c91e757e784b56a63741482f337608e8a2427a02f66419d93"
+  },
+  "docs/results/baostock_session_recovery/stopped_status.json": {
+    "source_run": "r2_baostock_event_bulk_v1_session_failure_0099",
+    "sha256": "d219450108d4e7ad39e1bb4f242f0938243ea60657c56eec1736bddb5956aca9"
   }
 }

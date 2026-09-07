@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "request": {
+    "method": "query_performance_express_report",
+    "params": {
+      "code": "sh.600252",
+      "start_date": "2015-01-01",
+      "end_date": "2016-04-30"
+    }
+  },
+  "started_at": "2026-09-07T12:34:04.067617+00:00",
+  "code": "10001001",
+  "message": "用户未登录",
+  "fields": [],
+  "data": [],
+  "finished_at": "2026-09-07T12:34:06.221421+00:00"
+}
