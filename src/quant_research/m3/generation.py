@@ -10,6 +10,24 @@ from .candidates import ResearchHypothesis
 from ..factors.expressions import FIELDS, WINDOW, BINARY, UNARY
 
 
+def hypothesis_schema():
+    """Transport constraints; the local AST/evidence validator remains authoritative."""
+    properties={name:{'type':'string'} for name in [
+        'name','family','hypothesis','economic_rationale','expression','source_type',
+        'source_url','source_locator','original_expression','signal_timing','direction_evidence']}
+    properties.update(direction={'type':'integer','enum':[-1,1]},version={'type':'integer','enum':[1]},
+        deviations={'type':'array','items':{'type':'string'}},
+        input_fields={'type':'object','properties':{name:{'type':'string'} for name in sorted(FIELDS)},
+                      'additionalProperties':False},
+        operator_semantics={'type':'object','additionalProperties':{'type':'string'}})
+    properties['name']['pattern']='^[A-Z][A-Z0-9_]{0,63}$'
+    properties['source_type']['enum']=['LLM_GENERATED']
+    properties['signal_timing']['enum']=['after_close_t_execute_close_t_plus_1']
+    return {'type':'object','properties':{'candidates':{'type':'array','minItems':1,'maxItems':3,
+        'items':{'type':'object','properties':properties,'required':list(properties),'additionalProperties':False}}},
+        'required':['candidates'],'additionalProperties':False}
+
+
 @dataclass(frozen=True)
 class ModelEndpoint:
     url: str
@@ -25,7 +43,7 @@ class ModelEndpoint:
             raise ValueError('endpoint requires an explicit HTTP URL without credentials/query')
         if parsed.scheme=='http' and parsed.hostname not in {'localhost','127.0.0.1','::1'}:
             raise ValueError('remote model endpoints require HTTPS')
-        if self.protocol not in {'ollama','chat_completions'} or not self.model.strip():
+        if self.protocol not in {'ollama','chat_completions','chat_completions_schema'} or not self.model.strip():
             raise ValueError('unsupported protocol or missing model')
         if type(self.output_tokens) is not int or not 1 <= self.output_tokens <= 8192:
             raise ValueError('output token limit must be 1..8192')
@@ -44,6 +62,9 @@ class ModelEndpoint:
         else:
             body={'model':self.model,'messages':messages,'stream':False,'temperature':0,
                   'max_tokens':self.output_tokens,'response_format':{'type':'json_object'}}
+            if self.protocol=='chat_completions_schema':
+                body['response_format']={'type':'json_schema','json_schema':{
+                    'name':'research_hypotheses_v1','strict':True,'schema':hypothesis_schema()}}
         with requests.Session() as client:
             if urlparse(self.url).hostname in {'localhost','127.0.0.1','::1'}:client.trust_env=False
             with client.post(self.url,json=body,headers=headers,timeout=(5,self.timeout_seconds),
@@ -94,7 +115,8 @@ def generate(ledger, campaign, round_number, endpoint, brief, example, parents=(
              'parent_hypotheses':{str(p['id']):json.loads(p['payload']) for p in snapshot['proposals'] if p['id'] in parents}}
     messages=[{'role':'system','content':system},{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
     ticket=ledger.reserve_call(campaign,round_number,endpoint.output_tokens,
-        {'messages':messages,'endpoint':endpoint.url,'model':endpoint.model,'protocol':endpoint.protocol,'parents':list(parents)})
+        {'messages':messages,'endpoint':endpoint.url,'model':endpoint.model,'protocol':endpoint.protocol,'parents':list(parents),
+         **({'response_schema':hypothesis_schema()} if endpoint.protocol=='chat_completions_schema' else {})})
     raw=None;tokens=None
     try:
         raw,tokens=endpoint.request(messages)

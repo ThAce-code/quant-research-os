@@ -56,6 +56,22 @@ def test_chat_completions_protocol(tmp_path):
     assert seen[0]['max_tokens']==500
 
 
+def test_schema_transport_constraints_are_recorded_and_local_validation_remains(tmp_path):
+    item={**example(),'expression':'close > vwap','input_fields':{'close':'price','vwap':'price'}}
+    raw={'choices':[{'finish_reason':'stop','message':{'content':json.dumps({'candidates':[item]})}}],
+         'usage':{'completion_tokens':100}}
+    obj=ledger(tmp_path)
+    with endpoint(raw,'chat_completions_schema') as (model,seen):
+        result=generate(obj,'test',0,model,'test',example())
+    schema=seen[0]['response_format']['json_schema']['schema']
+    props=schema['properties']['candidates']['items']['properties']
+    assert 'direction' in props and 'original_expression' in props
+    assert props['input_fields']['additionalProperties'] is False
+    assert 'Close' not in props['input_fields']['properties']
+    assert json.loads(obj.snapshot('test')['calls'][0]['request'])['response_schema']==schema
+    assert result['proposals'][0]['status']=='INVALID'  # transport success is not DSL acceptance
+
+
 def test_malformed_response_keeps_failed_call_and_budget(tmp_path):
     obj=ledger(tmp_path)
     with endpoint({'done':True,'message':{'content':'not json'},'eval_count':20}) as (model,_):
