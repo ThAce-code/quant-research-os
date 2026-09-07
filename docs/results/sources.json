@@ -1578,5 +1578,9 @@
   "docs/results/r2_backfill/version_chains_for_review.json": {
     "source_run": "r2_cninfo_backfill_2015_2016_v1",
     "sha256": "564fb080815dda513d67d326393974b078b000e855d27af99e716a82ba3e9095"
+  },
+  "docs/results/baostock_probe_20260907/result.json": {
+    "source_run": "20260907T114125Z",
+    "sha256": "0b8425c4b41889deefdc96d572f1f3ec40319c8486788646186ab2a90c2be209"
   }
 }

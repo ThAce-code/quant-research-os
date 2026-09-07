@@ -15,9 +15,13 @@
   missing dependencies or version timestamps stay missing. Cross-source
   announcement-aligned comparisons are diagnostic only, never primary data.
   Existing BaoStock histories retain legacy publication/revision assumptions.
-- BaoStock's 10001011 denial and 8,354 missing responses remain recorded. Do not
-  clear data/baostock_access_restriction.json or retry that provider without
-  restoration evidence. Alternate data must never be relabelled as BaoStock.
+- BaoStock's historical 10001011 denial and 8,354 missing responses remain recorded.
+  Preserve data/baostock_access_restriction.json as historical evidence. An explicitly
+  user-authorized single recovery probe is allowed without prior restoration proof;
+  stop on denial and never bypass provider controls. The 2026-09-07 probe succeeded
+  for login and one growth query; see docs/results/baostock_probe_20260907/result.json.
+  This does not establish event-endpoint availability or sustained bulk capacity.
+  Alternate data must never be relabelled as BaoStock.
 - The 2015–2016 pilot and 2017–2020 diagnostics are already observed history.
   Do not call them fresh OOS. Do not access 2021+ qualification/lockbox observations
   through research scripts until candidate definitions and the corresponding

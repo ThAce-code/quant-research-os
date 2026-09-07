@@ -1,0 +1,39 @@
+{
+  "started_at": "2026-09-07T11:41:25.445096+00:00",
+  "authorization": "User explicitly requested a current single probe after challenging unconfirmed status",
+  "max_data_queries": 1,
+  "automatic_retries": 0,
+  "request": {
+    "method": "query_growth_data",
+    "params": {
+      "code": "sz.000630",
+      "year": 2015,
+      "quarter": 1
+    }
+  },
+  "historical_restriction_sha256": "3795e347ca5e85ff4b1521edfc010d156f93d109d98680ecb91f0e261345c6d0",
+  "status": "SINGLE_QUERY_SUCCESS",
+  "data_queries": 1,
+  "login": {
+    "code": "0",
+    "message": "success"
+  },
+  "query": {
+    "code": "0",
+    "message": "success",
+    "fields": [
+      "code",
+      "pubDate",
+      "statDate",
+      "YOYEquity",
+      "YOYAsset",
+      "YOYNI",
+      "YOYEPSBasic",
+      "YOYPNI"
+    ],
+    "final_code": "0",
+    "rows": 1
+  },
+  "finished_at": "2026-09-07T11:41:28.047538+00:00",
+  "restriction_record_unchanged": true
+}
