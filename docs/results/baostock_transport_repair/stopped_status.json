@@ -1,0 +1,14 @@
+{
+  "status": "STOPPED",
+  "planned_queries": 690,
+  "completed": 367,
+  "nonempty": 150,
+  "rows": 326,
+  "started_at": "2026-09-07T12:21:57.732357+00:00",
+  "returns_loaded": false,
+  "updated_at": "2026-09-07T13:15:02.527852+00:00",
+  "paused_at": "2026-09-07T12:30:33.271099+00:00",
+  "resumed_by_user_at": "2026-09-07T13:09:59.258933+00:00",
+  "error": "RuntimeError(\"10002007: 网络接收错误。; {'method': 'query_performance_express_report', 'params': {'code': 'sh.601808', 'start_date': '2015-01-01', 'end_date': '2016-04-30'}}\")",
+  "finished_at": "2026-09-07T13:15:03.535256+00:00"
+}

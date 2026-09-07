@@ -1,0 +1,28 @@
+{
+  "status": "PASS_OFFLINE_MANIFEST_REPAIR",
+  "completed": 367,
+  "rows": 326,
+  "remaining": 323,
+  "cause": "Windows locked .resume.lock was included in hashing; stale manifest persisted",
+  "stale_entries_resolved_to_archives": {
+    "login.json": "session_recoveries\\0001\\login.json",
+    "status.json": "session_recoveries\\0001\\status.json",
+    "responses\\0099.json": "session_recoveries\\0001\\failed_response.json"
+  },
+  "unchanged_old_manifest_entries": 106,
+  "new_successful_records_first_sealed": 268,
+  "response_files_byte_unchanged": true,
+  "previous_bindings": {
+    "configs\\r2\\baostock_event_bulk.json": "6f3d856cc663e8a36c85496fc7c2b115d37d7a6047ea6728f83ad514e656d5fb",
+    "scripts\\collect_r2_baostock_events.py": "f523b7cb2950dc375f2be53c11120a74f10bd58123a83ab19d015ee10c8094de",
+    "data\\canonical\\baostock_alpha158_csi300_2008_2020\\membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a"
+  },
+  "current_bindings": {
+    "configs\\r2\\baostock_event_bulk.json": "6f3d856cc663e8a36c85496fc7c2b115d37d7a6047ea6728f83ad514e656d5fb",
+    "scripts\\collect_r2_baostock_events.py": "4c872e532ca0213e131a0da87827f8285a7398bea26064ff936f44cb915589b7",
+    "data\\canonical\\baostock_alpha158_csi300_2008_2020\\membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a"
+  },
+  "new_network_requests": 0,
+  "limits": "New records have structural and request/count checks, not retrospectively available hashes. No provider replay or research admission.",
+  "repair_script_sha256": "627dfb20f50e5d9785cfb28c3c137144d865b16bfbc91b54bc41317d99096b8c"
+}

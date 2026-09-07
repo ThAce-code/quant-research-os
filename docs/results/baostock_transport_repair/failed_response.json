@@ -1,0 +1,17 @@
+{
+  "status": "FAIL",
+  "request": {
+    "method": "query_performance_express_report",
+    "params": {
+      "code": "sh.601808",
+      "start_date": "2015-01-01",
+      "end_date": "2016-04-30"
+    }
+  },
+  "started_at": "2026-09-07T13:15:03.530358+00:00",
+  "code": "10002007",
+  "message": "网络接收错误。",
+  "fields": [],
+  "data": [],
+  "finished_at": "2026-09-07T13:15:03.533007+00:00"
+}

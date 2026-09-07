@@ -1594,5 +1594,21 @@
   "docs/results/baostock_session_recovery/stopped_status.json": {
     "source_run": "r2_baostock_event_bulk_v1_session_failure_0099",
     "sha256": "d219450108d4e7ad39e1bb4f242f0938243ea60657c56eec1736bddb5956aca9"
+  },
+  "docs/results/baostock_transport_repair/failed_response.json": {
+    "source_run": "r2_baostock_event_bulk_v1_transport_lock_repair",
+    "sha256": "17d6fe6000299af0660a5eeeb3191cf04cb0278235bb37f2e8cc009b2001f123"
+  },
+  "docs/results/baostock_transport_repair/repair.json": {
+    "source_run": "r2_baostock_event_bulk_v1_transport_lock_repair",
+    "sha256": "2d798ebf0973fe8493bc6ed03a562bfc7c0aff9764250fd214f0da9480e62c43"
+  },
+  "docs/results/baostock_transport_repair/report.md": {
+    "source_run": "r2_baostock_event_bulk_v1_transport_lock_repair",
+    "sha256": "f1c3e7d9448fc12d6902c117e116a4850dcaffbeb537fa7a92390baff3dfcf66"
+  },
+  "docs/results/baostock_transport_repair/stopped_status.json": {
+    "source_run": "r2_baostock_event_bulk_v1_transport_lock_repair",
+    "sha256": "01dbaee145243bdbeade58dedf9477548e1d6ff15888a47095baacab7f074009"
   }
 }
