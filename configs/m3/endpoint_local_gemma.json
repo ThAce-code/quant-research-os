@@ -1,0 +1,7 @@
+{
+  "url": "http://127.0.0.1:18341/v1/chat/completions",
+  "model": "m3-gemma4-e4b",
+  "protocol": "chat_completions",
+  "output_tokens": 2048,
+  "timeout_seconds": 60
+}

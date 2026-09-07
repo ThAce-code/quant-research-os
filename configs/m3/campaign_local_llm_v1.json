@@ -1,0 +1,12 @@
+{
+  "campaign_id": "m3_local_llm_loop_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 6,
+  "max_evaluations": 6,
+  "max_calls": 3,
+  "max_output_tokens": 6144,
+  "max_rounds": 3,
+  "max_model_runs": 1,
+  "seed": 42,
+  "objective": "A real local-model, three-round finite hypothesis/refinement campaign. Request two simple causal hypotheses per round; retain invalid, duplicate, rejected and failed attempts without refunds or retries. Later rounds inherit the previous round's first two evaluated proposal IDs and exact research feedback. Final selection is at most the first three numerically screen-admitted proposal IDs, with no winner ranking or formula edits. Use the unchanged model gate once if nonempty. All adaptive statistics are exploratory; no protected data or independent-alpha claim."
+}
