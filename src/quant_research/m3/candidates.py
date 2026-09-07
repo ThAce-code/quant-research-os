@@ -55,7 +55,7 @@ class ResearchHypothesis:
         fields = {n.id for n in ast.walk(expression.tree) if isinstance(n, ast.Name) and n.id in FIELDS}
         if not isinstance(self.input_fields, dict) or set(self.input_fields) != fields:
             raise ValueError('input field mapping does not match DSL')
-        if not self.operator_semantics or any(not isinstance(v, str) or not v.strip()
+        if not isinstance(self.operator_semantics, dict) or not self.operator_semantics or any(not isinstance(v, str) or not v.strip()
                                              for v in [*self.input_fields.values(), *self.operator_semantics.values()]):
             raise ValueError('operator and field semantics must be documented')
         self.factor()
