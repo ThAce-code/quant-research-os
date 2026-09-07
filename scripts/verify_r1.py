@@ -137,7 +137,18 @@ def verify(inputs,full):
             if item['family']==family and min(row['coverage'].values())>=.7 and all(row['years'][str(y)]['rank_ic']>0 for y in [2015,2016]):
                 chosen.append(item['name']);break
     assert chosen==read(screen/'selection.json')['selected']
-    state=read(model/'status.json');evidence.update(screen_rank_ic_days=sum(len(v) for v in daily.values()),screen_bootstrap_replayed=True,selected=chosen)
+    conditional=read(screen/'conditional.json');conditional_labels=label_panel(market,c,['2016-01-01','2016-12-31'])
+    conditional_days=0
+    for item in items:
+        name=item['name'];matched=pd.read_parquet(screen/f'{name}_matched.parquet');residual=pd.read_parquet(screen/f'{name}_residual.parquet')
+        assert matched.notna().equals(residual.notna())
+        for variant,panel in [('matched',matched),('residual',residual)]:
+            actual=rank_ic(panel,conditional_labels,c['screen']['min_pairs'])
+            saved=pd.read_csv(screen/f'{name}_{variant}_ic.csv',index_col=0,parse_dates=True)
+            np.testing.assert_allclose(actual,saved.rank_ic,equal_nan=True,atol=1e-12)
+            np.testing.assert_allclose(actual.mean(),conditional[name][variant]['rank_ic'],atol=1e-12)
+            conditional_days+=len(actual)
+    state=read(model/'status.json');evidence.update(screen_rank_ic_days=sum(len(v) for v in daily.values()),screen_bootstrap_replayed=True,conditional_rank_ic_days=conditional_days,selected=chosen)
     if not chosen:
         assert state['decision']=='NO_ENTRY' and state['fits']==state['portfolios']==0
     elif state['decision']=='DATA_GATE_FAIL':
