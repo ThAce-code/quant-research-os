@@ -111,7 +111,7 @@ ROE、净利润增长、低资产增长首轮RankIC约0.0069、-0.0015、0.0051�
 
 27项针对性测试通过，覆盖并发预算、整批原子预留、响应恢复、结果幂等回接、保护期拒绝和负结果检索。HTTP测试服务是协议fixture，不是真实LLM。Ollama及两个候选本机端点在禁用代理后仍连接超时，真实模型调用和多轮运行尚未验收。
 
-本次真实控制器运行事前冻结为单个Alpha#34论文迁移：`configs/m3/campaign_paper34.json`和`paper34.json`，一次评估、零LLM调用、零自动调参。旧两因子仅通过零评估去重检查，不重测。当前campaign CLI只做历史screen；跨轮统计处理及模型准入仍待整合，不能把每轮BH当整批确认。操作与恢复见[M3_CAMPAIGNS.md](M3_CAMPAIGNS.md)。
+本次真实控制器运行事前冻结为单个Alpha#34论文迁移：`configs/m3/campaign_paper34.json`和`paper34.json`，一次评估、零LLM调用、零自动调参。旧两因子仅通过零评估去重检查，不重测。该旧版campaign CLI当时只做历史screen，模型由既有独立CLI执行；后续统一模型入口的进展见本文末尾，不能把每轮BH当整批确认。操作与恢复见[M3_CAMPAIGNS.md](M3_CAMPAIGNS.md)。
 
 该批次现已执行：有效screen `20260907T025821527769Z`，Alpha#34固定正方向RankIC 0.01127995、q 0.00349825，通过初筛FORWARD；2016技术条件残差RankIC 0.00408537，仅诊断。两条旧pilot导入均DUPLICATE，零评估。控制器首次回接因JSON重新排版的字节差异中止，数值screen和registry已成功归档；修正为原始协议快照哈希加内容一致性校验，通过回接恢复，不重复评估。新增复现该衔接问题的针对性检查通过，回接和跨进程记忆重复读取实测一致。完整滚动结果见下节。
 
@@ -121,4 +121,12 @@ ROE、净利润增长、低资产增长首轮RankIC约0.0069、-0.0015、0.0051�
 
 独立验收从12个模型重放360个预测，重算BASE/ADD各1,359日RankIC、逐年净增量和最终门槛，校验41份源快照、28项原始产物和模型registry记录。原bootstrap区间/q没有独立重抽样；未验证逐笔成交或实盘容量。正式M1/M3 registry现28条，M2仍33条，两库合计61条evaluation，无新KEEP。2021–2025仍未打开。
 
-本轮全量回归202 passed、5项已有warnings。M3.0日频公式的真实拒绝/合格分支和恢复链已经验证；M3.x全系列目标仍在执行。当前campaign memory尚只收录screen反馈，下一批优先接入模型NO_GO等多阶段结果、campaign冻结与统一模型准入，然后推进真实LLM多轮生成。LLM服务仍待有效配置。AlphaForge/AlphaSAGE官方代码已本地固定revision并检查输出接口，尚未训练或导入真实生成资产，见[上游接口记录](M3_UPSTREAM_INTERFACES.md)。
+该全规模批次回归202 passed、5项已有warnings。M3.0日频公式的真实拒绝/合格分支和恢复链已经验证；M3.x全系列目标仍在执行。AlphaForge/AlphaSAGE官方代码已本地固定revision并检查输出接口，尚未训练或导入真实生成资产，见[上游接口记录](M3_UPSTREAM_INTERFACES.md)。
+
+### M3.2/M3.3 控制器：多阶段反馈、冻结和有限循环
+
+Alpha#34已完成只读模型反馈回接：保留初筛IC_SCREEN_PASS，同时暴露`latest_decision=NO_GO`及完整模型增量，重复回接一致。历史模型明确标记LEGACY_VERIFIED_IMPORT，不伪装成新预算执行。旧去重campaign实测冻结空选择，NO_ENTRY、0拟合、0组合，两库仍28/33条记录。[本批报告与CLI证据](results/m3_feedback_controller/report.md)。
+
+新增`freeze/model/attach-model/loop`入口。新campaign可事前声明一次model预算，旧spec默认0且不可追加。冻结保存全部提案、失败尝试、原始预算、循环策略和协议哈希，终止生成；模型入口原子预留，失败和重启不退款。跨screen选择保持每个假设来源，同名冲突在行情加载前拒绝。整个自适应搜索仍只作探索，不宣称每轮BH或入选模型q完成全campaign确认。
+
+有限循环已实现：固定endpoint/brief/schema，按前一轮proposal ID选最多两个父项，传递真实归档反馈，遇到未决/失败请求停止且不重试。两轮HTTP和数值评估fixture验证了交叉父子关系、模型NO_GO传递、中断与重复启动；这不是真实LLM运行验收。215项回归通过、5项已有warnings。2021–2025未打开。下一批推进外部生成器和已有PIT数据适配；真实LLM服务仍待配置，不能据此将M3.x标为完成。

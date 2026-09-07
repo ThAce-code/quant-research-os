@@ -1,0 +1,57 @@
+{
+  "selected": [],
+  "protocols": {
+    "configs/m3/increment.json": "a09f2b225e4b9a1b2459d178cad95d9ad9597707eeeba517b633de0cb2a5e1b2",
+    "configs/factors/m2_rolling.json": "c91e1588be8c956e68aa87331919517079813f8dc6337d22cc6b3dd2ed7a969a"
+  },
+  "spec": {
+    "campaign_id": "m3_dedup_import_check_v1",
+    "max_calls": 0,
+    "max_evaluations": 0,
+    "max_output_tokens": 0,
+    "max_proposals": 2,
+    "max_rounds": 1,
+    "objective": "Import the two old pilot definitions solely to verify cross-registry duplicate rejection. Zero model calls and zero evaluations are authorized.",
+    "research_period": [
+      "2015-01-01",
+      "2020-07-31"
+    ],
+    "seed": 42
+  },
+  "proposals": [
+    {
+      "id": 1,
+      "campaign": "m3_dedup_import_check_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"CSI300 historical membership replaces proprietary original universe.\", \"Current signal date t maps to paper previous day relative to execution; execute at t+1 close instead of assumed opening opportunity.\", \"M2 five-day label, industry/size neutralization and preprocessing replace original portfolio construction.\", \"Canonical adjusted OHLC retained; Alpha101 epsilon is in those price units, original price normalization unspecified.\"], \"direction\": 1, \"direction_evidence\": \"Section 2 explicitly describes positive intraday momentum and next-day long positions.\", \"economic_rationale\": \"Positive intraday return predicts continuation on the following trading day.\", \"expression\": \"Log(close / open)\", \"family\": \"intraday_momentum\", \"hypothesis\": \"Positive intraday return predicts continuation on the following trading day.\", \"input_fields\": {\"close\": \"BaoStock daily close multiplied by canonical adjustment factor; observable after close t\", \"open\": \"BaoStock daily open multiplied by canonical adjustment factor; observable after close t\"}, \"name\": \"PAPER101_INTRADAY_MOM\", \"operator_semantics\": {\"Log\": \"natural logarithm, nonpositive becomes missing\", \"arithmetic\": \"elementwise + - /; nonfinite becomes missing\"}, \"original_expression\": \"ln(yesterday close / yesterday open)\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"Section 2, equation (3), PDF page 4\", \"source_type\": \"PAPER_RECONSTRUCTED\", \"source_url\": \"https://arxiv.org/abs/1601.00991v3\", \"version\": 1}",
+      "signature": "9e23739cca97491faaca34525761ee87c8c2ae4bede3bdc49e541f2753df6fdf",
+      "status": "DUPLICATE",
+      "reason": "factor_registry.sqlite:F_a0bf6c61a2faa32a",
+      "parents": "[]",
+      "created_at": "2026-09-07 02:58:04"
+    },
+    {
+      "id": 2,
+      "campaign": "m3_dedup_import_check_v1",
+      "round": 0,
+      "payload": "{\"deviations\": [\"CSI300 historical membership replaces proprietary original universe.\", \"Current signal date t maps to paper previous day relative to execution; execute at t+1 close instead of assumed opening opportunity.\", \"M2 five-day label, industry/size neutralization and preprocessing replace original portfolio construction.\", \"Canonical adjusted OHLC retained; Alpha101 epsilon is in those price units, original price normalization unspecified.\"], \"direction\": 1, \"direction_evidence\": \"Section 2 explicitly describes positive intraday momentum and next-day long positions.\", \"economic_rationale\": \"Positive intraday candle body relative to daily range predicts continuation.\", \"expression\": \"(close - open) / (high - low + 0.001)\", \"family\": \"intraday_momentum\", \"hypothesis\": \"Positive intraday candle body relative to daily range predicts continuation.\", \"input_fields\": {\"close\": \"BaoStock daily close multiplied by canonical adjustment factor; observable after close t\", \"high\": \"BaoStock daily high multiplied by canonical adjustment factor; observable after close t\", \"low\": \"BaoStock daily low multiplied by canonical adjustment factor; observable after close t\", \"open\": \"BaoStock daily open multiplied by canonical adjustment factor; observable after close t\"}, \"name\": \"PAPER101_ALPHA101\", \"operator_semantics\": {\"arithmetic\": \"elementwise + - /; literal epsilon 0.001 retained in adjusted-price units\"}, \"original_expression\": \"((close - open) / ((high - low) + .001))\", \"signal_timing\": \"after_close_t_execute_close_t_plus_1\", \"source_locator\": \"Appendix A Alpha#101 PDF page 15; Section 2 PDF page 4 direction and delay-1\", \"source_type\": \"PAPER_RECONSTRUCTED\", \"source_url\": \"https://arxiv.org/abs/1601.00991v3\", \"version\": 1}",
+      "signature": "d8b4d93823ee7b7579b80f9709382bd23ba4b29eccb9817b043c378da0476be5",
+      "status": "DUPLICATE",
+      "reason": "factor_registry.sqlite:F_5678458ab0abb0bc",
+      "parents": "[]",
+      "created_at": "2026-09-07 02:58:04"
+    }
+  ],
+  "evaluations": [],
+  "calls": [],
+  "hypothesis_budget": 2,
+  "evaluation_budget": 0,
+  "proposal_attempts": 2,
+  "evaluation_attempts": 0,
+  "feedback_rounds_observed": [
+    0
+  ],
+  "statistical_scope": "EXPLORATORY_SEARCH; per-batch q and selected-model q do not establish campaign-wide confirmation",
+  "protected_periods": "SEALED",
+  "loop_specs": []
+}

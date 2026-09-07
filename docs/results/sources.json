@@ -942,5 +942,29 @@
   "docs/results/m3_campaign_paper34/screen_status.json": {
     "source_run": "20260907T025821527769Z",
     "sha256": "bc7dca20410e79432a3646735acc7c9e09db1a98aec27e780b8e43b0fa3539d5"
+  },
+  "docs/results/m3_feedback_controller/attachment.json": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "cfb71eb9dda2855f268e1bf61195485c4e3712e5061f4339fe32fc309e88fa0b"
+  },
+  "docs/results/m3_feedback_controller/freeze.json": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "82f2b4ad82e46183a9d2c1cdb2d8c558e8c31d31a800dbffa9fa61ed93d1c0d0"
+  },
+  "docs/results/m3_feedback_controller/memory.json": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "5f61376e077334fc0bd7f63511b8f4dcb3d309011493f40fd455aedbd4d4ff33"
+  },
+  "docs/results/m3_feedback_controller/no_entry.json": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "ef16ce9deaba84477b01a003dabf8d55df266c18ca5f215b93fea6bd2b0c22ee"
+  },
+  "docs/results/m3_feedback_controller/report.md": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "a20e5b8fa801c97b261a528d0df521ad9ef3d351c60207ecc396588087c91837"
+  },
+  "docs/results/m3_feedback_controller/verification.json": {
+    "source_run": "m3_feedback_controller_v1",
+    "sha256": "b8857f01d3356b612e0086b78c57d20d22561023b8fd5a2cf7aa08af66499969"
   }
 }

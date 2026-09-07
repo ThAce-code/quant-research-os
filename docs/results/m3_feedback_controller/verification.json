@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "model_import_is_idempotent": true,
+  "screen_preserved": true,
+  "latest_model_decision": "NO_GO",
+  "model_run": "20260907T030012969333Z",
+  "no_entry": {
+    "decision": "NO_ENTRY",
+    "fits": 0,
+    "portfolios": 0
+  },
+  "registry_counts_unchanged": {
+    "factor_registry.sqlite": 28,
+    "m2_factor_registry.sqlite": 33
+  },
+  "llm_calls": 0,
+  "new_model_fits": 0,
+  "legacy_import_not_relabelled_as_budgeted_execution": true,
+  "limitations": "Real feedback and no-entry integration only; multi-round loop uses controlled test endpoints, not verified real LLM service."
+}
