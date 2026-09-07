@@ -39,6 +39,10 @@ def load_factor_data(root, baseline_config):
         for field in ['open', 'high', 'low', 'close']:
             out[field] = (frame[field] * frame.factor).where(active)
         out['volume'] = (frame.volume / frame.factor).where(active)
+        # BaoStock amount is CNY and raw volume is shares. Apply the same
+        # price adjustment as OHLC; zero-volume/suspended observations stay missing.
+        amount = frame.get('amount', pd.Series(np.nan, index=frame.index))
+        out['vwap'] = (amount / frame.volume.where(frame.volume.gt(0)) * frame.factor).where(active)
         out['turnover'] = (frame.turnover / 100).where(active)
         out['tradable'] = active
         # Match the exported float32 $change and Qlib's inclusive limits.
@@ -50,7 +54,7 @@ def load_factor_data(root, baseline_config):
         frames.append(out)
     full = pd.concat(frames).reset_index()
     fields = {name: full.pivot(index='datetime', columns='instrument', values=name).reindex(index=calendar, columns=symbols)
-              for name in ['open', 'high', 'low', 'close', 'volume', 'turnover']}
+              for name in ['open', 'high', 'low', 'close', 'volume', 'turnover', 'vwap']}
     fields['returns'] = fields['close'] / fields['close'].shift(1) - 1
     tradable = full.pivot(index='datetime', columns='instrument', values='tradable').reindex(index=calendar, columns=symbols).eq(True)
     execution_eligible = full.pivot(index='datetime', columns='instrument', values='execution_eligible').reindex(index=calendar, columns=symbols).eq(True)

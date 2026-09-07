@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 
-FIELDS = {'open', 'high', 'low', 'close', 'volume', 'turnover', 'returns'}
+FIELDS = {'open', 'high', 'low', 'close', 'volume', 'turnover', 'returns', 'vwap'}
 WINDOW = {'Ref', 'Mean', 'Std', 'Min', 'Max', 'TsRank', 'Delta'}
 BINARY = {'Add', 'Sub', 'Mul', 'Div'}
 UNARY = {'Abs', 'Log', 'Rank'}

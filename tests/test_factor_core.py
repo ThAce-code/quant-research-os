@@ -161,3 +161,23 @@ def test_future_execution_flags_never_change_earlier_scores_or_cross_split_label
     pd.testing.assert_frame_equal(original_labels, modified_labels)
     assert modified_labels.iloc[3:].isna().all().all()  # full-horizon exits cross split end
     assert not modified.execution_eligible.iloc[6:]['SH600000'].any()
+
+
+def test_vwap_adjustment_missing_amount_zero_volume_and_suspension(tmp_path):
+    config, calendar, canonical = sealed_execution_fixture(tmp_path, [0.01] * 6)
+    original = load_factor_data(tmp_path, config)
+    assert original.fields['vwap'].isna().all().all()  # no synthetic amount fallback
+    path = canonical / 'SH600000.parquet'
+    frame = pd.read_parquet(path)
+    frame['amount'] = 25000.0
+    frame['factor'] = 2.0
+    frame.loc[1, 'volume'] = 0
+    frame.loc[2, 'is_suspended'] = True
+    frame.loc[3, 'amount'] = np.nan
+    frame.to_parquet(path);seal_dataset(canonical)
+    data = load_factor_data(tmp_path, config)
+    assert data.fields['vwap']['SH600000'].iloc[[0,4,5]].tolist() == [50.,50.,50.]
+    assert data.fields['vwap']['SH600000'].iloc[1:4].isna().all()
+    assert data.fields['vwap']['SZ000001'].isna().all()
+    from quant_research.factors.engine import audit_causality
+    assert audit_causality(Expression('Div(1,vwap)'),data.fields,data.membership,calendar[3])['status']=='PASS'
