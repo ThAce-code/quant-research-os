@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 import requests
 
 from .candidates import ResearchHypothesis
+from .generation_metadata import catalog
 from ..factors.expressions import FIELDS, WINDOW, BINARY, UNARY
 
 
@@ -110,12 +111,15 @@ def generate(ledger, campaign, round_number, endpoint, brief, example, parents=(
             'Do not invent data, sources or backtest results. '
             'Do not request qualification/lockbox samples. New proposals are LLM_GENERATED, not exact paper replications. '
             'Give a causal rationale and fixed direction before evaluation. Keep expressions simple.')
+    frozen_catalog=catalog()
     context={'brief':brief,'max_candidates':min(3,remaining),'example_schema':example,'fields':sorted(FIELDS),
-             'operators':sorted(WINDOW|BINARY|UNARY),'parents':list(parents),'research_feedback':feedback,
+             'operators':sorted(WINDOW|BINARY|UNARY),'canonical_calculation_catalog':frozen_catalog,
+             'parents':list(parents),'research_feedback':feedback,
              'parent_hypotheses':{str(p['id']):json.loads(p['payload']) for p in snapshot['proposals'] if p['id'] in parents}}
     messages=[{'role':'system','content':system},{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
     ticket=ledger.reserve_call(campaign,round_number,endpoint.output_tokens,
         {'messages':messages,'endpoint':endpoint.url,'model':endpoint.model,'protocol':endpoint.protocol,'parents':list(parents),
+         'metadata_policy':'canonical_catalog_v1','calculation_catalog':frozen_catalog,
          **({'response_schema':hypothesis_schema()} if endpoint.protocol=='chat_completions_schema' else {})})
     raw=None;tokens=None
     try:

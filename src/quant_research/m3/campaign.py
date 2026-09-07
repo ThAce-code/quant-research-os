@@ -209,6 +209,13 @@ class CampaignLedger:
                 if isinstance(item,dict):
                     item={**item,'source_type':'LLM_GENERATED','source_url':f'model://{request["model"]}',
                           'source_locator':f'campaign:{campaign}/call:{ticket}'}
+                    if request.get('metadata_policy')=='canonical_catalog_v1':
+                        from .generation_metadata import enrich
+                        try:item=enrich(item,request['calculation_catalog'])
+                        except (ValueError,KeyError,TypeError):
+                            # Keep invalid syntax/metadata as an attempted proposal.
+                            # In particular, do not fix formula spelling or direction.
+                            pass
                 result=self._propose(db,campaign,row['round'],item,request.get('parents',[]))
                 db.execute('INSERT INTO call_proposals VALUES (?,?,?)',(ticket,ordinal,result['proposal_id']))
                 proposals.append(result)
