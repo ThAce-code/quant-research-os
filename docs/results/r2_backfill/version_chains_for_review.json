@@ -1,0 +1,2464 @@
+[
+  {
+    "code": "000002",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200784294"
+    ],
+    "notice_dates": [
+      "2015-04-03"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000027",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180407"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000039",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200828399"
+    ],
+    "notice_dates": [
+      "2015-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000060",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180318"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000061",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200834827"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000061",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202181624"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000100",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200899101"
+    ],
+    "notice_dates": [
+      "2015-04-24"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000100",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202157101"
+    ],
+    "notice_dates": [
+      "2016-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000156",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200765598",
+      "1200765605"
+    ],
+    "notice_dates": [
+      "2015-03-31",
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000157",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200832411"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000157",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180777"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000166",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202164561"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000400",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200831710"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000400",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202162139"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000401",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200826165"
+    ],
+    "notice_dates": [
+      "2015-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000402",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200763833"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000402",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180065"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000413",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180193"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000425",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200833073"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000425",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178851"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000503",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200831673"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000503",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202174250"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000536",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200833583"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000539",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178682"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000623",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200800705"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000629",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200832610",
+      "1200832611"
+    ],
+    "notice_dates": [
+      "2015-04-15",
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000629",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202180048"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000630",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202179858"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000686",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200805074"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000686",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202174714"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000712",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202169151"
+    ],
+    "notice_dates": [
+      "2016-04-13"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000725",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200803750"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000725",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178875"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000728",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200804346"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000728",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202162788"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000750",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200831142"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000768",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200828605"
+    ],
+    "notice_dates": [
+      "2015-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000768",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202174405"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000776",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200800176"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000778",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200834862"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000783",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200805072"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000783",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202161860"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000792",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200834577"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000792",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202181380"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000793",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200737053",
+      "1200737061"
+    ],
+    "notice_dates": [
+      "2015-03-25",
+      "2015-03-25"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000793",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202174595"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000800",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178435"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000825",
+    "period": "2015-03-31",
+    "documents": 3,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1200826875",
+      "1200918980",
+      "1200918981"
+    ],
+    "notice_dates": [
+      "2015-04-14",
+      "2015-04-28",
+      "2015-04-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000825",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178784"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000831",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200826551"
+    ],
+    "notice_dates": [
+      "2015-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000831",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178669"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000839",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200831137"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000876",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200795913"
+    ],
+    "notice_dates": [
+      "2015-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000883",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200833587"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000898",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200767233"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000898",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202178952"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000937",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200832134"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000960",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200833588"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000963",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200698940"
+    ],
+    "notice_dates": [
+      "2015-03-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000983",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200831223"
+    ],
+    "notice_dates": [
+      "2015-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002001",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200753191"
+    ],
+    "notice_dates": [
+      "2015-03-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002008",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200774937"
+    ],
+    "notice_dates": [
+      "2015-04-01"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002008",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202106540"
+    ],
+    "notice_dates": [
+      "2016-03-30"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002024",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200768677",
+      "1200768678"
+    ],
+    "notice_dates": [
+      "2015-03-31",
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002024",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202114924",
+      "1202114960"
+    ],
+    "notice_dates": [
+      "2016-03-31",
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002051",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200784085",
+      "1200784086"
+    ],
+    "notice_dates": [
+      "2015-04-03",
+      "2015-04-03"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002129",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202123577"
+    ],
+    "notice_dates": [
+      "2016-04-01"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002202",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200755518",
+      "1200755519"
+    ],
+    "notice_dates": [
+      "2015-03-28",
+      "2015-03-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002202",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202100525",
+      "1202100531"
+    ],
+    "notice_dates": [
+      "2016-03-30",
+      "2016-03-30"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002236",
+    "period": "2015-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200718123",
+      "1200718125",
+      "1200718126"
+    ],
+    "notice_dates": [
+      "2015-03-20",
+      "2015-03-20",
+      "2015-03-20"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002236",
+    "period": "2016-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202004929",
+      "1202004930",
+      "1202004938"
+    ],
+    "notice_dates": [
+      "2016-02-29",
+      "2016-02-29",
+      "2016-02-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002241",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200765852",
+      "1200765853"
+    ],
+    "notice_dates": [
+      "2015-03-31",
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002241",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202091378",
+      "1202091380"
+    ],
+    "notice_dates": [
+      "2016-03-29",
+      "2016-03-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002252",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1200633670",
+      "1200788295"
+    ],
+    "notice_dates": [
+      "2015-02-13",
+      "2015-04-04"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002252",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202046781",
+      "1202046793"
+    ],
+    "notice_dates": [
+      "2016-03-16",
+      "2016-03-16"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002292",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200764633"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002292",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202111580",
+      "1202111582"
+    ],
+    "notice_dates": [
+      "2016-03-31",
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002294",
+    "period": "2015-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200737743",
+      "1200737744",
+      "1200737745"
+    ],
+    "notice_dates": [
+      "2015-03-25",
+      "2015-03-25",
+      "2015-03-25"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002294",
+    "period": "2016-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202063756",
+      "1202063757",
+      "1202063772"
+    ],
+    "notice_dates": [
+      "2016-03-22",
+      "2016-03-22",
+      "2016-03-22"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002310",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200769104"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002353",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200764931",
+      "1200764932"
+    ],
+    "notice_dates": [
+      "2015-03-31",
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002353",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202088709"
+    ],
+    "notice_dates": [
+      "2016-03-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002399",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200764500"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002415",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200691662",
+      "1200691663"
+    ],
+    "notice_dates": [
+      "2015-03-12",
+      "2015-03-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002416",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200765473"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002422",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200767194",
+      "1200767195"
+    ],
+    "notice_dates": [
+      "2015-03-31",
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002450",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200763726"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002470",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202090004",
+      "1202090009"
+    ],
+    "notice_dates": [
+      "2016-03-29",
+      "2016-03-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002475",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200752934"
+    ],
+    "notice_dates": [
+      "2015-03-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002475",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202110368"
+    ],
+    "notice_dates": [
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002500",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200847447"
+    ],
+    "notice_dates": [
+      "2015-04-17"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002594",
+    "period": "2015-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200756880",
+      "1200756884",
+      "1200756892"
+    ],
+    "notice_dates": [
+      "2015-03-30",
+      "2015-03-30",
+      "2015-03-30"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002594",
+    "period": "2016-03-31",
+    "documents": 3,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202089369",
+      "1202089377",
+      "1202089378"
+    ],
+    "notice_dates": [
+      "2016-03-29",
+      "2016-03-29",
+      "2016-03-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002603",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200811767",
+      "1200811768"
+    ],
+    "notice_dates": [
+      "2015-04-11",
+      "2015-04-11"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002658",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1202178462"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002673",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200921645",
+      "1200921653"
+    ],
+    "notice_dates": [
+      "2015-04-28",
+      "2015-04-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "002739",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202110695",
+      "1202110697"
+    ],
+    "notice_dates": [
+      "2016-03-31",
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300002",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202155284"
+    ],
+    "notice_dates": [
+      "2016-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300003",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202114225"
+    ],
+    "notice_dates": [
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300015",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200766426"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300015",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202090566"
+    ],
+    "notice_dates": [
+      "2016-03-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300017",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200698798"
+    ],
+    "notice_dates": [
+      "2015-03-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300017",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1202064947",
+      "1202122795"
+    ],
+    "notice_dates": [
+      "2016-03-22",
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300024",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200804919"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300024",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202051524"
+    ],
+    "notice_dates": [
+      "2016-03-16"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300027",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200749612"
+    ],
+    "notice_dates": [
+      "2015-03-27"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300027",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202072122"
+    ],
+    "notice_dates": [
+      "2016-03-24"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300058",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200815553"
+    ],
+    "notice_dates": [
+      "2015-04-13"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300058",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202150984"
+    ],
+    "notice_dates": [
+      "2016-04-07"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300059",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202058741"
+    ],
+    "notice_dates": [
+      "2016-03-19"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300070",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200799364"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300070",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202148853"
+    ],
+    "notice_dates": [
+      "2016-04-07"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300104",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202055065"
+    ],
+    "notice_dates": [
+      "2016-03-18"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300124",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200719376"
+    ],
+    "notice_dates": [
+      "2015-03-20"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300124",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202154608"
+    ],
+    "notice_dates": [
+      "2016-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300133",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200710992"
+    ],
+    "notice_dates": [
+      "2015-03-18"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300133",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202113950"
+    ],
+    "notice_dates": [
+      "2016-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300144",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202017984"
+    ],
+    "notice_dates": [
+      "2016-03-03"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300146",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200656876"
+    ],
+    "notice_dates": [
+      "2015-02-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300146",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202004583"
+    ],
+    "notice_dates": [
+      "2016-02-27"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300251",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200806133"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300251",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202138126"
+    ],
+    "notice_dates": [
+      "2016-04-05"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300315",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202155913"
+    ],
+    "notice_dates": [
+      "2016-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300341",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1200705304",
+      "1200809462"
+    ],
+    "notice_dates": [
+      "2015-03-17",
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300341",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202154898"
+    ],
+    "notice_dates": [
+      "2016-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300358",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 1,
+    "announcement_ids": [
+      "1200574709",
+      "1200800371"
+    ],
+    "notice_dates": [
+      "2015-01-24",
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "300358",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202155903"
+    ],
+    "notice_dates": [
+      "2016-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600016",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200892046",
+      "1200892047"
+    ],
+    "notice_dates": [
+      "2015-04-23",
+      "2015-04-23"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600019",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200863909"
+    ],
+    "notice_dates": [
+      "2015-04-18"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600019",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202225460"
+    ],
+    "notice_dates": [
+      "2016-04-23"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600028",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200728747"
+    ],
+    "notice_dates": [
+      "2015-03-23"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600029",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200812501"
+    ],
+    "notice_dates": [
+      "2015-04-11"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600048",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200804326"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600050",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202197194"
+    ],
+    "notice_dates": [
+      "2016-04-19"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600115",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200850914"
+    ],
+    "notice_dates": [
+      "2015-04-17"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600115",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202174756"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600177",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200815252"
+    ],
+    "notice_dates": [
+      "2015-04-11"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600177",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202195756"
+    ],
+    "notice_dates": [
+      "2016-04-19"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600256",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200765228"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600256",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202123663"
+    ],
+    "notice_dates": [
+      "2016-04-01"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600267",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200770093"
+    ],
+    "notice_dates": [
+      "2015-03-31"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600516",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200797097"
+    ],
+    "notice_dates": [
+      "2015-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600549",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202162003"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600649",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200782423"
+    ],
+    "notice_dates": [
+      "2015-04-03"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600649",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202144267"
+    ],
+    "notice_dates": [
+      "2016-04-07"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600674",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200797342"
+    ],
+    "notice_dates": [
+      "2015-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600688",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200801158"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600688",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202150955"
+    ],
+    "notice_dates": [
+      "2016-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600703",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200795541"
+    ],
+    "notice_dates": [
+      "2015-04-08"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600739",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200800236"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600867",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200804506"
+    ],
+    "notice_dates": [
+      "2015-04-10"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600873",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200800232"
+    ],
+    "notice_dates": [
+      "2015-04-09"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600886",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200838292"
+    ],
+    "notice_dates": [
+      "2015-04-16"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "600893",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200829000"
+    ],
+    "notice_dates": [
+      "2015-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601006",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202163012"
+    ],
+    "notice_dates": [
+      "2016-04-12"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601018",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200782437"
+    ],
+    "notice_dates": [
+      "2015-04-03"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601111",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200847020"
+    ],
+    "notice_dates": [
+      "2015-04-17"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601118",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200850838"
+    ],
+    "notice_dates": [
+      "2015-04-17"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601166",
+    "period": "2015-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200934918",
+      "1200934919"
+    ],
+    "notice_dates": [
+      "2015-04-29",
+      "2015-04-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601166",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202284360",
+      "1202284369"
+    ],
+    "notice_dates": [
+      "2016-04-30",
+      "2016-04-30"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601168",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200866748"
+    ],
+    "notice_dates": [
+      "2015-04-18"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601179",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202170262"
+    ],
+    "notice_dates": [
+      "2016-04-13"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601216",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202175195"
+    ],
+    "notice_dates": [
+      "2016-04-14"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601238",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202197435"
+    ],
+    "notice_dates": [
+      "2016-04-19"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601328",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202269172"
+    ],
+    "notice_dates": [
+      "2016-04-29"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601607",
+    "period": "2016-03-31",
+    "documents": 2,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202282805",
+      "1202282808"
+    ],
+    "notice_dates": [
+      "2016-04-30",
+      "2016-04-30"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601628",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202210867"
+    ],
+    "notice_dates": [
+      "2016-04-21"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601699",
+    "period": "2015-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1200924332"
+    ],
+    "notice_dates": [
+      "2015-04-28"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "601933",
+    "period": "2016-03-31",
+    "documents": 1,
+    "revision_documents": 0,
+    "announcement_ids": [
+      "1202179361"
+    ],
+    "notice_dates": [
+      "2016-04-15"
+    ],
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false
+  },
+  {
+    "code": "000826",
+    "period": "2015-03-31",
+    "revision_documents": 0,
+    "earlier_reference_dates_missing": [],
+    "version_chain_verified": false,
+    "documents": 1,
+    "announcement_ids": [
+      "1200838958"
+    ],
+    "notice_dates": [
+      "2015-04-16"
+    ]
+  }
+]

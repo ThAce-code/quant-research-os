@@ -1542,5 +1542,41 @@
   "docs/results/r2_events/verification.json": {
     "source_run": "r2_event_feasibility_v1",
     "sha256": "e89a08df8df9b24e93bb528e5d95b0f75ed03cf7b1e485648679abaa89540c02"
+  },
+  "docs/results/r2_backfill/content_flags.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "ea78db485a57c9010c027ce0592413fa56e0c281da8c4ce5b4c3e5c4d170cc0b"
+  },
+  "docs/results/r2_backfill/documents.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "d192906b56a681e024ccc5a06f7cce08bceceff492550070085d8432fd7b7254"
+  },
+  "docs/results/r2_backfill/remaining_snapshot_gaps.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "9a5f7aa5b1095d4d6ecd28fa0325bcd663980a65fea19ad38da0840a5492036c"
+  },
+  "docs/results/r2_backfill/report.md": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "9fe7324726fcaf970dcf91af89ebf7ba71bfe7633a85be385dc133049ac3f846"
+  },
+  "docs/results/r2_backfill/reviewed_cases.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "69398b7fc092913e19ea27fe8fac62e08174d219f67c846cbbcea2eeca26fd77"
+  },
+  "docs/results/r2_backfill/snapshot_reconciliation.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "df753c721055d02178c809373c48ce114a3ee79eb63b56f9332387080cd5b5a0"
+  },
+  "docs/results/r2_backfill/source_hashes.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "650a3f56d2bc89d600c242e756fb74e8dd6165d8e242360fc6ecd9d9102e4128"
+  },
+  "docs/results/r2_backfill/summary.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "526179c55c4912185222c02ecdb18771919ff9d655759610de048b401a22b1cf"
+  },
+  "docs/results/r2_backfill/version_chains_for_review.json": {
+    "source_run": "r2_cninfo_backfill_2015_2016_v1",
+    "sha256": "564fb080815dda513d67d326393974b078b000e855d27af99e716a82ba3e9095"
   }
 }

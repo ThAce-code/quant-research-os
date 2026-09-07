@@ -1,0 +1,122 @@
+[
+  {
+    "code": "000166",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000686",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000728",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000783",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600549",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600674",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-08",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000166",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-14",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000686",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000728",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600549",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600674",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600958",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-20",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601016",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-13",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601901",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-19",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601933",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "status": "PASS_BOUNDED_ARCHIVE_AUDIT",
+  "documents": 211,
+  "pages": 5458,
+  "companies": 122,
+  "company_periods": 170,
+  "manual_review_documents": 7,
+  "snapshot_rows": 160,
+  "reconciliation_counts": {
+    "MATCHED_DATE_REQUIRES_CONTENT_CHECK": 144,
+    "QUALITATIVE_PRIMARY_MATCH_NO_NUMERIC_RANGE": 1,
+    "OUTSIDE_JAN_APR_SCOPE": 15
+  },
+  "primary_document_flags": 17,
+  "archive_hashes_checked": 561,
+  "remaining_explicit_predecessor_date_gaps": 0,
+  "explicit_annual_q1_records": 20,
+  "automatic_extraction": {
+    "status": "PASS_EXTRACTION",
+    "documents": 209,
+    "pages": 5447,
+    "companies": 121,
+    "company_periods": 169,
+    "multi_notice_company_periods": 33,
+    "revision_titles": 6,
+    "code_or_period_check_failures": 17,
+    "reference_gap_company_periods": 1,
+    "explicit_annual_q1_records": 19,
+    "extraction_failures": 0,
+    "snapshot_matches": 144,
+    "snapshot_rows": 160,
+    "returns_loaded": false,
+    "data_admission": "DOCUMENT_ARCHIVE_ONLY_PENDING_NUMERIC_AND_COMPLETENESS_CHECKS",
+    "reused_verified_extracted_documents": true,
+    "initial_extractor_sha256": "33856e98cec0c9846ca4f49aa17cc634bb93e65f40ead464e73dd3197d6a9c3c",
+    "source_archive_manifest_sha256": "f888994e96d5709a651112fb49e9eccbaf63a8d82cd6b28a7e274cd7fa39d405",
+    "supplement_manifest_sha256": "4e07fa53133eed2b0235f4f76fca2f58d44e0165c7f1c8014e17c768ff89e55c",
+    "extractor_sha256": "76f9f2a011fbc7b8dbe47678501888c70c20eda40e3e35397800f0f4afa40da5"
+  },
+  "registry": {
+    "factor_registry.sqlite": {
+      "evaluations": 47,
+      "keep": 0
+    },
+    "m2_factor_registry.sqlite": {
+      "evaluations": 33,
+      "keep": 0
+    }
+  },
+  "baostock_new_requests": 0,
+  "baostock_restoration": "UNCONFIRMED",
+  "scope": "2015/2016 Q1, Jan-Apr notices, historical CSI300 member unions plus three audit sentinels",
+  "returns_loaded": false,
+  "qualification": "SEALED",
+  "lockbox": "SEALED",
+  "data_admission": "NOT_READY_FOR_FACTOR_RESEARCH",
+  "limits": [
+    "Date matches do not establish numerical correctness or complete historical versions.",
+    "Latest-snapshot gap recovery is vendor-assisted discovery, not exhaustive notice recall.",
+    "Annual summary and full report duplicates are separate documents, not independent events.",
+    "Manual examples are purposive; do not estimate population error rate from them."
+  ],
+  "targeted_tests_passed": 6,
+  "prior_public_hashes_verified": 386,
+  "verifier_sha256": "1292640092227ffa82f290c81885c2def5d4f1e9ce928875abd156ec51f815e0"
+}

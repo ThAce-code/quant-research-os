@@ -1,0 +1,1604 @@
+[
+  {
+    "code": "000002",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-03",
+    "document_ids": [
+      "1200784294"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000039",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-14",
+    "document_ids": [
+      "1200828399"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000061",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200834827"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000156",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200765598",
+      "1200765605"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000157",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200832411"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000400",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200831710"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000401",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-14",
+    "document_ids": [
+      "1200826165"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000402",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200763833"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000425",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200833073"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000503",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200831673"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000536",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200833583"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000623",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-09",
+    "document_ids": [
+      "1200800705"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000629",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200832611",
+      "1200832610"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000725",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-10",
+    "document_ids": [
+      "1200803750"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000750",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200831142"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000768",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-14",
+    "document_ids": [
+      "1200828605"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000776",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-09",
+    "document_ids": [
+      "1200800176"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000778",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200834862"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000792",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200834577"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000793",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-25",
+    "document_ids": [
+      "1200737061",
+      "1200737053"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000825",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-28",
+    "document_ids": [
+      "1200918981",
+      "1200918980"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000826",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-16",
+    "document_ids": [
+      "1200838958"
+    ],
+    "status": "QUALITATIVE_PRIMARY_MATCH_NO_NUMERIC_RANGE"
+  },
+  {
+    "code": "000831",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-14",
+    "document_ids": [
+      "1200826551"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000839",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200831137"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000876",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-08",
+    "document_ids": [
+      "1200795913"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000883",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200833587"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000898",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200767233"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000937",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200832134"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000960",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200833588"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000963",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-14",
+    "document_ids": [
+      "1200698940"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000983",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-15",
+    "document_ids": [
+      "1200831223"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002001",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-28",
+    "document_ids": [
+      "1200753191"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002008",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-01",
+    "document_ids": [
+      "1200774937"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002024",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200768677",
+      "1200768678"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002051",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-03",
+    "document_ids": [
+      "1200784086",
+      "1200784085"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002202",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-28",
+    "document_ids": [
+      "1200755519",
+      "1200755518"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002236",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-20",
+    "document_ids": [
+      "1200718126",
+      "1200718123",
+      "1200718125"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002241",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200765852",
+      "1200765853"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002252",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-04",
+    "document_ids": [
+      "1200788295"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002292",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200764633"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002294",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-25",
+    "document_ids": [
+      "1200737744",
+      "1200737743",
+      "1200737745"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002310",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200769104"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002353",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200764931",
+      "1200764932"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002399",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200764500"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002415",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-12",
+    "document_ids": [
+      "1200691662",
+      "1200691663"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002416",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200765473"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002422",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200767194",
+      "1200767195"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002475",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-28",
+    "document_ids": [
+      "1200752934"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002594",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-30",
+    "document_ids": [
+      "1200756880",
+      "1200756884",
+      "1200756892"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002603",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-11",
+    "document_ids": [
+      "1200811767",
+      "1200811768"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002673",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-28",
+    "document_ids": [
+      "1200921645",
+      "1200921653"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300015",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200766426"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300017",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-14",
+    "document_ids": [
+      "1200698798"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300024",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-10",
+    "document_ids": [
+      "1200804919"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300027",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-27",
+    "document_ids": [
+      "1200749612"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300058",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-13",
+    "document_ids": [
+      "1200815553"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300070",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-09",
+    "document_ids": [
+      "1200799364"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300124",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-20",
+    "document_ids": [
+      "1200719376"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300133",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-18",
+    "document_ids": [
+      "1200710992"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300146",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-02-28",
+    "document_ids": [
+      "1200656876"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300251",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-10",
+    "document_ids": [
+      "1200806133"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600028",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-23",
+    "document_ids": [
+      "1200728747"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600029",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-11",
+    "document_ids": [
+      "1200812501"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600048",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-10",
+    "document_ids": [
+      "1200804326"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600115",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-17",
+    "document_ids": [
+      "1200850914"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600177",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-11",
+    "document_ids": [
+      "1200815252"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600256",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200765228"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600267",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-03-31",
+    "document_ids": [
+      "1200770093"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600516",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-08",
+    "document_ids": [
+      "1200797097"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600649",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-03",
+    "document_ids": [
+      "1200782423"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600674",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-08",
+    "document_ids": [
+      "1200797342"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600688",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-09",
+    "document_ids": [
+      "1200801158"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600703",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-08",
+    "document_ids": [
+      "1200795541"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600867",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-10",
+    "document_ids": [
+      "1200804506"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600873",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-09",
+    "document_ids": [
+      "1200800232"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600886",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-16",
+    "document_ids": [
+      "1200838292"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600893",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-14",
+    "document_ids": [
+      "1200829000"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601111",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-17",
+    "document_ids": [
+      "1200847020"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601118",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-17",
+    "document_ids": [
+      "1200850838"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601168",
+    "period": "2015-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2015-04-18",
+    "document_ids": [
+      "1200866748"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000166",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000686",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000728",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000783",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "002500",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2015-04-17",
+    "document_ids": [
+      "1200847447"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600549",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600674",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-08",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601699",
+    "period": "2015-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2015-04-28",
+    "document_ids": [
+      "1200924332"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000027",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202180407"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000060",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202180318"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000061",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202181624"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000100",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-09",
+    "document_ids": [
+      "1202157101"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000157",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202180777"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000400",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [
+      "1202162139"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000402",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202180065"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000425",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178851"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000503",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [
+      "1202174250"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000539",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178682"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000629",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202180048"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000630",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202179858"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000712",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-13",
+    "document_ids": [
+      "1202169151"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000725",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178875"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000768",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [
+      "1202174405"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000792",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202181380"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000793",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [
+      "1202174595"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000800",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178435"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000825",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178784"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000831",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178669"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000898",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202178952"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002008",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-30",
+    "document_ids": [
+      "1202106540"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002024",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202114924",
+      "1202114960"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002129",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-01",
+    "document_ids": [
+      "1202123577"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002202",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-30",
+    "document_ids": [
+      "1202100525",
+      "1202100531"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002236",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-02-29",
+    "document_ids": [
+      "1202004938",
+      "1202004929",
+      "1202004930"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002241",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-29",
+    "document_ids": [
+      "1202091380",
+      "1202091378"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002252",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-16",
+    "document_ids": [
+      "1202046793",
+      "1202046781"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002292",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202111580",
+      "1202111582"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002294",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-22",
+    "document_ids": [
+      "1202063756",
+      "1202063757",
+      "1202063772"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002353",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-29",
+    "document_ids": [
+      "1202088709"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002470",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-29",
+    "document_ids": [
+      "1202090004",
+      "1202090009"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002475",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202110368"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002594",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-29",
+    "document_ids": [
+      "1202089369",
+      "1202089378",
+      "1202089377"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "002739",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202110695",
+      "1202110697"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300002",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-09",
+    "document_ids": [
+      "1202155284"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300003",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202114225"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300015",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-29",
+    "document_ids": [
+      "1202090566"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300017",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202122795"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300024",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-16",
+    "document_ids": [
+      "1202051524"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300027",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-24",
+    "document_ids": [
+      "1202072122"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300058",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-07",
+    "document_ids": [
+      "1202150984"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300059",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-19",
+    "document_ids": [
+      "1202058741"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300070",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-07",
+    "document_ids": [
+      "1202148853"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300124",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-08",
+    "document_ids": [
+      "1202154608"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300133",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-31",
+    "document_ids": [
+      "1202113950"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300144",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-03-03",
+    "document_ids": [
+      "1202017984"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300146",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-02-27",
+    "document_ids": [
+      "1202004583"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300251",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-05",
+    "document_ids": [
+      "1202138126"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "300315",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-08",
+    "document_ids": [
+      "1202155913"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600050",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-19",
+    "document_ids": [
+      "1202197194"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600115",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [
+      "1202174756"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600177",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-19",
+    "document_ids": [
+      "1202195756"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600256",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-01",
+    "document_ids": [
+      "1202123663"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600649",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-07",
+    "document_ids": [
+      "1202144267"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600688",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-08",
+    "document_ids": [
+      "1202150955"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601006",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [
+      "1202163012"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601179",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-13",
+    "document_ids": [
+      "1202170262"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601216",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-14",
+    "document_ids": [
+      "1202175195"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601238",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-19",
+    "document_ids": [
+      "1202197435"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601628",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-21",
+    "document_ids": [
+      "1202210867"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "601933",
+    "period": "2016-03-31",
+    "kind": "forecast",
+    "snapshot_notice_date": "2016-04-15",
+    "document_ids": [
+      "1202179361"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "000166",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-14",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000686",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000728",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-12",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "000783",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2016-04-12",
+    "document_ids": [
+      "1202161860"
+    ],
+    "status": "MATCHED_DATE_REQUIRES_CONTENT_CHECK"
+  },
+  {
+    "code": "600549",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600674",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "600958",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-20",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601016",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-13",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601901",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-19",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  },
+  {
+    "code": "601933",
+    "period": "2016-03-31",
+    "kind": "express",
+    "snapshot_notice_date": "2017-04-11",
+    "document_ids": [],
+    "status": "OUTSIDE_JAN_APR_SCOPE"
+  }
+]

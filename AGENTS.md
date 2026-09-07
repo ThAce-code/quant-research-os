@@ -48,3 +48,5 @@
 - The user's subsequent "continue" authorizes the proposed event-data feasibility work. R2 starts with the bounded 2015/2016 event audit in configs/r2/event_audit.json, without factor/return evaluation. Check announcement versions and historical availability before defining an event experiment; preserve all R1 results and protected samples.
 
 - The user additionally authorized filling event-data gaps using suitable alternative sources/websites. Archive primary CNINFO notices under configs/r2/announcement_backfill.json for the current 2015/2016 Q1 scope; distinguish index/PDF delivery from verified numeric version chains. BaoStock restoration remains unconfirmed and its restriction record stays intact.
+
+- R2 bounded primary backfill now contains 211 documents; see docs/results/r2_backfill/report.md. This is document delivery, not numerical/event admission or full historical recall. Next work must resolve numeric/period/version checks and event deduplication on existing documents before defining factor tests. Keep qualitative bounds null and source conflicts explicit; do not relabel annual reports, meetings, or date matches as validated quarterly events.
