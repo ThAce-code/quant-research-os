@@ -49,6 +49,18 @@ def main():
     assert len(checks)==state['completed']
     assert sum(c['rows'] for c in checks)==state['rows']
     if state['status']=='PASS':assert not missing and len(checks)==len(jobs)
+    recoveries=[]
+    for path in sorted((run/'session_recoveries').glob('*/recovery.json')):
+        event=read(path);failed=path.parent/'failed_response.json';record=read(failed)
+        assert sha(failed)==event['failed_response_sha256']
+        assert record['code']=='10001001' and record['data']==[] and record['fields']==[]
+        assert record['request']==jobs[event['query_index']]
+        recoveries.append(event)
+        for source in [path,failed]:hashes[str(source.relative_to(ROOT)).replace('\\','/')]=sha(source)
+    if recoveries:
+        policy=read(run/'session_recovery_policy.json')
+        assert len(recoveries)<=policy['max_session_refreshes']
+        assert max(Counter(r['query_index'] for r in recoveries).values())<=policy['max_refreshes_per_failed_query']
     coverage=[]
     for period in cfg['target_report_dates']:
         for kind in ['forecast','express']:
@@ -95,6 +107,7 @@ def main():
     out=run/'audit';out.mkdir(exist_ok=False)
     result={'status':'PASS_ACQUISITION_AUDIT' if state['status']=='PASS' else 'PARTIAL_ACQUISITION_AUDIT',
         'collection':state,'coverage':coverage,'raw_rows':len(rows),'excluded_rows':sum(not r['scope_eligible'] for r in rows),
+        'session_refreshes':len(recoveries),'archived_session_failures':recoveries,
         'case_status_counts':dict(Counter(c['status'] for c in cases)),
         'eastmoney_comparison_counts':dict(Counter(c['status'] for c in comparisons)),
         'registry':registry,'returns_loaded':False,'qualification':'SEALED','lockbox':'SEALED',

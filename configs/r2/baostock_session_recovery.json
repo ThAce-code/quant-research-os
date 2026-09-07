@@ -1,0 +1,10 @@
+{
+  "scope": "Repair the user-operated batch after the observed explicit 10001001 session failure; original data scope and successful responses unchanged",
+  "recoverable_code": "10001001",
+  "require_empty_failed_response": true,
+  "max_refreshes_per_failed_query": 1,
+  "max_session_refreshes": 60,
+  "cooldown_seconds": 5,
+  "forbidden_retries": ["10001011", "transport failure", "unknown response", "failed login"],
+  "evidence_policy": "Archive failed response, prior status/login and manifest before replay; never delete successful responses or erase the first failure"
+}
