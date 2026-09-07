@@ -1,0 +1,12 @@
+{
+  "name": "r2_cninfo_qualitative_v1",
+  "purpose": "Inspect sole same-date announcement for remaining 000826 forecast gap; retain null numeric bounds",
+  "announcement_id": "1200838958",
+  "code": "000826",
+  "notice_date": "2015-04-16",
+  "url": "https://static.cninfo.com.cn/finalpage/2015-04-16/1200838958.PDF",
+  "source_index": "experiments/r2/r2_cninfo_supplement_v1/query_000826_2015-04-16_1.json",
+  "max_requests": 1,
+  "retries": 0,
+  "returns_allowed": false
+}
