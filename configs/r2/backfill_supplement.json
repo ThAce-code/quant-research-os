@@ -1,0 +1,233 @@
+{
+  "name": "r2_cninfo_supplement_v1",
+  "cases": [
+    {
+      "code": "002415",
+      "notice_date": "2015-03-12",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002236",
+      "notice_date": "2015-03-20",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000793",
+      "notice_date": "2015-03-25",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002294",
+      "notice_date": "2015-03-25",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002202",
+      "notice_date": "2015-03-28",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002594",
+      "notice_date": "2015-03-30",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000156",
+      "notice_date": "2015-03-31",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002024",
+      "notice_date": "2015-03-31",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002241",
+      "notice_date": "2015-03-31",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002353",
+      "notice_date": "2015-03-31",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002422",
+      "notice_date": "2015-03-31",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000002",
+      "notice_date": "2015-04-03",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002051",
+      "notice_date": "2015-04-03",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002603",
+      "notice_date": "2015-04-11",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000157",
+      "notice_date": "2015-04-15",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000629",
+      "notice_date": "2015-04-15",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000839",
+      "notice_date": "2015-04-15",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000826",
+      "notice_date": "2015-04-16",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000825",
+      "notice_date": "2015-04-28",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002673",
+      "notice_date": "2015-04-28",
+      "year": 2015,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002236",
+      "notice_date": "2016-02-29",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002252",
+      "notice_date": "2016-03-16",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002294",
+      "notice_date": "2016-03-22",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002241",
+      "notice_date": "2016-03-29",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002470",
+      "notice_date": "2016-03-29",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002594",
+      "notice_date": "2016-03-29",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002202",
+      "notice_date": "2016-03-30",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002024",
+      "notice_date": "2016-03-31",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002292",
+      "notice_date": "2016-03-31",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "002739",
+      "notice_date": "2016-03-31",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    },
+    {
+      "code": "000157",
+      "notice_date": "2016-04-15",
+      "year": 2016,
+      "reason": "missing snapshot notice",
+      "kind": "forecast"
+    }
+  ],
+  "yearless_announcement_ids": [
+    "1202178462"
+  ],
+  "max_query_pages": 4,
+  "max_pdfs": 100,
+  "spacing_seconds": 1,
+  "automatic_retries": 0,
+  "scope": "Exact-date source-document recovery for snapshot gaps in current pilot, plus one yearless title omitted by first selector; no return evaluation",
+  "transient_502_recovery_once": [
+    "1202110368"
+  ]
+}
