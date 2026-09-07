@@ -1,0 +1,12 @@
+{
+  "campaign_id": "m3_pit_equity_transfer_v1",
+  "research_period": ["2015-01-01", "2020-07-31"],
+  "max_proposals": 1,
+  "max_evaluations": 1,
+  "max_calls": 0,
+  "max_output_tokens": 0,
+  "max_rounds": 1,
+  "max_model_runs": 1,
+  "seed": 42,
+  "objective": "One new predeclared low-equity-growth hypothesis through the common six-field PIT adapter. No tuning of closed M2 hypotheses, no formula/sign changes and no repeated local screen. Historical results are exploratory; run the fixed increment stage only if the unchanged screen admits this candidate."
+}

@@ -1,0 +1,30 @@
+{
+  "candidates": [
+    {
+      "name": "PIT_LOW_EQUITY_GROWTH",
+      "family": "investment_equity_expansion",
+      "hypothesis": "Lower latest available year-over-year equity growth predicts higher subsequent relative returns with direction fixed before screening.",
+      "economic_rationale": "Rapid equity expansion can accompany issuance, acquisitions or aggressive investment; lower expansion may proxy greater capital discipline. Retained earnings and recapitalizations can reverse this interpretation. This is a new, limited equity-growth hypothesis, not a parameter adjustment of the closed asset-growth experiment.",
+      "expression": "pit_equity_growth",
+      "direction": -1,
+      "source_type": "HUMAN_GENERATED",
+      "source_url": "https://github.com/ThAce-code/quant-research-os/blob/main/docs/M3_DATA_CONTRACT.md",
+      "source_locator": "configs/m3/pit_equity_v1.json; fixed finite PIT input-transfer study",
+      "original_expression": "negative latest independently available YOYEquity ratio",
+      "input_fields": {
+        "pit_equity_growth": "Dimensionless YOYEquity from the checksummed existing six-field contract; latest fiscal period, strictly after source-specific availability, 400/550-day age limits; no missing-value fill"
+      },
+      "operator_semantics": {
+        "identity": "Use the immutable source panel without rescaling or arithmetic reconstruction; direction -1 applied by the common engine"
+      },
+      "signal_timing": "after_close_t_execute_close_t_plus_1",
+      "direction_evidence": "Negative direction fixed from the proposed capital-discipline mechanism before any local return evaluation.",
+      "deviations": [
+        "BaoStock histories retain publication alignment and unknown revisions; Eastmoney series use conservative dependency notice/update times and cannot recover historical versions.",
+        "The original source report distinguishes financial accounting coverage from independent-alpha evidence; this candidate uses the common nonfinancial screen.",
+        "No exact external-paper replication is claimed; dates are already observed research history."
+      ],
+      "version": 1
+    }
+  ]
+}
