@@ -814,5 +814,21 @@
   "docs/results/m3_paper_pilot/status.json": {
     "source_run": "20260906T145830964860Z",
     "sha256": "52ed0ffccdb7f743848f695dfd2f66c53da8d187c7a28b64263c2fc4c60dbcaa"
+  },
+  "docs/results/m3_increment_admission/admission.json": {
+    "source_run": "20260907T010954850339Z",
+    "sha256": "e9cbead415f641954b8709e4aba14de22ef35b49c40ef5db5b516530edc26c6a"
+  },
+  "docs/results/m3_increment_admission/report.md": {
+    "source_run": "20260907T010954850339Z",
+    "sha256": "140c450a5a1d35f7565e6b15b992551cd9c21cab33208cbd883e628dd462fb9a"
+  },
+  "docs/results/m3_increment_admission/source_hashes.json": {
+    "source_run": "20260907T010954850339Z",
+    "sha256": "64b6fe8871f28e0ec0190d0662df41c77a22ed6b7886d57819b3b4ca2bce984e"
+  },
+  "docs/results/m3_increment_admission/status.json": {
+    "source_run": "20260907T010954850339Z",
+    "sha256": "def861e481ed2298962b38932f1677f7ac11e990a003db0a90bddc58427ae4c5"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "decision": "NO_ENTRY",
+  "screen_run": "20260906T145830964860Z",
+  "market_data_loaded": false,
+  "fits": 0,
+  "portfolios": 0,
+  "reason": "ALL_SCREEN_REJECT"
+}
