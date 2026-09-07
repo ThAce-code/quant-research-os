@@ -22,3 +22,11 @@ def test_no_inferred_or_ambiguous_financial_values():
     assert module.annual_q1_fields(template(2015)+template(2015,amount='1至2'),2015) is None
     result=module.annual_q1_fields(template(2015,amount='-300至-200',growth='-70%至-50%'),2015)
     assert result['parent_profit_lower_yuan']==-3000000 and result['yoy_lower_percent']==-70
+
+
+def test_next_row_year_must_not_join_upper_amount():
+    for amount,expected in [('10,000至15,000',150000000),
+                            ('102,994.98至109,861.31',1098613100),
+                            ('-300至-200',-2000000)]:
+        text=template(2015,amount=amount)+' \n2014 年1-3月归属于上市公司股东的净利润（万元） 1,000'
+        assert module.annual_q1_fields(text,2015)['parent_profit_upper_yuan']==expected

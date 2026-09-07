@@ -1,5 +1,6 @@
 """Extract archived primary documents and reconcile snapshot gaps, without returns."""
 import hashlib
+from decimal import Decimal
 import json
 from pathlib import Path
 import re
@@ -26,14 +27,17 @@ def mentioned_previous_dates(text):
 
 def annual_q1_fields(text,year):
     """Only explicit current-Q1 parent-profit template fields; never infer missing values."""
-    s=re.sub(r'\s+','',text).replace(',','').replace('，','').replace('−','-')
+    # Keep boundaries between numeric cells. Removing all whitespace first joined
+    # an upper bound with the next row's year (e.g. 15,000\n2014 -> 150002014).
+    s=re.sub(r'(?<=[\d.])\s+(?=[+\-\d.])','|',text)
+    s=re.sub(r'\s+','',s).replace(',','').replace('，','').replace('−','-')
     period=rf'{year}年1[-—－至]3月归属于上市公司股东的净利润'
     number=r'([+-]?\d+(?:\.\d+)?)'
     amounts=re.findall(period+r'区间[（(]万元[）)]'+number+r'至'+number,s)
     growth=re.findall(period+r'变动幅度'+number+r'[%％]至'+number+r'[%％]',s)
     if len(set(amounts))!=1 or len(set(growth))!=1:return None
-    a,b=map(float,amounts[0]);g,h=map(float,growth[0])
-    return {'parent_profit_lower_yuan':min(a,b)*10000,'parent_profit_upper_yuan':max(a,b)*10000,
+    a,b=map(Decimal,amounts[0]);g,h=map(float,growth[0])
+    return {'parent_profit_lower_yuan':float(min(a,b)*10000),'parent_profit_upper_yuan':float(max(a,b)*10000),
             'yoy_lower_percent':min(g,h),'yoy_upper_percent':max(g,h),
             'status':'EXPLICIT_TEMPLATE_EXTRACTED_REQUIRES_REVIEW'}
 
