@@ -51,7 +51,7 @@ class ModelEndpoint:
         if type(self.timeout_seconds) is not int or not 1 <= self.timeout_seconds <= 60:
             raise ValueError('timeout must be 1..60 seconds')
 
-    def request(self, messages):
+    def request(self, messages, *, schema=None):
         headers={'Content-Type':'application/json'}
         if self.api_key_env:
             secret=os.environ.get(self.api_key_env)
@@ -60,12 +60,14 @@ class ModelEndpoint:
         if self.protocol=='ollama':
             body={'model':self.model,'messages':messages,'stream':False,'format':'json',
                   'options':{'temperature':0,'num_predict':self.output_tokens}}
+            if schema is not None:body['format']=schema
         else:
             body={'model':self.model,'messages':messages,'stream':False,'temperature':0,
                   'max_tokens':self.output_tokens,'response_format':{'type':'json_object'}}
             if self.protocol=='chat_completions_schema':
                 body['response_format']={'type':'json_schema','json_schema':{
-                    'name':'research_hypotheses_v1','strict':True,'schema':hypothesis_schema()}}
+                    'name':'research_review_v1' if schema is not None else 'research_hypotheses_v1',
+                    'strict':True,'schema':schema if schema is not None else hypothesis_schema()}}
         with requests.Session() as client:
             if urlparse(self.url).hostname in {'localhost','127.0.0.1','::1'}:client.trust_env=False
             with client.post(self.url,json=body,headers=headers,timeout=(5,self.timeout_seconds),

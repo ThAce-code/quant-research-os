@@ -14,6 +14,7 @@ from quant_research.m3.generation import ModelEndpoint,generate
 from quant_research.m3.trajectory import retrieve,refine
 from quant_research.m3.loop import run_loop
 from quant_research.m3.external import import_export
+from quant_research.m3.auditor import audit
 
 
 def main():
@@ -43,7 +44,13 @@ def main():
     external=sub.add_parser('import-search');external.add_argument('campaign');external.add_argument('source',choices=['alphaforge','alphasage'])
     external.add_argument('asset',type=Path);external.add_argument('manifest',type=Path);external.add_argument('annotations',type=Path)
     external.add_argument('--round',type=int,default=0)
-    args=parser.parse_args();ledger=CampaignLedger(ROOT/'data/m3_campaigns.sqlite')
+    review=sub.add_parser('audit');review.add_argument('campaign');review.add_argument('endpoint',type=Path)
+    review.add_argument('--audit-id',default='review_v1')
+    args=parser.parse_args()
+    if args.command=='audit':
+        result=audit(ROOT,args.campaign,ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8'))),args.audit_id)
+        print(json.dumps(result,ensure_ascii=False,indent=2,allow_nan=False));return
+    ledger=CampaignLedger(ROOT/'data/m3_campaigns.sqlite')
     if args.command=='create':
         _,spec,seed=create_campaign(ROOT,args.spec);result={'campaign':asdict(spec),'seed_audit':seed}
     elif args.command=='status':result=ledger.snapshot(args.campaign)
