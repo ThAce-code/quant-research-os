@@ -46,3 +46,5 @@
 - R1 is now complete with NO_GO; see docs/results/r1/report.md and docs/R1_COMPLETION_AUDIT.json. Preserve its six candidate results, single model-stage budget and source snapshots. Do not spend its four unallocated slots, retune failed candidates or open another research campaign without a new user-authorized definition.
 
 - The user's subsequent "continue" authorizes the proposed event-data feasibility work. R2 starts with the bounded 2015/2016 event audit in configs/r2/event_audit.json, without factor/return evaluation. Check announcement versions and historical availability before defining an event experiment; preserve all R1 results and protected samples.
+
+- The user additionally authorized filling event-data gaps using suitable alternative sources/websites. Archive primary CNINFO notices under configs/r2/announcement_backfill.json for the current 2015/2016 Q1 scope; distinguish index/PDF delivery from verified numeric version chains. BaoStock restoration remains unconfirmed and its restriction record stays intact.

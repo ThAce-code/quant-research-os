@@ -1,0 +1,20 @@
+{
+  "name": "r2_cninfo_q1_backfill_v1",
+  "scope": "2015 and 2016 Q1 earnings notices published Jan-Apr; historical CSI300 member unions and three explicit audit sentinels. Not all-market or full 2008-2020 delivery.",
+  "years": [2015, 2016],
+  "keyword": "一季度;业绩",
+  "search_endpoint": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "document_host": "https://static.cninfo.com.cn/",
+  "page_size": 30,
+  "max_index_pages_per_year": 80,
+  "max_documents": 300,
+  "minimum_request_spacing_seconds": 1,
+  "automatic_retries": 0,
+  "audit_sentinels": ["300341", "300358", "002658"],
+  "membership_path": "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet",
+  "timing": "Preserve source announcementTime and Asia/Shanghai date plus immutable announcementId; document signed date and local fetch time are distinct. No use on announcement date in conservative daily research.",
+  "fallback": "Document extraction failures and missing latest-snapshot matches remain explicit; locate dated primary documents before numerical admission.",
+  "factor_evaluation": false,
+  "protected_periods": "2021-2025 SEALED",
+  "baostock": "Existing cache reused where applicable; blacklist restoration unconfirmed, no bypass or new request"
+}
