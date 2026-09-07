@@ -1,0 +1,157 @@
+{
+  "status": "PASS_AUDIT",
+  "data_admission": "NOT_READY_FOR_FACTOR_RESEARCH",
+  "returns_loaded": false,
+  "api_requests": 8,
+  "coverage": [
+    {
+      "kind": "forecast",
+      "period": "2015-03-31",
+      "rows": 1406,
+      "unique_codes": 1090,
+      "historical_csi300_event_rows": 107,
+      "historical_csi300_event_codes": 80,
+      "jan_apr_historical_member_union": 301,
+      "notices_after_april": 0,
+      "revision_history_complete": false,
+      "all_is_latest": true,
+      "paired_range_rows": 1068,
+      "different_range_rows": 1068,
+      "update_timestamp_available": false
+    },
+    {
+      "kind": "forecast",
+      "period": "2016-03-31",
+      "rows": 1484,
+      "unique_codes": 1163,
+      "historical_csi300_event_rows": 87,
+      "historical_csi300_event_codes": 62,
+      "jan_apr_historical_member_union": 300,
+      "notices_after_april": 0,
+      "revision_history_complete": false,
+      "all_is_latest": true,
+      "paired_range_rows": 1129,
+      "different_range_rows": 1129,
+      "update_timestamp_available": false
+    },
+    {
+      "kind": "express",
+      "period": "2015-03-31",
+      "rows": 87,
+      "unique_codes": 87,
+      "historical_csi300_event_rows": 8,
+      "historical_csi300_event_codes": 8,
+      "jan_apr_historical_member_union": 301,
+      "notices_after_april": 75,
+      "revision_history_complete": false,
+      "update_after_notice": 6,
+      "eitime_after_notice": 87,
+      "eitime_semantics": "UNVERIFIED; not assumed to be historical public availability"
+    },
+    {
+      "kind": "express",
+      "period": "2016-03-31",
+      "rows": 106,
+      "unique_codes": 106,
+      "historical_csi300_event_rows": 10,
+      "historical_csi300_event_codes": 10,
+      "jan_apr_historical_member_union": 300,
+      "notices_after_april": 94,
+      "revision_history_complete": false,
+      "update_after_notice": 1,
+      "eitime_after_notice": 106,
+      "eitime_semantics": "UNVERIFIED; not assumed to be historical public availability"
+    }
+  ],
+  "document_counterexamples": [
+    {
+      "code": "300341",
+      "period": "2015-03-31",
+      "notice_matches": true,
+      "document": "https://static.cninfo.com.cn/finalpage/2015-04-10/1200809462.PDF",
+      "amount_matches": true,
+      "ADD_AMP_matches": true,
+      "PREDICT_RATIO_matches": false,
+      "document_yoy_range": [
+        -25,
+        -5
+      ],
+      "provider_predict_ratio": [
+        9.291431006223,
+        38.436220027873
+      ],
+      "wrapper_INCREASE_JZ": -15,
+      "earlier_version_present_in_response": false
+    },
+    {
+      "code": "300358",
+      "period": "2015-03-31",
+      "notice_matches": true,
+      "document": "https://static.cninfo.com.cn/finalpage/2015-04-09/1200800371.PDF",
+      "amount_matches": true,
+      "ADD_AMP_matches": true,
+      "PREDICT_RATIO_matches": false,
+      "document_yoy_range": [
+        -50,
+        -30
+      ],
+      "provider_predict_ratio": [
+        -55.652146182041,
+        -37.908814966259
+      ],
+      "wrapper_INCREASE_JZ": -40,
+      "earlier_version_present_in_response": false
+    },
+    {
+      "code": "002658",
+      "period": "2016-03-31",
+      "notice_matches": true,
+      "document": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178462.PDF",
+      "amount_matches": true,
+      "ADD_AMP_matches": true,
+      "PREDICT_RATIO_matches": false,
+      "document_yoy_range": [
+        -70,
+        -50
+      ],
+      "provider_predict_ratio": [
+        -90.32315548662,
+        -83.871925811033
+      ],
+      "wrapper_INCREASE_JZ": -60,
+      "earlier_version_present_in_response": null
+    }
+  ],
+  "version_timeline_fixture": [
+    {
+      "signal_date": "2015-01-24",
+      "document_id": null
+    },
+    {
+      "signal_date": "2015-01-26",
+      "document_id": "2015-011"
+    },
+    {
+      "signal_date": "2015-04-09",
+      "document_id": "2015-011"
+    },
+    {
+      "signal_date": "2015-04-10",
+      "document_id": "2015-019"
+    }
+  ],
+  "limits": [
+    "Purposive examples cannot estimate vendor-wide error rates",
+    "ADD_AMP matches three source documents; global vintage correctness remains unverified",
+    "Latest-only sample lacks earlier forecasts",
+    "EITIME semantics and express announcement content require primary-source checks",
+    "Historical CSI300 reach is counted at first trading day strictly after notice; Jan-Apr union is descriptive, not daily factor coverage"
+  ],
+  "input_sha256": {
+    "data\\canonical\\baostock_alpha158_csi300_2008_2020\\membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a",
+    "data\\canonical\\baostock_alpha158_csi300_2008_2020\\calendar.parquet": "60eee224c8065adf99b8897f926b59702799386c7f95ac4b5845068485318bf1",
+    "configs\\r2\\document_cases.json": "0f6c031541de5848c50a80bb157ef28e7d22e07cb3157cc1b7c26f0e2921706a",
+    "scripts\\audit_r2_events.py": "eb30d41f90b969c7c4683b87f01150c9939867fbc4893b3ee97a5eccda968220",
+    "experiments\\r2\\r2_event_feasibility_v1\\artifact_hashes.json": "8556236d2a79caaa6dee3a6aa7ea9cc5e919b5124de169230682e54259f3561d"
+  }
+}

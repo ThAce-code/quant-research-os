@@ -1,0 +1,9 @@
+{
+  "status": "PASS_DATA_ACQUISITION",
+  "queries": 4,
+  "requests": 8,
+  "returns_loaded": false,
+  "research_admission": "UNVERIFIED_VERSIONS",
+  "qualification": "SEALED",
+  "lockbox": "SEALED"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS_DATA_AUDIT_ONLY",
+  "targeted_tests": 2,
+  "test_scope": "Version timing fixtures, not production event backtest",
+  "source_hashes_verified": true,
+  "registry": {
+    "factor_registry.sqlite": {
+      "evaluations": 47,
+      "keep": 0
+    },
+    "m2_factor_registry.sqlite": {
+      "evaluations": 33,
+      "keep": 0
+    }
+  },
+  "M0": "IDENTITY_PASS",
+  "returns_evaluated": false,
+  "protected_periods": "SEALED",
+  "research_admission": "NOT_READY_FOR_FACTOR_RESEARCH"
+}

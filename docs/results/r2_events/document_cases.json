@@ -1,0 +1,50 @@
+{
+  "scope": "Purposive data-quality counterexamples, not a representative accuracy sample or factor candidates",
+  "cases": [
+    {
+      "code": "300341", "period": "2015-03-31", "notice_date": "2015-04-10",
+      "document": "https://static.cninfo.com.cn/finalpage/2015-04-10/1200809462.PDF",
+      "document_id": "2015-031", "net_profit_lower_yuan": 7153400, "net_profit_upper_yuan": 9061000,
+      "yoy_lower_percent": -25, "yoy_upper_percent": -5,
+      "earlier_notice_date_mentioned": "2015-03-17",
+      "earlier_document_retrieved": false
+    },
+    {
+      "code": "300358", "period": "2015-03-31", "notice_date": "2015-04-09",
+      "document": "https://static.cninfo.com.cn/finalpage/2015-04-09/1200800371.PDF",
+      "document_id": "2015-019", "net_profit_lower_yuan": 21170000, "net_profit_upper_yuan": 29640000,
+      "yoy_lower_percent": -50, "yoy_upper_percent": -30,
+      "earlier_notice_date_mentioned": "2015-01-24",
+      "earlier_document_retrieved": true
+    },
+    {
+      "code": "002658", "period": "2016-03-31", "notice_date": "2016-04-15",
+      "document": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178462.PDF",
+      "document_id": "2016-024", "net_profit_lower_yuan": 8789400, "net_profit_upper_yuan": 14649000,
+      "yoy_lower_percent": -70, "yoy_upper_percent": -50,
+      "earlier_notice_date_mentioned": null,
+      "earlier_document_retrieved": false,
+      "note": "The correction-titled announcement explicitly says no prior Q1 forecast was disclosed; title alone cannot establish a previous numeric forecast."
+    }
+  ],
+  "version_fixture": [
+    {
+      "code": "300358", "period": "2015-03-31", "notice_date": "2015-01-24",
+      "document_signed_date": "2015-01-23", "document_id": "2015-011",
+      "document": "https://www.truking.com/uploadfiles/2020/04/20200401152314111.pdf",
+      "publication_evidence": "https://www.truking.com/LatestAnnouncements/list_itemid_3885_page_315.html",
+      "net_profit_lower_yuan": 42340000, "net_profit_upper_yuan": 50810000,
+      "yoy_lower_percent": 0, "yoy_upper_percent": 20,
+      "scope": "DOCUMENT_VERIFIED_SAMPLE_ONLY; no numerical research admission"
+    },
+    {
+      "code": "300358", "period": "2015-03-31", "notice_date": "2015-04-09",
+      "document_signed_date": "2015-04-08", "document_id": "2015-019",
+      "document": "https://static.cninfo.com.cn/finalpage/2015-04-09/1200800371.PDF",
+      "publication_evidence": "CNINFO dated publication path; source text references first publication on 2015-01-24",
+      "net_profit_lower_yuan": 21170000, "net_profit_upper_yuan": 29640000,
+      "yoy_lower_percent": -50, "yoy_upper_percent": -30,
+      "scope": "DOCUMENT_VERIFIED_SAMPLE_ONLY; no numerical research admission"
+    }
+  ]
+}

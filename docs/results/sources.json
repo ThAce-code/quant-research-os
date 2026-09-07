@@ -1514,5 +1514,33 @@
   "docs/results/r1/signal_metrics.json": {
     "source_run": "20260907T074523610278Z",
     "sha256": "b61748ead621199c46277287322433dd3623258e391d5d8d03886a5fc11e149c"
+  },
+  "docs/results/r2_events/acquisition_status.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "fb48dba8e0cfdc7b698409c976ab5621be4796ef759fcc36d97e499be77d561d"
+  },
+  "docs/results/r2_events/analysis.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "f8b0c334936428ae38e1e2b8d38d89629210bcf67bc99d11280937ccdd8fad90"
+  },
+  "docs/results/r2_events/artifact_hashes.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "8556236d2a79caaa6dee3a6aa7ea9cc5e919b5124de169230682e54259f3561d"
+  },
+  "docs/results/r2_events/document_cases.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "0f6c031541de5848c50a80bb157ef28e7d22e07cb3157cc1b7c26f0e2921706a"
+  },
+  "docs/results/r2_events/report.md": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "7e8e751372e1f237b9ffa3781c729325a43ec4f3abd0d4732176742349c53c8c"
+  },
+  "docs/results/r2_events/requests.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "67c443dadd09cbc993eb7cceda8303f5e44fcede5d437871364f0d4936f63de9"
+  },
+  "docs/results/r2_events/verification.json": {
+    "source_run": "r2_event_feasibility_v1",
+    "sha256": "e89a08df8df9b24e93bb528e5d95b0f75ed03cf7b1e485648679abaa89540c02"
   }
 }
