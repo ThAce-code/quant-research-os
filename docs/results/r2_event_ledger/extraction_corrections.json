@@ -1,0 +1,250 @@
+[
+  {
+    "announcement_id": "1200691662",
+    "page": 6,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 1098613120.1399999,
+        "corrected": 1098613100.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200737744",
+    "page": 13,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 317701620.14,
+        "corrected": 317701600.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200755518",
+    "page": 7,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 254005520.14000002,
+        "corrected": 254005500.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200756884",
+    "page": 7,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 1500020140000.0,
+        "corrected": 150000000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200765852",
+    "page": 5,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 309363520.14,
+        "corrected": 309363500.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200764931",
+    "page": 11,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 63663820.14,
+        "corrected": 63663800.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200767194",
+    "page": 3,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 2279320140000.0,
+        "corrected": 227930000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200784086",
+    "page": 19,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 187148320.14,
+        "corrected": 187148300.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200784085",
+    "page": 6,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 187148320.14,
+        "corrected": 187148300.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200811767",
+    "page": 7,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 136362820.14000002,
+        "corrected": 136362800.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202004929",
+    "page": 5,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 217150520.15,
+        "corrected": 217150500.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202046793",
+    "page": 13,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 3975920150000.0,
+        "corrected": 397590000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202063756",
+    "page": 17,
+    "changes": {
+      "parent_profit_lower_yuan": {
+        "old": 344932300.00000006,
+        "corrected": 344932300.0
+      },
+      "parent_profit_upper_yuan": {
+        "old": 376289820.15000004,
+        "corrected": 376289800.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202091378",
+    "page": 7,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 242754020.15,
+        "corrected": 242754000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202090004",
+    "page": 7,
+    "changes": {
+      "parent_profit_lower_yuan": {
+        "old": 397269100.00000006,
+        "corrected": 397269100.0
+      },
+      "parent_profit_upper_yuan": {
+        "old": 430374920.15000004,
+        "corrected": 430374900.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202089378",
+    "page": 8,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 9000020150000.0,
+        "corrected": 900000000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202100531",
+    "page": 8,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 373160320.15,
+        "corrected": 373160300.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202111580",
+    "page": 9,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 91835720.14999999,
+        "corrected": 91835700.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1202110695",
+    "page": 7,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 507153520.15,
+        "corrected": 507153500.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  },
+  {
+    "announcement_id": "1200633670",
+    "page": 8,
+    "changes": {
+      "parent_profit_upper_yuan": {
+        "old": 323668020.14,
+        "corrected": 323668000.0
+      }
+    },
+    "reason": "Preserve numeric-cell boundary before next row year; decimal currency scaling",
+    "old_record_was_research_admitted": false
+  }
+]

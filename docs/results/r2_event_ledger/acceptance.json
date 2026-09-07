@@ -1,0 +1,21 @@
+{
+  "baseline_id": "BL-CN-CSI300-A158-LGBM-001",
+  "m0_verify_baseline": "PASS",
+  "registry_unchanged": {
+    "data/factor_registry.sqlite": {
+      "sha256_before_and_after": "4c3263e9868fea8912f598636678ec6e072c3cc22c3bb37b19c8ab981ddc2ed7",
+      "evaluations": 47
+    },
+    "data/m2_factor_registry.sqlite": {
+      "sha256_before_and_after": "0939ae50af4d8e7c4090a51ceb88b1e06e820ce0d130adf1a3d850007565f6e6",
+      "evaluations": 33
+    }
+  },
+  "test_command": "python -m pytest tests/test_r2_event_ledger.py tests/test_r2_pdf_fields.py tests/test_r2_event_timing.py tests/test_r2_baostock_scope.py -q",
+  "tests_passed": 13,
+  "extractor_fix_commit": "c481dc0",
+  "ledger_implementation_commit": "614d305",
+  "source_run_manifest_sha256": "e0bb16d4f1f66616f2aae4a21eb9c378cc3116c13393b54cf3739096fa447239",
+  "factor_experiments_run": 0,
+  "protected_period_access": false
+}

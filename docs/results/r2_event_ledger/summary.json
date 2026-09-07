@@ -1,0 +1,40 @@
+{
+  "status": "PASS_FINITE_LEDGER_AUDIT_WITH_UNRESOLVED_COVERAGE",
+  "run_id": "r2_event_ledger_v1",
+  "documents_accounted": 211,
+  "reviewed_document_transcriptions": 30,
+  "document_status_counts": {
+    "REVIEWED_NUMERIC_PRIMARY_FACTS": 25,
+    "PENDING_CONTENT_REVIEW": 180,
+    "QUARANTINED_PRIMARY_FACTS": 3,
+    "QUARANTINED_CANCELLED_TIME_UNKNOWN": 2,
+    "REVIEWED_QUALITATIVE_ONLY": 1
+  },
+  "events_after_dedup": 28,
+  "duplicate_documents_collapsed": 1,
+  "event_status_counts": {
+    "REVIEWED_NUMERIC_PRIMARY_FACTS": 24,
+    "REVIEWED_QUALITATIVE_ONLY": 1,
+    "QUARANTINED_PRIMARY_FACTS": 3
+  },
+  "numeric_events_in_event_date_members": 21,
+  "verified_local_revision_links": 2,
+  "causal_date_checks": 81,
+  "template_records_corrected": 20,
+  "bao_scope_rows_accounted": 156,
+  "bao_matching_reviewed_events": 22,
+  "bao_rows_outside_event_date_members": 0,
+  "vendor_status_counts": {
+    "PRIMARY_CONTENT_PENDING": 133,
+    "NO_SAME_DATE_PRIMARY_IN_ARCHIVE": 1,
+    "MATCHED_REVIEWED_PRIMARY_EVENT": 21,
+    "PRIMARY_CONFLICT_QUARANTINE": 1
+  },
+  "pending_documents": 180,
+  "archive_recall_complete": false,
+  "research_admission": false,
+  "new_factors_tested": 0,
+  "returns_loaded": false,
+  "network_requests": 0,
+  "protected_periods_accessed": false
+}

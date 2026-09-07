@@ -1,0 +1,10 @@
+{
+  "prior_published_hashes_verified": 413,
+  "primary_pdf_hashes_verified": 211,
+  "primary_text_hashes_verified": 211,
+  "baostock_manifest_hashes_verified": 722,
+  "all_available_dates_strictly_after_notice": true,
+  "all_available_dates_in_calendar": true,
+  "factor_registry_writes": false,
+  "market_price_or_label_reads": false
+}

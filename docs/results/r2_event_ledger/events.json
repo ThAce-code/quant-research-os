@@ -1,0 +1,1217 @@
+[
+  {
+    "code": "000425",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "available_date": "2015-04-16",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [
+      "Printed restated prior profit is 464m; stated consolidation adjustment about 52m. Inferred pre-adjustment 412m produces BaoStock bounds; comparable-base choice matters. Printed values are rounded.",
+      "RESTATED_PRIOR_PROFIT; vendor pre-adjustment and printed restated bases differ"
+    ],
+    "parent_profit_lower_yuan": -420000000,
+    "parent_profit_upper_yuan": -380000000,
+    "yoy_lower_percent": null,
+    "yoy_upper_percent": null,
+    "prior_profit_yuan": 464000000,
+    "derived_growth_percent": [
+      -190.51724137931035,
+      -181.89655172413794
+    ],
+    "growth_basis": "DERIVED_ABSOLUTE_PRIOR_DENOMINATOR",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "000425_2015-03-31_2015-04-15_1",
+    "announcement_ids": [
+      "1200833073"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200833073",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-15/1200833073.PDF",
+        "page": 1,
+        "pdf_sha256": "245cdf06470dfe5fd8902d871ee7432cc04910e93e312e4f5d71d58e539e8714",
+        "text_sha256": "26e3d3cf5147c7d38a627ab5e31822be787b7f3ed01931987da10dfeec721454",
+        "method": "REVIEWED_PRIMARY_AMOUNT_WITH_DERIVED_GROWTH",
+        "visual_check_this_batch": true
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "000425",
+    "period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "available_date": "2016-04-18",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [
+      "Using absolute prior loss as denominator gives 102.54-103.81%; BaoStock matches this convention, Eastmoney differs by about 0.01 percentage point. Percentages are derived, not printed forecast bounds."
+    ],
+    "parent_profit_lower_yuan": 10000000,
+    "parent_profit_upper_yuan": 15000000,
+    "yoy_lower_percent": null,
+    "yoy_upper_percent": null,
+    "prior_profit_yuan": -393580000,
+    "derived_growth_percent": [
+      102.54077951115401,
+      103.81116926673104
+    ],
+    "growth_basis": "DERIVED_ABSOLUTE_PRIOR_DENOMINATOR",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "000425_2016-03-31_2016-04-15_1",
+    "announcement_ids": [
+      "1202178851"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202178851",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178851.PDF",
+        "page": 1,
+        "pdf_sha256": "811446e8c1e9b1da17532a290a2b63b7a1863ca5a7db594d57d6e415b6ac6e09",
+        "text_sha256": "969642e0f09213ca3fe065f443544a3fd8a551ab8a61a8a0e7eb2e5499aad1a0",
+        "method": "REVIEWED_PRIMARY_AMOUNT_WITH_DERIVED_GROWTH",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "000826",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-16",
+    "available_date": "2015-04-17",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_QUALITATIVE_ONLY",
+    "issues": [
+      "QUALITATIVE_ONLY: stable growth; threshold discussion is not an explicit numerical forecast range"
+    ],
+    "parent_profit_lower_yuan": null,
+    "parent_profit_upper_yuan": null,
+    "yoy_lower_percent": null,
+    "yoy_upper_percent": null,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "NOT_NUMERIC",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "000826_2015-03-31_2015-04-16_1",
+    "announcement_ids": [
+      "1200838958"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200838958",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-16/1200838958.PDF",
+        "page": 2,
+        "pdf_sha256": "629c19b596f4d95c349a741873117c908ea68c1dc4ba104f42d6dac80ae7f8b0",
+        "text_sha256": "43d887a883bed983ec22140934ca54ebf35af019409b0cf9da0bcc1eaf534d15",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002051",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "available_date": "2015-04-07",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 140361200.0,
+    "parent_profit_upper_yuan": 187148300.0,
+    "yoy_lower_percent": -25,
+    "yoy_upper_percent": 0,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002051_2015-03-31_2015-04-03_1",
+    "announcement_ids": [
+      "1200784085",
+      "1200784086"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200784085",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-03/1200784085.PDF",
+        "page": 6,
+        "pdf_sha256": "fc291c8070af04837dbffdb52077aaba24e2db02cca667aab04e6eac91dba143",
+        "text_sha256": "b44111e142795e43007071909afef018f946df8654b15ba3d20d01f88dbe5af6",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      },
+      {
+        "announcement_id": "1200784086",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-03/1200784086.PDF",
+        "page": 19,
+        "pdf_sha256": "ecf9a060cfdf692836afc09eb50e4c17d4abce3a1be13f1e57adc5a77c41fc24",
+        "text_sha256": "59e24aa991e68f959b0892ec6601afc6196cd9cdbcef12e7a275bc9a9037fb12",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002202",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-28",
+    "available_date": "2015-03-30",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 228605000.0,
+    "parent_profit_upper_yuan": 254005500.0,
+    "yoy_lower_percent": 350,
+    "yoy_upper_percent": 400,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002202_2015-03-31_2015-03-28_1",
+    "announcement_ids": [
+      "1200755518"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200755518",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-28/1200755518.PDF",
+        "page": 7,
+        "pdf_sha256": "384a9b010d746c7b0a55c0e03fff392480de00a962289df76dafcbe265df8a20",
+        "text_sha256": "0ef4e1f8e1eab256eec358a16e867066b0a89b8a18920000e2408642420be43c",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002236",
+    "period": "2016-03-31",
+    "notice_date": "2016-02-29",
+    "available_date": "2016-03-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 186129000.0,
+    "parent_profit_upper_yuan": 217150500.0,
+    "yoy_lower_percent": 80,
+    "yoy_upper_percent": 110,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002236_2016-03-31_2016-02-29_1",
+    "announcement_ids": [
+      "1202004929"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202004929",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-02-29/1202004929.PDF",
+        "page": 5,
+        "pdf_sha256": "de44b2fe0c82ad135dd11972a46ccc913e5247192fd089d18bbc1b6afc932c3c",
+        "text_sha256": "29e00e4e5cf4436fca24b19f91036c242c0f6ecd32ebcdf34ab87280a412059d",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002241",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "available_date": "2015-04-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 257802900.0,
+    "parent_profit_upper_yuan": 309363500.0,
+    "yoy_lower_percent": 0,
+    "yoy_upper_percent": 20,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002241_2015-03-31_2015-03-31_1",
+    "announcement_ids": [
+      "1200765852"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200765852",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-31/1200765852.PDF",
+        "page": 5,
+        "pdf_sha256": "28fd04ecc96405a4161edd020109fd94ec6a1b0ad6e9979275f050171aa5953e",
+        "text_sha256": "48afe3b98c6a53e57283055abfc3a0e589413b22c8cdd1cdc4e5e1000ad5a787",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002241",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "available_date": "2016-03-30",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 188808700.0,
+    "parent_profit_upper_yuan": 242754000.0,
+    "yoy_lower_percent": -30,
+    "yoy_upper_percent": -10,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002241_2016-03-31_2016-03-29_1",
+    "announcement_ids": [
+      "1202091378"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202091378",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-29/1202091378.PDF",
+        "page": 7,
+        "pdf_sha256": "f8fa3bbe9d26198452eba9d086f8362c7db4f66f42fa304624195dc5973e2239",
+        "text_sha256": "65ca126a635762d0051accbec276a4d2144d38e31530fd6d37e42e21249d2ea3",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002252",
+    "period": "2015-03-31",
+    "notice_date": "2015-02-13",
+    "available_date": "2015-02-16",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 303851600.0,
+    "parent_profit_upper_yuan": 323668000.0,
+    "yoy_lower_percent": 360,
+    "yoy_upper_percent": 390,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002252_2015-03-31_2015-02-13_1",
+    "announcement_ids": [
+      "1200633670"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200633670",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-02-13/1200633670.PDF",
+        "page": 8,
+        "pdf_sha256": "b20a5012d923b4c0bb65d1a9d52c5cfa35de622f161308c1522bbfed56ece266",
+        "text_sha256": "8c91aae681590b051af773b24b5b0b63f0bb0a88edba1b307a36608a5a60f38d",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "ARCHIVED_PRIMARY_WITH_VERIFIED_LATER_REFERENCE",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": "2015-04-07"
+  },
+  {
+    "code": "002252",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-04",
+    "available_date": "2015-04-07",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 376511200,
+    "parent_profit_upper_yuan": 383117300,
+    "yoy_lower_percent": 470,
+    "yoy_upper_percent": 480,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002252_2015-03-31_2015-04-04_1",
+    "announcement_ids": [
+      "1200788295"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200788295",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-04/1200788295.PDF",
+        "page": 1,
+        "pdf_sha256": "ad09f091c97027aa8097ccdf5777f3cf59dc6f4ff54b16e211829dafe00d7302",
+        "text_sha256": "52f95c0aeaff771f37f76ef92118b3970c7d8a2ae897b9c6577493286e081d72",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": true
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EXPLICIT_REVISION_OF_ARCHIVED_PRIMARY",
+    "supersedes_event_id": "002252_2015-03-31_2015-02-13_1",
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002252",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-16",
+    "available_date": "2016-03-17",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 284000000.0,
+    "parent_profit_upper_yuan": 397590000.0,
+    "yoy_lower_percent": -25,
+    "yoy_upper_percent": 5,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002252_2016-03-31_2016-03-16_1",
+    "announcement_ids": [
+      "1202046793"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202046793",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-16/1202046793.PDF",
+        "page": 13,
+        "pdf_sha256": "85d96e03dd973d5ef275d7a19a0c29979671414c643ce29d670a6a114f49ef15",
+        "text_sha256": "1b0e0adf129af53704e5e31108609fdfa61fca80662ee3372f8af2d80c36622d",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002292",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "available_date": "2016-04-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "QUARANTINED_PRIMARY_FACTS",
+    "issues": [
+      "SOURCE_PROSE_RANGE_CONFLICT: prose says decline over 50%, table says -15% to +15%; retain table transcription but quarantine"
+    ],
+    "parent_profit_lower_yuan": 67878600.0,
+    "parent_profit_upper_yuan": 91835700.0,
+    "yoy_lower_percent": -15,
+    "yoy_upper_percent": 15,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002292_2016-03-31_2016-03-31_1",
+    "announcement_ids": [
+      "1202111580"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202111580",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-31/1202111580.PDF",
+        "page": 9,
+        "pdf_sha256": "7be40c36b773b15abd291e4db34619165b5892d088e4c0ad518b1ab5fcc1a85d",
+        "text_sha256": "20fa1e64fda7b19a152e312ff184d129ac46da6e3478eaf7fe71ad82a157bdb9",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": true
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002294",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-25",
+    "available_date": "2015-03-26",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 292285500.0,
+    "parent_profit_upper_yuan": 317701600.0,
+    "yoy_lower_percent": 15,
+    "yoy_upper_percent": 25,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002294_2015-03-31_2015-03-25_1",
+    "announcement_ids": [
+      "1200737744"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200737744",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-25/1200737744.PDF",
+        "page": 13,
+        "pdf_sha256": "0a21d9cbecf6f5df0c52a8b215ffe9384637577118c22fa92438a3f9a03ce6c2",
+        "text_sha256": "bce3fd4f2b95a96d942e1231adebff776c1fa6e3d0e24268fbd1350154f01c2d",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002294",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-22",
+    "available_date": "2016-03-23",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 344932300.0,
+    "parent_profit_upper_yuan": 376289800.0,
+    "yoy_lower_percent": 10,
+    "yoy_upper_percent": 20,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002294_2016-03-31_2016-03-22_1",
+    "announcement_ids": [
+      "1202063756"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202063756",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-22/1202063756.PDF",
+        "page": 17,
+        "pdf_sha256": "e5147ac02efa14054103a3062ee3e64ff652e8028d3ba91f225d29cabdf38c15",
+        "text_sha256": "5307f51cd71f648b211a699a9cc239a39b5509d5af1fc77471dfbf4163a279fd",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002353",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "available_date": "2015-04-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 21221300.0,
+    "parent_profit_upper_yuan": 63663800.0,
+    "yoy_lower_percent": -90,
+    "yoy_upper_percent": -70,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002353_2015-03-31_2015-03-31_1",
+    "announcement_ids": [
+      "1200764931"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200764931",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-31/1200764931.PDF",
+        "page": 11,
+        "pdf_sha256": "6f88cf5890f20b1483593c6e3b02ea78614b2b9944937cba09e2b0ab721760c5",
+        "text_sha256": "5903e9c8e67f51aba02b474ede1ecab1bfc572befbc3504756ed5e9dcf7cee09",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002415",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-12",
+    "available_date": "2015-03-13",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [
+      "EMBEDDED_Q1_FORECAST_IN_PRIOR_YEAR_ANNUAL_REPORT_SUMMARY"
+    ],
+    "parent_profit_lower_yuan": 1029949800.0,
+    "parent_profit_upper_yuan": 1098613100.0,
+    "yoy_lower_percent": 50,
+    "yoy_upper_percent": 60,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002415_2015-03-31_2015-03-12_1",
+    "announcement_ids": [
+      "1200691662"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200691662",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-12/1200691662.PDF",
+        "page": 6,
+        "pdf_sha256": "aa100afbabaad192d9a84d159ccb2454b51f17facb7c2ad0052a14bc0f8b1011",
+        "text_sha256": "8043967ca23478f45f6599dca819018b41502c09dc41e4f761325c27409f1eac",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002422",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "available_date": "2015-04-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 205140000.0,
+    "parent_profit_upper_yuan": 227930000.0,
+    "yoy_lower_percent": -10,
+    "yoy_upper_percent": 0,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002422_2015-03-31_2015-03-31_1",
+    "announcement_ids": [
+      "1200767194"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200767194",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-31/1200767194.PDF",
+        "page": 3,
+        "pdf_sha256": "980e2a057eb82ad119202de31a7f1f9ffda51009a263b5038584f9bacdb7d150",
+        "text_sha256": "c7532f27989202eebaaa59addbcc5261ba86cb5429d6ed0dbeaf7a130eaa8384",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002470",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "available_date": "2016-03-30",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 397269100.0,
+    "parent_profit_upper_yuan": 430374900.0,
+    "yoy_lower_percent": 20,
+    "yoy_upper_percent": 30,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002470_2016-03-31_2016-03-29_1",
+    "announcement_ids": [
+      "1202090004"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202090004",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-29/1202090004.PDF",
+        "page": 7,
+        "pdf_sha256": "0c470d6f822fda59d09894d5b2ea3aae1e3b42bc53b57c7800a267874106b7a6",
+        "text_sha256": "9ce2283764a3e360d85f06956f9f8ba26225bff42832a401481546439f1e9404",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002594",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-30",
+    "available_date": "2015-03-31",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 100000000.0,
+    "parent_profit_upper_yuan": 150000000.0,
+    "yoy_lower_percent": 735.7,
+    "yoy_upper_percent": 1153.55,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002594_2015-03-31_2015-03-30_1",
+    "announcement_ids": [
+      "1200756884"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200756884",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-30/1200756884.PDF",
+        "page": 7,
+        "pdf_sha256": "ae8baf3d203c6ad371b0cd1ef422aa1e81327f18bc29305bd4e87bda1ed922e7",
+        "text_sha256": "28d6806234ae0e1c7210352d50cb97b7a346fc7aba3c09c01b750eff361cd034",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": true
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002594",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "available_date": "2016-03-30",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 720000000.0,
+    "parent_profit_upper_yuan": 900000000.0,
+    "yoy_lower_percent": 495.31,
+    "yoy_upper_percent": 644.13,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002594_2016-03-31_2016-03-29_1",
+    "announcement_ids": [
+      "1202089378"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202089378",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-29/1202089378.PDF",
+        "page": 8,
+        "pdf_sha256": "6b8502670478bb6b72bc4a1576059d298e8ad2559a1a2229823df8fce2cd79cb",
+        "text_sha256": "2ba74058a4acded6b12cc4c1b89a27f07ba7ded1162a07398d8f5218fdbcc29f",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002603",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-11",
+    "available_date": "2015-04-13",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 116160900.0,
+    "parent_profit_upper_yuan": 136362800.0,
+    "yoy_lower_percent": 15,
+    "yoy_upper_percent": 35,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002603_2015-03-31_2015-04-11_1",
+    "announcement_ids": [
+      "1200811767"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200811767",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-11/1200811767.PDF",
+        "page": 7,
+        "pdf_sha256": "584886a563b107b3cca239686f0fe793330d3879aa826a51a9d69ae3a8b5b04e",
+        "text_sha256": "32f5b2de466b00447d859e92e6d4d17ffd93d0e060458099b5332cd7bb1f196d",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002658",
+    "period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "available_date": "2016-04-18",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": false,
+    "historical_member_union": false,
+    "audit_sentinel": true,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [
+      "NO_PRIOR_DISCLOSED_FORECAST: explicitly stated by document; do not fabricate a zero predecessor"
+    ],
+    "parent_profit_lower_yuan": 8789400.0,
+    "parent_profit_upper_yuan": 14649000.0,
+    "yoy_lower_percent": -70,
+    "yoy_upper_percent": -50,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002658_2016-03-31_2016-04-15_1",
+    "announcement_ids": [
+      "1202178462"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202178462",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-04-15/1202178462.PDF",
+        "page": 1,
+        "pdf_sha256": "e4e010f6d4bf68c6a82b2099d6cee57d00df60d6e27576899205f71d929ff815",
+        "text_sha256": "4e3a109799b4ed8dc10bf9c0ccb73c1ddff7647cca45bdadadf46610003ea455",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EXPLICIT_NO_PRIOR_DISCLOSED_FORECAST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "002739",
+    "period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "available_date": "2016-04-01",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 439533000.0,
+    "parent_profit_upper_yuan": 507153500.0,
+    "yoy_lower_percent": 30,
+    "yoy_upper_percent": 50,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "002739_2016-03-31_2016-03-31_1",
+    "announcement_ids": [
+      "1202110695"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1202110695",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-03-31/1202110695.PDF",
+        "page": 7,
+        "pdf_sha256": "72090e84a51333844df2ae08f93eee7a7b8eac6ed34fa95f5f6fd8762d13f5f8",
+        "text_sha256": "628330be01da57c5e066e01959d8ec9d61177f776c419bfe81288fd73a3da956",
+        "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "300341",
+    "period": "2015-03-31",
+    "notice_date": "2015-03-17",
+    "available_date": "2015-03-18",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": false,
+    "historical_member_union": false,
+    "audit_sentinel": true,
+    "data_status": "QUARANTINED_PRIMARY_FACTS",
+    "issues": [
+      "SOURCE_ARITHMETIC_INCONSISTENCY: 855.41 differs from 953.79 * 0.9; preserve printed values"
+    ],
+    "parent_profit_lower_yuan": 8554100.0,
+    "parent_profit_upper_yuan": 9537900.0,
+    "yoy_lower_percent": -10,
+    "yoy_upper_percent": 0,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "300341_2015-03-31_2015-03-17_1",
+    "announcement_ids": [
+      "1200705304"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200705304",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-03-17/1200705304.PDF",
+        "page": 1,
+        "pdf_sha256": "0bb4cf2694b12d4329ac69a03afd72c5198386bfbc6fac30bbf2e9d6a37521e8",
+        "text_sha256": "c2b5a3218dbfc4fe0198a2aafdff78cd996d246d271ccc531009b51d343f53e4",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "300341",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "available_date": "2015-04-13",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": false,
+    "historical_member_union": false,
+    "audit_sentinel": true,
+    "data_status": "QUARANTINED_PRIMARY_FACTS",
+    "issues": [
+      "SOURCE_REFERENCE_ID_CONFLICT: correction cites 2015-017; located original is numbered 2015-014, matching date, title and YoY range"
+    ],
+    "parent_profit_lower_yuan": 7153400.0,
+    "parent_profit_upper_yuan": 9061000.0,
+    "yoy_lower_percent": -25,
+    "yoy_upper_percent": -5,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "300341_2015-03-31_2015-04-10_1",
+    "announcement_ids": [
+      "1200809462"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200809462",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-10/1200809462.PDF",
+        "page": 1,
+        "pdf_sha256": "9f85184734d4c30ce7aa13504d4eee1f8552c49eaa3681889eb4327cc329f45b",
+        "text_sha256": "be7311875cb11a943e2cc7f9d68b354e7b29d38d3b47f9a8f2b524f0bd89fa39",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "300358",
+    "period": "2015-03-31",
+    "notice_date": "2015-01-24",
+    "available_date": "2015-01-26",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": false,
+    "historical_member_union": false,
+    "audit_sentinel": true,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 42340000,
+    "parent_profit_upper_yuan": 50810000,
+    "yoy_lower_percent": 0,
+    "yoy_upper_percent": 20,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "300358_2015-03-31_2015-01-24_1",
+    "announcement_ids": [
+      "1200574709"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200574709",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-01-24/1200574709.PDF",
+        "page": 1,
+        "pdf_sha256": "c48286d83e83f589acae50f0c4af33eae655e313a70fbf730e5da0f9cde9d4a7",
+        "text_sha256": "351e212cf1e5631b7ae13eec258bcb601c227dddb86b32da296f0bfd68eadf69",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "ARCHIVED_PRIMARY_WITH_VERIFIED_LATER_REFERENCE",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": "2015-04-10"
+  },
+  {
+    "code": "300358",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "available_date": "2015-04-10",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": false,
+    "historical_member_union": false,
+    "audit_sentinel": true,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [],
+    "parent_profit_lower_yuan": 21170000,
+    "parent_profit_upper_yuan": 29640000,
+    "yoy_lower_percent": -50,
+    "yoy_upper_percent": -30,
+    "prior_profit_yuan": null,
+    "derived_growth_percent": null,
+    "growth_basis": "EXPLICIT_SOURCE_PERCENT",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "300358_2015-03-31_2015-04-09_1",
+    "announcement_ids": [
+      "1200800371"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200800371",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-09/1200800371.PDF",
+        "page": 1,
+        "pdf_sha256": "3aff3a3303b28a22bed25bf81fb3ad8be2893c72822dee255eebd81d3d1b8e39",
+        "text_sha256": "b7e90114a8066f9a7f0a5ffc1993b4ef5d0ebcccb7173d9f0934e2440f9c20e6",
+        "method": "REVIEWED_PRIMARY_TRANSCRIPTION",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EXPLICIT_REVISION_OF_ARCHIVED_PRIMARY",
+    "supersedes_event_id": "300358_2015-03-31_2015-01-24_1",
+    "superseded_at_available_date": null
+  },
+  {
+    "code": "600893",
+    "period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "available_date": "2015-04-15",
+    "timestamp_precision": "SOURCE_INDEX_DATE_ONLY",
+    "kind": "forecast",
+    "member_at_available_date": true,
+    "historical_member_union": true,
+    "audit_sentinel": false,
+    "data_status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "issues": [
+      "CHANGED_CONSOLIDATION_SCOPE; cross-vendor comparison base unresolved",
+      "Printed prior profit implies negative growth matching BaoStock. Disclosure mentions changed consolidation scope; Eastmoney comparison basis not established."
+    ],
+    "parent_profit_lower_yuan": -50000000,
+    "parent_profit_upper_yuan": -30000000,
+    "yoy_lower_percent": null,
+    "yoy_upper_percent": null,
+    "prior_profit_yuan": 63169242.5,
+    "derived_growth_percent": [
+      -179.15244511599138,
+      -147.49146706959482
+    ],
+    "growth_basis": "DERIVED_ABSOLUTE_PRIOR_DENOMINATOR",
+    "comparability_status": "NOT_SYSTEMATICALLY_VERIFIED",
+    "archive_recall_complete": false,
+    "research_admission": false,
+    "event_id": "600893_2015-03-31_2015-04-14_1",
+    "announcement_ids": [
+      "1200829000"
+    ],
+    "sources": [
+      {
+        "announcement_id": "1200829000",
+        "url": "https://static.cninfo.com.cn/finalpage/2015-04-14/1200829000.PDF",
+        "page": 1,
+        "pdf_sha256": "79ab584242397cbfb73b9e89a6e36f8583bbe8dfc32b80c15345b6084aa65cc5",
+        "text_sha256": "49b7dd4554029a2a1e7991c38ba0768609288fae1035106fe4b0837a2433bc56",
+        "method": "REVIEWED_PRIMARY_AMOUNT_WITH_DERIVED_GROWTH",
+        "visual_check_this_batch": false
+      }
+    ],
+    "same_date_value_conflict": false,
+    "version_status": "EARLIEST_ARCHIVED_NOT_PROVEN_FIRST",
+    "supersedes_event_id": null,
+    "superseded_at_available_date": null
+  }
+]

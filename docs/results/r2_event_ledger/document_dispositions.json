@@ -1,0 +1,2301 @@
+[
+  {
+    "announcement_id": "1200574709",
+    "code": "300358",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-01-24",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 42340000,
+      "parent_profit_upper_yuan": 50810000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1200656876",
+    "code": "300146",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-02-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200698798",
+    "code": "300017",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200698940",
+    "code": "000963",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-14",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200705304",
+    "code": "300341",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-17",
+    "title": "2015年第一季度业绩预告",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 8554100.0,
+      "parent_profit_upper_yuan": 9537900.0,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200710992",
+    "code": "300133",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-18",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200719376",
+    "code": "300124",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200728747",
+    "code": "600028",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-23",
+    "title": "2015年第一季度业绩预警公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200749612",
+    "code": "300027",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-27",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200753191",
+    "code": "002001",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200752934",
+    "code": "002475",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200763833",
+    "code": "000402",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200766426",
+    "code": "300015",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764500",
+    "code": "002399",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200763726",
+    "code": "002450",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765473",
+    "code": "002416",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765228",
+    "code": "600256",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200767233",
+    "code": "000898",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预警公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200770093",
+    "code": "600267",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200769104",
+    "code": "002310",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764633",
+    "code": "002292",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200774937",
+    "code": "002008",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-01",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200782437",
+    "code": "601018",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-03",
+    "title": "2015年3月份及一季度部分生产经营业绩提示性公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200782423",
+    "code": "600649",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-03",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200788295",
+    "code": "002252",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-04",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 376511200,
+      "parent_profit_upper_yuan": 383117300,
+      "yoy_lower_percent": 470,
+      "yoy_upper_percent": 480
+    }
+  },
+  {
+    "announcement_id": "1200797097",
+    "code": "600516",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-08",
+    "title": "2015年一季度业绩预亏公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200795913",
+    "code": "000876",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-08",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200795541",
+    "code": "600703",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-08",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200797342",
+    "code": "600674",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-08",
+    "title": "2015年一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200799364",
+    "code": "300070",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800371",
+    "code": "300358",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 21170000,
+      "parent_profit_upper_yuan": 29640000,
+      "yoy_lower_percent": -50,
+      "yoy_upper_percent": -30
+    }
+  },
+  {
+    "announcement_id": "1200800705",
+    "code": "000623",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800236",
+    "code": "600739",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "关于广发证券2015年第一季度业绩预告的公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200801158",
+    "code": "600688",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800232",
+    "code": "600873",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800176",
+    "code": "000776",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804346",
+    "code": "000728",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804506",
+    "code": "600867",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200803750",
+    "code": "000725",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804326",
+    "code": "600048",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200805072",
+    "code": "000783",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年度第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200806133",
+    "code": "300251",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804919",
+    "code": "300024",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200805074",
+    "code": "000686",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200809462",
+    "code": "300341",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 7153400.0,
+      "parent_profit_upper_yuan": 9061000.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": -5
+    }
+  },
+  {
+    "announcement_id": "1200812501",
+    "code": "600029",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-11",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200815252",
+    "code": "600177",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-11",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200815553",
+    "code": "300058",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-13",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200829000",
+    "code": "600893",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -50000000,
+      "parent_profit_upper_yuan": -30000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200826165",
+    "code": "000401",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预计公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200828399",
+    "code": "000039",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-14",
+    "title": "关于2015年一季度业绩预告的公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200826551",
+    "code": "000831",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-14",
+    "title": "2015年一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200826875",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200828605",
+    "code": "000768",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834577",
+    "code": "000792",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834862",
+    "code": "000778",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831673",
+    "code": "000503",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833583",
+    "code": "000536",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832134",
+    "code": "000937",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833588",
+    "code": "000960",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831142",
+    "code": "000750",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833073",
+    "code": "000425",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -420000000,
+      "parent_profit_upper_yuan": -380000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200831223",
+    "code": "000983",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831710",
+    "code": "000400",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833587",
+    "code": "000883",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834827",
+    "code": "000061",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200838292",
+    "code": "600886",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-16",
+    "title": "2015年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200847447",
+    "code": "002500",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-17",
+    "title": "2015年一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200847020",
+    "code": "601111",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200850914",
+    "code": "600115",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200850838",
+    "code": "601118",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200866748",
+    "code": "601168",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-18",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200863909",
+    "code": "600019",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-18",
+    "title": "2015年一季度业绩网上说明会预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200892046",
+    "code": "600016",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-23",
+    "title": "2015年第一季度业绩发布会会议记录公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200892047",
+    "code": "600016",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-23",
+    "title": "2015年一季度业绩发布会会议纪要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200899101",
+    "code": "000100",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-24",
+    "title": "关于控股子公司发布2015年一季度业绩的提示性公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200924332",
+    "code": "601699",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2015年第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200934918",
+    "code": "601166",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-29",
+    "title": "2014年度暨2015年一季度业绩说明会会议实录公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200934919",
+    "code": "601166",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-29",
+    "title": "2014年度暨2015年一季度业绩说明会会议实录",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004583",
+    "code": "300146",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-02-27",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202017984",
+    "code": "300144",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-03",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202051524",
+    "code": "300024",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-16",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202055065",
+    "code": "300104",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-18",
+    "title": "2016年一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202058741",
+    "code": "300059",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-19",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202064947",
+    "code": "300017",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-22",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202072122",
+    "code": "300027",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-24",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202088709",
+    "code": "002353",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202090566",
+    "code": "300015",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2016年一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202106540",
+    "code": "002008",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-30",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202113950",
+    "code": "300133",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202110368",
+    "code": "002475",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202114225",
+    "code": "300003",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202122795",
+    "code": "300017",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告修正公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202123577",
+    "code": "002129",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-01",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202123663",
+    "code": "600256",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-01",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202138126",
+    "code": "300251",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-05",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202144267",
+    "code": "600649",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202148853",
+    "code": "300070",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202150984",
+    "code": "300058",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202150955",
+    "code": "600688",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202154608",
+    "code": "300124",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202154898",
+    "code": "300341",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155913",
+    "code": "300315",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155903",
+    "code": "300358",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-09",
+    "title": "2016年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155284",
+    "code": "300002",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-09",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202157101",
+    "code": "000100",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-09",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162139",
+    "code": "000400",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162788",
+    "code": "000728",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202161860",
+    "code": "000783",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年度第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162003",
+    "code": "600549",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩快报公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202163012",
+    "code": "601006",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202164561",
+    "code": "000166",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-12",
+    "title": "2016年一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202169151",
+    "code": "000712",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-13",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202170262",
+    "code": "601179",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-13",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174405",
+    "code": "000768",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174714",
+    "code": "000686",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202175195",
+    "code": "601216",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174250",
+    "code": "000503",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174595",
+    "code": "000793",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174756",
+    "code": "600115",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178669",
+    "code": "000831",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178784",
+    "code": "000825",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178875",
+    "code": "000725",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202179361",
+    "code": "601933",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202179858",
+    "code": "000630",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180193",
+    "code": "000413",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180407",
+    "code": "000027",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202181624",
+    "code": "000061",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178682",
+    "code": "000539",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180048",
+    "code": "000629",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202181380",
+    "code": "000792",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178435",
+    "code": "000800",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178851",
+    "code": "000425",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 10000000,
+      "parent_profit_upper_yuan": 15000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178952",
+    "code": "000898",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180065",
+    "code": "000402",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180318",
+    "code": "000060",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202195756",
+    "code": "600177",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-19",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202197435",
+    "code": "601238",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-19",
+    "title": "关于2016年第一季度业绩预增的公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202197194",
+    "code": "600050",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-19",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202210867",
+    "code": "601628",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-21",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202225460",
+    "code": "600019",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-23",
+    "title": "2016年一季度业绩网上说明会预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202269172",
+    "code": "601328",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-29",
+    "title": "H股-2016年一季度业绩公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202282808",
+    "code": "601607",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2016年第一季度业绩发布会会议纪要公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202284369",
+    "code": "601166",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2015年度暨2016年一季度业绩说明会会议实录",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202284360",
+    "code": "601166",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2015年度暨2016年一季度业绩说明会会议实录公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202282805",
+    "code": "601607",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2016年一季度业绩发布会电话会议纪要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200691662",
+    "code": "002415",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-12",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1029949800.0,
+      "parent_profit_upper_yuan": 1098613100.0,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 60
+    }
+  },
+  {
+    "announcement_id": "1200691663",
+    "code": "002415",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-12",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718126",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718123",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "关于举行2014年年度报告网上说明会的通知",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718125",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "2014年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737061",
+    "code": "000793",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告（已取消）",
+    "status": "QUARANTINED_CANCELLED_TIME_UNKNOWN",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737053",
+    "code": "000793",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737744",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 292285500.0,
+      "parent_profit_upper_yuan": 317701600.0,
+      "yoy_lower_percent": 15,
+      "yoy_upper_percent": 25
+    }
+  },
+  {
+    "announcement_id": "1200737743",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "关于举行2014年年度报告网上说明会的公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737745",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200755519",
+    "code": "002202",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-28",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200755518",
+    "code": "002202",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-28",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 228605000.0,
+      "parent_profit_upper_yuan": 254005500.0,
+      "yoy_lower_percent": 350,
+      "yoy_upper_percent": 400
+    }
+  },
+  {
+    "announcement_id": "1200756880",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-30",
+    "title": "关于举行2014年年度报告网上说明会的通知",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200756884",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-30",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 100000000.0,
+      "parent_profit_upper_yuan": 150000000.0,
+      "yoy_lower_percent": 735.7,
+      "yoy_upper_percent": 1153.55
+    }
+  },
+  {
+    "announcement_id": "1200756892",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-30",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765598",
+    "code": "000156",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765605",
+    "code": "000156",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200768677",
+    "code": "002024",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200768678",
+    "code": "002024",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765852",
+    "code": "002241",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 257802900.0,
+      "parent_profit_upper_yuan": 309363500.0,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1200765853",
+    "code": "002241",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764931",
+    "code": "002353",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 21221300.0,
+      "parent_profit_upper_yuan": 63663800.0,
+      "yoy_lower_percent": -90,
+      "yoy_upper_percent": -70
+    }
+  },
+  {
+    "announcement_id": "1200764932",
+    "code": "002353",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200767194",
+    "code": "002422",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 205140000.0,
+      "parent_profit_upper_yuan": 227930000.0,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200767195",
+    "code": "002422",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200784294",
+    "code": "000002",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-03",
+    "title": "2015年度第一季度业绩预告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200784086",
+    "code": "002051",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2014年年度报告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 140361200.0,
+      "parent_profit_upper_yuan": 187148300.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200784085",
+    "code": "002051",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 140361200.0,
+      "parent_profit_upper_yuan": 187148300.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200811767",
+    "code": "002603",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-11",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 116160900.0,
+      "parent_profit_upper_yuan": 136362800.0,
+      "yoy_lower_percent": 15,
+      "yoy_upper_percent": 35
+    }
+  },
+  {
+    "announcement_id": "1200811768",
+    "code": "002603",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-11",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832411",
+    "code": "000157",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832611",
+    "code": "000629",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832610",
+    "code": "000629",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2014年度业绩快报",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831137",
+    "code": "000839",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200918981",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告更正公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200918980",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告（更新后）",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200921645",
+    "code": "002673",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200921653",
+    "code": "002673",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004938",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-02-29",
+    "title": "关于举行2015年年度报告网上说明会的通知",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004929",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-02-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 186129000.0,
+      "parent_profit_upper_yuan": 217150500.0,
+      "yoy_lower_percent": 80,
+      "yoy_upper_percent": 110
+    }
+  },
+  {
+    "announcement_id": "1202004930",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-02-29",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202046793",
+    "code": "002252",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-16",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 284000000.0,
+      "parent_profit_upper_yuan": 397590000.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 5
+    }
+  },
+  {
+    "announcement_id": "1202046781",
+    "code": "002252",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-16",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202063756",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-22",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 344932300.0,
+      "parent_profit_upper_yuan": 376289800.0,
+      "yoy_lower_percent": 10,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1202063757",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-22",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202063772",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-22",
+    "title": "关于举行2015年年度报告网上说明会的公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202091380",
+    "code": "002241",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202091378",
+    "code": "002241",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 188808700.0,
+      "parent_profit_upper_yuan": 242754000.0,
+      "yoy_lower_percent": -30,
+      "yoy_upper_percent": -10
+    }
+  },
+  {
+    "announcement_id": "1202090004",
+    "code": "002470",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 397269100.0,
+      "parent_profit_upper_yuan": 430374900.0,
+      "yoy_lower_percent": 20,
+      "yoy_upper_percent": 30
+    }
+  },
+  {
+    "announcement_id": "1202090009",
+    "code": "002470",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202089369",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "关于举行2015年年度报告网上说明会的通知",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202089378",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 720000000.0,
+      "parent_profit_upper_yuan": 900000000.0,
+      "yoy_lower_percent": 495.31,
+      "yoy_upper_percent": 644.13
+    }
+  },
+  {
+    "announcement_id": "1202089377",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202100525",
+    "code": "002202",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-30",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202100531",
+    "code": "002202",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-30",
+    "title": "2015年年度报告摘要（已取消）",
+    "status": "QUARANTINED_CANCELLED_TIME_UNKNOWN",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 248773500.0,
+      "parent_profit_upper_yuan": 373160300.0,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 50
+    },
+    "source": {
+      "announcement_id": "1202100531",
+      "url": "https://static.cninfo.com.cn/finalpage/2016-03-30/1202100531.PDF",
+      "page": 8,
+      "pdf_sha256": "78777c4a68cb7704aae4bd696b9494fb5b22ba13600fd86d947b67f6f6c80551",
+      "text_sha256": "f5addc2fd857cd10d5e960932d022222866cc0382652023f7a5713afe487bdf9",
+      "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+      "visual_check_this_batch": false
+    }
+  },
+  {
+    "announcement_id": "1202114924",
+    "code": "002024",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202114960",
+    "code": "002024",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202111580",
+    "code": "002292",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 67878600.0,
+      "parent_profit_upper_yuan": 91835700.0,
+      "yoy_lower_percent": -15,
+      "yoy_upper_percent": 15
+    }
+  },
+  {
+    "announcement_id": "1202111582",
+    "code": "002292",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202110695",
+    "code": "002739",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 439533000.0,
+      "parent_profit_upper_yuan": 507153500.0,
+      "yoy_lower_percent": 30,
+      "yoy_upper_percent": 50
+    }
+  },
+  {
+    "announcement_id": "1202110697",
+    "code": "002739",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180777",
+    "code": "000157",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-15",
+    "title": "业绩预告公告",
+    "status": "PENDING_CONTENT_REVIEW",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178462",
+    "code": "002658",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 8789400.0,
+      "parent_profit_upper_yuan": 14649000.0,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -50
+    }
+  },
+  {
+    "announcement_id": "1200838958",
+    "code": "000826",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-16",
+    "title": "关于公司股票交易价格异常波动的公告",
+    "status": "REVIEWED_QUALITATIVE_ONLY",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200633670",
+    "code": "002252",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-02-13",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 303851600.0,
+      "parent_profit_upper_yuan": 323668000.0,
+      "yoy_lower_percent": 360,
+      "yoy_upper_percent": 390
+    }
+  }
+]

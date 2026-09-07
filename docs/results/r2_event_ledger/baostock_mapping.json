@@ -1,0 +1,2766 @@
+[
+  {
+    "classified_row_index": 44,
+    "source_request": 32,
+    "code": "600028",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-23",
+    "vendor_candidate_available_date": "2015-03-24",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200728747"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 45,
+    "source_request": 34,
+    "code": "600029",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-11",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200812501"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 56,
+    "source_request": 44,
+    "code": "600048",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200804326"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 61,
+    "source_request": 46,
+    "code": "600050",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-19",
+    "vendor_candidate_available_date": "2016-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202197194"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 78,
+    "source_request": 72,
+    "code": "600115",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-17",
+    "vendor_candidate_available_date": "2015-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200850914"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 81,
+    "source_request": 72,
+    "code": "600115",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202174756"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 84,
+    "source_request": 88,
+    "code": "600177",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-11",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200815252"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 87,
+    "source_request": 88,
+    "code": "600177",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-19",
+    "vendor_candidate_available_date": "2016-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202195756"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 96,
+    "source_request": 100,
+    "code": "600256",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200765228"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 100,
+    "source_request": 100,
+    "code": "600256",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-01",
+    "vendor_candidate_available_date": "2016-04-05",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202123663"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 102,
+    "source_request": 102,
+    "code": "600267",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200770093"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 133,
+    "source_request": 156,
+    "code": "600516",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-08",
+    "vendor_candidate_available_date": "2015-04-09",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200797097"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 144,
+    "source_request": 167,
+    "code": "600549",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202162003"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 153,
+    "source_request": 190,
+    "code": "600649",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-03",
+    "vendor_candidate_available_date": "2015-04-07",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200782423"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 157,
+    "source_request": 190,
+    "code": "600649",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-07",
+    "vendor_candidate_available_date": "2016-04-08",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202144267"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 164,
+    "source_request": 200,
+    "code": "600674",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-08",
+    "vendor_candidate_available_date": "2015-04-09",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200797342"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 169,
+    "source_request": 201,
+    "code": "600674",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-08",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [],
+    "status": "NO_SAME_DATE_PRIMARY_IN_ARCHIVE",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 171,
+    "source_request": 202,
+    "code": "600688",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-09",
+    "vendor_candidate_available_date": "2015-04-10",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200801158"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 175,
+    "source_request": 202,
+    "code": "600688",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-08",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202150955"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 176,
+    "source_request": 206,
+    "code": "600703",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-08",
+    "vendor_candidate_available_date": "2015-04-09",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200795541"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 193,
+    "source_request": 238,
+    "code": "600867",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200804506"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 197,
+    "source_request": 240,
+    "code": "600873",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-09",
+    "vendor_candidate_available_date": "2015-04-10",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200800232"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 205,
+    "source_request": 246,
+    "code": "600886",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-16",
+    "vendor_candidate_available_date": "2015-04-17",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200838292"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 208,
+    "source_request": 250,
+    "code": "600893",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-14",
+    "vendor_candidate_available_date": "2015-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "600893_2015-03-31_2015-04-14_1"
+    ],
+    "candidate_document_ids": [
+      "1200829000"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_comparison": "NOT_COMPARABLE_TO_PRINTED_NUMERIC_RANGE"
+  },
+  {
+    "classified_row_index": 225,
+    "source_request": 264,
+    "code": "601006",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202163012"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 246,
+    "source_request": 282,
+    "code": "601111",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-17",
+    "vendor_candidate_available_date": "2015-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200847020"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 252,
+    "source_request": 286,
+    "code": "601118",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-17",
+    "vendor_candidate_available_date": "2015-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200850838"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 259,
+    "source_request": 292,
+    "code": "601168",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-18",
+    "vendor_candidate_available_date": "2015-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200866748"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 266,
+    "source_request": 296,
+    "code": "601179",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-13",
+    "vendor_candidate_available_date": "2016-04-14",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202170262"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 273,
+    "source_request": 304,
+    "code": "601216",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202175195"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 283,
+    "source_request": 310,
+    "code": "601238",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-19",
+    "vendor_candidate_available_date": "2016-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202197435"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 303,
+    "source_request": 344,
+    "code": "601628",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-21",
+    "vendor_candidate_available_date": "2016-04-22",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202210867"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 314,
+    "source_request": 355,
+    "code": "601699",
+    "kind": "express",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-28",
+    "vendor_candidate_available_date": "2015-04-29",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200924332"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 355,
+    "source_request": 390,
+    "code": "601933",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202179361"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 391,
+    "source_request": 422,
+    "code": "000002",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-03",
+    "vendor_candidate_available_date": "2015-04-07",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200784294"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 394,
+    "source_request": 428,
+    "code": "000027",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180407"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 397,
+    "source_request": 430,
+    "code": "000039",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-14",
+    "vendor_candidate_available_date": "2015-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200828399"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 406,
+    "source_request": 434,
+    "code": "000060",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180318"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 407,
+    "source_request": 436,
+    "code": "000061",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200834827"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 409,
+    "source_request": 436,
+    "code": "000061",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202181624"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 418,
+    "source_request": 442,
+    "code": "000100",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-09",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202157101"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 420,
+    "source_request": 444,
+    "code": "000156",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200765598",
+      "1200765605"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 426,
+    "source_request": 446,
+    "code": "000157",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200832411"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 430,
+    "source_request": 446,
+    "code": "000157",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180777"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 437,
+    "source_request": 449,
+    "code": "000166",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202164561"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 442,
+    "source_request": 454,
+    "code": "000400",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200831710"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 445,
+    "source_request": 454,
+    "code": "000400",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202162139"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 447,
+    "source_request": 456,
+    "code": "000401",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-14",
+    "vendor_candidate_available_date": "2015-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200826165"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 453,
+    "source_request": 458,
+    "code": "000402",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200763833"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 457,
+    "source_request": 458,
+    "code": "000402",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180065"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 460,
+    "source_request": 460,
+    "code": "000413",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180193"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 468,
+    "source_request": 466,
+    "code": "000425",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "000425_2015-03-31_2015-04-15_1"
+    ],
+    "candidate_document_ids": [
+      "1200833073"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_comparison": "NOT_COMPARABLE_TO_PRINTED_NUMERIC_RANGE"
+  },
+  {
+    "classified_row_index": 472,
+    "source_request": 466,
+    "code": "000425",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "000425_2016-03-31_2016-04-15_1"
+    ],
+    "candidate_document_ids": [
+      "1202178851"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_comparison": "NOT_COMPARABLE_TO_PRINTED_NUMERIC_RANGE"
+  },
+  {
+    "classified_row_index": 474,
+    "source_request": 468,
+    "code": "000503",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200831673"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 477,
+    "source_request": 468,
+    "code": "000503",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202174250"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 480,
+    "source_request": 470,
+    "code": "000536",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200833583"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 486,
+    "source_request": 474,
+    "code": "000539",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178682"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 497,
+    "source_request": 488,
+    "code": "000623",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-09",
+    "vendor_candidate_available_date": "2015-04-10",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200800705"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 506,
+    "source_request": 492,
+    "code": "000629",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200832611",
+      "1200832610"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 510,
+    "source_request": 492,
+    "code": "000629",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202180048"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 514,
+    "source_request": 494,
+    "code": "000630",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202179858"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 518,
+    "source_request": 499,
+    "code": "000686",
+    "kind": "express",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200805074"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 522,
+    "source_request": 499,
+    "code": "000686",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202174714"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 529,
+    "source_request": 502,
+    "code": "000712",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-13",
+    "vendor_candidate_available_date": "2016-04-14",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202169151"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 530,
+    "source_request": 504,
+    "code": "000725",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200803750"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 532,
+    "source_request": 504,
+    "code": "000725",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178875"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 536,
+    "source_request": 507,
+    "code": "000728",
+    "kind": "express",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200804346"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 539,
+    "source_request": 507,
+    "code": "000728",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202162788"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 541,
+    "source_request": 512,
+    "code": "000750",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200831142"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 547,
+    "source_request": 514,
+    "code": "000768",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-14",
+    "vendor_candidate_available_date": "2015-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200828605"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 550,
+    "source_request": 514,
+    "code": "000768",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202174405"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 551,
+    "source_request": 516,
+    "code": "000776",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-09",
+    "vendor_candidate_available_date": "2015-04-10",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200800176"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 557,
+    "source_request": 518,
+    "code": "000778",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200834862"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 561,
+    "source_request": 521,
+    "code": "000783",
+    "kind": "express",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200805072"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 565,
+    "source_request": 521,
+    "code": "000783",
+    "kind": "express",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-12",
+    "vendor_candidate_available_date": "2016-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202161860"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 567,
+    "source_request": 522,
+    "code": "000792",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200834577"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 571,
+    "source_request": 522,
+    "code": "000792",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202181380"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 576,
+    "source_request": 524,
+    "code": "000793",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-25",
+    "vendor_candidate_available_date": "2015-03-26",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200737061",
+      "1200737053"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 578,
+    "source_request": 524,
+    "code": "000793",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-14",
+    "vendor_candidate_available_date": "2016-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202174595"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 582,
+    "source_request": 526,
+    "code": "000800",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178435"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 583,
+    "source_request": 528,
+    "code": "000825",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-28",
+    "vendor_candidate_available_date": "2015-04-29",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200918981",
+      "1200918980"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 587,
+    "source_request": 528,
+    "code": "000825",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178784"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 590,
+    "source_request": 530,
+    "code": "000826",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-16",
+    "vendor_candidate_available_date": "2015-04-17",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "000826_2015-03-31_2015-04-16_1"
+    ],
+    "candidate_document_ids": [
+      "1200838958"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_comparison": "NOT_COMPARABLE_TO_PRINTED_NUMERIC_RANGE"
+  },
+  {
+    "classified_row_index": 593,
+    "source_request": 532,
+    "code": "000831",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-14",
+    "vendor_candidate_available_date": "2015-04-15",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200826551"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 597,
+    "source_request": 532,
+    "code": "000831",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178669"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 598,
+    "source_request": 534,
+    "code": "000839",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200831137"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 602,
+    "source_request": 540,
+    "code": "000876",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-08",
+    "vendor_candidate_available_date": "2015-04-09",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200795913"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 610,
+    "source_request": 544,
+    "code": "000883",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200833587"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 616,
+    "source_request": 548,
+    "code": "000898",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200767233"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 620,
+    "source_request": 548,
+    "code": "000898",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-15",
+    "vendor_candidate_available_date": "2016-04-18",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202178952"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 622,
+    "source_request": 552,
+    "code": "000937",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200832134"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 627,
+    "source_request": 554,
+    "code": "000960",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200833588"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 634,
+    "source_request": 556,
+    "code": "000963",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-14",
+    "vendor_candidate_available_date": "2015-03-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200698940"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 638,
+    "source_request": 560,
+    "code": "000983",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-15",
+    "vendor_candidate_available_date": "2015-04-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200831223"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 641,
+    "source_request": 566,
+    "code": "002001",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-28",
+    "vendor_candidate_available_date": "2015-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200753191"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 656,
+    "source_request": 570,
+    "code": "002008",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-01",
+    "vendor_candidate_available_date": "2015-04-02",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200774937"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 660,
+    "source_request": 570,
+    "code": "002008",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-30",
+    "vendor_candidate_available_date": "2016-03-31",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202106540"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 666,
+    "source_request": 572,
+    "code": "002024",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200768677",
+      "1200768678"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 670,
+    "source_request": 572,
+    "code": "002024",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202114924",
+      "1202114960"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 679,
+    "source_request": 576,
+    "code": "002051",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-03",
+    "vendor_candidate_available_date": "2015-04-07",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002051_2015-03-31_2015-04-03_1"
+    ],
+    "candidate_document_ids": [
+      "1200784086",
+      "1200784085"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 702,
+    "source_request": 582,
+    "code": "002129",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-01",
+    "vendor_candidate_available_date": "2016-04-05",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202123577"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 729,
+    "source_request": 592,
+    "code": "002202",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-28",
+    "vendor_candidate_available_date": "2015-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002202_2015-03-31_2015-03-28_1"
+    ],
+    "candidate_document_ids": [
+      "1200755519",
+      "1200755518"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 733,
+    "source_request": 592,
+    "code": "002202",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-30",
+    "vendor_candidate_available_date": "2016-03-31",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202100525",
+      "1202100531"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 743,
+    "source_request": 596,
+    "code": "002236",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-20",
+    "vendor_candidate_available_date": "2015-03-23",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200718126",
+      "1200718123",
+      "1200718125"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 747,
+    "source_request": 596,
+    "code": "002236",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-02-29",
+    "vendor_candidate_available_date": "2016-03-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002236_2016-03-31_2016-02-29_1"
+    ],
+    "candidate_document_ids": [
+      "1202004938",
+      "1202004929",
+      "1202004930"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 751,
+    "source_request": 598,
+    "code": "002241",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002241_2015-03-31_2015-03-31_1"
+    ],
+    "candidate_document_ids": [
+      "1200765852",
+      "1200765853"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 755,
+    "source_request": 598,
+    "code": "002241",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-29",
+    "vendor_candidate_available_date": "2016-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002241_2016-03-31_2016-03-29_1"
+    ],
+    "candidate_document_ids": [
+      "1202091380",
+      "1202091378"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 760,
+    "source_request": 600,
+    "code": "002252",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-04",
+    "vendor_candidate_available_date": "2015-04-07",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002252_2015-03-31_2015-04-04_1"
+    ],
+    "candidate_document_ids": [
+      "1200788295"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 764,
+    "source_request": 600,
+    "code": "002252",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-16",
+    "vendor_candidate_available_date": "2016-03-17",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002252_2016-03-31_2016-03-16_1"
+    ],
+    "candidate_document_ids": [
+      "1202046793",
+      "1202046781"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 767,
+    "source_request": 602,
+    "code": "002292",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200764633"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 771,
+    "source_request": 602,
+    "code": "002292",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002292_2016-03-31_2016-03-31_1"
+    ],
+    "candidate_document_ids": [
+      "1202111580",
+      "1202111582"
+    ],
+    "status": "PRIMARY_CONFLICT_QUARANTINE",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 775,
+    "source_request": 604,
+    "code": "002294",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-25",
+    "vendor_candidate_available_date": "2015-03-26",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002294_2015-03-31_2015-03-25_1"
+    ],
+    "candidate_document_ids": [
+      "1200737744",
+      "1200737743",
+      "1200737745"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 779,
+    "source_request": 604,
+    "code": "002294",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-22",
+    "vendor_candidate_available_date": "2016-03-23",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002294_2016-03-31_2016-03-22_1"
+    ],
+    "candidate_document_ids": [
+      "1202063756",
+      "1202063757",
+      "1202063772"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 790,
+    "source_request": 608,
+    "code": "002310",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200769104"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 806,
+    "source_request": 612,
+    "code": "002353",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002353_2015-03-31_2015-03-31_1"
+    ],
+    "candidate_document_ids": [
+      "1200764931",
+      "1200764932"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 810,
+    "source_request": 612,
+    "code": "002353",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-29",
+    "vendor_candidate_available_date": "2016-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202088709"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 825,
+    "source_request": 618,
+    "code": "002399",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200764500"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 847,
+    "source_request": 624,
+    "code": "002415",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-12",
+    "vendor_candidate_available_date": "2015-03-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002415_2015-03-31_2015-03-12_1"
+    ],
+    "candidate_document_ids": [
+      "1200691662",
+      "1200691663"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 855,
+    "source_request": 626,
+    "code": "002416",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200765473"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 863,
+    "source_request": 628,
+    "code": "002422",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002422_2015-03-31_2015-03-31_1"
+    ],
+    "candidate_document_ids": [
+      "1200767194",
+      "1200767195"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 877,
+    "source_request": 632,
+    "code": "002450",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200763726"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 899,
+    "source_request": 638,
+    "code": "002470",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-29",
+    "vendor_candidate_available_date": "2016-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002470_2016-03-31_2016-03-29_1"
+    ],
+    "candidate_document_ids": [
+      "1202090004",
+      "1202090009"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 903,
+    "source_request": 640,
+    "code": "002475",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-28",
+    "vendor_candidate_available_date": "2015-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200752934"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 907,
+    "source_request": 640,
+    "code": "002475",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202110368"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 913,
+    "source_request": 643,
+    "code": "002500",
+    "kind": "express",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-17",
+    "vendor_candidate_available_date": "2015-04-20",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200847447"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 921,
+    "source_request": 646,
+    "code": "002594",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-30",
+    "vendor_candidate_available_date": "2015-03-31",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002594_2015-03-31_2015-03-30_1"
+    ],
+    "candidate_document_ids": [
+      "1200756880",
+      "1200756884",
+      "1200756892"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 925,
+    "source_request": 646,
+    "code": "002594",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-29",
+    "vendor_candidate_available_date": "2016-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002594_2016-03-31_2016-03-29_1"
+    ],
+    "candidate_document_ids": [
+      "1202089369",
+      "1202089378",
+      "1202089377"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 929,
+    "source_request": 648,
+    "code": "002603",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-11",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002603_2015-03-31_2015-04-11_1"
+    ],
+    "candidate_document_ids": [
+      "1200811767",
+      "1200811768"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 945,
+    "source_request": 652,
+    "code": "002673",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-28",
+    "vendor_candidate_available_date": "2015-04-29",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200921645",
+      "1200921653"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 959,
+    "source_request": 656,
+    "code": "002739",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [
+      "002739_2016-03-31_2016-03-31_1"
+    ],
+    "candidate_document_ids": [
+      "1202110695",
+      "1202110697"
+    ],
+    "status": "MATCHED_REVIEWED_PRIMARY_EVENT",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false,
+    "growth_max_abs_difference_pp": 0.0,
+    "growth_comparison": "AGREES_WITHIN_0_011_PP"
+  },
+  {
+    "classified_row_index": 969,
+    "source_request": 658,
+    "code": "300002",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-09",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202155284"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 977,
+    "source_request": 660,
+    "code": "300003",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202114225"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 981,
+    "source_request": 662,
+    "code": "300015",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-31",
+    "vendor_candidate_available_date": "2015-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200766426"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 985,
+    "source_request": 662,
+    "code": "300015",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-29",
+    "vendor_candidate_available_date": "2016-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202090566"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 989,
+    "source_request": 664,
+    "code": "300017",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-14",
+    "vendor_candidate_available_date": "2015-03-16",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200698798"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 993,
+    "source_request": 664,
+    "code": "300017",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202122795"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 997,
+    "source_request": 666,
+    "code": "300024",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200804919"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1001,
+    "source_request": 666,
+    "code": "300024",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-16",
+    "vendor_candidate_available_date": "2016-03-17",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202051524"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1005,
+    "source_request": 668,
+    "code": "300027",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-27",
+    "vendor_candidate_available_date": "2015-03-30",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200749612"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1009,
+    "source_request": 668,
+    "code": "300027",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-24",
+    "vendor_candidate_available_date": "2016-03-25",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202072122"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1013,
+    "source_request": 670,
+    "code": "300058",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-13",
+    "vendor_candidate_available_date": "2015-04-14",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200815553"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1017,
+    "source_request": 670,
+    "code": "300058",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-07",
+    "vendor_candidate_available_date": "2016-04-08",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202150984"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1025,
+    "source_request": 672,
+    "code": "300059",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-19",
+    "vendor_candidate_available_date": "2016-03-21",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202058741"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1028,
+    "source_request": 674,
+    "code": "300070",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-09",
+    "vendor_candidate_available_date": "2015-04-10",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200799364"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1032,
+    "source_request": 674,
+    "code": "300070",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-07",
+    "vendor_candidate_available_date": "2016-04-08",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202148853"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1040,
+    "source_request": 676,
+    "code": "300104",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-18",
+    "vendor_candidate_available_date": "2016-03-21",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202055065"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1044,
+    "source_request": 678,
+    "code": "300124",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-20",
+    "vendor_candidate_available_date": "2015-03-23",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200719376"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1048,
+    "source_request": 678,
+    "code": "300124",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-08",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202154608"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1052,
+    "source_request": 680,
+    "code": "300133",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-03-18",
+    "vendor_candidate_available_date": "2015-03-19",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200710992"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1056,
+    "source_request": 680,
+    "code": "300133",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-31",
+    "vendor_candidate_available_date": "2016-04-01",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202113950"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1064,
+    "source_request": 682,
+    "code": "300144",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-03-03",
+    "vendor_candidate_available_date": "2016-03-04",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202017984"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1066,
+    "source_request": 684,
+    "code": "300146",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-02-28",
+    "vendor_candidate_available_date": "2015-03-02",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200656876"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1070,
+    "source_request": 684,
+    "code": "300146",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-02-27",
+    "vendor_candidate_available_date": "2016-02-29",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202004583"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1072,
+    "source_request": 686,
+    "code": "300251",
+    "kind": "forecast",
+    "vendor_report_period": "2015-03-31",
+    "vendor_notice_date": "2015-04-10",
+    "vendor_candidate_available_date": "2015-04-13",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1200806133"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1076,
+    "source_request": 686,
+    "code": "300251",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-05",
+    "vendor_candidate_available_date": "2016-04-06",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202138126"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  },
+  {
+    "classified_row_index": 1084,
+    "source_request": 688,
+    "code": "300315",
+    "kind": "forecast",
+    "vendor_report_period": "2016-03-31",
+    "vendor_notice_date": "2016-04-08",
+    "vendor_candidate_available_date": "2016-04-11",
+    "member_at_vendor_candidate_available_date": true,
+    "matched_event_ids": [],
+    "candidate_document_ids": [
+      "1202155913"
+    ],
+    "status": "PRIMARY_CONTENT_PENDING",
+    "date_match_is_not_period_validation": true,
+    "research_admission": false
+  }
+]

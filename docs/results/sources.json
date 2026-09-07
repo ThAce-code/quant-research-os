@@ -1650,5 +1650,49 @@
   "docs/results/r2_baostock_event_bulk/verification.json": {
     "source_run": "r2_baostock_event_bulk_v1",
     "sha256": "812bbc689a88a17ba2c49e621adfa603b638bb0f13742c362e582f7ee37a9ac0"
+  },
+  "docs/results/r2_event_ledger/acceptance.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "7a12dda9d1bfecb8d986330141650f0ab15cb8d999a1b757e31f4026a71bbf60"
+  },
+  "docs/results/r2_event_ledger/baostock_mapping.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "55dc7186651bf421174334f353c0162164a471b29fb9fee6dde0104d8581f41e"
+  },
+  "docs/results/r2_event_ledger/causal_checks.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "e5c4ee0330160e64b8e1b0b7e6ad7f323a065638e63005f28dc9e33e0906aa5e"
+  },
+  "docs/results/r2_event_ledger/document_dispositions.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "6ce727fd2db595bf6c75729cf8d1196edca8508245bf412a41a92241472afd9b"
+  },
+  "docs/results/r2_event_ledger/events.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "e979cd51cb4b45866a950c5d434caa1b6c04eb1e174ceb08b11ca670358f6a0a"
+  },
+  "docs/results/r2_event_ledger/extraction_corrections.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "ce38efeb68046a1020c352a55d67c83f5a7d359b5a2c6ff7c24682b819f6125f"
+  },
+  "docs/results/r2_event_ledger/report.md": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "c45ff38ee764892868e7c3916a05bb919b915d99e4eab85fe4525aeccd787a99"
+  },
+  "docs/results/r2_event_ledger/source_hashes.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "87c5e750aa43f4d9cf2e78105b33ae619c6b447a4774cbd7e793db1c6252cea4"
+  },
+  "docs/results/r2_event_ledger/summary.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "2aeb89386e5f8a9949f7e8d1665c048c531b356e005b23329eafebaeed2369b6"
+  },
+  "docs/results/r2_event_ledger/verification.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "8f3c5fbb8059c035bee35c6fe1cbf99eddb7aec659cc56bccecf1e0ffddda430"
+  },
+  "docs/results/r2_event_ledger/version_links.json": {
+    "source_run": "r2_event_ledger_v1",
+    "sha256": "c926b39ef1065c2da5a100f0207d12f43ce92fd00a0ac9dd4a73f36fb55f4279"
   }
 }
