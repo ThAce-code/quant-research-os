@@ -105,11 +105,31 @@ def fit_predict(features, raw_labels, calendar, c, model_params, output):
     return predictions
 
 
-def run(root, screen):
+def run(root, screen, *, selection=None, more_screens=()):
     root, screen = Path(root).resolve(), Path(screen).resolve()
     with FileLock(str(root/'data/factor_engine.lock'), timeout=0):
         registry = FactorRegistry(root/'data/factor_registry.sqlite')
         selected, payload = survivors(screen, registry)
+        screen_by_hypothesis={h.hypothesis_id:screen.name for h in selected}
+        if selection is not None:
+            if not 1<=len(selection)<=3 or len(set(selection))!=len(selection):
+                raise ValueError('select one to three distinct screened hypotheses')
+            combined={h.hypothesis_id:h for h in selected}
+            origins=[{'screen_run':screen.name,'batch_sha256':identity(payload)}]
+            for other in more_screens:
+                other=Path(other).resolve();extra,batch=survivors(other,registry)
+                if batch['screen_protocol_sha256']!=payload['screen_protocol_sha256']:
+                    raise ValueError('combined screening protocols differ')
+                for h in extra:
+                    if h.hypothesis_id in combined:raise ValueError('duplicate screened hypothesis')
+                    combined[h.hypothesis_id]=h;screen_by_hypothesis[h.hypothesis_id]=other.name
+                origins.append({'screen_run':other.name,'batch_sha256':identity(batch)})
+            if not set(selection)<=combined.keys():raise ValueError('selection lacks numerical screen admission')
+            selected=[combined[i] for i in selection]
+            if len({h.name for h in selected})!=len(selected):
+                raise ValueError('selected candidate names collide across screening batches')
+            payload={**payload,'candidates':[asdict(h) for h in selected],'source_screens':origins}
+            screen_by_hypothesis={h.hypothesis_id:screen_by_hypothesis[h.hypothesis_id] for h in selected}
         output = root/'experiments/m3_increment'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
         output.mkdir(parents=True)
         tracked = list((root/'src/quant_research').rglob('*.py')) + [
@@ -120,13 +140,14 @@ def run(root, screen):
             shutil.copyfile(root/n, target)
         write(output/'source_hashes.json', hashes)
         write(output/'admission.json', {'screen_run': screen.name, 'batch_sha256': identity(payload),
-            'candidates': [asdict(h) for h in selected], 'qualification': 'SEALED', 'lockbox': 'SEALED'})
+            'candidates': [asdict(h) for h in selected], 'screen_by_hypothesis':screen_by_hypothesis,
+            'qualification': 'SEALED', 'lockbox': 'SEALED'})
         if not selected:
             write(output/'status.json', {'status': 'PASS', 'decision': 'NO_ENTRY', 'screen_run': screen.name,
                 'market_data_loaded': False, 'fits': 0, 'portfolios': 0, 'reason': 'ALL_SCREEN_REJECT'})
             return output
         try:
-            result = _evaluate(root, screen, output, selected, registry)
+            result = _evaluate(root, screen, output, selected, registry, screen_by_hypothesis)
             if any(sha(root/n) != v for n, v in hashes.items()):
                 raise ValueError('source changed during model run')
             write(output/'artifact_hashes.json', {str(p.relative_to(output)): sha(p)
@@ -137,7 +158,7 @@ def run(root, screen):
             raise
 
 
-def _evaluate(root, screen, output, selected, registry):
+def _evaluate(root, screen, output, selected, registry, screen_by_hypothesis=None):
     config = json.loads((root/'configs/m3/increment.json').read_text())
     protocol = root/'configs/factors/m2_rolling.json'
     if sha(protocol) != config['rolling_protocol_sha256']:
@@ -187,7 +208,7 @@ def _evaluate(root, screen, output, selected, registry):
         decision = comparisons['ADD_'+h.name]
         registry.record(output.name, h.factor().factor_id, {'status': 'FORWARD' if decision['decision']=='GO' else 'REJECT',
             'reasons': ['HISTORICAL_MODEL_'+decision['decision']], 'model_increment': decision,
-            'hypothesis_id': h.hypothesis_id, 'screen_run': screen.name,
+            'hypothesis_id': h.hypothesis_id, 'screen_run': (screen_by_hypothesis or {}).get(h.hypothesis_id,screen.name),
             'qualification': 'SEALED_PENDING_SEPARATE_ADMISSION', 'independent_alpha': False})
     verify_baseline(root, 'BL-CN-CSI300-A158-LGBM-001')
     write(output/'status.json', {'status': 'PASS', 'fits': len(c['fold_years'])*len(c['variants']),

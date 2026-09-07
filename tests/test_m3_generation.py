@@ -20,7 +20,8 @@ def endpoint(response, protocol='ollama', status=200):
     class Handler(BaseHTTPRequestHandler):
         def do_POST(self):
             requests.append(json.loads(self.rfile.read(int(self.headers['Content-Length']))))
-            self.send_response(status);self.end_headers();self.wfile.write(json.dumps(response).encode())
+            value=response(len(requests)) if callable(response) else response
+            self.send_response(status);self.end_headers();self.wfile.write(json.dumps(value).encode())
         def log_message(self,*args):pass
     server=ThreadingHTTPServer(('127.0.0.1',0),Handler)
     thread=threading.Thread(target=server.serve_forever,daemon=True);thread.start()

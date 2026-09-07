@@ -47,6 +47,7 @@ class CampaignSpec:
     max_rounds: int
     seed: int
     objective: str
+    max_model_runs: int = 0
 
     def __post_init__(self):
         if not re.fullmatch(r'[A-Za-z0-9_-]{1,80}', self.campaign_id):
@@ -64,6 +65,8 @@ class CampaignSpec:
             raise ValueError('empty campaign')
         if self.max_evaluations > self.max_proposals:
             raise ValueError('evaluation budget exceeds proposal budget')
+        if type(self.max_model_runs) is not int or self.max_model_runs not in {0,1}:
+            raise ValueError('a frozen campaign permits zero or one model run')
 
 
 class CampaignLedger:
@@ -90,6 +93,24 @@ class CampaignLedger:
                 CREATE TABLE IF NOT EXISTS call_proposals (
                     call INTEGER NOT NULL REFERENCES calls(id), ordinal INTEGER NOT NULL,
                     proposal INTEGER NOT NULL REFERENCES proposals(id), PRIMARY KEY(call,ordinal));
+                CREATE TABLE IF NOT EXISTS model_results (
+                    proposal INTEGER PRIMARY KEY REFERENCES proposals(id), run_id TEXT NOT NULL,
+                    evidence TEXT NOT NULL, origin TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS campaign_freezes (
+                    campaign TEXT PRIMARY KEY REFERENCES campaigns(id), payload TEXT NOT NULL);
+                CREATE TABLE IF NOT EXISTS model_runs (
+                    campaign TEXT PRIMARY KEY REFERENCES campaigns(id), state TEXT NOT NULL,
+                    run_id TEXT, error TEXT);
+                CREATE TABLE IF NOT EXISTS loop_specs (
+                    campaign TEXT PRIMARY KEY REFERENCES campaigns(id), payload TEXT NOT NULL);
+                CREATE TRIGGER IF NOT EXISTS model_results_no_update BEFORE UPDATE ON model_results
+                    BEGIN SELECT RAISE(ABORT, 'immutable model result'); END;
+                CREATE TRIGGER IF NOT EXISTS model_results_no_delete BEFORE DELETE ON model_results
+                    BEGIN SELECT RAISE(ABORT, 'immutable model result'); END;
+                CREATE TRIGGER IF NOT EXISTS campaign_freezes_no_update BEFORE UPDATE ON campaign_freezes
+                    BEGIN SELECT RAISE(ABORT, 'immutable campaign freeze'); END;
+                CREATE TRIGGER IF NOT EXISTS campaign_freezes_no_delete BEFORE DELETE ON campaign_freezes
+                    BEGIN SELECT RAISE(ABORT, 'immutable campaign freeze'); END;
                 CREATE TRIGGER IF NOT EXISTS proposals_no_update BEFORE UPDATE ON proposals
                     BEGIN SELECT RAISE(ABORT, 'immutable proposal'); END;
                 CREATE TRIGGER IF NOT EXISTS proposals_no_delete BEFORE DELETE ON proposals
@@ -112,7 +133,7 @@ class CampaignLedger:
         with self.connect() as db:
             db.execute('BEGIN IMMEDIATE')
             old = db.execute('SELECT spec FROM campaigns WHERE id=?', (spec.campaign_id,)).fetchone()
-            if old is not None and old['spec'] != payload:
+            if old is not None and asdict(CampaignSpec(**json.loads(old['spec']))) != asdict(spec):
                 raise ValueError('campaign specification is immutable')
             db.execute('INSERT OR IGNORE INTO campaigns(id,spec) VALUES (?,?)', (spec.campaign_id, payload))
 
@@ -251,6 +272,21 @@ class CampaignLedger:
                 raise ValueError('feedback outside frozen campaign period')
             db.execute("UPDATE evaluations SET state='COMPLETE',run_id=?,evidence=? WHERE proposal=?", (run_id, encoded, proposal))
 
+    def fail_evaluations(self,proposals,error):
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            for proposal in proposals:
+                db.execute("UPDATE evaluations SET state='FAILED',evidence=? WHERE proposal=? AND state='RESERVED'",
+                           (json.dumps({'execution_error':error}),proposal))
+
+    def bind_loop(self,campaign,payload):
+        encoded=json.dumps(payload,sort_keys=True,allow_nan=False)
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            old=db.execute('SELECT payload FROM loop_specs WHERE campaign=?',(campaign,)).fetchone()
+            if old and old['payload']!=encoded:raise ValueError('loop endpoint, brief and schema are immutable')
+            db.execute('INSERT OR IGNORE INTO loop_specs VALUES (?,?)',(campaign,encoded))
+
     def snapshot(self, campaign):
         with self.connect() as db:
             spec = db.execute('SELECT * FROM campaigns WHERE id=?', (campaign,)).fetchone()
@@ -258,4 +294,111 @@ class CampaignLedger:
             return {'campaign': dict(spec),
                 'proposals': [dict(r) for r in db.execute('SELECT * FROM proposals WHERE campaign=? ORDER BY id', (campaign,))],
                 'calls': [dict(r) for r in db.execute('SELECT * FROM calls WHERE campaign=? ORDER BY id', (campaign,))],
-                'evaluations': [dict(r) for r in db.execute('SELECT e.* FROM evaluations e JOIN proposals p ON e.proposal=p.id WHERE p.campaign=? ORDER BY e.proposal', (campaign,))]}
+                'evaluations': [dict(r) for r in db.execute('SELECT e.* FROM evaluations e JOIN proposals p ON e.proposal=p.id WHERE p.campaign=? ORDER BY e.proposal', (campaign,))],
+                'model_results':[dict(r) for r in db.execute('SELECT m.* FROM model_results m JOIN proposals p ON m.proposal=p.id WHERE p.campaign=? ORDER BY m.proposal',(campaign,))],
+                'freezes':[dict(r) for r in db.execute('SELECT * FROM campaign_freezes WHERE campaign=?',(campaign,))],
+                'model_runs':[dict(r) for r in db.execute('SELECT * FROM model_runs WHERE campaign=?',(campaign,))],
+                'loops':[dict(r) for r in db.execute('SELECT * FROM loop_specs WHERE campaign=?',(campaign,))]}
+
+    def freeze(self, campaign, selected, protocols):
+        """End exploration once, preserving the complete search family before modeling."""
+        if len(selected)>3 or len(set(selected))!=len(selected):raise ValueError('select up to three distinct candidates')
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            old=db.execute('SELECT payload FROM campaign_freezes WHERE campaign=?',(campaign,)).fetchone()
+            if old:
+                payload=json.loads(old['payload'])
+                if payload['selected']!=list(selected) or payload['protocols']!=protocols:
+                    raise ValueError('campaign freeze is immutable')
+                return payload
+            spec=self._active(db,campaign,0)
+            calls=[dict(r) for r in db.execute('SELECT * FROM calls WHERE campaign=? ORDER BY id',(campaign,))]
+            proposals=[dict(r) for r in db.execute('SELECT * FROM proposals WHERE campaign=? ORDER BY id',(campaign,))]
+            evaluations=[dict(r) for r in db.execute('SELECT e.* FROM evaluations e JOIN proposals p ON e.proposal=p.id WHERE p.campaign=? ORDER BY e.proposal',(campaign,))]
+            if any(r['state']=='RESERVED' for r in calls+evaluations):
+                raise ValueError('resolve pending requests/evaluations before freezing')
+            materialized={r[0] for r in db.execute('SELECT DISTINCT c.call FROM call_proposals c JOIN calls q ON c.call=q.id WHERE q.campaign=?',(campaign,))}
+            if any(r['state']=='COMPLETE' and r['id'] not in materialized for r in calls):
+                raise ValueError('recover completed model responses before freezing')
+            available={r['proposal']:r for r in evaluations if r['state']=='COMPLETE'}
+            for p in selected:
+                if p not in available or json.loads(available[p]['evidence'])['decision']!='IC_SCREEN_PASS':
+                    raise ValueError('selected candidates must pass numerical screening')
+            payload={'selected':list(selected),'protocols':protocols,'spec':spec,
+                     'proposals':proposals,'evaluations':evaluations,'calls':calls,
+                     'hypothesis_budget':spec['max_proposals'],'evaluation_budget':spec['max_evaluations'],
+                     'proposal_attempts':len(proposals),'evaluation_attempts':len(evaluations),
+                     'feedback_rounds_observed':sorted({p['round'] for p in proposals}),
+                     'statistical_scope':'EXPLORATORY_SEARCH; per-batch q and selected-model q do not establish campaign-wide confirmation',
+                     'protected_periods':'SEALED',
+                     'loop_specs':[dict(r) for r in db.execute('SELECT * FROM loop_specs WHERE campaign=?',(campaign,))]}
+            encoded=json.dumps(payload,sort_keys=True,allow_nan=False)
+            db.execute('INSERT INTO campaign_freezes VALUES (?,?)',(campaign,encoded))
+            db.execute("UPDATE campaigns SET state='FROZEN' WHERE id=?",(campaign,))
+            return payload
+
+    def reserve_model(self, campaign):
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            row=db.execute('SELECT c.state,c.spec,f.payload FROM campaigns c JOIN campaign_freezes f ON c.id=f.campaign WHERE c.id=?',(campaign,)).fetchone()
+            if row is None or row['state']!='FROZEN':raise ValueError('freeze campaign before model execution')
+            if json.loads(row['spec']).get('max_model_runs',0)!=1:
+                raise ValueError('no model run budget in original campaign')
+            payload=json.loads(row['payload'])
+            if not payload['selected']:raise ValueError('no selected model candidates')
+            if any(db.execute('SELECT 1 FROM model_results WHERE proposal=?',(p,)).fetchone() for p in payload['selected']):
+                raise ValueError('selected candidates already have model evidence')
+            if db.execute('SELECT 1 FROM model_runs WHERE campaign=?',(campaign,)).fetchone():
+                raise ValueError('model budget reserved; attach completed evidence instead of rerunning')
+            db.execute("INSERT INTO model_runs(campaign,state) VALUES (?,'RESERVED')",(campaign,))
+            return payload
+
+    def record_model_results(self, campaign, rows, run_id, origin):
+        """Called after controller provenance checks; append the whole stage atomically."""
+        from datetime import date
+        if origin not in {'CAMPAIGN_MODEL','LEGACY_VERIFIED_IMPORT'}:raise ValueError('unknown model evidence origin')
+        if not rows or len({p for p,_ in rows})!=len(rows):raise ValueError('distinct model result proposals required')
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            spec=json.loads(db.execute('SELECT spec FROM campaigns WHERE id=?',(campaign,)).fetchone()['spec'])
+            if origin=='CAMPAIGN_MODEL' and not db.execute('SELECT 1 FROM model_runs WHERE campaign=?',(campaign,)).fetchone():
+                raise ValueError('model results do not match reserved freeze')
+            for proposal,evidence in rows:
+                if evidence.get('scope')!='research_only' or evidence.get('protected_accessed') is not False:
+                    raise ValueError('model feedback must be research-only')
+                span=evidence.get('period',[])
+                if len(span)!=2:raise ValueError('missing model period')
+                start,end=[date.fromisoformat(d) for d in span]
+                if start>end or end.year>=2021 or not spec['research_period'][0]<=span[0]<=span[1]<=spec['research_period'][1]:
+                    raise ValueError('model period outside campaign research scope')
+                if evidence.get('decision') not in {'GO','NO_GO'}:raise ValueError('unknown numerical model decision')
+                parent=db.execute('SELECT e.state,e.run_id FROM evaluations e JOIN proposals p ON e.proposal=p.id WHERE e.proposal=? AND p.campaign=?',(proposal,campaign)).fetchone()
+                if parent is None or parent['state']!='COMPLETE' or parent['run_id']!=evidence.get('screen_run'):
+                    raise ValueError('model feedback must match completed screen')
+                encoded=json.dumps(evidence,sort_keys=True,allow_nan=False)
+                old=db.execute('SELECT * FROM model_results WHERE proposal=?',(proposal,)).fetchone()
+                if old:
+                    if old['run_id']!=run_id or old['evidence']!=encoded or old['origin']!=origin:
+                        raise ValueError('model feedback is immutable')
+                else:db.execute('INSERT INTO model_results VALUES (?,?,?,?)',(proposal,run_id,encoded,origin))
+            if origin=='CAMPAIGN_MODEL':
+                ticket=db.execute('SELECT * FROM model_runs WHERE campaign=?',(campaign,)).fetchone()
+                frozen=json.loads(db.execute('SELECT payload FROM campaign_freezes WHERE campaign=?',(campaign,)).fetchone()['payload'])
+                if ticket is None or set(frozen['selected'])!={p for p,_ in rows}:
+                    raise ValueError('model results do not match reserved freeze')
+                if ticket['state']=='COMPLETE' and ticket['run_id']!=run_id:raise ValueError('model run immutable')
+                db.execute("UPDATE model_runs SET state='COMPLETE',run_id=? WHERE campaign=?",(run_id,campaign))
+
+    def fail_model(self,campaign,error):
+        with self.connect() as db:
+            db.execute("UPDATE model_runs SET state='FAILED',error=? WHERE campaign=? AND state='RESERVED'",(error,campaign))
+
+    def feedback(self,campaign):
+        snapshot=self.snapshot(campaign)
+        available={e['proposal']:json.loads(e['evidence']) for e in snapshot['evaluations'] if e['state']=='COMPLETE'}
+        for row in snapshot['model_results']:
+            # Preserve original screen and add the authoritative later stage.
+            available[row['proposal']]={**available[row['proposal']],
+                'model':json.loads(row['evidence']),'latest_stage':'rolling_model',
+                'latest_decision':json.loads(row['evidence'])['decision']}
+        return available

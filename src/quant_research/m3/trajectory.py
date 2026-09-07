@@ -14,13 +14,14 @@ def retrieve(ledger, campaign, query='', limit=10):
     if not isinstance(query,str) or len(query)>2000 or type(limit) is not int or not 1<=limit<=50:
         raise ValueError('invalid memory query or limit')
     snapshot=ledger.snapshot(campaign)
+    stage_feedback=ledger.feedback(campaign)
     outcomes={e['proposal']:e for e in snapshot['evaluations'] if e['state']=='COMPLETE'}
     terms=set(re.findall(r'\w+',query.casefold()))
     records=[]
     for proposal in snapshot['proposals']:
         outcome=outcomes.get(proposal['id'])
         if outcome is None:continue
-        evidence=json.loads(outcome['evidence'])
+        evidence=stage_feedback[proposal['id']]
         if evidence.get('scope')!='research_only' or evidence.get('protected_accessed') is not False:
             raise ValueError('non-research evidence in trajectory memory')
         spec=json.loads(snapshot['campaign']['spec'])
@@ -43,7 +44,7 @@ def refine(ledger,campaign,parents,endpoint,brief):
     # Read all admitted outcomes, not the top-N search results.
     snapshot=ledger.snapshot(campaign)
     proposals={p['id']:p for p in snapshot['proposals']}
-    outcomes={e['proposal']:json.loads(e['evidence']) for e in snapshot['evaluations'] if e['state']=='COMPLETE'}
+    outcomes=ledger.feedback(campaign)
     if any(p not in proposals or p not in outcomes for p in parents):
         raise ValueError('all parents need completed research evaluations')
     round_number=1+max(proposals[p]['round'] for p in parents)

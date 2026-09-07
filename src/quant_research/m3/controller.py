@@ -10,6 +10,7 @@ from .pipeline import sha, run as screen_run
 from ..factors.engine import strict_write_json as write
 from ..factors.registry import FactorRegistry
 from ..m2.family_screen import checked_artifact
+from .increment import run as increment_run, survivors
 
 
 def seed_existing(root, ledger):
@@ -120,6 +121,92 @@ def attach_screen(root,ledger,campaign,screen,proposal_ids):
 
 def evaluate(root,ledger,campaign,proposal_ids):
     batch=prepare_evaluation(root,ledger,campaign,proposal_ids)
-    output=screen_run(root,batch)
+    try:
+        output=screen_run(root,batch)
+    except Exception as exc:
+        # This invocation is known terminal. An abrupt process death instead
+        # leaves RESERVED and cannot authorize another execution on restart.
+        ledger.fail_evaluations(proposal_ids,type(exc).__name__)
+        raise
     attach_screen(root,ledger,campaign,output,proposal_ids)
     return output
+
+
+def freeze_campaign(root,ledger,campaign,selected):
+    root=Path(root).resolve()
+    protocols={name:sha(root/name) for name in ['configs/m3/increment.json','configs/factors/m2_rolling.json']}
+    # Recompute admission against the real registry instead of trusting ledger text.
+    snapshot=ledger.snapshot(campaign);proposals={p['id']:p for p in snapshot['proposals']}
+    evaluations={e['proposal']:e for e in snapshot['evaluations'] if e['state']=='COMPLETE'}
+    for proposal in selected:
+        if proposal not in proposals or proposal not in evaluations:raise ValueError('selected proposal lacks completed screen')
+        screen=root/'experiments/m3'/evaluations[proposal]['run_id']
+        accepted,_=survivors(screen,FactorRegistry(root/'data/factor_registry.sqlite'))
+        h=ResearchHypothesis(**json.loads(proposals[proposal]['payload']))
+        if h.hypothesis_id not in {a.hypothesis_id for a in accepted}:raise ValueError('selected proposal failed numerical screening')
+    frozen=ledger.freeze(campaign,selected,protocols)
+    directory=root/'experiments/m3_campaigns'/campaign;directory.mkdir(parents=True,exist_ok=True)
+    write(directory/'freeze.json',frozen)
+    return frozen
+
+
+def attach_model(root,ledger,campaign,run,proposal_ids,legacy=False):
+    """Import a checksummed numerical model outcome, never an evaluator's prose."""
+    root=Path(root).resolve();run=Path(run).resolve()
+    if not 1<=len(proposal_ids)<=3 or len(set(proposal_ids))!=len(proposal_ids):raise ValueError('distinct model proposals required')
+    manifest=json.loads((run/'artifact_hashes.json').read_text())
+    read=lambda name:json.loads(checked_artifact(run,name,manifest).read_text())
+    status=read('status.json');admission=read('admission.json');config=read('config.json')
+    comparisons=read('comparisons.json');numeric=config['numeric_protocol']
+    if status.get('status')!='PASS' or status.get('qualification')!='SEALED' or status.get('lockbox')!='SEALED':
+        raise ValueError('model result must be a completed sealed research run')
+    snapshot=ledger.snapshot(campaign);proposals={p['id']:p for p in snapshot['proposals']}
+    if not legacy:
+        if not snapshot['freezes'] or not snapshot['model_runs']:raise ValueError('campaign model execution was not reserved')
+        frozen=json.loads(snapshot['freezes'][0]['payload'])
+        if set(frozen['selected'])!=set(proposal_ids):raise ValueError('model outcome must cover the frozen selection')
+        for path,expected in frozen['protocols'].items():
+            # The adapter is in each model snapshot; the underlying rolling protocol
+            # is verified through its pinned digest in that adapter.
+            if path=='configs/m3/increment.json' and sha(run/'source'/path)!=expected:
+                raise ValueError('model adapter differs from campaign freeze')
+            if path=='configs/factors/m2_rolling.json' and config['adapter_protocol']['rolling_protocol_sha256']!=expected:
+                raise ValueError('model protocol differs from campaign freeze')
+    expected_hypotheses=[ResearchHypothesis(**json.loads(proposals[p]['payload'])) for p in proposal_ids]
+    if {h.hypothesis_id for h in expected_hypotheses}!={ResearchHypothesis(**h).hypothesis_id for h in admission['candidates']}:
+        raise ValueError('model candidate set differs from requested proposals')
+    registered={r['factor_id']:r['report'] for r in FactorRegistry(root/'data/factor_registry.sqlite').evaluations() if r['run_id']==run.name}
+    rows=[]
+    for proposal,h in zip(proposal_ids,expected_hypotheses):
+        record=registered.get(h.factor().factor_id);result=comparisons['ADD_'+h.name]
+        screen_run=admission.get('screen_by_hypothesis',{}).get(h.hypothesis_id,admission['screen_run'])
+        if (record is None or record.get('model_increment')!=result or record.get('screen_run')!=screen_run
+                or record.get('hypothesis_id')!=h.hypothesis_id or record.get('independent_alpha') is not False):
+            raise ValueError('model result differs from numerical registry')
+        rows.append((proposal,{'scope':'research_only','protected_accessed':False,'period':numeric['evaluation_period'],
+                              'stage':'rolling_model','screen_run':screen_run,'model_run':run.name,
+                              'decision':result['decision'],'comparison':result,'result_sha256':sha(run/'comparisons.json'),
+                              'interpretation':'HISTORICAL_RESEARCH_ONLY; no independent alpha or protected-period admission'}))
+    ledger.record_model_results(campaign,rows,run.name,'LEGACY_VERIFIED_IMPORT' if legacy else 'CAMPAIGN_MODEL')
+    return ledger.snapshot(campaign)
+
+
+def model_increment(root,ledger,campaign):
+    root=Path(root).resolve();snapshot=ledger.snapshot(campaign)
+    if not snapshot['freezes']:raise ValueError('freeze campaign before model execution')
+    frozen=json.loads(snapshot['freezes'][0]['payload'])
+    if not frozen['selected']:return {'decision':'NO_ENTRY','fits':0,'portfolios':0}
+    for path,expected in frozen['protocols'].items():
+        if sha(root/path)!=expected:raise ValueError('model protocol changed after campaign freeze')
+    selected=frozen['selected'];proposals={p['id']:p for p in frozen['proposals']}
+    evaluations={e['proposal']:e for e in frozen['evaluations']}
+    screens=list(dict.fromkeys(root/'experiments/m3'/evaluations[p]['run_id'] for p in selected))
+    hypotheses=[ResearchHypothesis(**json.loads(proposals[p]['payload'])).hypothesis_id for p in selected]
+    ledger.reserve_model(campaign)
+    try:
+        result=increment_run(root,screens[0],selection=hypotheses,more_screens=screens[1:])
+    except Exception as exc:
+        ledger.fail_model(campaign,type(exc).__name__)
+        raise
+    attach_model(root,ledger,campaign,result,selected)
+    return {'model_directory':str(result),'campaign':campaign}

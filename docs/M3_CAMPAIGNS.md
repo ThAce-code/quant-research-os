@@ -46,11 +46,53 @@ the model; rejected parents are preserved. Refinement cannot reset budgets.
 `memory` uses deterministic lexical matching, keeps negative outcomes, and does
 not rank records by profit. Only completed, in-period research records enter it.
 
+`loop CAMPAIGN ENDPOINT_JSON BRIEF_FILE` runs the bounded generation/screen/refine
+cycle. Its model endpoint, brief, schema and deterministic parent-selection policy
+are bound on first invocation. In each later round it chooses at most the first
+two evaluated proposals from the preceding round, by ID. It does not rank parents
+by profit. Completed model responses are replayed without new requests. A reserved
+or failed execution stops the loop for evidence-based recovery, without retries.
+The loop has passed controlled HTTP/evaluator tests; real LLM multi-round runtime
+acceptance remains pending.
+
 All adaptive feedback is exploratory. A per-batch BH q-value is not correction
-for an entire adaptive campaign and is not independent confirmation. The current
-campaign CLI stops at historical screening; it does not automatically promote
-adaptive search output into the rolling model or protected periods. Campaign-wide
-freeze and model-admission integration remain part of the full M3.x delivery.
+for an entire adaptive campaign and is not independent confirmation. A selected
+model's q-value also does not erase prior adaptive selection. No automatic
+protected-period promotion follows from these historical outcomes.
+
+## Freeze and model stage
+
+New campaigns may set `max_model_runs: 1` before any work. The default is zero;
+old stored specifications retain that default and cannot acquire extra budget by
+reopening them with a changed configuration. One model run means one frozen
+selection of up to three candidates, with the existing maximum 24 fits and seven
+matched portfolios. A terminal failure still consumes the reservation.
+
+```powershell
+python scripts/m3.py freeze CAMPAIGN PROPOSAL_ID [PROPOSAL_ID ...]
+python scripts/m3.py model CAMPAIGN
+```
+
+Freeze rechecks numerical screening admission and saves all proposal attempts,
+evaluations, failed calls, original budgets, loop policy and protocol hashes.
+Outstanding or unmaterialized calls must be resolved first. Freeze ends
+generation and screening; selected definitions and protocols cannot change.
+An empty selection follows NO_ENTRY with no model execution. Candidates from
+different rounds can enter the same matched-model run; each retains its own
+verified screen lineage, and colliding factor names are rejected before loading
+market data. Failed model runs cannot be silently restarted.
+
+`attach-model CAMPAIGN RUN_DIRECTORY PROPOSAL_ID ...` recovers a completed model
+run after attachment failure. Artifacts and numerical registry results must match
+the exact frozen selection and protocols. Model-stage outcomes are immutable and
+appear in memory alongside their original screen outcomes. `latest_decision`
+therefore exposes a later model NO_GO even when the screen was FORWARD.
+
+For a model run already executed under the earlier standalone protocol,
+`attach-model ... --legacy` only imports its verified evidence. It grants no new
+model budget and labels its origin LEGACY_VERIFIED_IMPORT, rather than pretending
+that the earlier execution used the new controller reservation. Alpha34 uses this
+explicit migration path; its original protocol and negative result stay fixed.
 
 ## Recovery
 

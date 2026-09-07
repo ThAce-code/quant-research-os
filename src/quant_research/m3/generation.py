@@ -78,7 +78,7 @@ def generate(ledger, campaign, round_number, endpoint, brief, example, parents=(
         raise ValueError('parents must be distinct earlier accepted proposals')
     if feedback is not None:
         # Only ledger-owned completed research outcomes may inform a refinement.
-        available={v['proposal']:json.loads(v['evidence']) for v in ledger.snapshot(campaign)['evaluations'] if v['state']=='COMPLETE'}
+        available=ledger.feedback(campaign)
         if not parents or feedback != {str(p):available.get(p) for p in parents} or any(available.get(p) is None for p in parents):
             raise ValueError('feedback must exactly match completed research evidence for parents')
     system=('Propose a bounded quantitative research hypothesis, never execute code or trade. '

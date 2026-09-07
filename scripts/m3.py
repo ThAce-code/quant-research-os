@@ -8,9 +8,11 @@ import sys
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'src'))
 from quant_research.m3.campaign import CampaignLedger
-from quant_research.m3.controller import create_campaign,import_candidates,evaluate,attach_screen
+from quant_research.m3.controller import (create_campaign,import_candidates,evaluate,attach_screen,
+                                        freeze_campaign,model_increment,attach_model)
 from quant_research.m3.generation import ModelEndpoint,generate
 from quant_research.m3.trajectory import retrieve,refine
+from quant_research.m3.loop import run_loop
 
 
 def main():
@@ -31,6 +33,12 @@ def main():
     memory.add_argument('--limit',type=int,default=10)
     improve=sub.add_parser('refine');improve.add_argument('campaign');improve.add_argument('endpoint',type=Path)
     improve.add_argument('brief',type=Path);improve.add_argument('parents',type=int,nargs='+')
+    freeze=sub.add_parser('freeze');freeze.add_argument('campaign');freeze.add_argument('proposals',type=int,nargs='*')
+    model=sub.add_parser('model');model.add_argument('campaign')
+    model_attach=sub.add_parser('attach-model');model_attach.add_argument('campaign');model_attach.add_argument('run',type=Path)
+    model_attach.add_argument('proposals',type=int,nargs='+');model_attach.add_argument('--legacy',action='store_true')
+    loop=sub.add_parser('loop');loop.add_argument('campaign');loop.add_argument('endpoint',type=Path)
+    loop.add_argument('brief',type=Path);loop.add_argument('--example',type=Path,default=ROOT/'configs/m3/paper_pilot.json')
     args=parser.parse_args();ledger=CampaignLedger(ROOT/'data/m3_campaigns.sqlite')
     if args.command=='create':
         _,spec,seed=create_campaign(ROOT,args.spec);result={'campaign':asdict(spec),'seed_audit':seed}
@@ -39,9 +47,15 @@ def main():
     elif args.command=='evaluate':result={'screen_directory':str(evaluate(ROOT,ledger,args.campaign,args.proposals))}
     elif args.command=='attach-screen':result=attach_screen(ROOT,ledger,args.campaign,args.screen,args.proposals)
     elif args.command=='recover-call':result=ledger.materialize_call(args.campaign,args.ticket)
+    elif args.command=='freeze':result=freeze_campaign(ROOT,ledger,args.campaign,args.proposals)
+    elif args.command=='model':result=model_increment(ROOT,ledger,args.campaign)
+    elif args.command=='attach-model':result=attach_model(ROOT,ledger,args.campaign,args.run,args.proposals,args.legacy)
     elif args.command=='memory':result=retrieve(ledger,args.campaign,args.query,args.limit)
     elif args.command=='refine':result=refine(ledger,args.campaign,args.parents,
         ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8'))),args.brief.read_text(encoding='utf-8'))
+    elif args.command=='loop':result=run_loop(ROOT,ledger,args.campaign,
+        ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8'))),args.brief.read_text(encoding='utf-8'),
+        json.loads(args.example.read_text(encoding='utf-8'))['candidates'][0])
     else:
         endpoint=ModelEndpoint(**json.loads(args.endpoint.read_text(encoding='utf-8')))
         example=json.loads(args.example.read_text(encoding='utf-8'))['candidates'][0]
