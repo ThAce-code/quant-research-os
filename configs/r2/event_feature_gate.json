@@ -1,0 +1,45 @@
+{
+  "run_id": "r2_event_feature_gate_v1",
+  "purpose": "Two fixed manual hypotheses evaluated for pre-return data coverage only; no proof of novelty or alpha",
+  "period": [
+    "2015-01-01",
+    "2016-12-31"
+  ],
+  "events": "experiments/r2/r2_integrated_ledger_v2/events.json",
+  "calendar": "data/canonical/baostock_alpha158_csi300_2008_2020/calendar.parquet",
+  "membership": "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet",
+  "controls": "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z",
+  "active_trading_dates": 20,
+  "min_industry_members": 5,
+  "min_cross_section": 30,
+  "min_valid_dates": 40,
+  "min_dates_per_year": 10,
+  "max_return_evaluations": 0,
+  "candidates": [
+    {
+      "id": "R2_GUIDANCE_MIDPOINT",
+      "claim_type": "hypothesis",
+      "source": "human economic hypothesis",
+      "formula": "signed_log1p((printed_yoy_lower + printed_yoy_upper) / 2 / 100); exact points have identical endpoints",
+      "direction": 1,
+      "rationale": "Stronger disclosed earnings guidance may contain information beyond technical features; this is growth guidance, not analyst-consensus surprise."
+    },
+    {
+      "id": "R2_GUIDANCE_LOWER",
+      "claim_type": "hypothesis",
+      "source": "human economic hypothesis",
+      "formula": "signed_log1p(printed_yoy_lower / 100); exact points use the point value",
+      "direction": 1,
+      "rationale": "The conservative endpoint of explicitly disclosed guidance may be informative; no assumption that point guidance has zero uncertainty."
+    }
+  ],
+  "missing_policy": "Approximate points, open bounds, qualitative or quarantined guidance excluded; non-event days null; every newer forecast or express clears the old forecast; no vendor completion",
+  "next_gate": "Only coverage passing candidates may receive a separately frozen return/model protocol; this batch cannot open protected observations or spend an existing study budget",
+  "input_hashes": {
+    "experiments/r2/r2_integrated_ledger_v2/events.json": "633ed4bfef0098a7e4131a45f690c907234892a0fe08cc98a31321853c5840e8",
+    "data/canonical/baostock_alpha158_csi300_2008_2020/calendar.parquet": "60eee224c8065adf99b8897f926b59702799386c7f95ac4b5845068485318bf1",
+    "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a",
+    "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z/log_size.parquet": "0db77dee0c3f6354236829d3ba1a920516e8f301f2744b157521c1a88e27a797",
+    "experiments/m2/m2_model_inputs_v1/20260906T092519215478Z/industry.parquet": "66e644daff65614ec9da11d13b82bfe72abe131364a5da9983686220cedb111d"
+  }
+}
