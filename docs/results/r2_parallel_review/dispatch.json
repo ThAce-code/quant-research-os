@@ -1,0 +1,15 @@
+{
+  "purpose": "User-authorized lightweight-model primary-document draft extraction; deterministic evidence checks and root review required before any admission",
+  "model": "gpt-5.6-luna",
+  "documents": 90,
+  "selection": "First 90 pending forecast/warning-title documents ordered by BaoStock pending-map priority, notice date, code, ID; title selects tasks only, not verified period",
+  "remaining_forecast_title_documents": 25,
+  "network_requests_allowed": 0,
+  "research_admission": false,
+  "source_documents_sha256": "d192906b56a681e024ccc5a06f7cce08bceceff492550070085d8432fd7b7254",
+  "assignments": {
+    "assignment_1.json": "f3aae4ca927802033a539c937fa6e21445d53258976c2bd0e4ba087151b2020b",
+    "assignment_2.json": "28a9ecfb60885701c773b3d9e04befc0ab47d374341af9022ae90e6be644c82b",
+    "assignment_3.json": "b7baf7060c63e64cfe4acbf7a00b4ed1dfe4279bea5d051a86708c97b33b4cb3"
+  }
+}

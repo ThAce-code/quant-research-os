@@ -1,0 +1,15 @@
+{
+  "run_id": "r2_parallel_review_v1",
+  "local_manifest_sha256": "c39cfc72d6fc7ef752f459259e436a550d9f0f1837c7ebd6ddb7d061287da021",
+  "local_artifacts_sealed": 31,
+  "primary_document_catalog_sha256": "d192906b56a681e024ccc5a06f7cce08bceceff492550070085d8432fd7b7254",
+  "primary_pdf_and_text_hashes_verified": 180,
+  "worker_sha256": {
+    "worker_1.json": "c4526f46dc726a1cf649fd7909404a808583132c06001d091b280ba1c9a0a68a",
+    "worker_2.json": "224c74062cddf0dbf265d7e2d5f8242ecf2f5fecf4ae017615cb63e45c98efa6",
+    "worker_3.json": "50dff3024b6c2c96ca6c51c42e37c292964ad758dbd0f3c3022e5df587060ae4"
+  },
+  "auditor_sha256": "8122cd08c1d3ad24dc6c62438d0bd0b7e294160d4382c439d86df946f0809946",
+  "review_scope": "90 current profit/YoY text snippets; not full-document visual or complete-version review",
+  "observed_at_utc": "2026-09-08T04:00:30.435623+00:00"
+}

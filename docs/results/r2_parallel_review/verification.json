@@ -1,0 +1,19 @@
+{
+  "old_public_evidence_hashes_verified": 424,
+  "baseline_identity": "PASS",
+  "registries": {
+    "factor_registry.sqlite": {
+      "sha256": "4c3263e9868fea8912f598636678ec6e072c3cc22c3bb37b19c8ab981ddc2ed7",
+      "unchanged": true
+    },
+    "m2_factor_registry.sqlite": {
+      "sha256": "0939ae50af4d8e7c4090a51ceb88b1e06e820ce0d130adf1a3d850007565f6e6",
+      "unchanged": true
+    }
+  },
+  "new_unittest_passed": 8,
+  "existing_targeted_pytest_passed": 13,
+  "protected_observations_accessed": 0,
+  "new_network_requests": 0,
+  "new_factor_evaluations": 0
+}

@@ -1,0 +1,50 @@
+{
+  "run_id": "r2_parallel_review_v1",
+  "observed_at_utc": "2026-09-08T04:00:30.435623+00:00",
+  "implementation_commit": "e6f5e54",
+  "workers": 3,
+  "model": "gpt-5.6-luna",
+  "documents": 90,
+  "validation_rounds": [
+    {
+      "round": 1,
+      "PASS_EVIDENCE_CHECKS_ONLY": 71,
+      "REJECT_DRAFT_PENDING_CORRECTION": 19
+    },
+    {
+      "round": 2,
+      "PASS_EVIDENCE_CHECKS_ONLY": 89,
+      "REJECT_DRAFT_PENDING_CORRECTION": 1
+    },
+    {
+      "round": 3,
+      "PASS_EVIDENCE_CHECKS_ONLY": 90
+    }
+  ],
+  "parent_profit_value_kinds": {
+    "RANGE": 70,
+    "MISSING": 15,
+    "APPROX_POINT": 5
+  },
+  "yoy_value_kinds": {
+    "RANGE": 65,
+    "MISSING": 14,
+    "POINT": 1,
+    "OPEN_LOWER": 2,
+    "APPROX_POINT": 8
+  },
+  "signature_dates_missing": 30,
+  "basis_quarantines": [
+    "1200833583",
+    "1200826551"
+  ],
+  "cumulative_transcribed_documents": 120,
+  "remaining_untranscribed_content_pending_documents": 90,
+  "new_transcriptions_pending_ledger_integration": 90,
+  "existing_formal_ledger_events_unchanged": 28,
+  "new_verified_version_links": 0,
+  "research_admission": false,
+  "new_factor_evaluations": 0,
+  "new_network_requests": 0,
+  "protected_observations_accessed": 0
+}

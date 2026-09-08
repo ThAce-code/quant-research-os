@@ -1,0 +1,160 @@
+Command for every retained RED/GREEN run: python -m unittest discover -s tests -p test_r2_parallel_transcriptions.py -v
+
+FILE: tests_red.log
+test_r2_parallel_transcriptions (unittest.loader._FailedTest.test_r2_parallel_transcriptions) ... ERROR
+
+======================================================================
+ERROR: test_r2_parallel_transcriptions (unittest.loader._FailedTest.test_r2_parallel_transcriptions)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_r2_parallel_transcriptions
+Traceback (most recent call last):
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_parallel_transcriptions.py", line 8, in <module>
+    from audit_r2_parallel_transcriptions import validate_record
+ModuleNotFoundError: No module named 'audit_r2_parallel_transcriptions'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+
+
+FILE: tests_green.log
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK
+
+
+FILE: tests_sign_red.log
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... FAIL
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+======================================================================
+FAIL: test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_parallel_transcriptions.py", line 47, in test_loss_or_decline_cannot_silently_flip_positive
+    self.assertIn('LOSS_SIGN_CONFLICT',validate_record(r,self.doc,self.text)['errors'])
+AssertionError: 'LOSS_SIGN_CONFLICT' not found in []
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=1)
+
+
+FILE: tests_sign_green.log
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
+
+
+FILE: tests_point_red.log
+test_approximate_point_is_not_a_lower_bound (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_approximate_point_is_not_a_lower_bound) ... FAIL
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+======================================================================
+FAIL: test_approximate_point_is_not_a_lower_bound (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_approximate_point_is_not_a_lower_bound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_parallel_transcriptions.py", line 55, in test_approximate_point_is_not_a_lower_bound
+    self.assertIn('VALUE_KIND_CONFLICT:parent_profit',validate_record(r,self.doc,self.text)['errors'])
+AssertionError: 'VALUE_KIND_CONFLICT:parent_profit' not found in []
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.003s
+
+FAILED (failures=1)
+
+
+FILE: tests_point_green.log
+test_approximate_point_is_not_a_lower_bound (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_approximate_point_is_not_a_lower_bound) ... ok
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK
+
+
+FILE: tests_formats_red.log
+test_approximate_point_is_not_a_lower_bound (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_approximate_point_is_not_a_lower_bound) ... ok
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_explicit_dotted_dates_and_rmb_yi_unit (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_explicit_dotted_dates_and_rmb_yi_unit) ... FAIL
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+======================================================================
+FAIL: test_explicit_dotted_dates_and_rmb_yi_unit (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_explicit_dotted_dates_and_rmb_yi_unit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_parallel_transcriptions.py", line 68, in test_explicit_dotted_dates_and_rmb_yi_unit
+    self.assertEqual(validate_record(r,self.doc,text)['errors'],[])
+AssertionError: Lists differ: ['EXPLICIT_Q1_PERIOD_EVIDENCE_MISSING', 'U[84 chars]uan'] != []
+
+First list contains 3 additional elements.
+First extra element 0:
+'EXPLICIT_Q1_PERIOD_EVIDENCE_MISSING'
+
++ []
+- ['EXPLICIT_Q1_PERIOD_EVIDENCE_MISSING',
+-  'UNIT_NOT_IN_QUOTE:parent_profit_lower_yuan',
+-  'UNIT_NOT_IN_QUOTE:parent_profit_upper_yuan']
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+FAILED (failures=1)
+
+
+FILE: tests_formats_green.log
+test_approximate_point_is_not_a_lower_bound (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_approximate_point_is_not_a_lower_bound) ... ok
+test_currency_scale_and_unprinted_yoy_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_currency_scale_and_unprinted_yoy_fail) ... ok
+test_explicit_dotted_dates_and_rmb_yi_unit (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_explicit_dotted_dates_and_rmb_yi_unit) ... ok
+test_fabricated_quote_and_page_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_fabricated_quote_and_page_fail) ... ok
+test_loss_and_decline_keep_signs_and_units (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_and_decline_keep_signs_and_units) ... ok
+test_loss_or_decline_cannot_silently_flip_positive (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_loss_or_decline_cannot_silently_flip_positive) ... ok
+test_unknown_period_cannot_admit_values (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unknown_period_cannot_admit_values) ... ok
+test_unordered_range_and_nan_fail (test_r2_parallel_transcriptions.TranscriptionEvidenceTests.test_unordered_range_and_nan_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.002s
+
+OK

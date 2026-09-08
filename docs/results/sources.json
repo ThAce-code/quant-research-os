@@ -1694,5 +1694,37 @@
   "docs/results/r2_event_ledger/version_links.json": {
     "source_run": "r2_event_ledger_v1",
     "sha256": "c926b39ef1065c2da5a100f0207d12f43ce92fd00a0ac9dd4a73f36fb55f4279"
+  },
+  "docs/results/r2_parallel_review/dispatch.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "2ac4fd1ae5f85eb35bcdf2285f8f4de3a5cb801486a12a992355d796b69e5939"
+  },
+  "docs/results/r2_parallel_review/report.md": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "d1046f5d5402847840b74827db3f482ff5d4c191d3aa2eebd9cd70d4d2db0aae"
+  },
+  "docs/results/r2_parallel_review/source_binding.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "e9ab97ed0a2495c10f3e4012627530f38f646c33baa3bbb3237cccf990d3376c"
+  },
+  "docs/results/r2_parallel_review/summary.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "ea87b3e0b526c720c6f2a0bac04d22e7fd8a4aa5751cea83acd3f19da6d27cd9"
+  },
+  "docs/results/r2_parallel_review/test_evidence.txt": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "59296ffebdfc8d3e1c0f7a9a796b6858213bbb2e96a8140e8bf4ceeed0c0152f"
+  },
+  "docs/results/r2_parallel_review/transcriptions.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "bf44af6bcbc9732d151c471114a81e75d8e5b76d5625b6d8bf8306e76d493af7"
+  },
+  "docs/results/r2_parallel_review/validation.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "ca34c34664324ec63b7838e95bd8a9809758ff6b56b893e5814399205d06c69e"
+  },
+  "docs/results/r2_parallel_review/verification.json": {
+    "source_run": "r2_parallel_review_v1",
+    "sha256": "704f0c37042af631bd26b48540006867b81bfecdc14a32f7c8946583ffd15a4a"
   }
 }
