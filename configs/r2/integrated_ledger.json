@@ -1,0 +1,40 @@
+{
+  "run_id": "r2_integrated_ledger_v2",
+  "purpose": "Integrate all completed primary transcriptions and resolve document dispositions; no returns or factor evaluation",
+  "transcription_sources": [
+    "docs/results/r2_parallel_review/transcriptions.json",
+    "experiments/r2/r2_remaining_review_v1/root_transcriptions.json"
+  ],
+  "periods": [
+    "2015-03-31",
+    "2016-03-31"
+  ],
+  "availability_rule": "First trading date strictly after source index date; never signature date",
+  "missing_policy": "Null remains unknown; point, approximate point, open bound and range are distinct; no vendor filling",
+  "research_admission": false,
+  "quarantined_documents": {
+    "1200833583": "QUARANTINED_COMPARISON_BASIS",
+    "1200826551": "QUARANTINED_COMPARISON_BASIS",
+    "1200765605": "QUARANTINED_PARENT_PROFIT_DEFINITION",
+    "1200918980": "QUARANTINED_PARENT_PROFIT_DEFINITION",
+    "1200918981": "QUARANTINED_PARENT_PROFIT_DEFINITION"
+  },
+  "explicit_non_target_documents": [
+    "1200921653"
+  ],
+  "additional_links": [
+    {
+      "prior": "1202064947",
+      "revision": "1202122795",
+      "status": "VERIFIED_LOCAL_REFERENCE",
+      "reference_page": 1,
+      "reference_tokens": [
+        "2016年3月22日",
+        "《2016年第一季度业绩预告》",
+        "18,341.79万元—22,272.18万元"
+      ],
+      "basis": "Root checked prior PDF code300017/2016Q1 and amount18341.79..22272.18万元 against exact later reference; current revision20962.05..24892.43万元 is never backfilled",
+      "archive_recall_complete": false
+    }
+  ]
+}
