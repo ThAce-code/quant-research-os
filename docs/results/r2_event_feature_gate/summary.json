@@ -1,0 +1,39 @@
+{
+  "run_id": "r2_event_feature_gate_v1",
+  "candidates": [
+    {
+      "candidate": "R2_GUIDANCE_MIDPOINT",
+      "raw_observed_cells": 1837,
+      "raw_max_cross_section": 46,
+      "neutralized_observed_cells": 0,
+      "eligible_dates": 0,
+      "eligible_dates_by_year": {
+        "2015": 0,
+        "2016": 0
+      },
+      "gate": "NO_GO_DATA_COVERAGE",
+      "research_admission": false,
+      "alpha_confirmed": false
+    },
+    {
+      "candidate": "R2_GUIDANCE_LOWER",
+      "raw_observed_cells": 1837,
+      "raw_max_cross_section": 46,
+      "neutralized_observed_cells": 0,
+      "eligible_dates": 0,
+      "eligible_dates_by_year": {
+        "2015": 0,
+        "2016": 0
+      },
+      "gate": "NO_GO_DATA_COVERAGE",
+      "research_admission": false,
+      "alpha_confirmed": false
+    }
+  ],
+  "price_or_label_reads": false,
+  "return_evaluations": 0,
+  "full_technical_increment_tested": false,
+  "independent_alpha_confirmed": false,
+  "qualification_executed": false,
+  "lockbox_executed": false
+}

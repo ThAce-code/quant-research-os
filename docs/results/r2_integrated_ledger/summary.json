@@ -1,0 +1,47 @@
+{
+  "run_id": "r2_integrated_ledger_v2",
+  "documents": 211,
+  "document_status_counts": {
+    "REVIEWED_NUMERIC_PRIMARY_FACTS": 25,
+    "REVIEWED_PRIMARY_TRANSCRIPTION": 130,
+    "QUARANTINED_PRIMARY_FACTS": 3,
+    "REVIEWED_QUALITATIVE_ONLY": 2,
+    "EXCLUDED_NON_TARGET_EVENT": 14,
+    "QUARANTINED_COMPARISON_BASIS": 2,
+    "UNRESOLVED_CONTENT_SEARCH": 30,
+    "QUARANTINED_CANCELLED_TIME_UNKNOWN": 2,
+    "QUARANTINED_PARENT_PROFIT_DEFINITION": 3
+  },
+  "new_transcriptions_checked": 180,
+  "events": 163,
+  "event_status_counts": {
+    "REVIEWED_PRIMARY_TRANSCRIPTION": 130,
+    "QUARANTINED_PARENT_PROFIT_DEFINITION": 2,
+    "REVIEWED_NUMERIC_PRIMARY_FACTS": 24,
+    "QUARANTINED_COMPARISON_BASIS": 2,
+    "REVIEWED_QUALITATIVE_ONLY": 2,
+    "QUARANTINED_PRIMARY_FACTS": 3
+  },
+  "event_kind_counts": {
+    "forecast": 153,
+    "express": 10
+  },
+  "member_numeric_nonquarantined_events": 149,
+  "vendor_mapping_counts": {
+    "MATCHED_PRIMARY_EVENT": 147,
+    "NO_SAME_DATE_PRIMARY_IN_ARCHIVE": 1,
+    "PRIMARY_QUARANTINE": 5,
+    "PRIMARY_CONTENT_PENDING": 3
+  },
+  "vendor_growth_diagnostics": {
+    "NOT_COMPARABLE_VALUE_KIND": 48,
+    "AGREES_WITHIN_0_011_PP": 88,
+    "QUARANTINED_PRIMARY": 5,
+    "SOURCE_DIFFERENCE": 1
+  },
+  "verified_local_links": 3,
+  "causal_checks": 90,
+  "archive_recall_complete": false,
+  "research_admission": false,
+  "new_factor_evaluations": 0
+}

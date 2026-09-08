@@ -1,0 +1,74 @@
+[
+  {
+    "prior": "1200574709",
+    "revision": "1200800371",
+    "status": "VERIFIED_LOCAL_REFERENCE",
+    "reference_page": 1,
+    "reference_tokens": [
+      "2015年1月24日",
+      "2015-11",
+      "增长0-20%"
+    ],
+    "note": "Original 2015-011 and cited 2015-11 differ only in zero padding; original PDF independently archived",
+    "revision_event_id": "300358_2015-03-31_2015-04-09_forecast_1",
+    "archive_recall_complete": false,
+    "prior_event_id": "300358_2015-03-31_2015-01-24_forecast_1"
+  },
+  {
+    "prior": "1200633670",
+    "revision": "1200788295",
+    "status": "VERIFIED_LOCAL_REFERENCE",
+    "reference_page": 1,
+    "reference_tokens": [
+      "2015年2月13日",
+      "2014年度报告摘要",
+      "360％~390%"
+    ],
+    "note": "Reference date, annual-summary title and original growth range match the independently archived original",
+    "revision_event_id": "002252_2015-03-31_2015-04-04_forecast_1",
+    "archive_recall_complete": false,
+    "prior_event_id": "002252_2015-03-31_2015-02-13_forecast_1"
+  },
+  {
+    "prior": "1200705304",
+    "revision": "1200809462",
+    "status": "UNRESOLVED_REFERENCE_ID_CONFLICT",
+    "reference_page": 1,
+    "reference_tokens": [
+      "2015年03月17日",
+      "2015-017"
+    ],
+    "note": "Original is numbered 2015-014; do not certify or manufacture an intermediate document",
+    "revision_event_id": "300341_2015-03-31_2015-04-10_forecast_1",
+    "archive_recall_complete": false,
+    "prior_event_id": "300341_2015-03-31_2015-03-17_forecast_1"
+  },
+  {
+    "prior": null,
+    "revision": "1202178462",
+    "status": "EXPLICIT_NO_PRIOR_DISCLOSED",
+    "reference_page": 1,
+    "reference_tokens": [
+      "故公司未披露2016年第一季度业绩预告"
+    ],
+    "note": "Missing predecessor is not a zero forecast",
+    "revision_event_id": "002658_2016-03-31_2016-04-15_forecast_1",
+    "archive_recall_complete": false,
+    "prior_event_id": null
+  },
+  {
+    "prior": "1202064947",
+    "revision": "1202122795",
+    "status": "VERIFIED_LOCAL_REFERENCE",
+    "reference_page": 1,
+    "reference_tokens": [
+      "2016年3月22日",
+      "《2016年第一季度业绩预告》",
+      "18,341.79万元—22,272.18万元"
+    ],
+    "basis": "Root checked prior PDF code300017/2016Q1 and amount18341.79..22272.18万元 against exact later reference; current revision20962.05..24892.43万元 is never backfilled",
+    "archive_recall_complete": false,
+    "revision_event_id": "300017_2016-03-31_2016-03-31_forecast_1",
+    "prior_event_id": "300017_2016-03-31_2016-03-22_forecast_1"
+  }
+]

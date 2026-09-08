@@ -1,0 +1,17 @@
+{
+  "old_public_hashes_verified": 432,
+  "sealed_run_artifact_counts_verified": {
+    "r2_parallel_review_v1": 31,
+    "r2_integrated_ledger_v2": 9,
+    "r2_event_feature_gate_v1": 8
+  },
+  "baseline_identity": "PASS",
+  "registry_sha256_unchanged": {
+    "factor_registry.sqlite": "4c3263e9868fea8912f598636678ec6e072c3cc22c3bb37b19c8ab981ddc2ed7",
+    "m2_factor_registry.sqlite": "0939ae50af4d8e7c4090a51ceb88b1e06e820ce0d130adf1a3d850007565f6e6"
+  },
+  "new_unittest_passed": 9,
+  "existing_targeted_tests_passed": 21,
+  "price_or_label_reads": false,
+  "new_alpha_evaluations": 0
+}

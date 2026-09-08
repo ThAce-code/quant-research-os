@@ -1,0 +1,11 @@
+{
+  "run_id": "r2_integrated_ledger_v2",
+  "observed_at_utc": "2026-09-08T05:17:01.071202+00:00",
+  "source_name": "CNINFO archived primary documents; BaoStock diagnostic snapshot",
+  "collection_method": "Offline source-text extraction, typed integration, one root PDF visual correction, canonical calendar/membership recomputation",
+  "remaining_review_manifest_sha256": "3e9c506e5cb4ab5df37f47ab7341144d5fd01a6f8f2b409e3167fd82e30c441b",
+  "remaining_review_artifact_count": 20,
+  "integrated_ledger_manifest_sha256": "8f244fee8d54cdf572c4a1ac6c955a4a5db83accf1816b2e57849c0b9750f25a",
+  "primary_catalog_sha256": "d192906b56a681e024ccc5a06f7cce08bceceff492550070085d8432fd7b7254",
+  "research_admission": false
+}

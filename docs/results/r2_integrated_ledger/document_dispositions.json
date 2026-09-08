@@ -1,0 +1,6565 @@
+[
+  {
+    "announcement_id": "1200574709",
+    "code": "300358",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-01-24",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 42340000,
+      "parent_profit_upper_yuan": 50810000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1200656876",
+    "code": "300146",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-02-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：约 15,984.28 万元-19,536.34 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：-10%-10%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年二月二十七日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 159842800,
+      "parent_profit_upper_yuan": 195363400,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 10,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200698798",
+    "code": "300017",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：12,150.41 万元-14,175.47 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：50%-75%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 121504100,
+      "parent_profit_upper_yuan": 141754700,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 75,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200698940",
+    "code": "000963",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-14",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利 31,300 万元～34,300 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "与上年同期相比上升：55%～70%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2015 年 3 月 12 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 313000000,
+      "parent_profit_upper_yuan": 343000000,
+      "yoy_lower_percent": 55,
+      "yoy_upper_percent": 70,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200705304",
+    "code": "300341",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-17",
+    "title": "2015年第一季度业绩预告",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 8554100.0,
+      "parent_profit_upper_yuan": 9537900.0,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200710992",
+    "code": "300133",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-18",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年第一季度预告（2015.1.1 至 2015.3.31）"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "7,522.25 万元至 8650.59 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：0%-15%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 3 月 17 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 75222500,
+      "parent_profit_upper_yuan": 86505900,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 15,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200719376",
+    "code": "300124",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-20",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：12,026 万元 - 13,229 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：0% - 10%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年三月十九日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 120260000,
+      "parent_profit_upper_yuan": 132290000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 10,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200728747",
+    "code": "600028",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-23",
+    "title": "2015年第一季度业绩预警公告",
+    "status": "REVIEWED_QUALITATIVE_ONLY",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年1月1日至2015年3月31日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "预计将处于盈亏平衡点附近。"
+      }
+    ],
+    "review_issues": [
+      "Qualitative warning near break-even; no numeric parent-profit range or YoY bounds.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200749612",
+    "code": "300027",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-27",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：20,311.63 万元 – 27,697.68 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：25% - 45%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年三月二十六日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 203116300,
+      "parent_profit_upper_yuan": 276976800,
+      "yoy_lower_percent": -45,
+      "yoy_upper_percent": -25,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200753191",
+    "code": "002001",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日—2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：6,106.08万元—10,176.81万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期：-70% — -50%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015年3月28日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 61060800,
+      "parent_profit_upper_yuan": 101768100,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -50,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200752934",
+    "code": "002475",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-28",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：14,435.45 万元–16,239.87 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：60% – 80%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 144354500,
+      "parent_profit_upper_yuan": 162398700,
+      "yoy_lower_percent": 60,
+      "yoy_upper_percent": 80,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200763833",
+    "code": "000402",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日—2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：约 74,976 万元—88,364 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期上升：约 180%—230%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 3 月 31 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 749760000,
+      "parent_profit_upper_yuan": 883640000,
+      "yoy_lower_percent": 180,
+      "yoy_upper_percent": 230,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200766426",
+    "code": "300015",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年一季度业绩预告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "约8,197.69万元-8，853.50万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "25%-35%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年三月三十日"
+      }
+    ],
+    "review_issues": [
+      "YoY table cell is a compact percentage entry; direction is established by 同向上升."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 81976900,
+      "parent_profit_upper_yuan": 88535000,
+      "yoy_lower_percent": 25,
+      "yoy_upper_percent": 35,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200764500",
+    "code": "002399",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015年1月1日至2015年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：16,681.50 - 19,520.90 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长（或下降）：135% - 175%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二〇一五年三月三十一日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 166815000,
+      "parent_profit_upper_yuan": 195209000,
+      "yoy_lower_percent": 135,
+      "yoy_upper_percent": 175,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200763726",
+    "code": "002450",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015年1月1日——2015年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：28,213万元–30,303万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：35%–45%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015年3月30日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 282130000,
+      "parent_profit_upper_yuan": 303030000,
+      "yoy_lower_percent": 35,
+      "yoy_upper_percent": 45,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200765473",
+    "code": "002416",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年1月1日至2015年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：5,000 万元–6,000 万元"
+      }
+    ],
+    "review_issues": [
+      "Only qualitative/threshold YoY or no current numeric parent-profit amount disclosed.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 50000000,
+      "parent_profit_upper_yuan": 60000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200765228",
+    "code": "600256",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年1月1日至2015年3月31日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将减少约80%左右。"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": -80
+    }
+  },
+  {
+    "announcement_id": "1200767233",
+    "code": "000898",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预警公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：  2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利： 预计人民币 20 百万元左右"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2015 年 3 月 30 日"
+      }
+    ],
+    "review_issues": [
+      "Approximate point forecast; 百万元 is normalized as supported 1m_yuan."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 20000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200770093",
+    "code": "600267",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将减少 100%。"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润：75,587,178.66 元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年三月三十一日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent; only qualitative 100% decrease"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": -100
+    }
+  },
+  {
+    "announcement_id": "1200769104",
+    "code": "002310",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：7,500 万元–8,500 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 3 月 30 日"
+      }
+    ],
+    "review_issues": [
+      "source says 基本持平 but no numeric YoY range; not derived"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -85000000,
+      "parent_profit_upper_yuan": -75000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200764633",
+    "code": "002292",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：6729.17 万元–8224.54 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：35% - 65%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 67291700,
+      "parent_profit_upper_yuan": 82245400,
+      "yoy_lower_percent": 35,
+      "yoy_upper_percent": 65,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200774937",
+    "code": "002008",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-01",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间： 2015 年 1 月1 日--2015 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：6,713.85 万元–7,629.38 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：120% -150%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 3 月31 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 67138500,
+      "parent_profit_upper_yuan": 76293800,
+      "yoy_lower_percent": 120,
+      "yoy_upper_percent": 150,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200782437",
+    "code": "601018",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-03",
+    "title": "2015年3月份及一季度部分生产经营业绩提示性公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "宁波港股份有限公司 2015 年 3 月份及一季度"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200782423",
+    "code": "600649",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年1 月1 日至 2015 年3 月31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增加 250%到300%。"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "净利润：264,104,787.43 元。"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年四月三日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 250,
+      "yoy_upper_percent": 300,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200788295",
+    "code": "002252",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-04",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 376511200,
+      "parent_profit_upper_yuan": 383117300,
+      "yoy_lower_percent": 470,
+      "yoy_upper_percent": 480
+    }
+  },
+  {
+    "announcement_id": "1200797097",
+    "code": "600516",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-08",
+    "title": "2015年一季度业绩预亏公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年一季度业绩预亏公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "于上市公司股东的净利润为-1200 万元左右。"
+      }
+    ],
+    "review_issues": [
+      "Approximate point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": -12000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200795913",
+    "code": "000876",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-08",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年1 月1 日至2015 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：42,500 万元–56,600 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：50%-100%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年四月八日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 425000000,
+      "parent_profit_upper_yuan": 566000000,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 100,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200795541",
+    "code": "600703",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-08",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015年1月1日至2015年3月31日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润比上年同期增长50%以上。"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "净利润：22,802.83万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一五年四月八日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent; open upper YoY bound"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200797342",
+    "code": "600674",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-08",
+    "title": "2015年一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年1月1日至2015年3月31日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增加95%左右。"
+      }
+    ],
+    "review_issues": [
+      "Only qualitative/threshold YoY or no current numeric parent-profit amount disclosed.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": 95
+    }
+  },
+  {
+    "announcement_id": "1200799364",
+    "code": "300070",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日—2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润：约 1884.30 万元-2021.34 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：10% - 18%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二Ο 一五年四月九日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 18843000,
+      "parent_profit_upper_yuan": 20213400,
+      "yoy_lower_percent": 10,
+      "yoy_upper_percent": 18,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200800371",
+    "code": "300358",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 21170000,
+      "parent_profit_upper_yuan": 29640000,
+      "yoy_lower_percent": -50,
+      "yoy_upper_percent": -30
+    }
+  },
+  {
+    "announcement_id": "1200800705",
+    "code": "000623",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：57,000 万元–60,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：146.86 % -159.85%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 4 月 8 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 570000000,
+      "parent_profit_upper_yuan": 600000000,
+      "yoy_lower_percent": 146.86,
+      "yoy_upper_percent": 159.85,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200800236",
+    "code": "600739",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "关于广发证券2015年第一季度业绩预告的公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：246,700 万元–256,700 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：198.58% - 210.69%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 4 月 9 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 2467000000,
+      "parent_profit_upper_yuan": 2567000000,
+      "yoy_lower_percent": 198.58,
+      "yoy_upper_percent": 210.69,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200801158",
+    "code": "600688",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预盈公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "企业会计准则，归属于母公司股东的净利润预计为人民币 4000 万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "到7000 万元之间。"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 40000000,
+      "parent_profit_upper_yuan": 70000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200800232",
+    "code": "600873",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润 1.8 亿元左右"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增长 140%左右"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一五年四月八日"
+      }
+    ],
+    "review_issues": [
+      "Approximate point forecasts expressed with 左右."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 180000000,
+      "yoy_point_percent": 140
+    }
+  },
+  {
+    "announcement_id": "1200800176",
+    "code": "000776",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-09",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：246,700 万元–256,700 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：198.58% - 210.69%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 2467000000,
+      "parent_profit_upper_yuan": 2567000000,
+      "yoy_lower_percent": 198.58,
+      "yoy_upper_percent": 210.69,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200804346",
+    "code": "000728",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元） 71,710.23 36,705.68 95.37%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元） 71,710.23 36,705.68 95.37%"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 717102300,
+      "yoy_point_percent": 95.37
+    }
+  },
+  {
+    "announcement_id": "1200804506",
+    "code": "600867",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015年1 月1 日至2015 年3月31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润比上年同期增长50%-60%"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "净利润：80,341,053.72 元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二O 一五年四月十日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 60,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200803750",
+    "code": "000725",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年1 月1 日—2015 年3 月31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：95,000 万元—100,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：62% - 70%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 950000000,
+      "parent_profit_upper_yuan": 1000000000,
+      "yoy_lower_percent": 62,
+      "yoy_upper_percent": 70,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200804326",
+    "code": "600048",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增加 50%左右。"
+      }
+    ],
+    "review_issues": [
+      "Only qualitative/threshold YoY or no current numeric parent-profit amount disclosed.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": 50
+    }
+  },
+  {
+    "announcement_id": "1200805072",
+    "code": "000783",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年度第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年度第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润 77,244.51 31,200.34 147.58%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润 77,244.51 31,200.34 147.58%"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 772445100,
+      "yoy_point_percent": 147.58
+    }
+  },
+  {
+    "announcement_id": "1200806133",
+    "code": "300251",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：本报告期为 2015 年 1 月 1 日—2015 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：0—549 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期降低：80%—100%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 4 月 9 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 0,
+      "parent_profit_upper_yuan": 5490000,
+      "yoy_lower_percent": -100,
+      "yoy_upper_percent": -80,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200804919",
+    "code": "300024",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年第一季度（2015.1.1-2015.3.31）"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：5,099.86 万元–6,027.11 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：10% - 30%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015年4月9日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 50998600,
+      "parent_profit_upper_yuan": 60271100,
+      "yoy_lower_percent": 10,
+      "yoy_upper_percent": 30,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200805074",
+    "code": "000686",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 54,868 17,820 207.90%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 54,868 17,820 207.90%"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 548680000,
+      "yoy_point_percent": 207.9
+    }
+  },
+  {
+    "announcement_id": "1200809462",
+    "code": "300341",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-10",
+    "title": "2015年第一季度业绩预告修正公告",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 7153400.0,
+      "parent_profit_upper_yuan": 9061000.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": -5
+    }
+  },
+  {
+    "announcement_id": "1200812501",
+    "code": "600029",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-11",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预盈公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "股东的净利润预计为人民币18亿元到20亿元。"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1800000000,
+      "parent_profit_upper_yuan": 2000000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200815252",
+    "code": "600177",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-11",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增加 70%到 90%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年四月十一日"
+      }
+    ],
+    "review_issues": [
+      "Current parent-profit amount is not stated; only prior-period reference 75,948.82 万元 is printed."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 70,
+      "yoy_upper_percent": 90,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200815553",
+    "code": "300058",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-13",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润：-9,588 万元至-11,142 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：191%至 178%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -111420000,
+      "parent_profit_upper_yuan": -95880000,
+      "yoy_lower_percent": -191,
+      "yoy_upper_percent": -178,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200829000",
+    "code": "600893",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -50000000,
+      "parent_profit_upper_yuan": -30000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200826165",
+    "code": "000401",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预计公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预计公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "股东的净利润 亏损：63,977万元–55,447万元 亏损：42,652万元"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -639770000,
+      "parent_profit_upper_yuan": -554470000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200828399",
+    "code": "000039",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "关于2015年一季度业绩预告的公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "约人民币 447,615—511,560 千元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增长250.00%—300.00%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "printed unit is 千元; source_money_unit recorded as 1k_yuan and values normalized to yuan"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 447615000,
+      "parent_profit_upper_yuan": 511560000,
+      "yoy_lower_percent": 250,
+      "yoy_upper_percent": 300,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200826551",
+    "code": "000831",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年一季度业绩预告",
+    "status": "QUARANTINED_COMPARISON_BASIS",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日——2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：200 万元—400 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期上升：24.23%—148.46%"
+      }
+    ],
+    "review_issues": [
+      "Two current tables use different prior bases (reported versus retrospectively adjusted); extracted first table and flagged alternate basis.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 2000000,
+      "parent_profit_upper_yuan": 4000000,
+      "yoy_lower_percent": 24.23,
+      "yoy_upper_percent": 148.46,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200826875",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：1500 万元–2500 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：84.36% - 90.62%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二〇一五年四月十三日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 15000000,
+      "parent_profit_upper_yuan": 25000000,
+      "yoy_lower_percent": -90.62,
+      "yoy_upper_percent": -84.36,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200828605",
+    "code": "000768",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-14",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年1 月1 日～2015 年 3 月31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：15,062 万元～22,593 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "Loss magnitude range converted to negative profit values; no printed numeric YoY range."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -225930000,
+      "parent_profit_upper_yuan": -150620000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200834577",
+    "code": "000792",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利:0 万元-3845.30 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：85% - 100%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 0,
+      "parent_profit_upper_yuan": 38453000,
+      "yoy_lower_percent": -100,
+      "yoy_upper_percent": -85,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200834862",
+    "code": "000778",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：4400 万元–4800 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：82.70% - 81.13%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一五年四月十五日"
+      }
+    ],
+    "review_issues": [
+      "YoY decline endpoints are printed in descending magnitude order; normalized to [-82.70,-81.13]. Prior-year adjusted basis is stated."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 44000000,
+      "parent_profit_upper_yuan": 48000000,
+      "yoy_lower_percent": -82.7,
+      "yoy_upper_percent": -81.13,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200831673",
+    "code": "000503",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日—2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损:约 1800 万元–1900 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二零一五年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "YoY described as 大幅变动 without numeric bounds"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -19000000,
+      "parent_profit_upper_yuan": -18000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200833583",
+    "code": "000536",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "QUARANTINED_COMPARISON_BASIS",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：1900 万元-3200 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期（调整后）下降：68%-82%；"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2015 年 4 月 14 日"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "详见公司 2015-026 号公告"
+      }
+    ],
+    "review_issues": [
+      "Two prior-year bases are printed: adjusted and unadjusted; current range is paired with both declines (adjusted -82 to -68, unadjusted -81 to -66). Extracted record preserves adjusted table and flags the conflict."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 19000000,
+      "parent_profit_upper_yuan": 32000000,
+      "yoy_lower_percent": -82,
+      "yoy_upper_percent": -68,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200832134",
+    "code": "000937",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日—2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：500 万元-1,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：86.44%-93.22%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 5000000,
+      "parent_profit_upper_yuan": 10000000,
+      "yoy_lower_percent": -93.22,
+      "yoy_upper_percent": -86.44,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200833588",
+    "code": "000960",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损： 30,000 万元— 31,000 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年四月十五日"
+      }
+    ],
+    "review_issues": [
+      "YoY not numerically stated"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -310000000,
+      "parent_profit_upper_yuan": -300000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200831142",
+    "code": "000750",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年1 月 1 日至 2015 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：41,106.07 万元—42,106.07 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：242.01% — 250.33%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年四月十五日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 411060700,
+      "parent_profit_upper_yuan": 421060700,
+      "yoy_lower_percent": 242.01,
+      "yoy_upper_percent": 250.33,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200833073",
+    "code": "000425",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -420000000,
+      "parent_profit_upper_yuan": -380000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200831223",
+    "code": "000983",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015年1月1日至3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：7104万元—9472万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：60%—70%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2015 年 4 月 14 日"
+      }
+    ],
+    "review_issues": [
+      "Document note says 元 means RMB while table values are printed in 万元; unit interpretation follows visible monetary suffix 万元."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 71040000,
+      "parent_profit_upper_yuan": 94720000,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -60,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200831710",
+    "code": "000400",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日——2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：0 万元–1977.26 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：80% - 100%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 0,
+      "parent_profit_upper_yuan": 19772600,
+      "yoy_lower_percent": -100,
+      "yoy_upper_percent": -80,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200833587",
+    "code": "000883",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日至 2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：47,500.00 万元-49,900.00 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期上升：856.25%-904.56%%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一五年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "Source prints duplicated percent sign in YoY text (904.56%%)."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 475000000,
+      "parent_profit_upper_yuan": 499000000,
+      "yoy_lower_percent": 856.25,
+      "yoy_upper_percent": 904.56,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200834827",
+    "code": "000061",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日-2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：约 600 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年四月十五日"
+      }
+    ],
+    "review_issues": [
+      "single approximate loss amount; upper bound missing; YoY not printed"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": -6000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200838292",
+    "code": "600886",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-16",
+    "title": "2015年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日至 2015 年 3 月 31 日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "同比增长 40%以上。"
+      }
+    ],
+    "review_issues": [
+      "Current parent-profit amount absent; YoY is open-ended threshold.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 40,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200847447",
+    "code": "002500",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-17",
+    "title": "2015年一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "山西证券股份有限公司2015年一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元）           47,873.75            13,387.67  257.60"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元）           47,873.75            13,387.67  257.60"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增 减 幅 度 （%）"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 478737500,
+      "yoy_point_percent": 257.6
+    }
+  },
+  {
+    "announcement_id": "1200847020",
+    "code": "601111",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间 2015 年 1 月 1 日至 2015 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润为人民币 16 亿元到 18 亿元。"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "净利润：人民币 0.93 亿元。"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二零一五年四月十六日"
+      }
+    ],
+    "review_issues": [
+      "YoY not numerically stated; current range normalized to yuan"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1600000000,
+      "parent_profit_upper_yuan": 1800000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200850914",
+    "code": "600115",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预盈公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预盈公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "股东的净利润为人民币 15 亿元到 16 亿元。"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1500000000,
+      "parent_profit_upper_yuan": 1600000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200850838",
+    "code": "601118",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-17",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预亏公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "实现归属于上市公司股东的净利润为-1.1亿元左右。"
+      }
+    ],
+    "review_issues": [
+      "Approximate point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": -110000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200866748",
+    "code": "601168",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-18",
+    "title": "2015年第一季度业绩预亏公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩预亏公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "属于上市公司股东的净利润为-4,960 万元左右。"
+      }
+    ],
+    "review_issues": [
+      "Approximate point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": -49600000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200863909",
+    "code": "600019",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-18",
+    "title": "2015年一季度业绩网上说明会预告公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "业绩网上说明会预告公告"
+      }
+    ],
+    "review_issues": [
+      "meeting notice; no current Q1 parent profit forecast"
+    ]
+  },
+  {
+    "announcement_id": "1200892046",
+    "code": "600016",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-23",
+    "title": "2015年第一季度业绩发布会会议记录公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2015 年第一季度业绩发布会会议记录公告"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200892047",
+    "code": "600016",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-23",
+    "title": "2015年一季度业绩发布会会议纪要",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "民生银行 2015 年一季度业绩发布会"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200899101",
+    "code": "000100",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-24",
+    "title": "关于控股子公司发布2015年一季度业绩的提示性公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "关于控股子公司发布 2015 年一季度业绩的提示性公告"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200924332",
+    "code": "601699",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-28",
+    "title": "2015年第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 7,141.23  23,401.15  -69.48"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 7,141.23  23,401.15  -69.48"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "（ 单位：万元  币种：人民币）"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增减变动幅度（％）"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 71412300,
+      "yoy_point_percent": -69.48
+    }
+  },
+  {
+    "announcement_id": "1200934918",
+    "code": "601166",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-29",
+    "title": "2014年度暨2015年一季度业绩说明会会议实录公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2014 年度暨 2015 年一季度业绩说明会会议实录公告"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200934919",
+    "code": "601166",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-29",
+    "title": "2014年度暨2015年一季度业绩说明会会议实录",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "兴业银行 2014 年度暨 2015 年一季度业绩说明会会议实录"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1202004583",
+    "code": "300146",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-02-27",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：约 19,499 万元-23,605 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：-5%—15%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年二月二十六日"
+      }
+    ],
+    "review_issues": [
+      "Forecast based only on January-February actuals; March data not determined."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 194990000,
+      "parent_profit_upper_yuan": 236050000,
+      "yoy_lower_percent": -5,
+      "yoy_upper_percent": 15,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202017984",
+    "code": "300144",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-03",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：18,149.92 万元–21,015.70 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：90%-120%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 181499200,
+      "parent_profit_upper_yuan": 210157000,
+      "yoy_lower_percent": 90,
+      "yoy_upper_percent": 120,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202051524",
+    "code": "300024",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-16",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年第一季度（2016.1.1-2016.3.31）"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：5,404 万元–6,434 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：5% - 25%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016年3月16日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 54040000,
+      "parent_profit_upper_yuan": 64340000,
+      "yoy_lower_percent": 5,
+      "yoy_upper_percent": 25,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202055065",
+    "code": "300104",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-18",
+    "title": "2016年一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016年1月1日至2016年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "约为：10,492.11 万元—13,353.59 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长 10%—40%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一六年三月十八日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 104921100,
+      "parent_profit_upper_yuan": 133535900,
+      "yoy_lower_percent": 10,
+      "yoy_upper_percent": 40,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202058741",
+    "code": "300059",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-19",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：约 5,000.00 万元–13,000.00 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：约-74.84%—-34.59%"
+      }
+    ],
+    "review_issues": [
+      "Source prints decline as negative percentages; preserved printed negative direction.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 50000000,
+      "parent_profit_upper_yuan": 130000000,
+      "yoy_lower_percent": -74.84,
+      "yoy_upper_percent": -34.59,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202064947",
+    "code": "300017",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-22",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：18,341.79 万元-22,272.18 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：40%-70%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016年3月21日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 183417900,
+      "parent_profit_upper_yuan": 222721800,
+      "yoy_lower_percent": 40,
+      "yoy_upper_percent": 70,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202072122",
+    "code": "300027",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-24",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：24,449.17 万元 – 29,339.00 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期上升：0% - 20%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一六年三月二十三日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 244491700,
+      "parent_profit_upper_yuan": 293390000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202088709",
+    "code": "002353",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月1 日至2016 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：4,749.04 万元 至 6,425.17 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：-15% 至 15%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 3 月28 日"
+      }
+    ],
+    "review_issues": [
+      "Other category selected in source although numeric range is provided."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 47490400,
+      "parent_profit_upper_yuan": 64251700,
+      "yoy_lower_percent": -15,
+      "yoy_upper_percent": 15,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202090566",
+    "code": "300015",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2016年一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016.1.1—2016.3.31"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "约11,407.94万元- 12,285.48万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "30%-40%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 114079400,
+      "parent_profit_upper_yuan": 122854800,
+      "yoy_lower_percent": 30,
+      "yoy_upper_percent": 40,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202106540",
+    "code": "002008",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-30",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间： 2016 年 1 月1 日--2016 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：11,370.24 万元–12,128.26 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：50% -60%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 3 月30 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 113702400,
+      "parent_profit_upper_yuan": 121282600,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 60,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202113950",
+    "code": "300133",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016年1月1日至2016年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：10,776.99万元-12,434.99万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：30%- 50%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 3 月 30 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 107769900,
+      "parent_profit_upper_yuan": 124349900,
+      "yoy_lower_percent": 30,
+      "yoy_upper_percent": 50,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202110368",
+    "code": "002475",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：\n2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：18,308.77 万元–21,360.23 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：20% – 40%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 3 月 30 日"
+      }
+    ],
+    "review_issues": [
+      "Table note defines 元 as RMB元 while target values visibly use 万元; unit interpretation follows 万元 suffix."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 183087700,
+      "parent_profit_upper_yuan": 213602300,
+      "yoy_lower_percent": 20,
+      "yoy_upper_percent": 40,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202114225",
+    "code": "300003",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日—2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：16,698.11万元-19,267.05万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：30% -- 50%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 166981100,
+      "parent_profit_upper_yuan": 192670500,
+      "yoy_lower_percent": 30,
+      "yoy_upper_percent": 50,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202122795",
+    "code": "300017",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2016年第一季度业绩预告修正公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：20,962.05 万元-24,892.43 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：60%-90%"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "前次业绩预告情况：公司于2016年3月22日在中国证监会指定信息披露网站公告了《2016年第一季度业绩预告》， 预计2016年第一季度归属于上市公司股东的净利润为18,341.79万元—22,272.18万元。"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016年3月31日"
+      }
+    ],
+    "review_issues": [
+      "revision; current revision table extracted"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 209620500,
+      "parent_profit_upper_yuan": 248924300,
+      "yoy_lower_percent": 60,
+      "yoy_upper_percent": 90,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202123577",
+    "code": "002129",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-01",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：10,000 万元–11,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：194%-223%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 100000000,
+      "parent_profit_upper_yuan": 110000000,
+      "yoy_lower_percent": 194,
+      "yoy_upper_percent": 223,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202123663",
+    "code": "600256",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-01",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016年1月1日至2016年3月31日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将减少约 82%左右。"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润：155,491,171.85元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二〇一六年四月一日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": -82
+    }
+  },
+  {
+    "announcement_id": "1202138126",
+    "code": "300251",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-05",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：本报告期为 2016 年 1 月 1 日—2016 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：20,000—22,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：4,119%—4,541%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 5 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 200000000,
+      "parent_profit_upper_yuan": 220000000,
+      "yoy_lower_percent": 4119,
+      "yoy_upper_percent": 4541,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202144267",
+    "code": "600649",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间  \n2016 年1 月1 日至2016 年3 月31 日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "与上年同期相比将减少35%左右。"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年四月七日"
+      }
+    ],
+    "review_issues": [
+      "Approximate single-point decline; current profit amount is not stated, only prior-year profit."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": -35
+    }
+  },
+  {
+    "announcement_id": "1202148853",
+    "code": "300070",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日—2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：3,120.83 万元–3,705.99 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：60% - 90%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一六年四月七日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 31208300,
+      "parent_profit_upper_yuan": 37059900,
+      "yoy_lower_percent": 60,
+      "yoy_upper_percent": 90,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202150984",
+    "code": "300058",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-07",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "预计净利润：6,000 万元至 12,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "较上年同期实现扭亏为盈"
+      }
+    ],
+    "review_issues": [
+      "Turnaround/loss qualitative context does not provide a numeric YoY percentage.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 60000000,
+      "parent_profit_upper_yuan": 120000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202150955",
+    "code": "600688",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "人民币 10.4 亿-人民币 11.5 亿"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "与上年同期相比增长 2000%-2200%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二零一六年四月七日"
+      }
+    ],
+    "review_issues": [
+      "Current amount uses 亿 while prior table uses 人民币千元; current text explicitly attributes profit to parent company."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1040000000,
+      "parent_profit_upper_yuan": 1150000000,
+      "yoy_lower_percent": 2000,
+      "yoy_upper_percent": 2200,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202154608",
+    "code": "300124",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：12,635 万元-14,530 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：0% -15%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 126350000,
+      "parent_profit_upper_yuan": 145300000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 15,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202154898",
+    "code": "300341",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016年01月01日-2016年03月31日"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 04 月 08 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：884万元—1,179万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：0%--25%"
+      }
+    ],
+    "review_issues": [
+      "ROOT_VISUAL_CORRECTION: 1179.17万元 is the prior-year column; current range 884万元—1179万元 verified on PDF page 1."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 8840000,
+      "parent_profit_upper_yuan": 11790000,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 0,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202155913",
+    "code": "300315",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-08",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：21,113.14 万元–22,677.07 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：170%-190%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年 4 月 8 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 211131400,
+      "parent_profit_upper_yuan": 226770700,
+      "yoy_lower_percent": 170,
+      "yoy_upper_percent": 190,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202155903",
+    "code": "300358",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-09",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：2,505 万元-2,756 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比去年同期增长 0%-10%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年 4 月 8 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 25050000,
+      "parent_profit_upper_yuan": 27560000,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 10,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202155284",
+    "code": "300002",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-09",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016年1月1日—2016年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：393.81万元——1,575.23万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：90%——60%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016年4月9日"
+      }
+    ],
+    "review_issues": [
+      "printed decline endpoints reversed; normalized to [-90,-60]"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 3938100,
+      "parent_profit_upper_yuan": 15752300,
+      "yoy_lower_percent": -90,
+      "yoy_upper_percent": -60,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202157101",
+    "code": "000100",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-09",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016年1月1日—2016年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：23,000万元—31,000万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：59%—70%"
+      }
+    ],
+    "review_issues": [
+      "Document also reports consolidated net profit; extracted parent-company attributable row only.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 230000000,
+      "parent_profit_upper_yuan": 310000000,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -59,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202162139",
+    "code": "000400",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日——2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：3,378.88 万元–3,906.83 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：220% - 270%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 11 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 33788800,
+      "parent_profit_upper_yuan": 39068300,
+      "yoy_lower_percent": 220,
+      "yoy_upper_percent": 270,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202162788",
+    "code": "000728",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元） 21,392.52 71,710.23 -70.17%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润（万元） 21,392.52 71,710.23 -70.17%"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 213925200,
+      "yoy_point_percent": -70.17
+    }
+  },
+  {
+    "announcement_id": "1202161860",
+    "code": "000783",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年度第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016年度第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润 50,234.58  77,244.47  -34.97%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润 50,234.58  77,244.47  -34.97%"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 502345800,
+      "yoy_point_percent": -34.97
+    }
+  },
+  {
+    "announcement_id": "1202162003",
+    "code": "600549",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩快报公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年第一季度业绩快报公告"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "东的净利润       2,068.27            2,506.64  -17.49"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "东的净利润       2,068.27            2,506.64  -17.49"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增减变动幅度(%)"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 20682700,
+      "yoy_point_percent": -17.49
+    }
+  },
+  {
+    "announcement_id": "1202163012",
+    "code": "601006",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "减少约 50%左右。"
+      }
+    ],
+    "review_issues": [
+      "Only qualitative/threshold YoY or no current numeric parent-profit amount disclosed.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": -50
+    }
+  },
+  {
+    "announcement_id": "1202164561",
+    "code": "000166",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-12",
+    "title": "2016年一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "申万宏源集团股份有限公司2016年一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于母公司股东的净利润            104,670.01             199,574.84              -47.55"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于母公司股东的净利润            104,670.01             199,574.84              -47.55"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "金额单位：人民币万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增减幅度（%）"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 1046700100,
+      "yoy_point_percent": -47.55
+    }
+  },
+  {
+    "announcement_id": "1202169151",
+    "code": "000712",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-13",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：本次业绩预告的具体会计期间为2016年1月1日至3月31日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：5,940万元至9,900万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期减少50%-70%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二〇一六年四月十二日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 59400000,
+      "parent_profit_upper_yuan": 99000000,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -50,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202170262",
+    "code": "601179",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-13",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间     \n2016 年 1 月 1 日至 2016 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润约为2.32 亿元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "相比增长 43%左右"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 13 日"
+      }
+    ],
+    "review_issues": [
+      "Approximate point forecasts expressed with 约/左右."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 232000000,
+      "yoy_point_percent": 43
+    }
+  },
+  {
+    "announcement_id": "1202174405",
+    "code": "000768",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年1 月1 日～2016 年 3 月31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：0 万元～9,856 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "YoY not numerically stated; source says loss range"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -98560000,
+      "parent_profit_upper_yuan": 0,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202174714",
+    "code": "000686",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩快报",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016年第一季度业绩快报"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 40,036 54,868 -27.03%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润 40,036 54,868 -27.03%"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ],
+    "review_issues": [
+      "Express result is a printed point; bounds remain null."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 400360000,
+      "yoy_point_percent": -27.03
+    }
+  },
+  {
+    "announcement_id": "1202175195",
+    "code": "601216",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "预告期间：2016年1月1日至2016年3月31日；"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增长幅度在70%—110%"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "归属于上市公司股东的净利润：15,160.61万元；"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 14 日"
+      }
+    ],
+    "review_issues": [
+      "current numeric profit absent"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 70,
+      "yoy_upper_percent": 110,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202174250",
+    "code": "000503",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日—2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损:约 2,300 万元–2,700 万元"
+      }
+    ],
+    "review_issues": [
+      "Turnaround/loss qualitative context does not provide a numeric YoY percentage.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -27000000,
+      "parent_profit_upper_yuan": -23000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202174595",
+    "code": "000793",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年1 月1 日至2016 年3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：15,000 万元－18,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：84.97%－121.96%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年四月十四日"
+      }
+    ],
+    "review_issues": [
+      "Forecast drivers include material investment gains; values remain source claims."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 150000000,
+      "parent_profit_upper_yuan": 180000000,
+      "yoy_lower_percent": 84.97,
+      "yoy_upper_percent": 121.96,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202174756",
+    "code": "600115",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-14",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "（一）业绩预告期间     2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润较去年同期增长 60%-70%。"
+      }
+    ],
+    "review_issues": [
+      "Only qualitative/threshold YoY or no current numeric parent-profit amount disclosed.",
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 60,
+      "yoy_upper_percent": 70,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178669",
+    "code": "000831",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日——2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：1,000 万元—2,000 万元"
+      }
+    ],
+    "review_issues": [
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -20000000,
+      "parent_profit_upper_yuan": -10000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178784",
+    "code": "000825",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：53950 万元–54800 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一六年四月十四日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -548000000,
+      "parent_profit_upper_yuan": -539500000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178875",
+    "code": "000725",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年1 月1 日—2016 年3 月31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：10,000 万元至 12,000 万元"
+      }
+    ],
+    "review_issues": [
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 100000000,
+      "parent_profit_upper_yuan": 120000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202179361",
+    "code": "601933",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 2016 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润 47,207 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "净利润 47,207 万元，较上年同期增长 29.75%左右。"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 15 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 472070000,
+      "yoy_point_percent": 29.75
+    }
+  },
+  {
+    "announcement_id": "1202179858",
+    "code": "000630",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日-2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：8,000 万元--9,500 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：253% --282%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二 O 一六年四月十四日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -95000000,
+      "parent_profit_upper_yuan": -80000000,
+      "yoy_lower_percent": -282,
+      "yoy_upper_percent": -253,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202180193",
+    "code": "000413",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间:2016 年 1 月 1 日至 2016 年 3 月 31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：30,000 万元–35,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期增长：89.55% - 121.14%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年 4 月 15 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 300000000,
+      "parent_profit_upper_yuan": 350000000,
+      "yoy_lower_percent": 89.55,
+      "yoy_upper_percent": 121.14,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202180407",
+    "code": "000027",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016年1月1日—2016年3月31日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：14,566 万元–21,849 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：40%-60%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一六年四月十五日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 145660000,
+      "parent_profit_upper_yuan": 218490000,
+      "yoy_lower_percent": -60,
+      "yoy_upper_percent": -40,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202181624",
+    "code": "000061",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：300-600 万元"
+      }
+    ],
+    "review_issues": [
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 3000000,
+      "parent_profit_upper_yuan": 6000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178682",
+    "code": "000539",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：-90%～-82%"
+      }
+    ],
+    "review_issues": [
+      "current parent profit amount absent; only qualitative or YoY forecast",
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": -90,
+      "yoy_upper_percent": -82,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202180048",
+    "code": "000629",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利 3,000～5,000 万元"
+      }
+    ],
+    "review_issues": [
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 30000000,
+      "parent_profit_upper_yuan": 50000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202181380",
+    "code": "000792",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利: 14,000 万元-14,650 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年 4 月 14 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 140000000,
+      "parent_profit_upper_yuan": 146500000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178435",
+    "code": "000800",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日- 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：40,000 万元–44,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：394% - 424%"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二○一六年四月十五日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -440000000,
+      "parent_profit_upper_yuan": -400000000,
+      "yoy_lower_percent": -424,
+      "yoy_upper_percent": -394,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178851",
+    "code": "000425",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年度第一季度业绩预告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 10000000,
+      "parent_profit_upper_yuan": 15000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178952",
+    "code": "000898",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月1 日—2016 年3 月31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：约人民币 615 百万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "2016 年4 月15 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": -615000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202180065",
+    "code": "000402",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "（一）业绩预告期间：2016 年 1 月 1 日~ 2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：约 75,770 万元----79,757 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：约 5%以内"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年 4 月 15 日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 757700000,
+      "parent_profit_upper_yuan": 797570000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202180318",
+    "code": "000060",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "2016年第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年1月1日-2016年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：4,500 万元–5,500 万元"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -55000000,
+      "parent_profit_upper_yuan": -45000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202195756",
+    "code": "600177",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-19",
+    "title": "2016年第一季度业绩预增公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "将增加 60%到 80%"
+      }
+    ],
+    "review_issues": [
+      "current parent profit amount absent; only qualitative or YoY forecast",
+      "signature date quote unresolved"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 60,
+      "yoy_upper_percent": 80,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202197435",
+    "code": "601238",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-19",
+    "title": "关于2016年第一季度业绩预增的公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年 1 月 1 日至 2016 年 3 月 31 日。"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增长 240%-270%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年 4 月 18 日"
+      }
+    ],
+    "review_issues": [
+      "current parent profit amount absent; only qualitative or YoY forecast"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 240,
+      "yoy_upper_percent": 270,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202197194",
+    "code": "600050",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-19",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2016 年1 月1 日至 2016 年3 月31 日。"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "净利润预计约为1.46 亿元人民币"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "减少约86%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年四月十八日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 146000000,
+      "yoy_point_percent": -86
+    }
+  },
+  {
+    "announcement_id": "1202210867",
+    "code": "601628",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-21",
+    "title": "2016年第一季度业绩预减公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日至 2016 年 3 月 31 日"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "减少55%至60%"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "2016 年4 月20 日"
+      }
+    ],
+    "review_issues": [
+      "current parent profit amount absent; only qualitative or YoY forecast"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": -60,
+      "yoy_upper_percent": -55,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202225460",
+    "code": "600019",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-23",
+    "title": "2016年一季度业绩网上说明会预告公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "业绩网上说明会预告公告"
+      }
+    ],
+    "review_issues": [
+      "meeting notice; no current Q1 parent profit forecast"
+    ]
+  },
+  {
+    "announcement_id": "1202269172",
+    "code": "601328",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-29",
+    "title": "H股-2016年一季度业绩公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1202282808",
+    "code": "601607",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2016年第一季度业绩发布会会议纪要公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2016 年第一季度业绩发布会会议纪要公告"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1202284369",
+    "code": "601166",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2015年度暨2016年一季度业绩说明会会议实录",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2015 年度暨 2016 年一季度业绩说明会会议实录"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1202284360",
+    "code": "601166",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2015年度暨2016年一季度业绩说明会会议实录公告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2015 年度暨 2016 年一季度业绩说明会会议实录公告"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1202282805",
+    "code": "601607",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-04-30",
+    "title": "2016年一季度业绩发布会电话会议纪要",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 1,
+        "quote": "2016 年一季度业绩发布会电话会议纪要"
+      }
+    ],
+    "review_issues": [
+      "Meeting, H-share actual-results, production, or subsidiary-update document excluded from forecast/express extraction."
+    ]
+  },
+  {
+    "announcement_id": "1200691662",
+    "code": "002415",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-12",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 1029949800.0,
+      "parent_profit_upper_yuan": 1098613100.0,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 60
+    }
+  },
+  {
+    "announcement_id": "1200691663",
+    "code": "002415",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-12",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200718126",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200718123",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-20",
+    "title": "关于举行2014年年度报告网上说明会的通知",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1200718125",
+    "code": "002236",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-20",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 7,
+        "quote": "2015 年 1-3 月归属于上市公司股东的净利润区间（万元） 10,083.43 至 20,166.85"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 7,
+        "quote": "2015 年 1-3 月归属于上市公司股东的净利润区间（万元） 10,083.43 至 20,166.85"
+      },
+      {
+        "field": "yoy_range",
+        "page": 7,
+        "quote": "2015 年 1-3 月归属于上市公司股东的净利润变动幅度 （%） -50% 至 0%"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 100834300,
+      "parent_profit_upper_yuan": 201668500,
+      "yoy_lower_percent": -50,
+      "yoy_upper_percent": 0,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200737061",
+    "code": "000793",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告（已取消）",
+    "status": "QUARANTINED_CANCELLED_TIME_UNKNOWN",
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737053",
+    "code": "000793",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告摘要",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200737744",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 292285500.0,
+      "parent_profit_upper_yuan": 317701600.0,
+      "yoy_lower_percent": 15,
+      "yoy_upper_percent": 25
+    }
+  },
+  {
+    "announcement_id": "1200737743",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "关于举行2014年年度报告网上说明会的公告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1200737745",
+    "code": "002294",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-25",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200755519",
+    "code": "002202",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-28",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200755518",
+    "code": "002202",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-28",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 228605000.0,
+      "parent_profit_upper_yuan": 254005500.0,
+      "yoy_lower_percent": 350,
+      "yoy_upper_percent": 400
+    }
+  },
+  {
+    "announcement_id": "1200756880",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-30",
+    "title": "关于举行2014年年度报告网上说明会的通知",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1200756884",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-30",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 100000000.0,
+      "parent_profit_upper_yuan": 150000000.0,
+      "yoy_lower_percent": 735.7,
+      "yoy_upper_percent": 1153.55
+    }
+  },
+  {
+    "announcement_id": "1200756892",
+    "code": "002594",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-30",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200765598",
+    "code": "000156",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200765605",
+    "code": "000156",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "QUARANTINED_PARENT_PROFIT_DEFINITION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 33,
+        "quote": "七、2015 年 1-3 月经营业绩的预计"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 33,
+        "quote": "累计净利润的预计数（万元） 12,000 -- 14,000"
+      },
+      {
+        "field": "yoy_range",
+        "page": 33,
+        "quote": "累计净利润的预计数（万元） 12,000 -- 14,000 8,528.5 增长 40.70% -- 64.16%"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 120000000,
+      "parent_profit_upper_yuan": 140000000,
+      "yoy_lower_percent": 40.7,
+      "yoy_upper_percent": 64.16,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200768677",
+    "code": "002024",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 15,
+        "quote": "2015 年 1-3月归属于上市公司股东的净利润（万元） -35,000 至 -30,000"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 15,
+        "quote": "2015 年 1-3月归属于上市公司股东的净利润（万元） -35,000 至 -30,000"
+      }
+    ],
+    "review_issues": [
+      "Current Q1 forecast gives a loss range; no numeric YoY percentage printed."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -350000000,
+      "parent_profit_upper_yuan": -300000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200768678",
+    "code": "002024",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200765852",
+    "code": "002241",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 257802900.0,
+      "parent_profit_upper_yuan": 309363500.0,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1200765853",
+    "code": "002241",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200764931",
+    "code": "002353",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 21221300.0,
+      "parent_profit_upper_yuan": 63663800.0,
+      "yoy_lower_percent": -90,
+      "yoy_upper_percent": -70
+    }
+  },
+  {
+    "announcement_id": "1200764932",
+    "code": "002353",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200767194",
+    "code": "002422",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 205140000.0,
+      "parent_profit_upper_yuan": 227930000.0,
+      "yoy_lower_percent": -10,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200767195",
+    "code": "002422",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-03-31",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200784294",
+    "code": "000002",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2015年度第一季度业绩预告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月1日-2015 年 3 月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "盈利：60,000 万元–70,000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "比上年同期下降：约 54%-61%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 600000000,
+      "parent_profit_upper_yuan": 700000000,
+      "yoy_lower_percent": -61,
+      "yoy_upper_percent": -54,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200784086",
+    "code": "002051",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2014年年度报告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 140361200.0,
+      "parent_profit_upper_yuan": 187148300.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200784085",
+    "code": "002051",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-03",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 140361200.0,
+      "parent_profit_upper_yuan": 187148300.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 0
+    }
+  },
+  {
+    "announcement_id": "1200811767",
+    "code": "002603",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-11",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 116160900.0,
+      "parent_profit_upper_yuan": 136362800.0,
+      "yoy_lower_percent": 15,
+      "yoy_upper_percent": 35
+    }
+  },
+  {
+    "announcement_id": "1200811768",
+    "code": "002603",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-11",
+    "title": "2014年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200832411",
+    "code": "000157",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2015 年 1 月 1 日——2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：30,000 万元–39,000 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一五年四月十五日"
+      }
+    ],
+    "review_issues": [
+      "Loss magnitude range converted to negative profit values; no printed numeric YoY range."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -390000000,
+      "parent_profit_upper_yuan": -300000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200832611",
+    "code": "000629",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015年1月1日至2015年3月31日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "-35000～-25000 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "下降 162%～187%"
+      }
+    ],
+    "review_issues": [
+      "Signature date unresolved in extracted page text; retained null pending root evidence normalization."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -350000000,
+      "parent_profit_upper_yuan": -250000000,
+      "yoy_lower_percent": -187,
+      "yoy_upper_percent": -162,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200832610",
+    "code": "000629",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-15",
+    "title": "2014年度业绩快报",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200831137",
+    "code": "000839",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-15",
+    "title": "业绩预告公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "2015 年 1 月 1 日——2015 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "约 7,200 万元"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "增减变动（%） 归 属 于 母 公 司 所 有者的净利润 约 7,200 万元 4,395 万元 上升：50-100"
+      },
+      {
+        "field": "signature_date",
+        "page": 1,
+        "quote": "二〇一五年四月十五日"
+      }
+    ],
+    "review_issues": [
+      "single approximate current amount; upper bound missing"
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": 50,
+      "yoy_upper_percent": 100,
+      "parent_profit_point_yuan": 72000000,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200918981",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告更正公告",
+    "status": "QUARANTINED_PARENT_PROFIT_DEFINITION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "七、2015 年 1-3 月经营业绩的预计"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "累计净利润的预计数（万元） 121.06 11,344.93 下降 98.93%"
+      },
+      {
+        "field": "yoy_range",
+        "page": 1,
+        "quote": "累计净利润的预计数（万元） 121.06 11,344.93 下降 98.93%"
+      },
+      {
+        "field": "prior_reference",
+        "page": 1,
+        "quote": "2015 年 4 月 25 日披露的 《2014 年年度报告》"
+      }
+    ],
+    "review_issues": [
+      "Correction/current revised annual-report forecast table; prior erroneous/current version distinction requires root deduplication.",
+      "Current table labels the amount only as 累计净利润, without an explicit parent-attributable qualifier; PARENT_PROFIT_DEFINITION_UNRESOLVED."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 1210600,
+      "yoy_point_percent": -98.93
+    }
+  },
+  {
+    "announcement_id": "1200918980",
+    "code": "000825",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告（更新后）",
+    "status": "QUARANTINED_PARENT_PROFIT_DEFINITION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 20,
+        "quote": "七、2015 年 1-3 月经营业绩的预计"
+      },
+      {
+        "field": "yoy_range",
+        "page": 20,
+        "quote": "累计净利润的预计数（万元） 121.06 11,344.93 下降 98.93%"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 20,
+        "quote": "累计净利润的预计数（万元） 121.06 11,344.93 下降 98.93%"
+      }
+    ],
+    "review_issues": [
+      "Correction/current revised annual-report forecast table; prior erroneous/current version distinction requires root deduplication.",
+      "Current table labels the amount only as 累计净利润, without an explicit parent-attributable qualifier; PARENT_PROFIT_DEFINITION_UNRESOLVED."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": 1210600,
+      "yoy_point_percent": -98.93
+    }
+  },
+  {
+    "announcement_id": "1200921645",
+    "code": "002673",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告摘要",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1200921653",
+    "code": "002673",
+    "query_period": "2015-03-31",
+    "verified_period": null,
+    "notice_date": "2015-04-28",
+    "title": "2014年年度报告",
+    "status": "EXCLUDED_NON_TARGET_EVENT",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "issue",
+        "page": 37,
+        "quote": "□适用√不适用"
+      }
+    ],
+    "review_issues": [
+      "Explicit Q1 forecast section is marked not applicable (□适用√不适用); no current Q1 forecast numeric values disclosed."
+    ]
+  },
+  {
+    "announcement_id": "1202004938",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-02-29",
+    "title": "关于举行2015年年度报告网上说明会的通知",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1202004929",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-02-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 186129000.0,
+      "parent_profit_upper_yuan": 217150500.0,
+      "yoy_lower_percent": 80,
+      "yoy_upper_percent": 110
+    }
+  },
+  {
+    "announcement_id": "1202004930",
+    "code": "002236",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-02-29",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202046793",
+    "code": "002252",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-16",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 284000000.0,
+      "parent_profit_upper_yuan": 397590000.0,
+      "yoy_lower_percent": -25,
+      "yoy_upper_percent": 5
+    }
+  },
+  {
+    "announcement_id": "1202046781",
+    "code": "002252",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-16",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202063756",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-22",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 344932300.0,
+      "parent_profit_upper_yuan": 376289800.0,
+      "yoy_lower_percent": 10,
+      "yoy_upper_percent": 20
+    }
+  },
+  {
+    "announcement_id": "1202063757",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-22",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202063772",
+    "code": "002294",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-22",
+    "title": "关于举行2015年年度报告网上说明会的公告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1202091380",
+    "code": "002241",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202091378",
+    "code": "002241",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 188808700.0,
+      "parent_profit_upper_yuan": 242754000.0,
+      "yoy_lower_percent": -30,
+      "yoy_upper_percent": -10
+    }
+  },
+  {
+    "announcement_id": "1202090004",
+    "code": "002470",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 397269100.0,
+      "parent_profit_upper_yuan": 430374900.0,
+      "yoy_lower_percent": 20,
+      "yoy_upper_percent": 30
+    }
+  },
+  {
+    "announcement_id": "1202090009",
+    "code": "002470",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202089369",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "关于举行2015年年度报告网上说明会的通知",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified OTHER."
+    ]
+  },
+  {
+    "announcement_id": "1202089378",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 720000000.0,
+      "parent_profit_upper_yuan": 900000000.0,
+      "yoy_lower_percent": 495.31,
+      "yoy_upper_percent": 644.13
+    }
+  },
+  {
+    "announcement_id": "1202089377",
+    "code": "002594",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-29",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202100525",
+    "code": "002202",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-30",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202100531",
+    "code": "002202",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-30",
+    "title": "2015年年度报告摘要（已取消）",
+    "status": "QUARANTINED_CANCELLED_TIME_UNKNOWN",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 248773500.0,
+      "parent_profit_upper_yuan": 373160300.0,
+      "yoy_lower_percent": 0,
+      "yoy_upper_percent": 50
+    },
+    "source": {
+      "announcement_id": "1202100531",
+      "url": "https://static.cninfo.com.cn/finalpage/2016-03-30/1202100531.PDF",
+      "page": 8,
+      "pdf_sha256": "78777c4a68cb7704aae4bd696b9494fb5b22ba13600fd86d947b67f6f6c80551",
+      "text_sha256": "f5addc2fd857cd10d5e960932d022222866cc0382652023f7a5713afe487bdf9",
+      "method": "REVIEWED_EXPLICIT_CURRENT_Q1_TABLE",
+      "visual_check_this_batch": false
+    }
+  },
+  {
+    "announcement_id": "1202114924",
+    "code": "002024",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202114960",
+    "code": "002024",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 13,
+        "quote": "2016 年 1-3 月净利润（万元） -35,000 至 -25,000"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 13,
+        "quote": "预计 2016 年一季度归属于上市公司股东的净利润亏损 25,000 万元——35,000 万元"
+      }
+    ],
+    "review_issues": [
+      "Current Q1 forecast gives a loss range; no numeric YoY percentage printed."
+    ],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -350000000,
+      "parent_profit_upper_yuan": -250000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202111580",
+    "code": "002292",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "QUARANTINED_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 67878600.0,
+      "parent_profit_upper_yuan": 91835700.0,
+      "yoy_lower_percent": -15,
+      "yoy_upper_percent": 15
+    }
+  },
+  {
+    "announcement_id": "1202111582",
+    "code": "002292",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202110695",
+    "code": "002739",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 439533000.0,
+      "parent_profit_upper_yuan": 507153500.0,
+      "yoy_lower_percent": 30,
+      "yoy_upper_percent": 50
+    }
+  },
+  {
+    "announcement_id": "1202110697",
+    "code": "002739",
+    "query_period": "2016-03-31",
+    "verified_period": null,
+    "notice_date": "2016-03-31",
+    "title": "2015年年度报告",
+    "status": "UNRESOLVED_CONTENT_SEARCH",
+    "research_admission": false,
+    "review_evidence": [],
+    "review_issues": [
+      "Targeted search of archived text for 第一季度、一季度、1-3月、业绩预告 found no explicit current Q1 forecast table; classified ANNUAL_ONLY."
+    ]
+  },
+  {
+    "announcement_id": "1202180777",
+    "code": "000157",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "业绩预告公告",
+    "status": "REVIEWED_PRIMARY_TRANSCRIPTION",
+    "research_admission": false,
+    "review_evidence": [
+      {
+        "field": "period",
+        "page": 1,
+        "quote": "业绩预告期间：2016 年 1 月 1 日——2016 年 3 月 31 日"
+      },
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "亏损：60,000 万元–68,000 万元"
+      },
+      {
+        "field": "signature_date",
+        "page": 2,
+        "quote": "二○一六年四月十五日"
+      }
+    ],
+    "review_issues": [],
+    "reviewed_values": {
+      "parent_profit_lower_yuan": -680000000,
+      "parent_profit_upper_yuan": -600000000,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null,
+      "parent_profit_point_yuan": null,
+      "yoy_point_percent": null
+    }
+  },
+  {
+    "announcement_id": "1202178462",
+    "code": "002658",
+    "query_period": "2016-03-31",
+    "verified_period": "2016-03-31",
+    "notice_date": "2016-04-15",
+    "title": "第一季度业绩预告修正公告",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 8789400.0,
+      "parent_profit_upper_yuan": 14649000.0,
+      "yoy_lower_percent": -70,
+      "yoy_upper_percent": -50
+    }
+  },
+  {
+    "announcement_id": "1200838958",
+    "code": "000826",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-04-16",
+    "title": "关于公司股票交易价格异常波动的公告",
+    "status": "REVIEWED_QUALITATIVE_ONLY",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": null,
+      "parent_profit_upper_yuan": null,
+      "yoy_lower_percent": null,
+      "yoy_upper_percent": null
+    }
+  },
+  {
+    "announcement_id": "1200633670",
+    "code": "002252",
+    "query_period": "2015-03-31",
+    "verified_period": "2015-03-31",
+    "notice_date": "2015-02-13",
+    "title": "2014年年度报告摘要",
+    "status": "REVIEWED_NUMERIC_PRIMARY_FACTS",
+    "research_admission": false,
+    "reviewed_values": {
+      "parent_profit_lower_yuan": 303851600.0,
+      "parent_profit_upper_yuan": 323668000.0,
+      "yoy_lower_percent": 360,
+      "yoy_upper_percent": 390
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "configs/r2/integrated_ledger.json": "98de0e6c4716a9b9ee5f1dcff5f1190dbc00964e3bfb7cd13eef19757162b1f6",
+  "scripts/integrate_r2_event_ledger.py": "3abe2c0ed83973617e5f4fe554c40f7b4c591bf239edfed1ea5dabd4b8f8d87f",
+  "docs/results/r2_backfill/documents.json": "d192906b56a681e024ccc5a06f7cce08bceceff492550070085d8432fd7b7254",
+  "scripts/audit_r2_parallel_transcriptions.py": "8122cd08c1d3ad24dc6c62438d0bd0b7e294160d4382c439d86df946f0809946",
+  "scripts/build_r2_event_ledger.py": "028396faa76bcba093d0bd7de44809a02674fc7423c94496d989d9609cfebb34",
+  "scripts/extract_r2_announcements.py": "8ba1f053ebc8ecf5a0e4d2aae334c204eff777e7a03e86a62dbaf5af2f0ef643",
+  "docs/results/r2_event_ledger/events.json": "e979cd51cb4b45866a950c5d434caa1b6c04eb1e174ceb08b11ca670358f6a0a",
+  "docs/results/r2_event_ledger/document_dispositions.json": "6ce727fd2db595bf6c75729cf8d1196edca8508245bf412a41a92241472afd9b",
+  "data/canonical/baostock_alpha158_csi300_2008_2020/calendar.parquet": "60eee224c8065adf99b8897f926b59702799386c7f95ac4b5845068485318bf1",
+  "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a",
+  "docs/results/r2_parallel_review/transcriptions.json": "bf44af6bcbc9732d151c471114a81e75d8e5b76d5625b6d8bf8306e76d493af7",
+  "experiments/r2/r2_remaining_review_v1/root_transcriptions.json": "307fd02e6910dc11cce522cfa4a1d905683716088189472adef3a15972f0c2c8",
+  "docs/results/r2_event_ledger/version_links.json": "c926b39ef1065c2da5a100f0207d12f43ce92fd00a0ac9dd4a73f36fb55f4279",
+  "experiments/r2/r2_baostock_event_bulk_v1/audit/classified_rows.json": "2bb5d752614b43817934192be73ddf8e257dc5e8ba32183169bc0a99c4dc9692"
+}

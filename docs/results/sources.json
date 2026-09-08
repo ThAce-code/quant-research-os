@@ -1726,5 +1726,89 @@
   "docs/results/r2_parallel_review/verification.json": {
     "source_run": "r2_parallel_review_v1",
     "sha256": "704f0c37042af631bd26b48540006867b81bfecdc14a32f7c8946583ffd15a4a"
+  },
+  "docs/results/r2_integrated_ledger/baostock_mapping.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "400b1042afe16e84a21025d15d0c0737642b59947a000b771990072409bbbefd"
+  },
+  "docs/results/r2_integrated_ledger/causal_checks.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "3a7378826c2dba896d8e052de7543cb5a85a7576364fde04cf9248cd457de78e"
+  },
+  "docs/results/r2_integrated_ledger/document_dispositions.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "b4fceb6fb7d25a6d8910afb93c52e8952176037434cb63662825b5c91019a169"
+  },
+  "docs/results/r2_integrated_ledger/events.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "633ed4bfef0098a7e4131a45f690c907234892a0fe08cc98a31321853c5840e8"
+  },
+  "docs/results/r2_integrated_ledger/final_verification.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "e5fafdf0ba9039cf40705151770539001e22ddd9e0e94d4727c5e2610b0feaea"
+  },
+  "docs/results/r2_integrated_ledger/independent_review.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "b757317b34ca5ac690509b4efc5edb8b82b14f4d79ae4dddf0c55802ee69dde1"
+  },
+  "docs/results/r2_integrated_ledger/report.md": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "cf60ae7b544b1a0c30eb19d0f8b3ae95dd7c178a45ce5d16dc4290813e12f4e1"
+  },
+  "docs/results/r2_integrated_ledger/root_corrections.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "b0c95206c71ae4efe7d6ec7a30b75151e5c9b6c36e14afe9ffde20737713e635"
+  },
+  "docs/results/r2_integrated_ledger/root_transcriptions.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "307fd02e6910dc11cce522cfa4a1d905683716088189472adef3a15972f0c2c8"
+  },
+  "docs/results/r2_integrated_ledger/source_binding.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "50d8decb54f32a03f21db53730001214e4d6145350ad84250dbdd6ffd5626de0"
+  },
+  "docs/results/r2_integrated_ledger/source_hashes.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "c0dab27edfeb60eef922e08bc134af0d7ed5c36aaf7c857eca99e0babacf05a3"
+  },
+  "docs/results/r2_integrated_ledger/summary.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "450835d0516aa7bc4030eecf88ac619a0e35bf06f1bc7a98847dea6ee7546f96"
+  },
+  "docs/results/r2_integrated_ledger/test_evidence.txt": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "8ec8ee4362d32369435b28912778c366e62728bf16babc4519e73ee444dbcdd1"
+  },
+  "docs/results/r2_integrated_ledger/transcription_checks.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "a1b2515fa7348057a1320633b245dd30effdc7a7d4fc3e843bcc619392aa1707"
+  },
+  "docs/results/r2_integrated_ledger/version_links.json": {
+    "source_run": "r2_integrated_ledger_v2",
+    "sha256": "e3d9e51c2976ec256a9daf37d75a189bbcd61cd3899f66964ca970809e8ffbc2"
+  },
+  "docs/results/r2_event_feature_gate/coverage_diagnosis.json": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "d8bfb0ff670111d914d5dba3bde27f32bad0655445addb9bcf59e5325442b2ff"
+  },
+  "docs/results/r2_event_feature_gate/R2_GUIDANCE_LOWER_coverage.csv": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "89cff0c3f68912fec4bbb32ef01175747201c9cc2e7d54eb246a01392fb7c2d9"
+  },
+  "docs/results/r2_event_feature_gate/R2_GUIDANCE_MIDPOINT_coverage.csv": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "89cff0c3f68912fec4bbb32ef01175747201c9cc2e7d54eb246a01392fb7c2d9"
+  },
+  "docs/results/r2_event_feature_gate/report.md": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "0738fa496fbea5ac2c08df6c222ce44674b6301fc0123f44f80619b3363c5e5e"
+  },
+  "docs/results/r2_event_feature_gate/source_hashes.json": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "51ab62eaf4309ba0850492da71b2f51621335bb6db32ce834b486626ab5d2e53"
+  },
+  "docs/results/r2_event_feature_gate/summary.json": {
+    "source_run": "r2_event_feature_gate_v1",
+    "sha256": "bd4b8d9535ca5bbe524d24d06e186e932aafdf95f560b30ca20150566d733b12"
   }
 }

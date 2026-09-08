@@ -1,0 +1,38 @@
+{
+  "review_type": "independent_read_only_verification_v2",
+  "ledger_run_id": "r2_integrated_ledger_v2",
+  "input_checksums": {
+    "data/canonical/baostock_alpha158_csi300_2008_2020/calendar.parquet": "60eee224c8065adf99b8897f926b59702799386c7f95ac4b5845068485318bf1",
+    "data/canonical/baostock_alpha158_csi300_2008_2020/membership.parquet": "fc0f19dda0feef545e62b027038273d94d0f351f6c2030ae43f751d80397ca0a"
+  },
+  "method": {
+    "availability": "calendar datetime searchsorted right (first date strictly greater than notice_date)",
+    "membership": "membership.parquet intervals inclusive [start,end], instrument prefix derived from code exchange"
+  },
+  "counts": {
+    "events": 163,
+    "availability_mismatches": 0,
+    "membership_mismatches": 0,
+    "nonmember_at_available_date": 7
+  },
+  "checks": {
+    "availability_all_match": true,
+    "membership_all_match": true,
+    "no_price_or_label_reads": true
+  },
+  "availability_mismatches": [],
+  "membership_mismatches": [],
+  "nonmember_event_ids": [
+    "002658_2016-03-31_2016-04-15_forecast_1",
+    "300341_2015-03-31_2015-03-17_forecast_1",
+    "300341_2015-03-31_2015-04-10_forecast_1",
+    "300341_2016-03-31_2016-04-08_forecast_1",
+    "300358_2015-03-31_2015-01-24_forecast_1",
+    "300358_2015-03-31_2015-04-09_forecast_1",
+    "300358_2016-03-31_2016-04-09_forecast_1"
+  ],
+  "notes": [
+    "Nonmember count is distinct from mismatch count; nonmembership is an expected audit-sentinel/universe outcome, not an implementation failure.",
+    "No price or label data were loaded."
+  ]
+}

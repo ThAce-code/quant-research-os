@@ -1,0 +1,1753 @@
+[
+  {
+    "announcement_id": "1200656876",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200710992",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200749612",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200763833",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200769104",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200763726",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200770093",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200782423",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200795541",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200799364",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804919",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804506",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200828399",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834827",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831673",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831142",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831137",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833588",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200847020",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202051524",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202072122",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202106540",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202122795",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202123663",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202148853",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155913",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155284",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202169151",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174405",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202175195",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200698940",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200719376",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200753191",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200767233",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764500",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200766426",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200774937",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200795913",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800705",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800232",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200806133",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200815252",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200828605",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832411",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833583",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834862",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200833587",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831223",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004583",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202055065",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202088709",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202110368",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202113950",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202138126",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202144267",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202150955",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162139",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202170262",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174595",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180407",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200698798",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200728747",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200752934",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764633",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765473",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765228",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200784294",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200797342",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800176",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200803750",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804326",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200815553",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200826551",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200831710",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832611",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200834577",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832134",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200838292",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202017984",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202058741",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202090566",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202114225",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202123577",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202150984",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202154608",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202157101",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202163012",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174250",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174756",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180318",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200800236",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200826875",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200863909",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202064947",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202154898",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202155903",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178669",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178784",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178875",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202179361",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202179858",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180193",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202181624",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178682",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180048",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202181380",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178435",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202178952",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180065",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202195756",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202197435",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202197194",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202210867",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202225460",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202180777",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200782437",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200797097",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200801158",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200804346",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200805072",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200805074",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200812501",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200826165",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200847447",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200850914",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200850838",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200866748",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200892046",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200892047",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200899101",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200924332",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200934918",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200934919",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162788",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202161860",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202162003",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202164561",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202174714",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202269172",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202282808",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202284369",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202284360",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202282805",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200691663",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718126",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718123",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200718125",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737053",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737743",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200737745",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200755519",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200756880",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200756892",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765598",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765605",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200768677",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200768678",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200765853",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200764932",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200767195",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200811768",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200832610",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200918981",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200918980",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200921645",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1200921653",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004938",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202004930",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202046781",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202063757",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202063772",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202091380",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202090009",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202089369",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202089377",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202100525",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202114924",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202114960",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202111582",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  },
+  {
+    "announcement_id": "1202110697",
+    "status": "PASS_EVIDENCE_CHECKS_ONLY",
+    "errors": [],
+    "warnings": [
+      "SOURCE_ISSUES_REQUIRE_ROOT_REVIEW",
+      "NO_NUMERIC_FACTS"
+    ],
+    "semantic_review_required": true,
+    "research_admission": false
+  }
+]

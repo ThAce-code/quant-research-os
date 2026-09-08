@@ -1,0 +1,64 @@
+[
+  {
+    "announcement_id": "1202154898",
+    "reason": "Root PDF visual column review corrected prior-year/current-table confusion",
+    "current_profit_yuan": [
+      8840000,
+      11790000
+    ],
+    "current_yoy_percent": [
+      -25,
+      0
+    ],
+    "visual_file": "1202154898-page1.png"
+  },
+  {
+    "announcement_id": "1200847447",
+    "reason": "Removed unsupported generic currency header; exact amount row or original RMB header retained",
+    "removed_evidence": [
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ]
+  },
+  {
+    "announcement_id": "1202164561",
+    "reason": "Removed unsupported generic currency header; exact amount row or original RMB header retained",
+    "removed_evidence": [
+      {
+        "field": "parent_profit_range",
+        "page": 1,
+        "quote": "单位：万元"
+      }
+    ]
+  },
+  {
+    "announcement_id": "1200924332",
+    "reason": "Added actual percentage table header without importing another document percentage",
+    "evidence": {
+      "field": "yoy_range",
+      "page": 1,
+      "quote": "增减变动幅度（％）"
+    }
+  },
+  {
+    "announcement_id": "1202162003",
+    "reason": "Added actual percentage table header without importing another document percentage",
+    "evidence": {
+      "field": "yoy_range",
+      "page": 1,
+      "quote": "增减变动幅度(%)"
+    }
+  },
+  {
+    "announcement_id": "1202164561",
+    "reason": "Added actual percentage table header without importing another document percentage",
+    "evidence": {
+      "field": "yoy_range",
+      "page": 1,
+      "quote": "增减幅度（%）"
+    }
+  }
+]

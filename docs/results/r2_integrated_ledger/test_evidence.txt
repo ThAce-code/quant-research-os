@@ -1,0 +1,73 @@
+Commands: python -m unittest discover -s tests -p test_r2_integrated_ledger.py -v; python -m unittest discover -s tests -p test_r2_event_features.py -v
+
+integration_tests_red.log
+test_r2_integrated_ledger (unittest.loader._FailedTest.test_r2_integrated_ledger) ... ERROR
+
+======================================================================
+ERROR: test_r2_integrated_ledger (unittest.loader._FailedTest.test_r2_integrated_ledger)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_r2_integrated_ledger
+Traceback (most recent call last):
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_integrated_ledger.py", line 7, in <module>
+    from integrate_r2_event_ledger import deduplicate_typed, compare_vendor_growth, typed_value
+ModuleNotFoundError: No module named 'integrate_r2_event_ledger'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+
+integration_tests_green.log
+test_basis_quarantine_survives_identical_values (test_r2_integrated_ledger.IntegratedLedgerTests.test_basis_quarantine_survives_identical_values) ... ok
+test_different_points_cannot_deduplicate_as_null_bounds (test_r2_integrated_ledger.IntegratedLedgerTests.test_different_points_cannot_deduplicate_as_null_bounds) ... ok
+test_equal_values_retain_both_documents (test_r2_integrated_ledger.IntegratedLedgerTests.test_equal_values_retain_both_documents) ... ok
+test_point_approximation_and_event_kind_are_distinct (test_r2_integrated_ledger.IntegratedLedgerTests.test_point_approximation_and_event_kind_are_distinct) ... ok
+test_primary_point_and_explicit_range_comparison (test_r2_integrated_ledger.IntegratedLedgerTests.test_primary_point_and_explicit_range_comparison) ... ok
+test_vendor_range_never_completes_a_primary_open_bound (test_r2_integrated_ledger.IntegratedLedgerTests.test_vendor_range_never_completes_a_primary_open_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+
+
+feature_tests_red.log
+test_r2_event_features (unittest.loader._FailedTest.test_r2_event_features) ... ERROR
+
+======================================================================
+ERROR: test_r2_event_features (unittest.loader._FailedTest.test_r2_event_features)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_r2_event_features
+Traceback (most recent call last):
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\19609\miniconda3\envs\quant\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "F:\workspace\finance\quant-research-os\tests\test_r2_event_features.py", line 7, in <module>
+    from gate_r2_event_features import event_features
+ModuleNotFoundError: No module named 'gate_r2_event_features'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+
+
+feature_tests_green.log
+test_latest_missing_or_actual_event_clears_old_forecast (test_r2_event_features.EventFeatureTimingTests.test_latest_missing_or_actual_event_clears_old_forecast) ... ok
+test_membership_and_open_bound_are_not_filled (test_r2_event_features.EventFeatureTimingTests.test_membership_and_open_bound_are_not_filled) ... ok
+test_no_early_signal_and_fixed_expiry (test_r2_event_features.EventFeatureTimingTests.test_no_early_signal_and_fixed_expiry) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.023s
+
+OK
